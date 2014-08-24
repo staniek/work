@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-08-12 01:40+0000\n"
-"PO-Revision-Date: 2014-08-23 12:24+0200\n"
+"PO-Revision-Date: 2014-08-23 23:43+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -5680,7 +5680,7 @@ msgstr "Widgety"
 #: plugins/forms/kexiformview.cpp:1139
 #, kde-format
 msgid "Insert %1 AutoField widgets"
-msgstr "Wstaw %1 widgety pola Auto"
+msgstr "Wstaw widgety pola Auto (%1)"
 
 #: plugins/forms/kexiformview.cpp:1139
 msgid "Insert AutoField widget"
@@ -5765,7 +5765,7 @@ msgstr "(kolumn: %1)"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:119
 msgid "Enter Name of File You Want to Save Data To"
-msgstr "Wpisz nazwę pliku, do którego chcesz zapisać dane"
+msgstr "Wprowadź nazwę pliku, do którego chcesz zapisać dane"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:150
 msgid "To CSV file:"
@@ -5887,7 +5887,7 @@ msgstr "Do tabeli:"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:551
 msgid "Select file name for import"
-msgstr "Wybierz nazwę pliku do importu"
+msgstr "Wybierz nazwę pliku do zaimportowania"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:561
 msgid "Preview of data from file:"
@@ -5899,7 +5899,7 @@ msgstr "Podgląd danych ze schowka"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:596
 msgid "Primary key"
-msgstr "Klucz podstawowy"
+msgstr "Klucz główny"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:628
 msgid "Ignore duplicated delimiters"
@@ -6012,16 +6012,16 @@ msgid ""
 "Note: An imported table without a Primary Key may not be editable (depending "
 "on database type)."
 msgstr ""
-"Nie określono klucza podstawowego (autonumeru).\n"
-"Czy powinien zostać automatycznie zdefiniowany przy imporcie (zalecane)?\n"
+"Nie określono klucza głównego (pola autonumeracji).\n"
+"Czy powinien on zostać automatycznie dodany przy imporcie (zalecane)?\n"
 "\n"
 "Uwaga: W zależności od typu bazy, tabela zaimportowana bez klucza "
-"podstawowego może nie umożliwiać edycji danych."
+"głównego może nie umożliwiać edycji danych."
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:1758
 msgctxt "Add Database Primary Key to a Table"
 msgid "Add Primary Key"
-msgstr "Dodaj klucz podstawowy"
+msgstr "Dodaj klucz główny"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:1759
 msgctxt "Do Not Add Database Primary Key to a Table"
@@ -6920,11 +6920,11 @@ msgstr "Określa dodatkowe komentarze dla pola"
 
 #: plugins/tables/kexitabledesignerview.cpp:186
 msgid "Sets or removes primary key"
-msgstr "Ustawia lub usuwa klucz podstawowy"
+msgstr "Ustawia lub usuwa klucz główny"
 
 #: plugins/tables/kexitabledesignerview.cpp:187
 msgid "Sets or removes primary key for currently selected field."
-msgstr "Ustawia lub usuwa klucz podstawowy dla aktualnie wybranego pola."
+msgstr "Ustawia lub usuwa klucz główny dla aktualnie wybranego pola."
 
 #: plugins/tables/kexitabledesignerview.cpp:324
 msgid "Table field"
@@ -6989,7 +6989,7 @@ msgstr ""
 
 #: plugins/tables/kexitabledesignerview.cpp:427
 msgid "Autonumber"
-msgstr "Auto-numer"
+msgstr "Autonumeracja"
 
 #: plugins/tables/kexitabledesignerview.cpp:431
 msgid "Indexed"
@@ -7042,64 +7042,66 @@ msgstr "Zmień typ danych dla pola \"%1\" na \"%2\""
 #: plugins/tables/kexitabledesignerview.cpp:901
 msgid "Setting autonumber requires primary key to be set for current field."
 msgstr ""
-"Ustawianie autonumber dla bieżącego pola wymaga także ustawienia klucza "
-"podstawowego."
+"Ustawianie autonumeracji dla bieżącego pola wymaga także ustawienia klucza "
+"głównego."
 
 #: plugins/tables/kexitabledesignerview.cpp:903
 msgid "Previous primary key will be removed."
-msgstr "Poprzednio utworzony klucz podstawowy będzie usunięty."
+msgstr "Poprzednio utworzony klucz główny będzie usunięty."
 
 #: plugins/tables/kexitabledesignerview.cpp:905
 msgid ""
 "Do you want to create primary key for current field? Click \"Cancel\" to "
 "cancel setting autonumber."
 msgstr ""
-"Czy chcesz utworzyć klucz podstawowy dla bieżącego pola? Kliknij \"Anuluj\", "
-"aby anulować ustawianie autonumeru."
+"Czy chcesz utworzyć klucz główny dla bieżącego pola? Kliknij <interface>"
+"Anuluj</interface>, "
+"aby anulować ustawienie autonumeracji."
 
 #: plugins/tables/kexitabledesignerview.cpp:909
 msgid "Setting Autonumber Field"
-msgstr "Ustawianie autonumeru"
+msgstr "Ustawianie autonumeracji"
 
 #: plugins/tables/kexitabledesignerview.cpp:910
 msgid "Create &Primary Key"
-msgstr "Utwórz &klucz podstawowy"
+msgstr "Utwórz &klucz główny"
 
 #: plugins/tables/kexitabledesignerview.cpp:917
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Assign autonumber for field \"%1\""
-msgstr "Przypisz autonumer dla pola \"%1\""
+msgstr "Ustaw autonumerację dla pola <resource>%1</resource>"
 
 #: plugins/tables/kexitabledesignerview.cpp:922
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Remove autonumber from field \"%1\""
-msgstr "Usuń autonumer z pola \"%1\""
+msgstr "Usuń autonumerację z pola <resource>%1</resource>"
 
 #: plugins/tables/kexitabledesignerview.cpp:940
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Set \"%1\" property for field \"%2\""
-msgstr "Ustaw właściwość \"%1\" dla pola \"%2\""
+msgstr ""
+"Ustaw właściwość <resource>%1</resource> dla pola <resource>%2</resource>"
 
 #: plugins/tables/kexitabledesignerview.cpp:981
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Change type for field \"%1\" to \"%2\""
-msgstr "Zmień typ dla pola \"%1\" na \"%2\""
+msgstr "Zmień typ dla pola <resource>%1</resource> na <resource>%2</resource>"
 
 #: plugins/tables/kexitabledesignerview.cpp:1021
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Set primary key for field \"%1\""
-msgstr "Ustaw klucz podstawowy dla pola \"%1\""
+msgstr "Ustaw klucz główny dla pola <resource>%1</resource>"
 
 #: plugins/tables/kexitabledesignerview.cpp:1045
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Unset primary key for field \"%1\""
-msgstr "Usuń klucz podstawowy dla pola \"%1\""
+msgstr "Usuń klucz główny dla pola <resource>%1</resource>"
 
 #: plugins/tables/kexitabledesignerview.cpp:1137
 #, kde-format
@@ -7110,15 +7112,16 @@ msgid ""
 "to add a primary key by hand, press \"Cancel\" to cancel saving table design."
 "</p>"
 msgstr ""
-"<p>Tabela \"%1\" nie posiada <b>klucza podstawowego</b>.</p><p>Mimo, że "
-"klucz podstawowy nie jest wymagany, jest on potrzebny przy tworzeniu wiązań "
-"między tabelami bazy danych. Czy chcesz teraz samoczynnie dodać klucz "
-"podstawowy?</p><p>Aby ręcznie dodać klucz podstawowy, naciśnij \"Anuluj\" "
-"aby anulować zapisywanie projektu tabeli.</p>"
+"<p>Tabela <resource>%1</resource> nie posiada <b>klucza głównego</b>.</p><p>"
+"Mimo, że "
+"klucz główny nie jest wymagany, jest on potrzebny przy tworzeniu wiązań "
+"między tabelami bazy danych. Czy chcesz, by klucz główny został dodany "
+"automatycznie?</p><p>Aby ręcznie dodać klucz główny, naciśnij <interface>"
+"Anuluj</interface> aby anulować zapisywanie projektu tabeli.</p>"
 
 #: plugins/tables/kexitabledesignerview.cpp:1144
 msgid "&Add Primary Key"
-msgstr "Dodaj &klucz podstawowy"
+msgstr "Dodaj &klucz główny"
 
 #: plugins/tables/kexitabledesignerview.cpp:1155
 #, kde-format
@@ -7195,7 +7198,7 @@ msgid ""
 "You are about to remove table <resource>%1</resource> but following objects "
 "using this table are opened:"
 msgstr ""
-"Masz zamiar usunąć tabelę <resource>\"%1\"</resource>, jednak są otwarte "
+"Masz zamiar usunąć tabelę <resource>%1</resource>, jednak są otwarte "
 "następujące obiekty używające tej tabeli:"
 
 #: plugins/tables/kexitablepart.cpp:149
@@ -7204,7 +7207,7 @@ msgid ""
 "You are about to rename table <resource>%1</resource> but following objects "
 "using this table are opened:"
 msgstr ""
-"Masz zamiar zmienić nazwę tabeli \"<resource>%1</resource>\", jednak są "
+"Masz zamiar zmienić nazwę tabeli <resource>%1</resource>, jednak są "
 "otwarte następujące obiekty używające tej tabeli:"
 
 #: plugins/tables/kexitablepart.cpp:183
@@ -7243,7 +7246,7 @@ msgstr "Błąd: %1?"
 
 #: widget/dataviewcommon/kexidataawareobjectiface.cpp:845
 msgid "The column's constraint is declared as NOT NULL."
-msgstr "Warunki dla kolumny są zadeklarowane jako NOT NULL (niepuste)."
+msgstr "Warunki dla kolumny są zadeklarowane jako NOT NULL (wymagany)."
 
 #: widget/dataviewcommon/kexidataawareobjectiface.cpp:858
 msgid "The column's constraint is declared as NOT EMPTY."
@@ -7253,7 +7256,7 @@ msgstr "Warunki dla kolumny są zadeklarowane jako NOT EMPTY (niepusty ciąg)."
 msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
 msgstr ""
 "Warunki dla kolumny są zadeklarowane jako NOT EMPTY oraz NOT NULL (niepusty "
-"i wymagany)."
+"tekst i wymagany)."
 
 #: widget/dataviewcommon/kexidataawareobjectiface.cpp:1058
 msgid "Do you want to delete selected record?"
@@ -7301,15 +7304,15 @@ msgid_plural ""
 "by %1 characters.\n"
 "Fix the text or it will be truncated upon saving changes."
 msgstr[0] ""
-"Limit %2 znaków <resource>%3</resource> dla pola został przekroczony o %1 "
+"Limit %2 znaków dla pola <resource>%3</resource> został przekroczony o %1 "
 "znak.\n"
 "Popraw tekst, albo zostanie on obcięty przy zapisywaniu zmian."
 msgstr[1] ""
-"Limit %2 znaków <resource>%3</resource> dla pola został przekroczony o %1 "
+"Limit %2 znaków dla pola <resource>%3</resource> został przekroczony o %1 "
 "znaki.\n"
 "Popraw tekst, albo zostanie on obcięty przy zapisywaniu zmian."
 msgstr[2] ""
-"Limit %2 znaków <resource>%3</resource> dla pola został przekroczony o %1 "
+"Limit %2 znaków dla pola <resource>%3</resource> został przekroczony o %1 "
 "znaków.\n"
 "Popraw tekst, albo zostanie on obcięty przy zapisywaniu zmian."
 
@@ -7329,7 +7332,7 @@ msgstr "* (Wszystkie kolumny)"
 #, kde-format
 msgctxt "Text encoding: Default"
 msgid "Default: %1"
-msgstr "Domyślna: %1"
+msgstr "Domyślne: %1"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: widget/KexiConnectionSelector.ui:50
@@ -7339,9 +7342,11 @@ msgid ""
 "connection. Here you may also add, edit or remove connections from the "
 "list.\n"
 msgstr ""
-"<b>Wybierz z poniższej listy istniejące połączenie serwera baz danych</b>\n"
-"<p>Zostaną pokazane istniejące projekty Kexi znalezione dla tego połączenia. "
-"Dla poniższej listy możesz też dodawać, zmieniać lub usuwać połączenia.\n"
+"<title>Wybierz z poniższej listy istniejące połączenie serwera baz danych<"
+"/title> "
+"<para>Zostaną pokazane istniejące projekty Kexi znalezione dla tego "
+"połączenia. "
+"Dla poniższej listy możesz też dodawać, zmieniać lub usuwać połączenia.</para>"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: widget/KexiConnectionSelector.ui:104
@@ -7361,7 +7366,7 @@ msgstr "&Edytuj..."
 #. i18n: ectx: property (text), widget (QPushButton, btn_remove)
 #: widget/KexiConnectionSelector.ui:181
 msgid "&Remove"
-msgstr "&Usuń"
+msgstr "&Usuń..."
 
 #: widget/KexiConnectionSelectorWidget.cpp:65
 msgid "Add a new database connection"
@@ -7452,8 +7457,8 @@ msgid ""
 "Tests database connection. You can ensure that valid connection information "
 "is provided."
 msgstr ""
-"Testuje połączenie bazodanowe. Możesz się upewnić, że zostały podane "
-"poprawne informacje o połączeniu."
+"Testuje połączenie bazodanowe. Możesz sprawdzić poprawność informacji o "
+"połączeniu."
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #. i18n: ectx: property (title), widget (QGroupBox, dbGroupBox)
@@ -7543,7 +7548,7 @@ msgstr "Port:"
 #: widget/kexidbconnectionwidget.ui:392
 msgctxt "port: default"
 msgid "Default"
-msgstr "Domyślna"
+msgstr "Domyślny"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseSocket)
 #: widget/kexidbconnectionwidgetdetails.ui:27
@@ -7554,7 +7559,7 @@ msgstr "Użyj &pliku gniazda (socket) zamiast portu TCP/IP:"
 #: widget/kexidbconnectionwidgetdetails.ui:66
 msgctxt "socket: default"
 msgid "Default"
-msgstr "Domyślnie"
+msgstr "Domyślne"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: widget/kexidbconnectionwidgetdetails.ui:119
@@ -7594,7 +7599,7 @@ msgstr "&Wybierz inną nazwę..."
 
 #: widget/KexiNameWidget.cpp:97
 msgid "Caption:"
-msgstr "Podpis:"
+msgstr "Nagłówek:"
 
 #: widget/KexiNameWidget.cpp:102
 msgid "Name:"
@@ -7706,15 +7711,15 @@ msgid ""
 "that your package names could vary slightly according to the distribution "
 "you use.</para>"
 msgstr ""
-"<title>Nie znaleziono żadnych sterowników bazy danych</"
-"title>                 <para>Połączenie do serwera bazy danych wymaga "
-"odpowiedniego sterownika, którego nie masz zainstalowanego .</"
-"para>                 <subtitle>Szczegóły</subtitle>                 "
-"<para>Aby uzyskać sterowniki bazy danych, proszę użyć programu do "
-"zarządzania pakietami, aby znaleźć i zainstalować pakiety o nazwie "
-"<filename>                 calligra-kexi-xxxx-driver</filename>. Proszę mieć "
-"na uwadze, że nazwy pakietów, z którymi możesz się spotkać, mogą różnić się "
-"trochę w zależności od używanej dystrybucji.</para>"
+"<title>Nie znaleziono żadnych sterowników bazy danych</title>"
+"<para>Połączenie do serwera bazy danych wymaga odpowiedniego sterownika, "
+"którego nie masz zainstalowanego .</para>                 <subtitle>"
+"Szczegóły</subtitle>"
+"<para>Aby uzyskać sterowniki bazy danych, proszę użyć aplikacji do "
+"zarządzania pakietami w celu znalezienia i zainstalowania pakietów o nazwie <"
+"filename>calligra-kexi-xxxx-driver</filename>. Proszę mieć na uwadze, że "
+"nazwy pakietów, z którymi możesz się spotkać, mogą się trochę różnić w "
+"zależności od używanej dystrybucji.</para>"
 
 #: widget/navigator/KexiProjectNavigator.cpp:120
 msgid "Project Navigator"
@@ -7787,12 +7792,12 @@ msgstr "Eksportuj dane do schowka"
 
 #: widget/navigator/KexiProjectNavigator.cpp:222
 msgid "Exports data from the currently selected table or query to clipboard."
-msgstr "Eksportuje dane z obecnie zaznaczonej tabeli lub zapytania do schowka."
+msgstr "Eksportuje dane z zaznaczonej tabeli lub zapytania do schowka."
 
 #: widget/navigator/KexiProjectNavigator.cpp:227
 msgctxt "Export->To File As Data &Table... "
 msgid "To &File As Data Table..."
-msgstr "Do &pliku jako tabela danych..."
+msgstr "Do &pliku jako tabelę danych..."
 
 #: widget/navigator/KexiProjectNavigator.cpp:228
 msgid "Export data to a file"
@@ -7800,7 +7805,7 @@ msgstr "Eksportuj dane do pliku"
 
 #: widget/navigator/KexiProjectNavigator.cpp:229
 msgid "Exports data from the currently selected table or query to a file."
-msgstr "Eksportuje dane z obecnie zaznaczonej tabeli lub zapytania do pliku."
+msgstr "Eksportuje dane z zaznaczonej tabeli lub zapytania do pliku."
 
 #: widget/navigator/KexiProjectNavigator.cpp:234
 msgid "&Print..."
@@ -7912,7 +7917,7 @@ msgstr "&Ukryj wybraną tabelę/zapytanie"
 
 #: widget/relations/KexiRelationsScrollArea.cpp:127
 msgid "&Remove Selected Relationship"
-msgstr "Usuń wyb&rane wiązanie"
+msgstr "Usuń wyb&rane relacje"
 
 #: widget/relations/KexiRelationsScrollArea.cpp:129
 msgid "&Open Selected Table/Query"
@@ -8071,23 +8076,23 @@ msgstr "Nowy rekord"
 
 #: widget/utils/kexirecordnavigator.cpp:566
 msgid "Moves cursor to first record."
-msgstr "Przemieszcza wskaźnik do pierwszego rekordu."
+msgstr "Przenosi wskaźnik do pierwszego rekordu."
 
 #: widget/utils/kexirecordnavigator.cpp:567
 msgid "Moves cursor to previous record."
-msgstr "Przemieszcza wskaźnik do poprzedniego rekordu."
+msgstr "Przenosi wskaźnik do poprzedniego rekordu."
 
 #: widget/utils/kexirecordnavigator.cpp:568
 msgid "Moves cursor to next record."
-msgstr "Przemieszcza wskaźnik do następnego rekordu."
+msgstr "Przenosi wskaźnik do następnego rekordu."
 
 #: widget/utils/kexirecordnavigator.cpp:569
 msgid "Moves cursor to last record."
-msgstr "Przemieszcza wskaźnik do ostatniego rekordu."
+msgstr "Przenosi wskaźnik do ostatniego rekordu."
 
 #: widget/utils/kexirecordnavigator.cpp:570
 msgid "Moves cursor to new record and allows inserting."
-msgstr "Przemieszcza wskaźnik do nowego rekordu i pozwala na wstawianie."
+msgstr "Przenosi wskaźnik do nowego rekordu i pozwala na wstawianie."
 
 #~ msgid "Could not load \"%1\" plugin."
 #~ msgstr "Nie można wczytać wtyczki \"%1\"."
