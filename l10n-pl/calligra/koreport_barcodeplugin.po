@@ -1,0 +1,55 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 02:38+0200\n"
+"PO-Revision-Date: 2011-07-15 21:23+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: KoReportBarcodePlugin.cpp:36
+msgid "Barcode"
+msgstr "Kod paskowy"
+
+#: KoReportItemBarcode.cpp:108
+msgid "Data Source"
+msgstr "Źródło danych"
+
+#: KoReportItemBarcode.cpp:111
+msgid "Left"
+msgstr "Lewo"
+
+#: KoReportItemBarcode.cpp:111
+msgid "Center"
+msgstr "Środek"
+
+#: KoReportItemBarcode.cpp:111
+msgid "Right"
+msgstr "Prawo"
+
+#: KoReportItemBarcode.cpp:112
+msgid "Horizontal Alignment"
+msgstr "Poziome wyrównanie"
+
+#: KoReportItemBarcode.cpp:118
+msgid "Barcode Format"
+msgstr "Format kodu paskowego"
+
+#: KoReportItemBarcode.cpp:120
+msgid "Max Length"
+msgstr "Maksymalna długość"
+
+#: KoReportItemBarcode.cpp:120
+msgid "Maximum Barcode Length"
+msgstr "Maksymalna długość kodu paskowego"

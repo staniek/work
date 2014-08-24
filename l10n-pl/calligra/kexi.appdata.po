@@ -1,0 +1,118 @@
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-05-26 01:35+0000\n"
+"PO-Revision-Date: 2014-07-12 07:52+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. (itstool) path: component/name
+#: kexi.appdata.xml:6
+msgid "Kexi"
+msgstr "Kexi"
+
+#. (itstool) path: component/summary
+#: kexi.appdata.xml:7
+msgid "Database Creator"
+msgstr "Tworzenie baz danych"
+
+#. (itstool) path: description/p
+#: kexi.appdata.xml:9
+msgid ""
+"Kexi is a visual database creator, part of the Calligra Suite. It can be "
+"used for designing database applications, inserting and editing data, "
+"performing queries, and processing data. Forms can be created to provide a "
+"custom interface to your data. All database objects - tables, queries, "
+"forms, reports - are stored in the database, making it easy to share data "
+"and design."
+msgstr ""
+"Kexi, część pakietu Calligra, to aplikacja do wizualnego tworzenia "
+"bazdanych. Można jej używać do opracowywania programów bazodanowych,"
+"wstawiania, edycji i przetwarzania danych, a także do wykonywania zapytań."
+"Dostęp do danych można zapewniać przy pomocy formularzy. Wszystkie "
+"obiektybazy danych, tabele, zapytania, formularze i raporty, są "
+"przechowywane wbazie danych, co czyni je łatwymi do współdzielenia i "
+"opracowywania."
+
+#. (itstool) path: description/p
+#: kexi.appdata.xml:15
+msgid "Features:"
+msgstr "Możliwości:"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:17
+msgid "Full visual designers for tables, queries, forms and reports"
+msgstr ""
+"W pełni wizualna możliwość tworzenia tabel, zapytań, formularzy i sprawozdań"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:18
+msgid "Running queries, support for parametrized queries"
+msgstr "Wykonywanie zapytań, obsługa dla zapytań parametrycznych"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:19
+msgid "Supports SQLite, MySQL, PostgreSQL and MS SQL Server databases"
+msgstr "Obsługa SQLite, MySQL, PostgreSQL oraz baz danych MS SQL Server"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:20
+msgid ""
+"The only multiplatform graphical tool importing data from MS Access databases"
+msgstr ""
+"Jedyne graficzne narzędzie wieloplatformowe importujące dane z baz danych MS "
+"Access"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:21
+msgid "Supports query design in dedicated SQL view"
+msgstr "Obsługuje zapytania w widoku przeznaczonym dla SQL"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:22
+msgid ""
+"Designing and displaying relational data using combo boxes (lookup columns)"
+msgstr ""
+"Opracowywanie i wyświetlanie danych relacyjnych przy użyciu pól rozwijanych "
+"(kolumn wyszukiwania)"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:23
+msgid "Direct data entry or import using CSV format"
+msgstr "Bezpośrednie wprowadzanie danych lub importowanie ich z postaci CSV"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:24
+msgid ""
+"Locked down User Mode, allowing you to switch off all commands related to "
+"editing your project's design"
+msgstr ""
+"Zamknięty tryb użytkownika, umożliwiający wyłączenie wszystkich poleceń "
+"związanych z edytowaniem twojego projektu"
+
+#. (itstool) path: ul/li
+#: kexi.appdata.xml:25
+msgid ""
+"Scripting using JavaScript, Python or Ruby programming languages "
+"(experimental)"
+msgstr ""
+"Skrypty wykorzystujące języki programowania JavaScript, Python lub Ruby "
+"(eksperymentalnie)"
+
+#. (itstool) path: screenshot/caption
+#: kexi.appdata.xml:36
+msgid "Table View storing images"
+msgstr "Przechowywanie obrazów w widoku tabeli"
+
+#. (itstool) path: screenshot/caption
+#: kexi.appdata.xml:40
+msgid "Form Designer"
+msgstr "Opracowywanie formularzy"
