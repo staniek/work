@@ -13,7 +13,11 @@ pomocnik / asystent / assistant
 wpisać, podać / wprowadzić / enter
 auto-formularz / autoformularz / autoform
 autonumer / autonumeracja / autonumber
-instrukcja SQL / polecenia SQL / SQL statement
+instrukcja SQL / polecenie SQL / SQL statement
+anulować transakcję / wycofać transakcję / rollback transaction
+rozdział (raportu) / sekcja (raportu) / section (report)
+orientacja strony / układ strony / page orientation
+Interpretator / Interpreter / Interpreter (scripts)
 
 wizard -> assistant
 
