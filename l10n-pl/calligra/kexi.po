@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-12 01:40+0000\n"
+"POT-Creation-Date: 2014-08-16 01:36+0000\n"
 "PO-Revision-Date: 2014-08-23 23:43+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -122,7 +122,7 @@ msgstr "Oleg Kukharchuk"
 
 #: core/kexiaboutdata.cpp:66
 msgid "Several form widgets, porting to Qt 4, stabilization"
-msgstr "Kilka widgetów formularzy, przenoszenie do Qt 4, stabilizacja"
+msgstr "Kilka widżetów formularzy, przenoszenie do Qt 4, stabilizacja"
 
 #: core/kexiaboutdata.cpp:68
 msgid "Map elements for forms and reports, map flake shape"
@@ -240,7 +240,7 @@ msgstr "Czyszczenie oryginalnych wersji kodu"
 
 #: core/kexiaboutdata.cpp:94
 msgid "Bugfixes, original Table Widget"
-msgstr "Poprawki błędów, oryginalna wersja widgetu tabeli"
+msgstr "Poprawki błędów, oryginalna wersja widżetu tabeli"
 
 #: core/kexiaboutdata.cpp:94
 msgid "Till Busch"
@@ -645,7 +645,7 @@ msgstr ""
 "cały obszar ekranu poprzez ukrycie dekoracji okna,\n"
 "takich jak pasek tytułu."
 
-#: core/kexicmdlineargs.h:184
+#: core/kexicmdlineargs.h:183
 msgid ""
 "Kexi database project filename,\n"
 "Kexi shortcut filename,\n"
@@ -1023,90 +1023,90 @@ msgstr "Nie udało się zapisać danych obiektu."
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Change \"%1\" property for multiple widgets"
-msgstr "Zmień właściwość \"%1\" dla wielu widgetów"
+msgstr "Zmień właściwość \"%1\" dla wielu widżetów"
 
 #: formeditor/commands.cpp:161
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Change \"%1\" property for widget \"%2\""
-msgstr "Zmień właściwość \"%1\" dla widgetu \"%2\""
+msgstr "Zmień właściwość \"%1\" dla widżetu \"%2\""
 
 #: formeditor/commands.cpp:331
 msgctxt "(qtundo-format)"
 msgid "Move multiple widgets"
-msgstr "Przesuń wiele widgetów"
+msgstr "Przesuń wiele widżetów"
 
 #: formeditor/commands.cpp:434
 msgctxt "(qtundo-format)"
 msgid "Align Widgets to Grid"
-msgstr "Wyrównaj widgety do siatki"
+msgstr "Wyrównaj widżety do siatki"
 
 #: formeditor/commands.cpp:437
 msgctxt "(qtundo-format)"
 msgid "Align Widgets to Left"
-msgstr "Wyrównaj widgety do lewej"
+msgstr "Wyrównaj widżety do lewej"
 
 #: formeditor/commands.cpp:440
 msgctxt "(qtundo-format)"
 msgid "Align Widgets to Right"
-msgstr "Wyrównaj widgety do prawej"
+msgstr "Wyrównaj widżety do prawej"
 
 #: formeditor/commands.cpp:443
 msgctxt "(qtundo-format)"
 msgid "Align Widgets to Top"
-msgstr "Wyrównaj widgety do góry"
+msgstr "Wyrównaj widżety do góry"
 
 #: formeditor/commands.cpp:446
 msgctxt "(qtundo-format)"
 msgid "Align Widgets to Bottom"
-msgstr "Wyrównaj widgety do dołu"
+msgstr "Wyrównaj widżety do dołu"
 
 #: formeditor/commands.cpp:609
 msgctxt "(qtundo-format)"
 msgid "Resize Widgets to Grid"
-msgstr "Dopasuj rozmiar widgetów do siatki"
+msgstr "Dopasuj rozmiar widżetów do siatki"
 
 #: formeditor/commands.cpp:612
 msgctxt "(qtundo-format)"
 msgid "Resize Widgets to Fit Contents"
-msgstr "Dopasuj rozmiar widgetów do zawartości"
+msgstr "Dopasuj rozmiar widżetów do zawartości"
 
 #: formeditor/commands.cpp:615
 msgctxt "(qtundo-format)"
 msgid "Resize Widgets to Narrowest"
-msgstr "Dopasuj rozmiar widgetów do najwęższego"
+msgstr "Dopasuj rozmiar widżetów do najwęższego"
 
 #: formeditor/commands.cpp:618
 msgctxt "(qtundo-format)"
 msgid "Resize Widgets to Widest"
-msgstr "Dopasuj rozmiar widgetów do najszerszego"
+msgstr "Dopasuj rozmiar widżetów do najszerszego"
 
 #: formeditor/commands.cpp:621
 msgctxt "(qtundo-format)"
 msgid "Resize Widgets to Shortest"
-msgstr "Dopasuj rozmiar widgetów do najniższego"
+msgstr "Dopasuj rozmiar widżetów do najniższego"
 
 #: formeditor/commands.cpp:624
 msgctxt "(qtundo-format)"
 msgid "Resize Widgets to Tallest"
-msgstr "Dopasuj rozmiar widgetów do najwyższego"
+msgstr "Dopasuj rozmiar widżetów do najwyższego"
 
 #: formeditor/commands.cpp:852
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Change layout of widget \"%1\""
-msgstr "Zmień układ widgetu \"%1\""
+msgstr "Zmień układ widżetu \"%1\""
 
 #: formeditor/commands.cpp:978
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Insert widget \"%1\""
-msgstr "Wstaw widget \"%1\""
+msgstr "Wstaw widżet \"%1\""
 
 #: formeditor/commands.cpp:981
 msgctxt "(qtundo-format)"
 msgid "Insert widget"
-msgstr "Wstaw widget"
+msgstr "Wstaw widżet"
 
 #: formeditor/commands.cpp:1022
 #, kde-format
@@ -1114,47 +1114,47 @@ msgid ""
 "Could not insert widget of type \"%1\". A problem with widget's creation "
 "encountered."
 msgstr ""
-"Nie można wstawić widgetu typu \"%1\". Wystąpił problem z jego utworzeniem."
+"Nie można wstawić widżetu typu \"%1\". Wystąpił problem z jego utworzeniem."
 
 #: formeditor/commands.cpp:1207
 msgctxt "(qtundo-format)"
 msgid "Group Widgets Horizontally"
-msgstr "Grupuj widgety poziomo"
+msgstr "Grupuj widżety poziomo"
 
 #: formeditor/commands.cpp:1210
 msgctxt "(qtundo-format)"
 msgid "Group Widgets Vertically"
-msgstr "Grupuj widgety pionowo"
+msgstr "Grupuj widżety pionowo"
 
 #: formeditor/commands.cpp:1213
 msgctxt "(qtundo-format)"
 msgid "Group Widgets in a Grid"
-msgstr "Grupuj widgety w siatce"
+msgstr "Grupuj widżety w siatce"
 
 #: formeditor/commands.cpp:1216
 msgctxt "(qtundo-format)"
 msgid "Group Widgets Horizontally in a Splitter"
-msgstr "Grupuj widgety poziomo w rozdzielaczu"
+msgstr "Grupuj widżety poziomo w rozdzielaczu"
 
 #: formeditor/commands.cpp:1219
 msgctxt "(qtundo-format)"
 msgid "Group Widgets Vertically in a Splitter"
-msgstr "Grupuj widgety pionowo w rozdzielaczu"
+msgstr "Grupuj widżety pionowo w rozdzielaczu"
 
 #: formeditor/commands.cpp:1222
 msgctxt "(qtundo-format)"
 msgid "Group Widgets By Rows"
-msgstr "Grupuj widgety wierszami"
+msgstr "Grupuj widżety wierszami"
 
 #: formeditor/commands.cpp:1225
 msgctxt "(qtundo-format)"
 msgid "Group Widgets Vertically By Columns"
-msgstr "Grupuj widgety pionowo kolumnami"
+msgstr "Grupuj widżety pionowo kolumnami"
 
 #: formeditor/commands.cpp:1228
 msgctxt "(qtundo-format)"
 msgid "Group widgets"
-msgstr "Grupuj widgety"
+msgstr "Grupuj widżety"
 
 #: formeditor/commands.cpp:1364
 #, kde-format
@@ -1170,12 +1170,12 @@ msgstr "Wklej"
 #: formeditor/commands.cpp:1741
 msgctxt "(qtundo-format)"
 msgid "Delete widget"
-msgstr "Usuń widget"
+msgstr "Usuń widżet"
 
 #: formeditor/commands.cpp:1849
 msgctxt "(qtundo-format)"
 msgid "Duplicate widget"
-msgstr "Powiel widget"
+msgstr "Powiel widżet"
 
 #: formeditor/commands.cpp:1908
 msgctxt "(qtundo-format)"
@@ -1369,7 +1369,7 @@ msgstr "Idź do następnej strony"
 
 #: formeditor/factories/containerfactory.cpp:480
 msgid "Tab Widget"
-msgstr "Widget karty"
+msgstr "Widżet karty"
 
 #: formeditor/factories/containerfactory.cpp:482
 msgctxt ""
@@ -1380,7 +1380,7 @@ msgstr "karta"
 
 #: formeditor/factories/containerfactory.cpp:483
 msgid "A widget to display multiple pages using tabs"
-msgstr "Widget do wyświetlania wielu stron przy użyciu kart"
+msgstr "Widżet do wyświetlania wielu stron przy użyciu kart"
 
 #: formeditor/factories/containerfactory.cpp:490
 msgid "Basic container"
@@ -1395,7 +1395,7 @@ msgstr "pojemnik"
 
 #: formeditor/factories/containerfactory.cpp:493
 msgid "An empty container with no frame"
-msgstr "Pusty widget pojemnika bez ramki"
+msgstr "Pusty widżet pojemnika bez ramki"
 
 #: formeditor/factories/containerfactory.cpp:500
 msgid "Group Box"
@@ -1410,7 +1410,7 @@ msgstr "poleGrupy"
 
 #: formeditor/factories/containerfactory.cpp:503
 msgid "A container to group some widgets"
-msgstr "Pojemnik do grupowania widgetów"
+msgstr "Pojemnik do grupowania widżetów"
 
 #: formeditor/factories/containerfactory.cpp:509 formeditor/form_p.cpp:278
 #: plugins/forms/kexidbfactory.cpp:153
@@ -1431,7 +1431,7 @@ msgstr "Prosty pojemnik ramki"
 
 #: formeditor/factories/containerfactory.cpp:519
 msgid "Widget Stack"
-msgstr "Stos widgetów"
+msgstr "Stos widżetów"
 
 #: formeditor/factories/containerfactory.cpp:521
 msgctxt ""
@@ -1457,7 +1457,7 @@ msgstr "polePoziome"
 
 #: formeditor/factories/containerfactory.cpp:531
 msgid "A simple container to group widgets horizontally"
-msgstr "Prosty pojemnik grupujący widgety poziomo"
+msgstr "Prosty pojemnik grupujący widżety poziomo"
 
 #: formeditor/factories/containerfactory.cpp:537
 msgid "Vertical Box"
@@ -1472,7 +1472,7 @@ msgstr "polePionowe"
 
 #: formeditor/factories/containerfactory.cpp:540
 msgid "A simple container to group widgets vertically"
-msgstr "Prosty pojemnik grupujący widgety pionowo"
+msgstr "Prosty pojemnik grupujący widżety pionowo"
 
 #: formeditor/factories/containerfactory.cpp:546
 msgid "Grid Box"
@@ -1487,7 +1487,7 @@ msgstr "poleSiatki"
 
 #: formeditor/factories/containerfactory.cpp:549
 msgid "A simple container to group widgets in a grid"
-msgstr "Prosty pojemnik grupujący widgety według siatki"
+msgstr "Prosty pojemnik grupujący widżety według siatki"
 
 #: formeditor/factories/containerfactory.cpp:557
 msgid "Splitter"
@@ -1503,7 +1503,7 @@ msgstr "rozdzielacz"
 #: formeditor/factories/containerfactory.cpp:560
 msgid "A container that enables user to resize its children"
 msgstr ""
-"Widget pojemnika umożliwiający użytkownikowi na zmianę rozmiaru widgetów "
+"Widżet pojemnika umożliwiający użytkownikowi na zmianę rozmiaru widżetów "
 "podrzędnych"
 
 #: formeditor/factories/containerfactory.cpp:567
@@ -1519,7 +1519,7 @@ msgstr "ukladWierszy"
 
 #: formeditor/factories/containerfactory.cpp:570
 msgid "A simple container to group widgets by rows"
-msgstr "Prosty pojemnik do grupowania widgetów wierszami"
+msgstr "Prosty pojemnik do grupowania widżetów wierszami"
 
 #: formeditor/factories/containerfactory.cpp:576
 msgid "Column Layout"
@@ -1534,7 +1534,7 @@ msgstr "ukladKolumn"
 
 #: formeditor/factories/containerfactory.cpp:579
 msgid "A simple container to group widgets by columns"
-msgstr "Prosty pojemnik do grupowania widgetów kolumnami"
+msgstr "Prosty pojemnik do grupowania widżetów kolumnami"
 
 #: formeditor/factories/containerfactory.cpp:586
 #: plugins/forms/kexidbfactory.cpp:97
@@ -1552,7 +1552,7 @@ msgstr "podformularz"
 #: formeditor/factories/containerfactory.cpp:589
 #: plugins/forms/kexidbfactory.cpp:101
 msgid "A form widget included in another Form"
-msgstr "Widget formularza wstawionego w inny formularz"
+msgstr "Widżet formularza wstawionego w inny formularz"
 
 #: formeditor/factories/containerfactory.cpp:595
 msgid "Title"
@@ -1628,22 +1628,22 @@ msgstr "formularz"
 
 #: formeditor/factories/stdwidgetfactory.cpp:189
 msgid "A simple form widget"
-msgstr "Prosty widget formularza"
+msgstr "Prosty widżet formularza"
 
 #: formeditor/factories/stdwidgetfactory.cpp:195
 msgid "Custom Widget"
-msgstr "Własny widget"
+msgstr "Własny widżet"
 
 #: formeditor/factories/stdwidgetfactory.cpp:197
 msgctxt ""
 "This string will be used to name widgets of this class. It must _not_ "
 "contain white spaces and non latin1 characters."
 msgid "customWidget"
-msgstr "wlasnyWidget"
+msgstr "wlasnyWidzet"
 
 #: formeditor/factories/stdwidgetfactory.cpp:198
 msgid "A custom or non-supported widget"
-msgstr "Własny lub nieobsługiwany widget"
+msgstr "Własny lub nieobsługiwany widżet"
 
 #: formeditor/factories/stdwidgetfactory.cpp:204
 msgid "Text Label"
@@ -1659,7 +1659,7 @@ msgstr "etykieta"
 
 #: formeditor/factories/stdwidgetfactory.cpp:207
 msgid "A widget to display text"
-msgstr "Widget do wyświetlania tekstu"
+msgstr "Widżet do wyświetlania tekstu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:214
 msgid "Picture Label"
@@ -1674,7 +1674,7 @@ msgstr "zdjecie"
 
 #: formeditor/factories/stdwidgetfactory.cpp:219
 msgid "A widget to display pictures"
-msgstr "Widget do wyświetlania zdjęć"
+msgstr "Widżet do wyświetlania zdjęć"
 
 #: formeditor/factories/stdwidgetfactory.cpp:228
 msgid "Line Edit"
@@ -1689,7 +1689,7 @@ msgstr "poleTekstowe"
 
 #: formeditor/factories/stdwidgetfactory.cpp:231
 msgid "A widget to input text"
-msgstr "Widget do wpisywania teksu"
+msgstr "Widżet do wpisywania teksu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:238
 msgid "Spring"
@@ -1704,7 +1704,7 @@ msgstr "sprezyna"
 
 #: formeditor/factories/stdwidgetfactory.cpp:241
 msgid "A spring to place between widgets"
-msgstr "Sprężyna do wstawiania między widgety"
+msgstr "Sprężyna do wstawiania między widżety"
 
 #: formeditor/factories/stdwidgetfactory.cpp:246
 msgid "Insert &Horizontal Spring"
@@ -1775,7 +1775,7 @@ msgstr "polePrzewijane"
 
 #: formeditor/factories/stdwidgetfactory.cpp:289
 msgid "A spin box widget"
-msgstr "Widget pola przewijanego"
+msgstr "Widżet pola przewijanego"
 
 #: formeditor/factories/stdwidgetfactory.cpp:297
 #: plugins/forms/kexidbfactory.cpp:203
@@ -1793,7 +1793,7 @@ msgstr "listaRozwijana"
 #: formeditor/factories/stdwidgetfactory.cpp:300
 #: plugins/forms/kexidbfactory.cpp:207
 msgid "A combo box widget"
-msgstr "Widget listy rozwijanej"
+msgstr "Widżet listy rozwijanej"
 
 #: formeditor/factories/stdwidgetfactory.cpp:311
 msgid "List Box"
@@ -1808,22 +1808,22 @@ msgstr "lista"
 
 #: formeditor/factories/stdwidgetfactory.cpp:314
 msgid "A simple list widget"
-msgstr "Prosty widget listy"
+msgstr "Prosty widżet listy"
 
 #: formeditor/factories/stdwidgetfactory.cpp:324
 msgid "List Widget"
-msgstr "Widget listy"
+msgstr "Widżet listy"
 
 #: formeditor/factories/stdwidgetfactory.cpp:326
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "listWidget"
-msgstr "widgetListy"
+msgstr "widzetListy"
 
 #: formeditor/factories/stdwidgetfactory.cpp:327
 msgid "A list (or tree) widget"
-msgstr "Widget listy lub drzewa"
+msgstr "Widżet listy lub drzewa"
 
 #: formeditor/factories/stdwidgetfactory.cpp:337
 #: plugins/forms/kexidbfactory.cpp:136
@@ -1874,7 +1874,7 @@ msgstr "pasekPostepu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:359
 msgid "A progress indicator widget"
-msgstr "Widget paska postępu"
+msgstr "Widżet paska postępu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:365
 msgid "Line"
@@ -1901,48 +1901,48 @@ msgstr "Wstaw p&ionową linię"
 
 #: formeditor/factories/stdwidgetfactory.cpp:382
 msgid "Date Widget"
-msgstr "Widget daty"
+msgstr "Widżet daty"
 
 #: formeditor/factories/stdwidgetfactory.cpp:384
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "dateWidget"
-msgstr "widgetDaty"
+msgstr "widzetDaty"
 
 #: formeditor/factories/stdwidgetfactory.cpp:385
 msgid "A widget to input and display a date"
-msgstr "Widget do wpisywania i wyświetlenia daty"
+msgstr "Widżet do wpisywania i wyświetlenia daty"
 
 #: formeditor/factories/stdwidgetfactory.cpp:394
 msgid "Time Widget"
-msgstr "Widget czasu"
+msgstr "Widżet czasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:396
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "timeWidget"
-msgstr "widgetCzasu"
+msgstr "widzetCzasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:397
 msgid "A widget to input and display a time"
-msgstr "Widget do wpisywania i wyświetlenia czasu"
+msgstr "Widżet do wpisywania i wyświetlenia czasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:406
 msgid "Date/Time Widget"
-msgstr "Widget daty/czasu"
+msgstr "Widżet daty/czasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:408
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "dateTimeWidget"
-msgstr "widgetDatyICzasu"
+msgstr "widzetDatyICzasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:409
 msgid "A widget to input and display a time and a date"
-msgstr "Widget do wpisywania i wyświetlenia daty i czasu"
+msgstr "Widżet do wpisywania i wyświetlenia daty i czasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:413
 msgid "Toggle"
@@ -2095,7 +2095,7 @@ msgstr "Brak"
 #: formeditor/factories/stdwidgetfactory.cpp:458
 msgctxt "For Word Wrap Position"
 msgid "Widget's Width"
-msgstr "Szerokość widgetu"
+msgstr "Szerokość widżetu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:459
 msgctxt "For Word Wrap Position"
@@ -2150,7 +2150,7 @@ msgstr "Kolumna 1"
 
 #: formeditor/factories/stdwidgetfactory.cpp:576
 msgid "Edit Contents of List Widget"
-msgstr "Edytuj treść widgetu listy"
+msgstr "Edytuj treść widżetu listy"
 
 #: formeditor/factories/stdwidgetfactory.cpp:973
 msgctxt "default indent value"
@@ -2160,7 +2160,7 @@ msgstr "domyślny"
 #: formeditor/form.cpp:795
 #, kde-format
 msgid "Renaming widget \"%1\" to \"%2\" failed."
-msgstr "Nieudana zmiana nazwy widgetu \"%1\" na \"%2\"."
+msgstr "Nieudana zmiana nazwy widżetu \"%1\" na \"%2\"."
 
 #: formeditor/form.cpp:1366
 #, kde-format
@@ -2168,8 +2168,8 @@ msgid ""
 "Could not rename widget \"%1\" to \"%2\" because \"%3\" is not a valid name "
 "(identifier) for a widget.\n"
 msgstr ""
-"Nie można zmienić nazwy widgetu \"%1\" na \"%2\", ponieważ \"%3\" jest "
-"nieprawidłową nazwą (identyfikatorem) dla widgetu.\n"
+"Nie można zmienić nazwy widżetu \"%1\" na \"%2\", ponieważ \"%3\" jest "
+"nieprawidłową nazwą (identyfikatorem) dla widżetu.\n"
 
 #: formeditor/form.cpp:1377
 #, kde-format
@@ -2177,13 +2177,13 @@ msgid ""
 "Could not rename widget \"%1\" to \"%2\" because a widget with the name "
 "\"%3\" already exists.\n"
 msgstr ""
-"Nie można zmienić nazwy widgetu \"%1\" na \"%2\", ponieważ widget o nazwie \"%"
+"Nie można zmienić nazwy widżetu \"%1\" na \"%2\", ponieważ widżet o nazwie \"%"
 "3\" już istnieje.\n"
 
 #: formeditor/form.cpp:1491 formeditor/form.cpp:1750
 #, kde-format
 msgid "Multiple Widgets (%1)"
-msgstr "Wiele widgetów (%1)"
+msgstr "Wiele widżetów (%1)"
 
 #: formeditor/form.cpp:1740
 #, kde-format
@@ -2204,7 +2204,7 @@ msgid ""
 "All selected widgets must have the same parent."
 msgstr ""
 "<b>Nie można utworzyć układu.</b>\n"
-"Wszystkie zaznaczone widgety muszą mieć ten sam widget nadrzędny."
+"Wszystkie zaznaczone widżety muszą mieć ten sam widżet nadrzędny."
 
 #: formeditor/form.cpp:2300
 msgctxt "Translators: please keep this string short (less than 20 chars)"
@@ -2463,7 +2463,7 @@ msgstr "Pole tekstowe"
 #: formeditor/form_p.cpp:311
 msgctxt "Tab Widget (HINT: for Frame Shape)"
 msgid "Tab Widget"
-msgstr "Widget karty"
+msgstr "Widżet karty"
 
 #: formeditor/form_p.cpp:312
 msgctxt "Group Box (HINT: for Frame Shape)"
@@ -2707,7 +2707,7 @@ msgstr "Przesuń w górę"
 
 #: formeditor/tabstopdialog.cpp:96
 msgid "Move widget up"
-msgstr "Przesuń widget w górę"
+msgstr "Przesuń widżet w górę"
 
 #: formeditor/tabstopdialog.cpp:100
 msgid "Move Down"
@@ -2715,7 +2715,7 @@ msgstr "Przesuń w dół"
 
 #: formeditor/tabstopdialog.cpp:101
 msgid "Move widget down"
-msgstr "Przesuń widget w dół"
+msgstr "Przesuń widżet w dół"
 
 #: formeditor/tabstopdialog.cpp:106
 msgid "Handle tab order automatically"
@@ -2748,7 +2748,7 @@ msgstr "Wstaw pionowo"
 #: formeditor/widgetlibrary.cpp:681
 #, kde-format
 msgid "Insert Widget: %1"
-msgstr "Wstaw widget: %1"
+msgstr "Wstaw widżet: %1"
 
 #: formeditor/widgetlibrary.cpp:685
 msgid "Cancel"
@@ -2766,7 +2766,7 @@ msgstr "Typ"
 
 #: formeditor/WidgetTreeWidget.cpp:225
 msgid "Widget name"
-msgstr "Nazwa widgetu"
+msgstr "Nazwa widżetu"
 
 #: kexidb/dbobjectnamevalidator.cpp:47
 #, kde-format
@@ -5022,20 +5022,20 @@ msgstr "Rekord"
 
 #: plugins/forms/kexidatasourcepage.cpp:49
 msgid "No data source could be assigned for this widget."
-msgstr "Do tego widgetu nie może być przypisane źródło danych."
+msgstr "Do tego widżetu nie może być przypisane źródło danych."
 
 #: plugins/forms/kexidatasourcepage.cpp:51
 msgid "No data source could be assigned for multiple widgets."
-msgstr "Do wielu widgetów nie może być jednocześnie przypisane źródło danych."
+msgstr "Do wielu widżetów nie może być jednocześnie przypisane źródło danych."
 
 #: plugins/forms/kexidatasourcepage.cpp:74
 msgctxt "Table Field or Query Field"
 msgid "Widget's data source"
-msgstr "Źródło danych widgetu"
+msgstr "Źródło danych widżetu"
 
 #: plugins/forms/kexidatasourcepage.cpp:85
 msgid "Clear widget's data source"
-msgstr "Wyczyść przypisanie źródła danych widgetu"
+msgstr "Wyczyść przypisanie źródła danych widżetu"
 
 #: plugins/forms/kexidatasourcepage.cpp:105
 msgid "Form's data source"
@@ -5087,7 +5087,7 @@ msgstr "formularz"
 
 #: plugins/forms/kexidbfactory.cpp:87
 msgid "A data-aware form widget"
-msgstr "Widget formularza bazy danych"
+msgstr "Widżet formularza bazy danych"
 
 #: plugins/forms/kexidbfactory.cpp:117
 msgid "Text Box"
@@ -5102,7 +5102,7 @@ msgstr "poleTekstowe"
 
 #: plugins/forms/kexidbfactory.cpp:121
 msgid "A widget for entering and displaying text"
-msgstr "Widget do wprowadzania i wyświetlania tekstu"
+msgstr "Widżet do wprowadzania i wyświetlania tekstu"
 
 #: plugins/forms/kexidbfactory.cpp:140
 msgid "A multiline text editor"
@@ -5110,7 +5110,7 @@ msgstr "Wielowierszowy edytor tekstu"
 
 #: plugins/forms/kexidbfactory.cpp:157
 msgid "A simple frame widget"
-msgstr "Prosty widget ramki"
+msgstr "Prosty widżet ramki"
 
 #: plugins/forms/kexidbfactory.cpp:168
 msgctxt "Text Label"
@@ -5119,7 +5119,7 @@ msgstr "Etykieta"
 
 #: plugins/forms/kexidbfactory.cpp:172
 msgid "A widget for displaying text"
-msgstr "Widget do wyświetlania tekstu"
+msgstr "Widżet do wyświetlania tekstu"
 
 #: plugins/forms/kexidbfactory.cpp:185
 msgid "Image Box"
@@ -5134,7 +5134,7 @@ msgstr "obraz"
 
 #: plugins/forms/kexidbfactory.cpp:189
 msgid "A widget for displaying images"
-msgstr "Widget do wyświetlania obrazów"
+msgstr "Widżet do wyświetlania obrazów"
 
 #: plugins/forms/kexidbfactory.cpp:221
 msgid "A check box with text label"
@@ -5156,7 +5156,7 @@ msgid ""
 "A widget containing an automatically selected editor and a label to edit the "
 "value of a database field of any type."
 msgstr ""
-"Widget zawierający edytor automatycznie dostosowujący się do dowolnego typu "
+"Widżet zawierający edytor automatycznie dostosowujący się do dowolnego typu "
 "pola bazy danych oraz etykietę tekstową."
 
 #: plugins/forms/kexidbfactory.cpp:245
@@ -5184,11 +5184,11 @@ msgstr "Przycisk odnośnika do wykonywania działań"
 
 #: plugins/forms/kexidbfactory.cpp:273
 msgid "A Slider widget"
-msgstr "Widget suwaka"
+msgstr "Widżet suwaka"
 
 #: plugins/forms/kexidbfactory.cpp:284
 msgid "A Progress Bar widget"
-msgstr "Widget paska postępu"
+msgstr "Widżet paska postępu"
 
 #: plugins/forms/kexidbfactory.cpp:291
 msgid "Date Picker"
@@ -5203,7 +5203,7 @@ msgstr "poleDaty"
 
 #: plugins/forms/kexidbfactory.cpp:295
 msgid "A Date Picker widget"
-msgstr "Widget pola wyboru daty"
+msgstr "Widżet pola wyboru daty"
 
 #: plugins/forms/kexidbfactory.cpp:299
 msgid "Inverted"
@@ -5569,7 +5569,7 @@ msgstr "Tworzy nowy formularz."
 
 #: plugins/forms/kexiformpart.cpp:111
 msgid "Clear Widget Contents"
-msgstr "Wyczyść zawartość widgetu"
+msgstr "Wyczyść zawartość widżetu"
 
 #: plugins/forms/kexiformpart.cpp:113
 msgid "Edit Tab Order..."
@@ -5577,7 +5577,7 @@ msgstr "Edytuj kolejność tabulacji..."
 
 #: plugins/forms/kexiformpart.cpp:119
 msgid "Layout Widgets"
-msgstr "Układ widgetów"
+msgstr "Układ widżetów"
 
 #: plugins/forms/kexiformpart.cpp:123
 msgid "&Horizontally"
@@ -5605,19 +5605,19 @@ msgstr "Prze&rwij ułożenie"
 
 #: plugins/forms/kexiformpart.cpp:143
 msgid "Bring Widget to Front"
-msgstr "Przesuń widget na wierzch"
+msgstr "Przesuń widżet na wierzch"
 
 #: plugins/forms/kexiformpart.cpp:145
 msgid "Send Widget to Back"
-msgstr "Przesuń widget pod spód"
+msgstr "Przesuń widżet pod spód"
 
 #: plugins/forms/kexiformpart.cpp:149
 msgid "Other Widgets"
-msgstr "Inne widgety"
+msgstr "Inne widżety"
 
 #: plugins/forms/kexiformpart.cpp:153
 msgid "Align Widgets Position"
-msgstr "Dopasuj pozycje widgetów"
+msgstr "Dopasuj pozycje widżetów"
 
 #: plugins/forms/kexiformpart.cpp:156
 msgid "To Left"
@@ -5641,7 +5641,7 @@ msgstr "Do siatki"
 
 #: plugins/forms/kexiformpart.cpp:167
 msgid "Adjust Widgets Size"
-msgstr "Dopasuj rozmiar widgetów"
+msgstr "Dopasuj rozmiar widżetów"
 
 #: plugins/forms/kexiformpart.cpp:170
 msgid "To Fit"
@@ -5675,16 +5675,16 @@ msgstr "Formularz \"%1\" już istnieje."
 
 #: plugins/forms/kexiformpart.cpp:412
 msgid "Widgets"
-msgstr "Widgety"
+msgstr "Widżety"
 
 #: plugins/forms/kexiformview.cpp:1139
 #, kde-format
 msgid "Insert %1 AutoField widgets"
-msgstr "Wstaw widgety pola Auto (%1)"
+msgstr "Wstaw widżety pola Auto (%1)"
 
 #: plugins/forms/kexiformview.cpp:1139
 msgid "Insert AutoField widget"
-msgstr "Wstaw widget pola Auto"
+msgstr "Wstaw widżet pola Auto"
 
 #: plugins/forms/widgets/kexidbautofield.cpp:564
 #, kde-format
