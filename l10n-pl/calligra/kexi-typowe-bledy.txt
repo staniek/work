@@ -1,0 +1,30 @@
+Typowe bledy:
+(zle / dobre/ orig)
+sprawozdanie / raport / report
+wgrane / zainstalowane / installed
+strona sieciowa / strona internetowa / web page
+uszereguj / sortuj / sort
+odczynić / cofnąć / undo
+wiązanie / relacje / relationships
+wpis / rekord / record
+rodzaj (obiektu, pola) / typ (obiektu, pola) / type
+podpis (tytuł) / nagłówek / caption
+pomocnik / asystent / assistant
+wpisać, podać / wprowadzić / enter
+auto-formularz / autoformularz / autoform
+autonumer / autonumeracja / autonumber
+instrukcja SQL / polecenia SQL / SQL statement
+
+wizard -> assistant
+
+Primary Key -> Klucz główny
+
+http://slownik.lokalne.net/
+
+Wątpliwości:
+action: czynność czy działanie? Działanie może być mylone z działaniem matematycznym.
+
+OK: There are unsaved changes in object "%1" -> Obiekt "%1" zawiera niezapisane zmiany
+OK: Saving object's data failed. -> Nie udało się zapisać danych obiektu.
+OK: Splitter -> Rozdzielacz
+
