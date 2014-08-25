@@ -11,13 +11,14 @@
 # Marta Rybczyńska <kde-i18n@rybczynska.net>, 2008, 2013.
 # Michał Lachowski <michal@lachowski.info>, 2010.
 # Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014.
+# Jarosław Staniek <staniek@kde.org>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-08-25 01:43+0000\n"
-"PO-Revision-Date: 2014-08-08 14:38+0200\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"PO-Revision-Date: 2014-08-26 01:23+0200\n"
+"Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgstr "Krzysztof Lichota, Łukasz Wojniłowicz"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "lichota@mimuw.edu.pl, lukasz@wojnilowicz@gmail.com"
+msgstr "lichota@mimuw.edu.pl, lukasz.wojnilowicz@gmail.com, staniek@kde.org"
 
 #: basicflakes/plugin/KoCreatePathToolFactory.cpp:34
 msgid "Draw path"
@@ -122,11 +123,11 @@ msgstr "Nie można połączyć się z serwerem baz danych \"%1\"."
 
 #: db/connection.cpp:401
 msgid "Not connected to the database server."
-msgstr "Brak połączenia do serwera baz danych."
+msgstr "Brak połączenia z serwerem baz danych."
 
 #: db/connection.cpp:411
 msgid "Currently no database is used."
-msgstr "Obecna nie jest używana żadna baza danych."
+msgstr "Żadna baza danych nie jest obecnie używana."
 
 #: db/connection.cpp:467
 #, kde-format
@@ -175,7 +176,7 @@ msgstr "Błąd podczas tworzenia bazy danych \"%1\" na serwerze."
 #: db/connection.cpp:582
 #, kde-format
 msgid "Database \"%1\" created but could not be opened."
-msgstr "Baza danych \"%1\" została utworzona lecz nie może być otwarta."
+msgstr "Baza danych \"%1\" została utworzona lecz nie może zostać otwarta."
 
 #: db/connection.cpp:660
 #, kde-format
@@ -213,7 +214,7 @@ msgstr "Nie można usunąć systemowej bazy danych \"%1\"."
 
 #: db/connection.cpp:1197
 msgid "Error while executing SQL statement."
-msgstr "Błąd podczas wykonywania instrukcji SQL."
+msgstr "Błąd podczas wykonywania polecenia SQL."
 
 #: db/connection.cpp:1656
 msgid "Creating table failed."
@@ -271,17 +272,18 @@ msgstr "Nieoczekiwana nazwa lub identyfikator."
 #: db/connection.cpp:1953
 #, kde-format
 msgid "Could not alter table \"%1\" using the same table."
-msgstr "Nie można zmodyfikować tabeli \"%1\" używając tej samej tabeli."
+msgstr ""
+"Nie można zmodyfikować tabeli \"%1\" używając tej samej tabeli jako docelowej."
 
 #: db/connection.cpp:1975 db/expression.cpp:789
 #, kde-format
 msgid "Unknown table \"%1\""
-msgstr "Nieznana tabela \"%1\""
+msgstr "Nieznana tabela \"%1\"."
 
 #: db/connection.cpp:1979
 #, kde-format
 msgid "Invalid table name \"%1\""
-msgstr "Nieprawidłowa nazwa tabeli \"%1\""
+msgstr "Nieprawidłowa nazwa tabeli \"%1\"."
 
 #: db/connection.cpp:1985
 #, kde-format
@@ -306,7 +308,7 @@ msgstr "Transakcje nie są obsługiwane dla sterownika \"%1\"."
 
 #: db/connection.cpp:2191
 msgid "Begin transaction failed"
-msgstr "Nieudane rozpoczęcie transakcji"
+msgstr "Nieudane rozpoczęcie transakcji."
 
 #: db/connection.cpp:2207
 msgid "Transaction already started."
@@ -322,21 +324,21 @@ msgstr "Błąd podczas zatwierdzania transakcji"
 
 #: db/connection.cpp:2297
 msgid "Error on rollback transaction"
-msgstr "Błąd podczas anulowania transakcji"
+msgstr "Błąd podczas wycofywania transakcji."
 
 #: db/connection.cpp:2461 db/connection.cpp:2980
 #, kde-format
 msgid "Invalid object name \"%1\""
-msgstr "Niepoprawna nazwa obiektu \"%1\""
+msgstr "Niepoprawna nazwa obiektu \"%1\"."
 
 #: db/connection.cpp:2583
 #, kde-format
 msgid "Column %1 does not exist for the query."
-msgstr "Kolumna %1 nie istnieje dla zapytania."
+msgstr "Kolumna <resource>%1</resource> nie istnieje w zapytaniu."
 
 #: db/connection.cpp:2844 db/connection.cpp:2847 db/connection.cpp:2850
 msgid "Error while loading extended table schema information."
-msgstr "Błąd podczas wczytywania informacji schematu rozszerzonej tabeli."
+msgstr "Błąd podczas wczytywania rozszerzonego schematu tabeli."
 
 #: db/connection.cpp:2851
 msgid "Invalid XML data: "
@@ -371,8 +373,8 @@ msgid ""
 "is invalid:<br><tt>%2</tt></p>\n"
 "<p>You can open this query in Text View and correct it.</p>"
 msgstr ""
-"<p>Nie można wczytać definicji zapytania \"%1\". Instrukcja SQL dla tego "
-"zapytania jest niepoprawna:<br><tt>%2</tt></p>\n"
+"<p>Nie można wczytać definicji zapytania \"%1\". Polecenie SQL dla tego "
+"zapytania jest niepoprawne:<br><tt>%2</tt></p>\n"
 "<p>Możesz otworzyć to zapytanie w widoku tekstowym i poprawić je.</p>"
 
 #: db/connection.cpp:3384
@@ -382,24 +384,24 @@ msgstr "Nie można uaktualnić rekordu, bo nie określono tabeli nadrzędnej."
 #: db/connection.cpp:3391
 msgid ""
 "Could not update record because master table has no primary key defined."
-msgstr "Nie można uaktualnić rekordu, bo nie zdefiniowano podstawowego klucza."
+msgstr "Nie można uaktualnić rekordu, bo nie zdefiniowano klucza głównego."
 
 #: db/connection.cpp:3420
 msgid ""
 "Could not update record because it does not contain entire master table's "
 "primary key."
 msgstr ""
-"Nie można uaktualnić rekordu, bo nie zawiera klucza podstawowego całej "
-"nadrzędnej tabeli."
+"Nie można uaktualnić rekordu, bo nie zawiera całego klucza głównego tabeli "
+"nadrzędnej."
 
 #: db/connection.cpp:3431 db/connection.cpp:3671
 #, kde-format
 msgid "Primary key's field \"%1\" cannot be empty."
-msgstr "Pole \"%1\" klucza podstawowego nie może być puste."
+msgstr "Pole \"%1\" klucza głównego nie może być puste."
 
 #: db/connection.cpp:3458
 msgid "Record updating on the server failed."
-msgstr "Nieudane uaktualnienie rekordu na serwerze."
+msgstr "Nieudana aktualizacja rekordu na serwerze."
 
 #: db/connection.cpp:3481
 msgid "Could not insert record because there is no master table defined."
@@ -409,16 +411,16 @@ msgstr "Nie można wstawić rekordu, bo nie określono tabeli nadrzędnej."
 msgid ""
 "Could not insert record because master table has no primary key defined."
 msgstr ""
-"Nie można wstawić rekordu, bo nadrzędna tabela nie ma określonego głównego "
-"klucza."
+"Nie można wstawić rekordu, bo nadrzędna tabela nie ma określonego klucza "
+"głównego."
 
 #: db/connection.cpp:3527
 msgid ""
 "Could not insert record because it does not contain entire master table's "
 "primary key."
 msgstr ""
-"Nie można wstawić rekordu, bo nie zawiera klucza podstawowego całej "
-"nadrzędnej tabeli."
+"Nie można wstawić rekordu, bo nie zawiera całego klucza głównego tabeli "
+"nadrzędnej."
 
 #: db/connection.cpp:3574
 msgid "Record inserting on the server failed."
@@ -432,15 +434,17 @@ msgstr "Nie można usunąć rekordu, bo nie określono tabeli nadrzędnej."
 msgid ""
 "Could not delete record because there is no primary key for master table "
 "defined."
-msgstr "Nie można usunąć rekordu, bo nie określono tabeli nadrzędnej."
+msgstr ""
+"Nie można usunąć rekordu, bo nie określono klucza głównego dla tabeli "
+"nadrzędnej."
 
 #: db/connection.cpp:3662
 msgid ""
 "Could not delete record because it does not contain entire master table's "
 "primary key."
 msgstr ""
-"Nie można usunąć rekordu, bo nie zawiera klucza podstawowego całej "
-"nadrzędnej tabeli."
+"Nie można usunąć rekordu, bo nie zawiera całego klucza głównego tabeli "
+"nadrzędnej."
 
 #: db/connection.cpp:3688 db/connection.cpp:3711
 msgid "Record deletion on the server failed."
@@ -452,11 +456,11 @@ msgstr "plik"
 
 #: db/cursor.cpp:142
 msgid "No query statement or schema defined."
-msgstr "Nie podano instrukcji lub schematu dla zapytania."
+msgstr "Nie podano polecenia lub schematu zapytania."
 
 #: db/cursor.cpp:152
 msgid "Query statement is empty."
-msgstr "Instrukcja zapytania jest pusta."
+msgstr "Polecenia zapytania jest puste."
 
 #: db/cursor.cpp:162
 msgid "Error opening database cursor."
@@ -474,7 +478,7 @@ msgstr "Nie można ustawić wartości dla właściwości \"%1\" w bazie danych."
 #: db/dbproperties.cpp:80 db/dbproperties.cpp:89 db/dbproperties.cpp:99
 #, kde-format
 msgid "Could not set caption for database property \"%1\"."
-msgstr "Nie można ustawić tytułu dla właściwości \"%1\" w bazie danych."
+msgstr "Nie można ustawić nagłówka dla właściwości \"%1\" w bazie danych."
 
 #: db/dbproperties.cpp:112 db/dbproperties.cpp:127
 #, kde-format
@@ -588,7 +592,7 @@ msgstr "Nie można wczytać sterownika baz danych \"%1\"."
 #: db/drivermanager.cpp:360
 #, kde-format
 msgid "No such driver service: \"%1\"."
-msgstr "Nie ma takiej usługi: \"%1\"."
+msgstr "Nie można znaleźć usługi \"%1\"."
 
 #: db/drivers/sqlite/sqliteadmin.cpp:42
 #, kde-format
@@ -631,18 +635,18 @@ msgstr ""
 
 #: db/drivers/sqlite/sqlitevacuum.cpp:129
 msgid "Compacting database"
-msgstr "Zmniejszanie bazy danych"
+msgstr "Defragmentacja bazy danych"
 
 #: db/drivers/sqlite/sqlitevacuum.cpp:130
 #, kde-format
 msgid "Compacting database \"%1\"..."
-msgstr "Zmniejszanie bazy danych \"%1\"..."
+msgstr "Defragmentacja bazy danych \"%1\"..."
 
 #: db/drivers/sqlite/sqlitevacuum.cpp:208
 #, kde-format
 msgid "The database has been compacted. Current size decreased by %1% to %2."
 msgstr ""
-"Baza danych została zmniejszona. Jej rozmiar zmniejszył się o %1% do %2."
+"Baza danych została zdefragmentowana. Jej rozmiar zmniejszył się o %1% do %2."
 
 #: db/expression.cpp:731 db/parser/parser_p.cpp:285
 msgid "Ambiguous field name"
@@ -665,18 +669,18 @@ msgstr "Nie znaleziono pola"
 #: db/expression.cpp:742 db/parser/parser_p.cpp:296
 #, kde-format
 msgid "Table containing \"%1\" field not found"
-msgstr "Nie znaleziono tabeli zawierającej pole \"%1\""
+msgstr "Nie znaleziono tabeli zawierającej pole \"%1\"."
 
 #: db/expression.cpp:768 db/parser/parser_p.cpp:320
 msgid "Could not access the table directly using its name"
-msgstr "Nie można uzyskać dostępu do tabeli używając bezpośrednio jej nazwy"
+msgstr "Nie można uzyskać dostępu do tabeli używając bezpośrednio jej nazwy."
 
 #: db/expression.cpp:769 db/parser/parser_p.cpp:321
 #, kde-format
 msgid ""
 "Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\""
 msgstr ""
-"Tabela \"%1\" jest zakryta przez aliasy. Zamiast \"%2\" możesz napisać \"%3\""
+"Tabela \"%1\" jest zakryta przez aliasy. Zamiast \"%2\" możesz napisać \"%3\"."
 
 #: db/expression.cpp:788
 msgid "Table not found"
@@ -690,7 +694,7 @@ msgstr "Niejednoznaczne wyrażenie \"%1.*\""
 #: db/expression.cpp:803 db/parser/parser_p.cpp:352
 #, kde-format
 msgid "More than one \"%1\" table or alias defined"
-msgstr "Istnieje więcej niż jedna tabela \"%1\" lub alias"
+msgstr "Istnieje więcej niż jedna tabela lub alias \"%1\"."
 
 #: db/expression.cpp:815 db/parser/parser_p.cpp:377
 #, kde-format
@@ -706,7 +710,7 @@ msgstr "Niejednoznaczne wyrażenie \"%1.%2\""
 #, kde-format
 msgid "More than one \"%1\" table or alias defined containing \"%2\" field"
 msgstr ""
-"Istnieje więcej niż jedna tabela \"%1\" lub alias, zawierające pole \"%2\""
+"Istnieje więcej niż jedna tabela lub alias \"%1\" zawierające pole \"%2\"."
 
 #: db/field.cpp:729
 msgid "Invalid Type"
@@ -806,12 +810,12 @@ msgstr "Błąd składni"
 #: db/parser/parser_p.cpp:145
 #, kde-format
 msgid "\"%1\" is a reserved keyword"
-msgstr "\"%1\" jest zastrzeżonym słowem kluczowym"
+msgstr "\"%1\" jest zastrzeżonym słowem kluczowym."
 
 #: db/parser/parser_p.cpp:149
 #, kde-format
 msgid "Syntax Error near \"%1\""
-msgstr "Błąd składni w pobliżu \"%1\""
+msgstr "Błąd składni w pobliżu \"%1\"."
 
 #: db/parser/parser_p.cpp:179
 msgid "Error"
@@ -819,32 +823,32 @@ msgstr "Błąd"
 
 #: db/parser/parser_p.cpp:179
 msgid "No query specified"
-msgstr "Nie podano zapytania"
+msgstr "Nie określono polecenia zapytania."
 
 #: db/parser/parser_p.cpp:243
 msgid "\"*\" could not be used if no tables are specified"
-msgstr "\"*\" nie może być użyte jeśli nie podano żadnych tabel"
+msgstr "\"*\" nie może być użyte jeśli nie podano żadnych tabel."
 
 #. i18n("Field List Error"),
 #: db/parser/parser_p.cpp:433
 #, kde-format
 msgid "Table \"%1\" does not exist"
-msgstr "Tabela \"%1\" nie istnieje"
+msgstr "Tabela \"%1\" nie istnieje."
 
 #: db/parser/parser_p.cpp:490
 #, kde-format
 msgid "Invalid alias definition for column \"%1\""
-msgstr "Nieprawidłowa definicja aliasu dla kolumny \"%1\""
+msgstr "Nieprawidłowa definicja aliasu dla kolumny \"%1\"."
 
 #: db/parser/parser_p.cpp:517
 #, kde-format
 msgid "Invalid \"%1\" column definition"
-msgstr "Nieprawidłowa definicja kolumny \"%1\""
+msgstr "Nieprawidłowa definicja kolumny \"%1\"."
 
 #: db/parser/parser_p.cpp:584
 #, kde-format
 msgid "Could not define sorting - no column at position %1"
-msgstr "Nie można zdefiniować sortowania - brak kolumny na pozycji %1"
+msgstr "Nie można zdefiniować sortowania - brak kolumny na pozycji %1."
 
 #: db/parser/parser_p.cpp:592
 #, kde-format
@@ -855,7 +859,7 @@ msgstr ""
 #: db/queryschema.cpp:267
 msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
 msgid "expr"
-msgstr "wyr."
+msgstr "wyr"
 
 #: db/simplecommandlineapp.cpp:81
 msgid "Database driver name"
@@ -867,7 +871,7 @@ msgstr "Nazwa użytkownika bazy danych"
 
 #: db/simplecommandlineapp.cpp:85
 msgid "Prompt for password"
-msgstr "Pytaj o hasło"
+msgstr "Pyta o hasło"
 
 #: db/simplecommandlineapp.cpp:87
 msgid "Host (server) name"
@@ -884,12 +888,12 @@ msgstr "Nazwa lokalnego pliku gniazda"
 #: db/simplecommandlineapp.cpp:111
 #, kde-format
 msgid "Enter password for %1: "
-msgstr "Podaj hasło dla %1: "
+msgstr "Wprowadź hasło dla %1: "
 
 #: db/tableviewdata.cpp:583 db/tableviewdata.cpp:594
 #, kde-format
 msgid "\"%1\" column requires a value to be entered."
-msgstr "Kolumna \"%1\" wymaga wpisania wartości."
+msgstr "Kolumna \"%1\" wymaga wprowadzenia wartości."
 
 #: db/tableviewdata.cpp:585
 msgid "The column's constraint is declared as NOT NULL."
@@ -897,7 +901,7 @@ msgstr "Warunki dla kolumny są zadeklarowane jako NOT NULL (niepuste)."
 
 #: db/tableviewdata.cpp:596
 msgid "The column's constraint is declared as NOT EMPTY."
-msgstr "Warunki dla kolumny są zadeklarowane jako NOT EMPTY (niepusty ciąg)."
+msgstr "Warunki dla kolumny są zadeklarowane jako NOT EMPTY (niepusty tekst)."
 
 #: db/tableviewdata.cpp:607
 msgid "Record inserting failed."
@@ -917,11 +921,11 @@ msgstr "Wiadomość z serwera:"
 
 #: db/utils.cpp:145
 msgid "SQL statement:"
-msgstr "Instrukcja SQL:"
+msgstr "Polecenie SQL:"
 
 #: db/utils.cpp:162 db/utils.cpp:169
 msgid "Server result:"
-msgstr "Wynik serwera:"
+msgstr "Wynik z serwera:"
 
 #: db/utils.cpp:406 db/utils.cpp:469 db/utils.cpp:474
 msgid "Test Connection"
@@ -930,7 +934,7 @@ msgstr "Testuj połączenie"
 #: db/utils.cpp:407
 #, kde-format
 msgid "<qt>Testing connection to <b>%1</b> database server...</qt>"
-msgstr "<qt>Testowanie połączenia z serwerem baz danych <b>%1</b>...</qt>"
+msgstr "Testowanie połączenia z serwerem baz danych <resource>%1</resource>..."
 
 #: db/utils.cpp:468
 #, kde-format
@@ -938,8 +942,8 @@ msgid ""
 "<qt>Test connection to <b>%1</b> database server failed. The server is not "
 "responding.</qt>"
 msgstr ""
-"<qt>Testowe połączenie z serwerem baz danych <b>%1</b> nie powiodło się. "
-"Serwer nie odpowiada.</qt>"
+"Testowe połączenie z serwerem baz danych <resource>%1</resource> nie powiodło "
+"się. Serwer nie odpowiada."
 
 #: db/utils.cpp:472
 #, kde-format
@@ -947,8 +951,8 @@ msgid ""
 "<qt>Test connection to <b>%1</b> database server established successfully.</"
 "qt>"
 msgstr ""
-"<qt>Testowe połączenie z serwerem baz danych <b>%1</b> zostało pomyślnie "
-"nawiązane.</qt>"
+"Testowe połączenie z serwerem baz danych <resource>%1</resource> zostało "
+"pomyślnie nawiązane."
 
 #: db/utils.cpp:1512
 msgid "Number"
@@ -2093,11 +2097,11 @@ msgstr "Kolor linii"
 #: koreport/items/label/KoReportItemLabel.cpp:111
 #: koreport/items/text/KoReportItemText.cpp:128
 msgid "Line Style"
-msgstr "Rodzaj linii"
+msgstr "Styl linii"
 
 #: koreport/common/krpos.cpp:26
 msgid "Position"
-msgstr "Położenie"
+msgstr "Pozycja"
 
 #: koreport/common/krsectiondata.cpp:108
 msgid "Height"
@@ -2116,7 +2120,7 @@ msgstr "Rozmiar"
 
 #: koreport/items/check/KoReportCheckPlugin.cpp:36
 msgid "Check"
-msgstr "Odhaczenie"
+msgstr "Pole wyboru"
 
 #: koreport/items/check/KoReportItemCheck.cpp:73
 msgid "Cross"
@@ -2128,7 +2132,7 @@ msgstr "Kropka"
 
 #: koreport/items/check/KoReportItemCheck.cpp:73
 msgid "Tick"
-msgstr "Apostrof"
+msgstr "Odhaczenie"
 
 #: koreport/items/check/KoReportItemCheck.cpp:74
 msgid "Style"
@@ -2216,7 +2220,7 @@ msgstr "Zawijanie wyrazów"
 
 #: koreport/items/field/KoReportItemField.cpp:112
 msgid "Can Grow"
-msgstr "Może się zwiększać"
+msgstr "Może rosnąć"
 
 #: koreport/items/field/KoReportItemField.cpp:116
 msgid "Track Total"
@@ -2248,11 +2252,11 @@ msgstr "Tryb zmiany rozmiaru"
 
 #: koreport/items/image/KoReportItemImage.cpp:122
 msgid "Static Image"
-msgstr "Statyczny obraz"
+msgstr "Statyczny"
 
 #: koreport/items/label/KoReportItemLabel.cpp:87
 msgid "Caption"
-msgstr "Tytuł"
+msgstr "Nagłówek"
 
 #: koreport/items/label/KoReportLabelPlugin.cpp:34
 msgid "Label"
@@ -2260,7 +2264,7 @@ msgstr "Etykieta"
 
 #: koreport/wrtembed/detailgroupsectiondialog.cpp:38
 msgid "Group Section Editor"
-msgstr "Edytor rozdziału grup"
+msgstr "Edytor sekcji grup"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColumn)
 #: koreport/wrtembed/detailgroupsectiondialog.ui:29
@@ -2285,59 +2289,59 @@ msgstr "Pokaż stopkę grupy:"
 #. i18n: ectx: property (text), widget (QLabel, breakAfterFooterLabel)
 #: koreport/wrtembed/detailgroupsectiondialog.ui:94
 msgid "Insert page break after group footer:"
-msgstr "Wstaw podział strony stopce grupy:"
+msgstr "Wstaw podział strony po stopce grupy:"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:495
 msgid "Page Header (Any)"
-msgstr "Nagłówek strony (Każdej)"
+msgstr "Nagłówek strony (każdej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:499
 msgid "Page Header (Even)"
-msgstr "Nagłówek strony (Parzystej)"
+msgstr "Nagłówek strony (parzystej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:503
 msgid "Page Header (Odd)"
-msgstr "Nagłówek strony (Nieparzystej)"
+msgstr "Nagłówek strony (nieparzystej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:507
 msgid "Page Header (First)"
-msgstr "Nagłówek strony (Pierwszej)"
+msgstr "Nagłówek strony (pierwszej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:511
 msgid "Page Header (Last)"
-msgstr "Nagłówek strony (Ostatniej)"
+msgstr "Nagłówek strony (ostatniej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:515
 msgid "Page Footer (Any)"
-msgstr "Stopka strony (Każdej)"
+msgstr "Stopka strony (każdej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:519
 msgid "Page Footer (Even)"
-msgstr "Stopka strony (Parzystej)"
+msgstr "Stopka strony (parzystej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:523
 msgid "Page Footer (Odd)"
-msgstr "Stopka strony (Nieparzystej)"
+msgstr "Stopka strony (nieparzystej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:527
 msgid "Page Footer (First)"
-msgstr "Stopka strony (Pierwszej)"
+msgstr "Stopka strony (pierwszej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:531
 msgid "Page Footer (Last)"
-msgstr "Stopka strony (Ostatniej)"
+msgstr "Stopka strony (ostatniej)"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:535
 msgid "Report Header"
-msgstr "Nagłówek sprawozdania"
+msgstr "Nagłówek raportu"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:539
 msgid "Report Footer"
-msgstr "Stopka sprawozdania"
+msgstr "Stopka raportu"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:611
 msgid "Report Title"
-msgstr "Tytuł sprawozdania"
+msgstr "Tytuł raportu"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:611
 msgid "Title"
@@ -2361,7 +2365,7 @@ msgstr "Pionowa"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:622
 msgid "Page Orientation"
-msgstr "Orientacja strony"
+msgstr "Układ strony"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:633
 msgid "Page Unit"
@@ -2373,7 +2377,7 @@ msgstr "Pokaż siatkę"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:636
 msgid "Grid Snap"
-msgstr "Przyciąganie siatki"
+msgstr "Przyciąganie do siatki"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:637
 msgid "Grid Divisions"
@@ -2397,11 +2401,11 @@ msgstr "Dolny margines"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:653
 msgid "Script Interpreter"
-msgstr "Interpretator skryptów"
+msgstr "Interpreter skryptów"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:655
 msgid "Object Script"
-msgstr "Skrypt obiektu"
+msgstr "Obiekt skryptu"
 
 #: koreport/wrtembed/KoReportDesignerItemBase.cpp:80
 #, kde-format
@@ -2414,16 +2418,16 @@ msgid ""
 "A button that allows a report's surface to be selected, allowing its "
 "properties to be seen."
 msgstr ""
-"Przycisk, który pozwala na wybranie powierzchni sprawozdania, umożliwiając "
-"zobaczenie ich właściwości."
+"Przycisk, który pozwala na wybranie powierzchni raportu, umożliwiając "
+"zobaczenie jej właściwości."
 
 #: koreport/wrtembed/reportsection.cpp:95
 msgid "Detail"
-msgstr "Szczegół"
+msgstr "Szczegóły"
 
 #: koreport/wrtembed/sectioneditor.cpp:59
 msgid "Section Editor"
-msgstr "Edytor rozdziałów"
+msgstr "Edytor sekcji"
 
 #: koreport/wrtembed/sectioneditor.cpp:63
 msgid "Add..."
@@ -2457,12 +2461,12 @@ msgstr "Malejąco"
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportHeader)
 #: koreport/wrtembed/sectioneditor.ui:29
 msgid "Show report header"
-msgstr "Pokaż nagłówek sprawozdania"
+msgstr "Pokaż nagłówek raportu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportFooter)
 #: koreport/wrtembed/sectioneditor.ui:36
 msgid "Show report footer"
-msgstr "Pokaż stopkę sprawozdania"
+msgstr "Pokaż stopkę raportu"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageHeader)
 #: koreport/wrtembed/sectioneditor.ui:43
@@ -2512,7 +2516,7 @@ msgstr "Stopka strony"
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: koreport/wrtembed/sectioneditor.ui:217
 msgid "Group Sections"
-msgstr "Rozdziały grup"
+msgstr "Grupy sekcji"
 
 #: kotext/commands/ChangeListCommand.cpp:41
 #: kotext/commands/ChangeListCommand.cpp:88
@@ -5089,16 +5093,16 @@ msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
 msgid_plural ""
 "<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
 msgstr[0] ""
-"<qt>Edycje zostaną utracone.<p>Pozostało %1 nieprawidłowe wyrażenie.</qt>"
+"<qt>Edycje zostaną utracone.<p>Pozostało %1 nieprawidłowe polecenie.</qt>"
 msgstr[1] ""
-"<qt>Edycje zostaną utracone.<p>Pozostały %1 nieprawidłowe wyrażenia.</qt>"
+"<qt>Edycje zostaną utracone.<p>Pozostały %1 nieprawidłowe polecenia.</qt>"
 msgstr[2] ""
-"<qt>Edycje zostaną utracone.<p>Pozostało %1 nieprawidłowych wyrażeń.</qt>"
+"<qt>Edycje zostaną utracone.<p>Pozostało %1 nieprawidłowych poleceń.</qt>"
 
 #: rdf/KoDocumentRdfEditWidget.cpp:308
 msgctxt "statement is an Rdf related term"
 msgid "Discard invalid statements?"
-msgstr "Czy porzucić nieprawidłowe wyrażenia?"
+msgstr "Porzucić nieprawidłowe polecenia?"
 
 #: rdf/KoDocumentRdfEditWidget.cpp:348
 msgid "Rdf"
