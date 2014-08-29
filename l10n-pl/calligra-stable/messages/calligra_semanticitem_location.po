@@ -1,0 +1,73 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-24 01:23+0000\n"
+"PO-Revision-Date: 2014-02-16 08:44+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: KoLocationSemanticItemFactory.cpp:47
+msgctxt "displayname of the semantic item type Location"
+msgid "Location"
+msgstr "Położenie"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: KoRdfLocationEditWidget.ui:17
+msgid "&Name"
+msgstr "&Nazwa"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: KoRdfLocationEditWidgetMarble.ui:17 KoRdfLocationViewWidgetMarble.ui:24
+msgid "Name"
+msgstr "Nazwa"
+
+#. i18n: ectx: property (toolTip), widget (Marble::MarbleWidget, map)
+#: KoRdfLocationEditWidgetMarble.ui:30 KoRdfLocationViewWidgetMarble.ui:31
+msgid "The Earth"
+msgstr "Ziemia"
+
+#. i18n: ectx: property (whatsThis), widget (Marble::MarbleWidget, map)
+#: KoRdfLocationEditWidgetMarble.ui:33 KoRdfLocationViewWidgetMarble.ui:34
+msgid "The Marble widget displays a virtual globe."
+msgstr "Element interfejsu Marble wyświetla wirtualny globus."
+
+#. i18n: ectx: property (toolTip), widget (Marble::MarbleNavigator, zoomer)
+#: KoRdfLocationEditWidgetMarble.ui:40
+msgid "Navigation Control"
+msgstr "Sterowanie nawigacją"
+
+#. i18n: ectx: property (whatsThis), widget (Marble::MarbleNavigator, zoomer)
+#: KoRdfLocationEditWidgetMarble.ui:43
+msgid "Use this control to navigate."
+msgstr "Użyj tego do sterowania nawigacją."
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: KoRdfLocationEditWidgetMarble.ui:50
+msgid "Latitude"
+msgstr "Szerokość geograficzna"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: KoRdfLocationEditWidgetMarble.ui:60
+msgid "Longitude"
+msgstr "Długość geograficzna"
+
+#: KoRdfLocationTreeWidgetItem.cpp:55
+msgid "Location Information"
+msgstr "Informacje o położeniu"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: KoRdfLocationViewWidget.ui:24
+msgid "&Name:"
+msgstr "&Nazwa:"

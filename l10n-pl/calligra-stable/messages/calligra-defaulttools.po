@@ -1,0 +1,478 @@
+# translation of koffice-defaulttools.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Maciej Wikło <maciej.wiklo@wp.pl>, 2009.
+# Mirek Sabiniewicz <m.sabiniewicz@gmail.com>, 2010.
+# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2010.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice-defaulttools\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-01 01:26+0000\n"
+"PO-Revision-Date: 2014-02-08 08:21+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#. i18n: ectx: property (text), widget (QCheckBox, toggleEditMode)
+#: connectionTool/ConnectionPointWidget.ui:30
+msgid "Edit Mode"
+msgstr "Tryb edycji"
+
+#. i18n: ectx: property (text), widget (QLabel, labelEscape)
+#: connectionTool/ConnectionPointWidget.ui:37
+msgid "Escape Direction"
+msgstr "Kierunek ucieczki"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAlign)
+#: connectionTool/ConnectionPointWidget.ui:97
+msgid "Alignment"
+msgstr "Wyrównanie"
+
+#. i18n: ectx: property (text), widget (QToolButton, alignPercent)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleXSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleYSpinBox)
+#: connectionTool/ConnectionPointWidget.ui:116
+#: defaulttool/DefaultToolTransformWidget.ui:106
+#: defaulttool/DefaultToolTransformWidget.ui:138
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: connectionTool/ConnectionTool.cpp:77
+msgid "Edit connection points"
+msgstr "Edytuj punkty połączenia"
+
+#: connectionTool/ConnectionTool.cpp:84
+msgid "Align to left edge"
+msgstr "Wyrównaj do lewej krawędzi"
+
+#: connectionTool/ConnectionTool.cpp:87
+msgid "Align to horizontal center"
+msgstr "Wyrównaj do poziomego środka"
+
+#: connectionTool/ConnectionTool.cpp:90
+msgid "Align to right edge"
+msgstr "Wyrównaj do prawej krawędzi"
+
+#: connectionTool/ConnectionTool.cpp:93
+msgid "Align to top edge"
+msgstr "Wyrównaj do górnej krawędzi"
+
+#: connectionTool/ConnectionTool.cpp:96
+msgid "Align to vertical center"
+msgstr "Wyrównaj do pionowego środka"
+
+#: connectionTool/ConnectionTool.cpp:99
+msgid "Align to bottom edge"
+msgstr "Wyrównaj do dolnej krawędzi"
+
+#: connectionTool/ConnectionTool.cpp:103
+msgid "Escape in all directions"
+msgstr "Ucieczka we wszystkich kierunkach"
+
+#: connectionTool/ConnectionTool.cpp:106
+msgid "Escape in horizontal directions"
+msgstr "Ucieczka w poziomych kierunkach"
+
+#: connectionTool/ConnectionTool.cpp:109
+msgid "Escape in vertical directions"
+msgstr "Ucieczka w pionowych kierunkach"
+
+#: connectionTool/ConnectionTool.cpp:112
+msgid "Escape in left direction"
+msgstr "Ucieczka w lewym kierunku"
+
+#: connectionTool/ConnectionTool.cpp:115
+msgid "Escape in right direction"
+msgstr "Ucieczka w prawym kierunku"
+
+#: connectionTool/ConnectionTool.cpp:118
+msgid "Escape in up direction"
+msgstr "Ucieczka w górnym kierunku"
+
+#: connectionTool/ConnectionTool.cpp:121
+msgid "Escape in down direction"
+msgstr "Ucieczka w dolnym kierunku"
+
+#: connectionTool/ConnectionTool.cpp:761 connectionTool/ConnectionTool.cpp:773
+msgid "Drag to edit connection."
+msgstr "Przeciągnij, aby edytować połączenie."
+
+#: connectionTool/ConnectionTool.cpp:763 connectionTool/ConnectionTool.cpp:775
+msgid "Double click connection or press delete to remove it."
+msgstr ""
+"Kliknij podwójnie na połączeniu lub naciśnij klawisz delete, aby je usunąć."
+
+#: connectionTool/ConnectionTool.cpp:765
+msgid "Click to edit connection points."
+msgstr "Kliknij, aby edytować punkty połączenia."
+
+#: connectionTool/ConnectionTool.cpp:779
+msgid ""
+"Drag to move connection point. Double click connection or press delete to "
+"remove it."
+msgstr ""
+"Przeciągnij, aby przesunąć punkt połączenia. Kliknij podwójnie na połączeniu "
+"lub naciśnij klawisz delete, aby go usunąć."
+
+#: connectionTool/ConnectionTool.cpp:781
+msgid "Double click connection point or press delete to remove it."
+msgstr ""
+"Kliknij podwójnie na punkcie połączenia lub naciśnij klawisz delete, aby go "
+"usunąć."
+
+#: connectionTool/ConnectionTool.cpp:783
+msgid "Double click to add connection point."
+msgstr "Kliknij podwójnie, aby dodać punkt połączenia."
+
+#: connectionTool/ConnectionTool.cpp:786
+msgid "Drag to create new connection."
+msgstr "Przeciągnij, aby utworzyć nowe połączenie."
+
+#: connectionTool/ConnectionTool.cpp:814
+msgid "Connection"
+msgstr "Połączenie"
+
+#: connectionTool/ConnectionTool.cpp:819 defaulttool/DefaultTool.cpp:1117
+msgid "Line"
+msgstr "Linia"
+
+#: connectionTool/ConnectionTool.cpp:824
+msgid "Connection Point"
+msgstr "Punkt połączenia"
+
+#: connectionTool/ConnectionToolFactory.cpp:30
+msgid "Connect shapes"
+msgstr "Kształty łączone"
+
+#: defaulttool/DefaultTool.cpp:214
+msgid "Bring to &Front"
+msgstr "Przenieś na &wierzch"
+
+#: defaulttool/DefaultTool.cpp:219
+msgid "&Raise"
+msgstr "&Wznieś"
+
+#: defaulttool/DefaultTool.cpp:224
+msgid "&Lower"
+msgstr "&Obniż"
+
+#: defaulttool/DefaultTool.cpp:230
+msgid "Send to &Back"
+msgstr "Przenieś na &spód"
+
+#: defaulttool/DefaultTool.cpp:236
+msgid "Align Left"
+msgstr "Wyrównaj do lewej"
+
+#: defaulttool/DefaultTool.cpp:241
+msgid "Horizontally Center"
+msgstr "Wyśrodkuj w poziomie"
+
+#: defaulttool/DefaultTool.cpp:246
+msgid "Align Right"
+msgstr "Wyrównaj do prawej"
+
+#: defaulttool/DefaultTool.cpp:250
+msgid "Align Top"
+msgstr "Wyrównaj do góry"
+
+#: defaulttool/DefaultTool.cpp:255
+msgid "Vertically Center"
+msgstr "Wyśrodkuj w pionie"
+
+#: defaulttool/DefaultTool.cpp:260
+msgid "Align Bottom"
+msgstr "Wyrównaj do dołu"
+
+#: defaulttool/DefaultTool.cpp:265
+msgid "Group"
+msgstr "Grupuj"
+
+#: defaulttool/DefaultTool.cpp:270
+msgid "Ungroup"
+msgstr "Rozgrupuj"
+
+#: defaulttool/DefaultTool.cpp:438 defaulttool/DefaultTool.cpp:497
+msgid "Click and drag to move guide line."
+msgstr "Kliknij i przeciągnij, aby przenieść linię pomocniczą."
+
+#: defaulttool/DefaultTool.cpp:445
+msgid ""
+"Left click rotates around center, right click around highlighted position."
+msgstr ""
+"Kliknięcie lewym przyciskiem myszy obraca wokół środka, kliknięcie prawym "
+"przyciskiem - wokół podświetlonej pozycji."
+
+#: defaulttool/DefaultTool.cpp:447
+msgid "Click and drag to shear selection."
+msgstr "Kliknij i przeciągnij, aby pochylić zaznaczenie."
+
+#: defaulttool/DefaultTool.cpp:450
+msgid "Click and drag to resize selection."
+msgstr "Kliknij i przeciągnij, aby zmienić rozmiar zaznaczenia."
+
+#: defaulttool/DefaultTool.cpp:485
+msgid "Click and drag to move selection."
+msgstr "Kliknij i przeciągnij, aby przenieść zaznaczenie."
+
+#: defaulttool/DefaultTool.cpp:489
+msgid ""
+"Click and drag to resize selection. Middle click to set highlighted position."
+msgstr ""
+"Kliknij i przeciągnij, aby zmienić rozmiar zaznaczenia. Kliknij środkowym "
+"przyciskiem, aby ustawić podświetloną pozycję."
+
+#: defaulttool/DefaultTool.cpp:989
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "Grupuj kształty"
+
+#: defaulttool/DefaultTool.cpp:1021
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "Rozgrupuj kształty"
+
+#: defaulttool/DefaultTool.cpp:1111
+msgid "Arrange"
+msgstr "Rozmieszczenie"
+
+#: defaulttool/DefaultTool.cpp:1114
+msgid "Geometry"
+msgstr "Geometria"
+
+#: defaulttool/DefaultTool.cpp:1122
+msgid "Fill"
+msgstr "Wypełnij"
+
+#: defaulttool/DefaultTool.cpp:1127
+msgid "Shadow"
+msgstr "Cień"
+
+#: defaulttool/DefaultToolFactory.cpp:30
+msgid "Shape handling"
+msgstr "Sterowanie kształtem"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:107
+#: defaulttool/ShapeRotateStrategy.cpp:146
+msgctxt "(qtundo-format)"
+msgid "Rotate"
+msgstr "Obróć"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:140
+msgctxt "(qtundo-format)"
+msgid "Shear X"
+msgstr "Pochyl X"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:173
+msgctxt "(qtundo-format)"
+msgid "Shear Y"
+msgstr "Pochyl Y"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:210
+#: defaulttool/DefaultToolTransformWidget.cpp:242
+msgctxt "(qtundo-format)"
+msgid "Scale"
+msgstr "Skaluj"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:269
+msgctxt "(qtundo-format)"
+msgid "Reset Transformations"
+msgstr "Wyzeruj transformacje"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rotateSpinBox)
+#: defaulttool/DefaultToolTransformWidget.ui:25
+msgid "°"
+msgstr "°"
+
+#. i18n: ectx: property (text), widget (QPushButton, rotateButton)
+#: defaulttool/DefaultToolTransformWidget.ui:38
+msgid "Rotate"
+msgstr "Obróć"
+
+#. i18n: ectx: property (text), widget (QPushButton, shearXButton)
+#: defaulttool/DefaultToolTransformWidget.ui:64
+msgid "Shear X"
+msgstr "Pochyl X"
+
+#. i18n: ectx: property (text), widget (QPushButton, shearYButton)
+#: defaulttool/DefaultToolTransformWidget.ui:90
+msgid "Shear Y"
+msgstr "Pochyl Y"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleXButton)
+#: defaulttool/DefaultToolTransformWidget.ui:122
+msgid "Scale X"
+msgstr "Skaluj w osi X"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleYButton)
+#: defaulttool/DefaultToolTransformWidget.ui:154
+msgid "Scale Y"
+msgstr "Skaluj w osi Y"
+
+#. i18n: ectx: property (text), widget (QCheckBox, scaleAspectCheckBox)
+#: defaulttool/DefaultToolTransformWidget.ui:161
+msgid "Keep aspect ratio"
+msgstr "Zachowaj proporcje"
+
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
+#: defaulttool/DefaultToolTransformWidget.ui:174
+msgid "Reset Transformations"
+msgstr "Resetuj transformacje"
+
+#: defaulttool/DefaultToolWidget.cpp:228
+#: defaulttool/ShapeResizeStrategy.cpp:277
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "Zmień rozmiar"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: defaulttool/DefaultToolWidget.ui:29
+msgid "X:"
+msgstr "X:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: defaulttool/DefaultToolWidget.ui:91
+msgid "Y:"
+msgstr "Y:"
+
+#: defaulttool/ShapeMoveStrategy.cpp:55
+msgid "Press ALT to hold x- or y-position."
+msgstr "Naciśnij ALT, aby zatrzymać pozycję x lub y."
+
+#: defaulttool/ShapeResizeStrategy.cpp:95
+msgid "Press CTRL to resize from center."
+msgstr "Naciśnij CTRL, aby zmienić rozmiar od środka."
+
+#: defaulttool/ShapeRotateStrategy.cpp:60
+msgid "Press ALT to rotate in 45 degree steps."
+msgstr "Naciśnij ALT, aby obrócić co 45 stopni."
+
+#: defaulttool/ShapeShearStrategy.cpp:179
+msgctxt "(qtundo-format)"
+msgid "Shear"
+msgstr "Pochyl"
+
+#: guidestool/GuidesTool.cpp:146
+msgid "Double click to add guide line."
+msgstr "Kliknij podwójnie, aby dodać prowadnicę."
+
+#: guidestool/GuidesTool.cpp:149
+msgid "Click and drag to move guide line. Double click to remove guide line."
+msgstr ""
+"Kliknij i przeciągnij, aby przesunąć prowadnicę. Kliknij podwójnie, aby "
+"usunąć prowadnicę."
+
+#: guidestool/GuidesTool.cpp:387
+msgid "Guides Editor"
+msgstr "Edytor prowadnic"
+
+#: guidestool/GuidesTool.cpp:395
+msgid "Guides Insertor"
+msgstr "Wstawianie prowadnic"
+
+#: guidestool/GuidesToolFactory.cpp:27
+msgid "Edit guidelines"
+msgstr "Edytuj prowadnice"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: guidestool/GuidesToolOptionWidget.cpp:31
+#: guidestool/InsertGuidesToolOptionWidget.ui:25
+msgid "Horizontal"
+msgstr "Poziome"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: guidestool/GuidesToolOptionWidget.cpp:32
+#: guidestool/InsertGuidesToolOptionWidget.ui:68
+msgid "Vertical"
+msgstr "Pionowe"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: guidestool/GuidesToolOptionWidget.ui:16
+msgid "Orientation:"
+msgstr "Kierunek:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: guidestool/GuidesToolOptionWidget.ui:29
+msgid "Position:"
+msgstr "Pozycja:"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: guidestool/GuidesToolOptionWidget.ui:39
+msgid "Add"
+msgstr "Dodaj"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: guidestool/GuidesToolOptionWidget.ui:46
+msgid "Remove"
+msgstr "Usuń"
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, m_horizontalSpinBox)
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, m_verticalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:38
+#: guidestool/InsertGuidesToolOptionWidget.ui:81
+msgid "None"
+msgstr "Brak"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, m_horizontalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:47
+msgid "Insert this number of horizontal equally spaced guides."
+msgstr "Wstaw tą liczbę dokładnie oddalonych poziomych prowadnic."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_horizontalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:54
+msgid "Insert guides at the horizontal edges."
+msgstr "Wstaw prowadnicę przy poziomych krawędziach."
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, m_verticalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:90
+msgid "Insert this number of vertical equally spaced guides."
+msgstr "Wstaw tą liczbę dokładnie oddalonych pionowych prowadnic."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_verticalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:97
+msgid "Insert guides at the vertical edges."
+msgstr "Wstaw prowadnice przy pionowych krawędziach."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_erasePreviousCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:111
+msgid "Erase previous guides"
+msgstr "Wymaż poprzednie prowadnice"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_createButton)
+#: guidestool/InsertGuidesToolOptionWidget.ui:118
+msgid "Create"
+msgstr "Utwórz"
+
+#~ msgid "Shape Opacity"
+#~ msgstr "Nieprzezroczystość kształtu"
+
+#~ msgid "Snapping"
+#~ msgstr "Przyciąganie"
+
+#~ msgid "Basic shape manipulation"
+#~ msgstr "Manipulacja podstawowym kształtem"
+
+#~ msgid "Default tool"
+#~ msgstr "Domyślne narzędzie"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgid "Default Tool"
+#~ msgstr "Domyślne narzędzie"
+
+#~ msgid "Edit Guidelines"
+#~ msgstr "Edytuj linie pomocnicze"

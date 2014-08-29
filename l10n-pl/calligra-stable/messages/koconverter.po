@@ -1,0 +1,115 @@
+# translation of koconverter.po to Polish
+# Copyright (C) 2002, 2003, 2006 Free Software Foundation, Inc.
+#
+# Piotr Szymanski <djurban@linuxpl.org>, 2002.
+# Piotr Szymanski <djurban@pld-linux.org>, 2003.
+# Krzysztof Lichota <lichota@mimuw.edu.pl>, 2006.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: koconverter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-08-11 01:31+0000\n"
+"PO-Revision-Date: 2012-03-18 09:56+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Piotr Szymański"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "djurban@linuxpl.org"
+
+#: calligraconverter.cpp:146
+msgid "CalligraConverter"
+msgstr "Program przekształcający dla Calligra"
+
+#: calligraconverter.cpp:147
+msgid "Calligra Document Converter"
+msgstr "Program przekształcający dokumenty dla Calligra"
+
+#: calligraconverter.cpp:149
+msgid "(c) 2001-2011 Calligra developers"
+msgstr "(c) 2001-2011 Programiści Calligra"
+
+#: calligraconverter.cpp:150
+msgid "David Faure"
+msgstr "David Faure"
+
+#: calligraconverter.cpp:151
+msgid "Nicolas Goutte"
+msgstr "Nicolas Goutte"
+
+#: calligraconverter.cpp:152
+msgid "Dan Leinir Turthra Jensen"
+msgstr "Dan Leinir Turthra Jensen"
+
+#: calligraconverter.cpp:156
+msgid "Input file"
+msgstr "Plik wejściowy"
+
+#: calligraconverter.cpp:157
+msgid "Output file"
+msgstr "Plik wyjściowy"
+
+#: calligraconverter.cpp:158
+msgid "Make a backup of the destination file"
+msgstr "Stwórz kopię zapasową docelowego pliku"
+
+#: calligraconverter.cpp:159
+msgid "Batch mode: do not show dialogs"
+msgstr "Tryb wsadowy: nie pokazuj okienek dialogowych"
+
+#: calligraconverter.cpp:160
+msgid "Interactive mode: show dialogs (default)"
+msgstr "Tryb interaktywny: pokazuj okna dialogowe (domyślny)"
+
+#: calligraconverter.cpp:161
+msgid "Mimetype of the output file"
+msgstr "Typ MIME pliku wyjściowego"
+
+#: calligraconverter.cpp:164
+msgid "The print orientation. This could be either Portrait or Landscape."
+msgstr "Orientacja wydruku. Można ustawić albo pionową albo poziomą."
+
+#: calligraconverter.cpp:165
+msgid "The paper size. A4, Legal, Letter, ..."
+msgstr "Rozmiar papieru. A4, Urzędowy, List, ..."
+
+#: calligraconverter.cpp:166
+msgid "The size of the paper margin. By default this is 0.2."
+msgstr "Rozmiar marginesu papieru. Domyślnie jest to 0.2."
+
+#: calligraconverter.cpp:178
+msgid "Two arguments required"
+msgstr "Wymagane są dwa argumenty"
+
+#: calligraconverter.cpp:206
+#, kde-format
+msgid "Mimetype for input file %1 not found!"
+msgstr "Nie odnaleziono typu MIME pliku wejściowego %1!"
+
+#: calligraconverter.cpp:215
+#, kde-format
+msgid "Mimetype not found %1"
+msgstr "Nie odnaleziono typu MIME %1"
+
+#: calligraconverter.cpp:221
+msgid "Mimetype not found, try using the -mimetype option"
+msgstr "Nie odnaleziono typu MIME, spróbuj użyć parametru -mimetype"
+
+#: calligraconverter.cpp:245
+msgid "*** The conversion failed! ***"
+msgstr "*** Konwersja zakończyła się niepowodzeniem! ***"
+
+#~ msgid "KOConverter"
+#~ msgstr "KOConverter"

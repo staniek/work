@@ -1,0 +1,100 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-04 01:26+0000\n"
+"PO-Revision-Date: 2014-02-16 08:43+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: KoEventSemanticItemFactory.cpp:45
+msgctxt "displayname of the semantic item type Event"
+msgid "Event"
+msgstr "Wydarzenie"
+
+#: KoRdfCalendarEvent.cpp:171
+msgid "Area"
+msgstr "Obszar"
+
+#: KoRdfCalendarEvent.cpp:172
+msgid "Region"
+msgstr "Region"
+
+#: KoRdfCalendarEvent.cpp:394
+msgid "Select a calendar for saving:"
+msgstr "Wybierz kalendarz do zapisywania:"
+
+#: KoRdfCalendarEvent.cpp:414
+#, kde-format
+msgid ""
+"Could not add entry\n"
+"%1"
+msgstr ""
+"Nie można dodać wpisu\n"
+"%1"
+
+#: KoRdfCalendarEvent.cpp:441
+#, kde-format
+msgid ""
+"Could not save iCal file\n"
+"%1"
+msgstr ""
+"Nie można zapisać pliku iCal\n"
+"%1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: KoRdfCalendarEventEditWidget.ui:20
+msgid "&Summary:"
+msgstr "Pod&sumowanie:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: KoRdfCalendarEventEditWidget.ui:30
+msgid "&Location:"
+msgstr "&Położenie:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: KoRdfCalendarEventEditWidget.ui:43
+msgid "&Start:"
+msgstr "&Początek:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: KoRdfCalendarEventEditWidget.ui:56
+msgid "&End:"
+msgstr "Koni&ec:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tadtab)
+#: KoRdfCalendarEventEditWidget.ui:80
+msgid "Time and Date"
+msgstr "Czas i data"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tztab)
+#: KoRdfCalendarEventEditWidget.ui:93
+msgid "Timezone"
+msgstr "Strefa czasowa"
+
+#: KoRdfCalendarEventTreeWidgetItem.cpp:43
+msgid "Calendar Event"
+msgstr "Wydarzenia w kalendarzu"
+
+#: KoRdfCalendarEventTreeWidgetItem.cpp:50
+msgid "Edit..."
+msgstr "Edytuj..."
+
+#: KoRdfCalendarEventTreeWidgetItem.cpp:53
+msgid "Import event to Calendar"
+msgstr "Importuj wydarzenie do kalendarza"
+
+#: KoRdfCalendarEventTreeWidgetItem.cpp:56
+msgid "Export event to iCal file..."
+msgstr "Eksportuj wydarzenie do pliku iCal..."

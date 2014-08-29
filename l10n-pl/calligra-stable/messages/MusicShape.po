@@ -1,0 +1,479 @@
+# translation of MusicShape2.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franciszek Janowski <nobange@poczta.onet.pl>, 2008.
+# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2008.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: MusicShape2\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-05-19 05:20+0000\n"
+"PO-Revision-Date: 2014-05-19 20:50+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: actions/AccidentalAction.cpp:67
+msgid "Double flat"
+msgstr "Podwójny bemol"
+
+#: actions/AccidentalAction.cpp:68
+msgctxt "lowered half a step"
+msgid "Flat"
+msgstr "Bemol"
+
+#: actions/AccidentalAction.cpp:69
+msgid "Natural"
+msgstr "Kasownik"
+
+#: actions/AccidentalAction.cpp:70
+msgctxt "raised half a step"
+msgid "Sharp"
+msgstr "Krzyżyk"
+
+#: actions/AccidentalAction.cpp:71
+msgid "Double sharp"
+msgstr "Podwójny krzyżyk"
+
+#: actions/AccidentalAction.cpp:74 actions/KeySignatureAction.cpp:51
+#, kde-format
+msgid "%1 flats"
+msgstr "%1 bemole"
+
+#: actions/AccidentalAction.cpp:76 actions/KeySignatureAction.cpp:52
+#, kde-format
+msgid "%1 sharps"
+msgstr "%1 krzyżyki"
+
+#: actions/DotsAction.cpp:47
+msgid "Dots"
+msgstr "Kropki"
+
+#: actions/EraserAction.cpp:49
+msgid "Eraser"
+msgstr "Gumka"
+
+#: actions/KeySignatureAction.cpp:41
+msgid "Ab Major"
+msgstr "Ab dur"
+
+#: actions/KeySignatureAction.cpp:42
+msgid "Eb Major"
+msgstr "Eb dur"
+
+#: actions/KeySignatureAction.cpp:43
+msgid "Bb Major"
+msgstr "Bb dur"
+
+#: actions/KeySignatureAction.cpp:44
+msgid "F Major"
+msgstr "F dur"
+
+#: actions/KeySignatureAction.cpp:45
+msgid "C Major"
+msgstr "C dur"
+
+#: actions/KeySignatureAction.cpp:46
+msgid "G Major"
+msgstr "G dur"
+
+#: actions/KeySignatureAction.cpp:47
+msgid "D Major"
+msgstr "D dur"
+
+#: actions/KeySignatureAction.cpp:48
+msgid "A Major"
+msgstr "A dur"
+
+#: actions/KeySignatureAction.cpp:49
+msgid "E Major"
+msgstr "E dur"
+
+#: actions/KeySignatureAction.cpp:62
+msgctxt "Other key signature"
+msgid "Other"
+msgstr "Inna"
+
+#: actions/NoteEntryAction.cpp:68
+msgid "rest"
+msgstr "pauza"
+
+#: actions/NoteEntryAction.cpp:68
+msgid "note"
+msgstr "nuta"
+
+#: actions/NoteEntryAction.cpp:70
+msgid "Double whole "
+msgstr "Podwójna "
+
+#: actions/NoteEntryAction.cpp:71
+msgid "Whole "
+msgstr "Cała "
+
+#: actions/NoteEntryAction.cpp:72
+msgid "Half "
+msgstr "1/2 "
+
+#: actions/NoteEntryAction.cpp:73
+msgid "Quarter "
+msgstr "1/4 "
+
+#: actions/NoteEntryAction.cpp:74
+msgid "Eighth "
+msgstr "1/8 "
+
+#: actions/NoteEntryAction.cpp:75
+msgid "16th "
+msgstr "1/16 "
+
+#: actions/NoteEntryAction.cpp:76
+msgid "32nd "
+msgstr "1/32 "
+
+#: actions/NoteEntryAction.cpp:77
+msgid "64th "
+msgstr "1/64 "
+
+#: actions/NoteEntryAction.cpp:78
+msgid "128th "
+msgstr "1/128 "
+
+#: actions/NoteEntryAction.cpp:80
+msgid "Unknown rest"
+msgstr "Nieznana pauza"
+
+#: actions/NoteEntryAction.cpp:80
+msgid "Unknown note"
+msgstr "Nieznana nuta"
+
+#: actions/RemoveBarAction.cpp:35
+msgid "Remove bar"
+msgstr "Usuń takt"
+
+#: actions/SelectionAction.cpp:45
+msgid "Select"
+msgstr "Wybierz"
+
+#: actions/SetClefAction.cpp:52
+msgctxt "Treble clef"
+msgid "Treble"
+msgstr "Klucz wiolinowy"
+
+#: actions/SetClefAction.cpp:53
+msgctxt "Bass clef"
+msgid "Bass"
+msgstr "Klucz basowy"
+
+#: actions/SetClefAction.cpp:56
+msgctxt "Soprano clef"
+msgid "Soprano"
+msgstr "Klucz sopranowy"
+
+#: actions/SetClefAction.cpp:57
+msgctxt "Alto clef"
+msgid "Alto"
+msgstr "Klucz altowy"
+
+#: actions/SetClefAction.cpp:58
+msgctxt "Tenor clef"
+msgid "Tenor"
+msgstr "Klucz tenorowy"
+
+#: actions/SetClefAction.cpp:59
+#, kde-format
+msgid "C clef on line %1"
+msgstr "Klucz C w linii %1"
+
+#: actions/SetClefAction.cpp:62
+msgid "Unknown clef"
+msgstr "Nieznany klucz wiolinowy"
+
+#: actions/TiedNoteAction.cpp:46
+msgid "Tied notes"
+msgstr "Ligatura"
+
+#: commands/AddBarsCommand.cpp:30
+msgctxt "(qtundo-format)"
+msgid "Add measures"
+msgstr "Dodaj takty"
+
+#: commands/AddDotCommand.cpp:30
+msgctxt "(qtundo-format)"
+msgid "Add dot"
+msgstr "Dodaj kropkę"
+
+#: commands/AddNoteCommand.cpp:42
+msgctxt "(qtundo-format)"
+msgid "Set chord duration"
+msgstr "Ustaw długość akordu"
+
+#: commands/AddNoteCommand.cpp:44
+msgctxt "(qtundo-format)"
+msgid "Add note"
+msgstr "Dodaj nutę"
+
+#: commands/AddPartCommand.cpp:38
+msgctxt "(qtundo-format)"
+msgid "Add part"
+msgstr "Dodaj partię"
+
+#: commands/AddPartCommand.cpp:39
+#, kde-format
+msgid "Part %1"
+msgstr "Część %1"
+
+#: commands/ChangePartDetailsCommand.cpp:43
+msgctxt "(qtundo-format)"
+msgid "Change part details"
+msgstr "Zmień szczegóły partii"
+
+#: commands/CreateChordCommand.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Add chord"
+msgstr "Dodaj akord"
+
+#: commands/CreateChordCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Add rest"
+msgstr "Dodaj pauzę"
+
+#: commands/MakeRestCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Convert chord to rest"
+msgstr "Przekształć akord w pauzę"
+
+#: commands/RemoveBarCommand.cpp:31
+msgctxt "(qtundo-format)"
+msgid "Remove bar"
+msgstr "Usuń takt"
+
+#: commands/RemoveChordCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Remove rest"
+msgstr "Usuń pauzę"
+
+#: commands/RemoveChordCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Remove chord"
+msgstr "Usuń akord"
+
+#: commands/RemoveNoteCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Remove note"
+msgstr "Usuń nutę"
+
+#: commands/RemovePartCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Remove part"
+msgstr "Usuń partię"
+
+#: commands/RemoveStaffElementCommand.cpp:35
+msgctxt "(qtundo-format)"
+msgid "Remove clef"
+msgstr "Usuń klucz wiolinowy"
+
+#: commands/RemoveStaffElementCommand.cpp:37
+msgctxt "(qtundo-format)"
+msgid "Remove staff element"
+msgstr "Usuń element pięciolinii"
+
+#: commands/SetAccidentalsCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Set accidentals"
+msgstr "Ustaw znaki chromatyczne"
+
+#: commands/SetClefCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Change clef"
+msgstr "Zmień klucz wiolinowy"
+
+#: commands/SetKeySignatureCommand.cpp:38
+#: commands/SetKeySignatureCommand.cpp:85
+msgctxt "(qtundo-format)"
+msgid "Change key signature"
+msgstr "Zmień tonację"
+
+#: commands/SetTimeSignatureCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Change time signature"
+msgstr "Zmiana metrum"
+
+#: commands/ToggleTiedNoteCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Toggle Note Tie"
+msgstr "Połącz nuty"
+
+#: dialogs/KeySignatureDialog.cpp:28
+msgid "Set key signature"
+msgstr "Ustawianie tonacji"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/KeySignatureDialog.ui:63
+msgid "Region"
+msgstr "Region"
+
+#. i18n: ectx: property (text), widget (QRadioButton, throughBar)
+#. i18n: ectx: property (text), widget (QRadioButton, throughEndOfPiece)
+#. i18n: ectx: property (text), widget (QRadioButton, toNextChange)
+#: dialogs/KeySignatureDialog.ui:71 dialogs/KeySignatureDialog.ui:122
+#: dialogs/KeySignatureDialog.ui:163
+msgid "Measure"
+msgstr "Metrum"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/KeySignatureDialog.ui:88
+msgid "through"
+msgstr "na"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/KeySignatureDialog.ui:139
+msgid "through end of piece"
+msgstr "do końca utworu"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/KeySignatureDialog.ui:180
+msgid "to next key change"
+msgstr "do następnej zmiany tonacji"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/KeySignatureDialog.ui:205
+msgid "Staves"
+msgstr "Pięciolinie"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allStaves)
+#: dialogs/KeySignatureDialog.ui:211
+msgid "Update all staves"
+msgstr "Aktualizuj wszystkie pięciolinie"
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectedStaff)
+#: dialogs/KeySignatureDialog.ui:221
+msgid "Only update selected staff"
+msgstr "Aktualizuj tylko zaznaczoną pięciolinię"
+
+#: dialogs/PartDetailsDialog.cpp:32
+msgid "Part details"
+msgstr "Szczegóły partii"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/PartDetailsDialog.ui:18
+msgid "Name:"
+msgstr "Nazwa:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/PartDetailsDialog.ui:34
+msgid "Short name:"
+msgstr "Krótka nazwa:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/PartDetailsDialog.ui:50
+msgid "Staves:"
+msgstr "Pięciolinie:"
+
+#. i18n: ectx: property (text), widget (QToolButton, editPart)
+#. i18n: ectx: property (text), widget (QToolButton, addPart)
+#. i18n: ectx: property (text), widget (QToolButton, removePart)
+#: dialogs/PartsWidget.ui:37 dialogs/PartsWidget.ui:44
+#: dialogs/PartsWidget.ui:54
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceList)
+#: dialogs/SimpleEntryWidget.ui:187
+msgid "Voice 1"
+msgstr "Głos 1"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceList)
+#: dialogs/SimpleEntryWidget.ui:192
+msgid "Voice 2"
+msgstr "Głos 2"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceList)
+#: dialogs/SimpleEntryWidget.ui:197
+msgid "Voice 3"
+msgstr "Głos 3"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, voiceList)
+#: dialogs/SimpleEntryWidget.ui:202
+msgid "Voice 4"
+msgstr "Głos 4"
+
+#. i18n: ectx: property (text), widget (QToolButton, addBarsButton)
+#: dialogs/SimpleEntryWidget.ui:360 SimpleEntryTool.cpp:98
+#: SimpleEntryTool.cpp:690
+msgid "Add measures"
+msgstr "Dodaj takty"
+
+#. i18n: ectx: property (text), widget (QToolButton, importButton)
+#: dialogs/SimpleEntryWidget.ui:387 SimpleEntryTool.cpp:90
+msgid "Import"
+msgstr "Import"
+
+#. i18n: ectx: property (text), widget (QToolButton, exportButton)
+#: dialogs/SimpleEntryWidget.ui:397 SimpleEntryTool.cpp:94
+msgid "Export"
+msgstr "Eksport"
+
+#: MusicShape.cpp:84
+msgid "Part 1"
+msgstr "Część 1"
+
+#: MusicShapeFactory.cpp:50
+msgid "Music Shape"
+msgstr "Kształt muzyczny"
+
+#: MusicShapeFactory.cpp:52
+msgid "A shape which provides a music editor"
+msgstr "Kształt zawierający edytor muzyki"
+
+#: MusicTool.cpp:100
+msgid "Parts"
+msgstr "Partie"
+
+#: MusicToolFactory.cpp:32
+msgid "Music editing tool, parts"
+msgstr "Narzędzie do edycji muzyki, partie"
+
+#: SimpleEntryTool.cpp:238
+msgid "Clef"
+msgstr "Klucz"
+
+#: SimpleEntryTool.cpp:267
+msgid "Time signature"
+msgstr "Metrum"
+
+#: SimpleEntryTool.cpp:297
+msgid "Key signature"
+msgstr "Tonacja"
+
+#: SimpleEntryTool.cpp:690
+msgid "Add how many measures?"
+msgstr "Ile taktów dodać?"
+
+#: SimpleEntryTool.cpp:750 SimpleEntryTool.cpp:767
+msgid "*xml|MusicXML files (*.xml)"
+msgstr "*xml|Pliki MusicXML (*.xml)"
+
+#: SimpleEntryTool.cpp:750
+msgctxt "@title:window"
+msgid "Import"
+msgstr "Importuj"
+
+#: SimpleEntryTool.cpp:767
+msgctxt "@title:window"
+msgid "Export"
+msgstr "Eksportuj"
+
+#: SimpleEntryToolFactory.cpp:31
+msgid "Music editing tool"
+msgstr "Narzędzie do edycji muzyki"
+
+#~ msgid "Music Tool"
+#~ msgstr "Narzędzie muzyczne"

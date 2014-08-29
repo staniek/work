@@ -1,0 +1,3862 @@
+# translation of kivio.po to Polish
+# translation of kivio.po to
+# translation of kivio.po to
+# Copyright (C) 2004, 2005, 2006 Free Software Foundation, Inc.
+#
+# Daniel Wit Preuss <danpre@tlen.pl>, 2004.
+# Tomasz Sitek <tsitek@zie.pg.gda.pl>, 2005.
+# Michal Rudolf <mrudolf@kdewebdev.org>, 2005.
+# Krzysztof Lichota <lichota@mimuw.edu.pl>, 2006.
+# Igor Klimer <kigro@vp.pl>, 2006.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kivio\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-03-07 01:43+0000\n"
+"PO-Revision-Date: 2014-08-10 06:56+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Krzysztof Lichota, Igor Klimer, Łukasz Wojniłowicz"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lichota@mimuw.edu.pl, kigro@vp.pl, lukasz.wojnilowicz@gmail.com"
+
+#. i18n: ectx: Menu (file)
+#: part/flow.rc:6
+msgid "&File"
+msgstr "&Plik"
+
+#. i18n: ectx: Menu (edit)
+#: part/flow.rc:12
+msgid "&Edit"
+msgstr "&Edycja"
+
+#. i18n: ectx: Menu (view)
+#: part/flow.rc:30
+msgid "&View"
+msgstr "&Widok"
+
+#. i18n: ectx: Menu (insert)
+#: part/flow.rc:46
+msgid "&Insert"
+msgstr "&Wstaw"
+
+#. i18n: ectx: Menu (format)
+#: part/flow.rc:50
+msgid "F&ormat"
+msgstr "F&ormat"
+
+#. i18n: ectx: Menu (page)
+#: part/flow.rc:56
+msgid "&Page"
+msgstr "&Strona"
+
+#. i18n: ectx: Menu (settings)
+#: part/flow.rc:67
+msgid "&Settings"
+msgstr "U&stawienia"
+
+#: part/FlowAboutData.h:27
+msgid "Calligra Flowchart And Diagram Tool"
+msgstr "Narzędzie schematów przepływu i diagramów dla Calligry"
+
+#: part/FlowAboutData.h:32
+msgctxt "application name"
+msgid "Flow"
+msgstr "Schematy"
+
+#: part/FlowAboutData.h:34
+msgid "(C) 2000-2013, The Flow Team"
+msgstr "(C) 2000-2013, Zespół Schematów (Flow)"
+
+#: part/FlowAboutData.h:38
+msgid "Yue Liu"
+msgstr "Yue Liu"
+
+#: part/FlowAboutData.h:38
+msgid "Maintainer"
+msgstr "Opiekun"
+
+#: part/FlowAboutData.h:39
+msgid "Peter Simonsson"
+msgstr "Peter Simonsson"
+
+#: part/FlowAboutData.h:39
+msgid "Former Maintainer"
+msgstr "Były opiekun"
+
+#: part/FlowPart.cpp:79
+msgid "Can not find needed text component, Calligra Flow will quit now."
+msgstr ""
+"Nie można znaleźć wymaganego składnika tekstu, z tego powodu Schematy "
+"Calligra zakończy działanie."
+
+#: part/FlowPart.cpp:84
+msgid "Can not find needed picture component, Calligra Flow will quit now."
+msgstr ""
+"Nie można znaleźć wymaganego składnika zdjęcia, z tego powodu Schematy "
+"Calligra zakończy działanie."
+
+#: part/FlowPart.cpp:97
+msgid "Installation Error"
+msgstr "Błąd instalacji"
+
+#: part/FlowView.cpp:62
+msgid "Configure Flow..."
+msgstr "Ustawienia Schematów..."
+
+#: part/main.cpp:34
+msgid "File to open"
+msgstr "Plik do otwarcia"
+
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:303
+msgid "Expand all"
+msgstr "Rozwiń wszystko"
+
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:304
+msgid "Collapse all"
+msgstr "Zwiń wszystko"
+
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:307
+msgid "List View"
+msgstr "Widok listy"
+
+#: plugins/dockers/stencilboxdocker/CollectionTreeWidget.cpp:308
+msgid "Icon View"
+msgstr "Widok ikon"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:73
+msgid "Stencil Box"
+msgstr "Pole wzornika"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:79
+msgid "Stencils Online"
+msgstr "Wzornik z sieci"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:80
+msgid "Add/Remove Stencil"
+msgstr "Dodaj/usuń wzornik"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:99
+msgid "More shapes"
+msgstr "Więcej kształtów"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:105
+msgid "Filter"
+msgstr "Filtr"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:137
+msgid "Stencils successfully installed."
+msgstr "Pomyślnie zainstalowano wzorniki."
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:140
+msgid "Stencils successfully uninstalled."
+msgstr "Pomyślnie odinstalowano wzorniki."
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:152
+msgid ""
+"This is the user stencils directory.\n"
+"From here you can add / remove stencils for use in the Stencil Box docker.\n"
+"\n"
+"Stencils are organized in collections, a collection is a folder containing a "
+"text file 'collection.desktop':\n"
+"\n"
+"collection.desktop\n"
+"\n"
+"[Desktop Entry]\n"
+"Name=Your Stencil Collection Name\n"
+"\n"
+"A stencil is an ODG/SVG file, a desktop file, an optional PNG icon file, all "
+"with the same name under its collection folder:\n"
+"\n"
+"foo.odg or foo.svgz or foo.svg\n"
+"\n"
+"ODF elements for stencil should be a <draw:g> element or <draw:custom-shape> "
+"element\n"
+"No special requirements to SVG file\n"
+"\n"
+"foo.desktop\n"
+"\n"
+"[Desktop Entry]\n"
+"Name=Foo\n"
+"CS-KeepAspectRatio=1\n"
+"\n"
+"If CS-KeepAspectRatio=1, the stencil added to canvas will have geometry "
+"aspect ratio locked, by default it's 0.\n"
+"\n"
+"foo.png\n"
+"\n"
+"Should have size 32x32 pixel, if the png file is not included, Flow will "
+"render the ODG/SVG file as the icon,\n"
+"but it won't look good under small pixels when the stencil stroke is "
+"complicated.\n"
+msgstr ""
+"Jest to katalog wzorników użytkownika.\n"
+"Stąd możesz dodawać / usuwać wzorniki wykorzystywane w doku Pola Wzorników.\n"
+"\n"
+"Wzorniki są uporządkowane w zbiorach, zbiór jest katalogiem zawierającym "
+"plik tekstowy 'collection.desktop':\n"
+"\n"
+"collection.desktop\n"
+"\n"
+"[Desktop Entry]\n"
+"Name=Nazwa twojego zbioru wzorników\n"
+"\n"
+"Wzornik jest plikiem ODG/SVG, plikiem pulpitu, opcjonalnym plikiem PNG "
+"ikony, wszystkim z tą samą nazwą wewnątrz katalogu jego zbioru:\n"
+"\n"
+"foo.odg lub foo.svgz lub foo.svg\n"
+"\n"
+"Elementy ODF dla wzornika powinny być <draw:g> elementem lub <draw:custom-"
+"shape> elementem\n"
+"Nie ma żadnych wyjątkowych wymagań dla plików SVG\n"
+"\n"
+"foo.desktop\n"
+"\n"
+"[Desktop Entry]\n"
+"Name=Foo\n"
+"CS-KeepAspectRatio=1\n"
+"\n"
+"Jeśli CS-KeepAspectRatio=1, to wzornik dodany do płótna będzie miał "
+"współczynnik kształtu geometrii zablokowany, domyślnie jest to 0.\n"
+"\n"
+"foo.png\n"
+"\n"
+"Powinien mieć rozmiar 32x32 pikseli, jeśli plik png nie jest załączony, Flow "
+"wyświetli plik ODG/SVG jako ikonę,\n"
+"lecz nie będzie on wyglądał dobrze pod małymi pikselami, gdy pociągnięcie "
+"wzornikiem będzie skomplikowane.\n"
+
+#~ msgid "Auto"
+#~ msgstr "Automatycznie"
+
+#~ msgid "Constraint "
+#~ msgstr "Ograniczenie "
+
+#~ msgid "None"
+#~ msgstr "Brak"
+
+#~ msgid "Non-overlap"
+#~ msgstr "Nie zachodzące"
+
+#~ msgid "PushButton"
+#~ msgstr "Przycisk"
+
+#~ msgid "Get more stencils"
+#~ msgstr "Uzyskaj więcej wzorników"
+
+#~ msgid "Install stencil"
+#~ msgstr "Zainstaluj wzornik"
+
+#~ msgid ""
+#~ "Calligra Stencil Packages (*.cstencil.tar, *.cstencil.tar.bz2, *.cstencil."
+#~ "tar.gz)"
+#~ msgstr ""
+#~ "Pakiety wzorników dla Calligry (*.cstencil.tar, *.cstencil.tar.bz2, *."
+#~ "cstencil.tar.gz)"
+
+#~ msgid "Could not read this package."
+#~ msgstr "Nie można odczytać tego pakietu."
+
+#~ msgid ""
+#~ "A collection of stencils in family '%1' is already installed. Please "
+#~ "uninstall it first."
+#~ msgstr ""
+#~ "Kolekcja wzorników w rodzinie '%1' jest już zainstalowana. Najpierw "
+#~ "proszę ją odinstalować."
+
+#, fuzzy
+#~| msgid "File to open"
+#~ msgid "File not found"
+#~ msgstr "Plik do otwarcia"
+
+#, fuzzy
+#~| msgctxt "Stencils"
+#~| msgid "Internal Storage"
+#~ msgid "Internal error"
+#~ msgstr "Wewnętrzny magazyn danych"
+
+#, fuzzy
+#~| msgctxt "Stencils"
+#~| msgid "Dia Shapes Collections"
+#~ msgid "Download shape collections online"
+#~ msgstr "Zestawy znaków Dia"
+
+#, fuzzy
+#~| msgctxt "Stencils"
+#~| msgid "Dia Shapes Collections"
+#~ msgid "Create a new collection"
+#~ msgstr "Zestawy znaków Dia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted"
+#~ msgstr "Różne"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit"
+#~ msgstr "Obwody"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco"
+#~ msgstr "Cisco"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil"
+#~ msgstr "Inżynieria"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric"
+#~ msgstr "Elektryczne"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw"
+#~ msgstr "Puzzle"
+
+#~ msgctxt "Stencils"
+#~ msgid "MSE"
+#~ msgstr "MSE"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network"
+#~ msgstr "Sieć"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneumatic"
+#~ msgstr "Pneumatyka"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL"
+#~ msgstr "SDL"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase"
+#~ msgstr "Sybase"
+
+#~ msgctxt "Stencils"
+#~ msgid "Card"
+#~ msgstr "Karta"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting card shape"
+#~ msgstr "Znak karty w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data"
+#~ msgstr "Dane"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data shape for flowcharting"
+#~ msgstr "Znak danych w diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Decision"
+#~ msgstr "Decyzja"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting decision shape"
+#~ msgstr "Znak decyzji w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Direct Data"
+#~ msgstr "Dane bezpośrednie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting direct data shape"
+#~ msgstr "Znak danych bezpośrednich w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Display"
+#~ msgstr "Wyświetlanie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting display shape"
+#~ msgstr "Znak wyświetlania w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Document"
+#~ msgstr "Dokument"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Document Stencil"
+#~ msgstr "Znak dokumentu w diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Internal storage shape"
+#~ msgstr "Znak wewnętrznego magazynu danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Loop Limit"
+#~ msgstr "Ograniczenie pętli"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting loop limit shape"
+#~ msgstr "Znak ograniczenia pętli w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Manual Input"
+#~ msgstr "Wejście ręczne"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting manual input shape"
+#~ msgstr "Znak ręcznego wprowadzania w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Manual Operation"
+#~ msgstr "Ręczna operacja"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting manual operation shape"
+#~ msgstr "Znak ręcznej operacji w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Off-Page Reference"
+#~ msgstr "Odnośnik poza stronę"
+
+#~ msgctxt "Stencils"
+#~ msgid "On-Page Reference"
+#~ msgstr "Odnośnik na stronie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Paper Tape"
+#~ msgstr "Taśma papierowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Paper Tape Stencil"
+#~ msgstr "Znak taśmy papierowej"
+
+#~ msgctxt "Stencils"
+#~ msgid "Predefined Process"
+#~ msgstr "Predefiniowany proces"
+
+#~ msgctxt "Stencils"
+#~ msgid "Predefined process shape"
+#~ msgstr "Znak predefiniowanego procesu"
+
+#~ msgctxt "Stencils"
+#~ msgid "Preparation"
+#~ msgstr "Przygotowanie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting preparation shape"
+#~ msgstr "Szablon przygotowania w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Process"
+#~ msgstr "ProcesSzablony"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting process shape"
+#~ msgstr "Znak procesu w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sequential Data"
+#~ msgstr "Dane sekwencyjne"
+
+#~ msgctxt "Stencils"
+#~ msgid "Stored Data"
+#~ msgstr "Dane przechowywane"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting stored data shape"
+#~ msgstr "Znak danych przechowywanych w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminator"
+#~ msgstr "Zakończenie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminator shape"
+#~ msgstr "Znak zakończenia w podstawowym diagramie przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic Flowcharting Shapes"
+#~ msgstr "Podstawowe znaki diagramu przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data Store"
+#~ msgstr "Magazyn danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data Store shape"
+#~ msgstr "Znak magazynu danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Database"
+#~ msgstr "Baza danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Database shape"
+#~ msgstr "Znak bazy danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Process shape"
+#~ msgstr "Znak procesu"
+
+#~ msgctxt "Stencils"
+#~ msgid "Source or Sink"
+#~ msgstr "Źródło lub ujście"
+
+#~ msgctxt "Stencils"
+#~ msgid "Source or Sink shape"
+#~ msgstr "Znak źródła lub ujścia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Shapes"
+#~ msgstr "Znaki diagramu przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "And"
+#~ msgstr "AND"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical And Gate"
+#~ msgstr "Bramka logiczna AND"
+
+#~ msgctxt "Stencils"
+#~ msgid "Buffer"
+#~ msgstr "Bufor"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Buffer Gate"
+#~ msgstr "Bramka logiczna buforu"
+
+#~ msgctxt "Stencils"
+#~ msgid "Connector"
+#~ msgstr "Łącznik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Connection Point"
+#~ msgstr "Punkt połączenia logicznego"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logic Shapes"
+#~ msgstr "Symbole logiczne"
+
+#~ msgctxt "Stencils"
+#~ msgid "Inverter"
+#~ msgstr "inwertor"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Inverter Gate"
+#~ msgstr "Bramka logiczna inwertora"
+
+#~ msgctxt "Stencils"
+#~ msgid "Nand"
+#~ msgstr "NAND"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Nand Gate"
+#~ msgstr "Bramka logiczna NAND"
+
+#~ msgctxt "Stencils"
+#~ msgid "Nor"
+#~ msgstr "NOR"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Nor Gate"
+#~ msgstr "Bramka logiczna NOR"
+
+#~ msgctxt "Stencils"
+#~ msgid "Not"
+#~ msgstr "NOT"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Not Gate"
+#~ msgstr "Bramka logiczna NOT"
+
+#~ msgctxt "Stencils"
+#~ msgid "Or"
+#~ msgstr "OR"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Or Gate"
+#~ msgstr "Bramka logiczna OR"
+
+#~ msgctxt "Stencils"
+#~ msgid "Xor"
+#~ msgstr "XOR"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Xor Gate"
+#~ msgstr "Bramka logiczna XOR"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Collections"
+#~ msgstr "Zestawy przepływów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Austria"
+#~ msgstr "Austria"
+
+#~ msgctxt "Stencils"
+#~ msgid "Belgium"
+#~ msgstr "Belgia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Finland"
+#~ msgstr "Finlandia"
+
+#~ msgctxt "Stencils"
+#~ msgid "France"
+#~ msgstr "Francja"
+
+#~ msgctxt "Stencils"
+#~ msgid "Germany"
+#~ msgstr "Niemcy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Great Britain"
+#~ msgstr "Wielka Brytania"
+
+#~ msgctxt "Stencils"
+#~ msgid "Greece"
+#~ msgstr "Grecja"
+
+#~ msgctxt "Stencils"
+#~ msgid "Iceland"
+#~ msgstr "Islandia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Ireland"
+#~ msgstr "Irlandia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Italy"
+#~ msgstr "Włochy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Japan"
+#~ msgstr "Japonia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Luxembourg"
+#~ msgstr "Luksemburg"
+
+#~ msgctxt "Stencils"
+#~ msgid "Netherlands"
+#~ msgstr "Holandia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Norway"
+#~ msgstr "Norwegia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Poland"
+#~ msgstr "Polska"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sweden"
+#~ msgstr "Szwecja"
+
+#~ msgctxt "Stencils"
+#~ msgid "Switzerland"
+#~ msgstr "Szwajcaria"
+
+#~ msgctxt "Stencils"
+#~ msgid "United States of America"
+#~ msgstr "Stany Zjednoczone"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flags"
+#~ msgstr "Flagi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Map of Belgium"
+#~ msgstr "Mapa Belgii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Europe"
+#~ msgstr "Europa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Map of Europe"
+#~ msgstr "Mapa Europy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Maps"
+#~ msgstr "Mapy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geographic Collections"
+#~ msgstr "Zestawy geograficzne"
+
+#~ msgctxt "Stencils"
+#~ msgid "Floppy Disk"
+#~ msgstr "Dyskietka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Floppy Disk shape"
+#~ msgstr "Znak dyskietki"
+
+#~ msgctxt "Stencils"
+#~ msgid "Desktop PC 2D"
+#~ msgstr "Komputer PC biurkowy 2D"
+
+#~ msgctxt "Stencils"
+#~ msgid "Desktop PC 3D"
+#~ msgstr "Komputer PC biurkowy 3D"
+
+#~ msgctxt "Stencils"
+#~ msgid "HDD"
+#~ msgstr "Twardy dysk"
+
+#~ msgctxt "Stencils"
+#~ msgid "Mini-tower Desktop PC 2D"
+#~ msgstr "Komputer PC mini-wieża 2D"
+
+#~ msgctxt "Stencils"
+#~ msgid "Mini-tower Desktop PC 3D"
+#~ msgstr "Komputer PC mini-wieża 3D"
+
+#~ msgctxt "Stencils"
+#~ msgid "Notebook"
+#~ msgstr "Notebook"
+
+#~ msgctxt "Stencils"
+#~ msgid "PCI card"
+#~ msgstr "Karta PCI"
+
+#~ msgctxt "Stencils"
+#~ msgid "Rack"
+#~ msgstr "Stojak"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgctxt "Stencils"
+#~ msgid "Workstation 3D"
+#~ msgstr "Stacja robocza 3D"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminal 2D"
+#~ msgstr "Terminal 2D"
+
+#~ msgctxt "Stencils"
+#~ msgid "X Terminal"
+#~ msgstr "Terminal X"
+
+#~ msgctxt "Stencils"
+#~ msgid "Computer Hardware"
+#~ msgstr "Sprzęt komputerowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Keyboard"
+#~ msgstr "Klawiatura"
+
+#~ msgctxt "Stencils"
+#~ msgid "Printer 1"
+#~ msgstr "Drukarka 1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Printer 2"
+#~ msgstr "Drukarka 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Proxy"
+#~ msgstr "Pośrednik (proxy)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cell Phone"
+#~ msgstr "Komórka"
+
+#~ msgctxt "Stencils"
+#~ msgid "CD-ROM"
+#~ msgstr "CD-ROM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Miscellaneous Hardware"
+#~ msgstr "Różny sprzęt"
+
+#~ msgctxt "Stencils"
+#~ msgid "Key"
+#~ msgstr "Klucz"
+
+#~ msgctxt "Stencils"
+#~ msgid "Key shape"
+#~ msgstr "Znak klucza"
+
+#~ msgctxt "Stencils"
+#~ msgid "Hardware Collections"
+#~ msgstr "Zestawy sprzętu"
+
+#~ msgctxt "Stencils"
+#~ msgid "Arrow"
+#~ msgstr "Strzałka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Arrow shape"
+#~ msgstr "Znak strzałki"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow 1"
+#~ msgstr "Strzałka wielokrotna 1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow shape 1"
+#~ msgstr "Znak wielokrotnej strzałki 1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow 2"
+#~ msgstr "Strzałka wielokrotna 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow shape 2"
+#~ msgstr "Znak wielokrotnej strzałki 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow 3"
+#~ msgstr "Strzałka wielokrotna 3"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow shape 3"
+#~ msgstr "Znak wielokrotnej strzałki 3"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sun Arrow"
+#~ msgstr "Strzałka słoneczna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sun Arrow shape"
+#~ msgstr "Znak słonecznej strzałki"
+
+#~ msgctxt "Stencils"
+#~ msgid "Arrow Shapes"
+#~ msgstr "Strzałki"
+
+#~ msgctxt "Stencils"
+#~ msgid "Factory"
+#~ msgstr "Fabryka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Factory shape"
+#~ msgstr "Znak fabryki"
+
+#~ msgctxt "Stencils"
+#~ msgid "House"
+#~ msgstr "Dom"
+
+#~ msgctxt "Stencils"
+#~ msgid "Large office building"
+#~ msgstr "Duży budynek biurowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Building Shapes"
+#~ msgstr "Budynki"
+
+#~ msgctxt "Stencils"
+#~ msgid "Attribute"
+#~ msgstr "Atrybut"
+
+#~ msgctxt "Stencils"
+#~ msgid "Attribute shape used in ER diagrams"
+#~ msgstr "Znak atrybutu używany w diagramach ER"
+
+#~ msgctxt "Stencils"
+#~ msgid "Derived Attribute"
+#~ msgstr "Pochodna atrybutu"
+
+#~ msgctxt "Stencils"
+#~ msgid "Derived Attribute shape used in ER diagrams"
+#~ msgstr "Znak pochodnej atrybutu używany w diagramach ER"
+
+#~ msgctxt "Stencils"
+#~ msgid "Entity Relationship"
+#~ msgstr "Związki encji"
+
+#~ msgctxt "Stencils"
+#~ msgid "Entity"
+#~ msgstr "Encja"
+
+#~ msgctxt "Stencils"
+#~ msgid "Entity shape used in ER diagrams"
+#~ msgstr "Znak encji użyty w diagramach ER"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multivalued Attribute"
+#~ msgstr "Atrybut wielowartościowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multivalued Attribute shape used in ER diagrams"
+#~ msgstr "Znak atrybuty wielowartościowego używany w diagramach ER"
+
+#~ msgctxt "Stencils"
+#~ msgid "Relationship"
+#~ msgstr "Związek"
+
+#~ msgctxt "Stencils"
+#~ msgid "Relationship shape used in ER diagrams"
+#~ msgstr "Znak związku używany w diagramach ER"
+
+#~ msgctxt "Stencils"
+#~ msgid "Weak Entity"
+#~ msgstr "Słaba encja"
+
+#~ msgctxt "Stencils"
+#~ msgid "Weak Entity shape used in ER diagrams"
+#~ msgstr "Znak słabej encji używany w diagramach ER"
+
+#~ msgctxt "Stencils"
+#~ msgid "block"
+#~ msgstr "blok"
+
+#~ msgctxt "Stencils"
+#~ msgid "box"
+#~ msgstr "pole"
+
+#~ msgctxt "Stencils"
+#~ msgid "call"
+#~ msgstr "wywołanie"
+
+#~ msgctxt "Stencils"
+#~ msgid "choice-add"
+#~ msgstr "wybór-dodaj"
+
+#~ msgctxt "Stencils"
+#~ msgid "choice"
+#~ msgstr "wybór"
+
+#~ msgctxt "Stencils"
+#~ msgid "conditional-head1"
+#~ msgstr "warunkowy-glowa1"
+
+#~ msgctxt "Stencils"
+#~ msgid "conditional-head2"
+#~ msgstr "warunkowy-glowa2"
+
+#~ msgctxt "Stencils"
+#~ msgid "conditional"
+#~ msgstr "warunkowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Nassi Shneiderman Diagram Shapes"
+#~ msgstr "Znaki diagramów Nassi Shneiderman"
+
+#~ msgctxt "Stencils"
+#~ msgid "exit"
+#~ msgstr "wyjście"
+
+#~ msgctxt "Stencils"
+#~ msgid "footloop"
+#~ msgstr "petla"
+
+#~ msgctxt "Stencils"
+#~ msgid "headloop"
+#~ msgstr "petla"
+
+#~ msgctxt "Stencils"
+#~ msgid "statement"
+#~ msgstr "wyrażenie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Bad"
+#~ msgstr "Źle"
+
+#~ msgctxt "Stencils"
+#~ msgid "Bad shape"
+#~ msgstr "Znak niezadowolenia, braku zgody, itp."
+
+#~ msgctxt "Stencils"
+#~ msgid "Blue Collar Worker"
+#~ msgstr "Robotnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Good"
+#~ msgstr "Dobrze"
+
+#~ msgctxt "Stencils"
+#~ msgid "Good shape"
+#~ msgstr "Znak zgody, zadowolenia, itp."
+
+#~ msgctxt "Stencils"
+#~ msgid "Group"
+#~ msgstr "Grupa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Man"
+#~ msgstr "Mężczyzna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Man shape"
+#~ msgstr "Znak mężczyzny"
+
+#~ msgctxt "Stencils"
+#~ msgid "White Collar Worker"
+#~ msgstr "Pracownik umysłowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Woman"
+#~ msgstr "Kobieta"
+
+#~ msgctxt "Stencils"
+#~ msgid "Woman shape"
+#~ msgstr "Znak kobiety"
+
+#~ msgctxt "Stencils"
+#~ msgid "Woman Shape"
+#~ msgstr "Znak kobiety"
+
+#~ msgctxt "Stencils"
+#~ msgid "People Shapes"
+#~ msgstr "Ludzie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Truck"
+#~ msgstr "Ciężarówka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Truck shape"
+#~ msgstr "Znak ciężarówki"
+
+#~ msgctxt "Stencils"
+#~ msgid "Transport Shapes"
+#~ msgstr "Transport"
+
+#~ msgctxt "Stencils"
+#~ msgid "Miscellaneous Collections"
+#~ msgstr "Różnorodne kolekcje"
+
+#~ msgctxt "Stencils"
+#~ msgid "Activity"
+#~ msgstr "Działania"
+
+#~ msgctxt "Stencils"
+#~ msgid "Branch & Merge"
+#~ msgstr "Rozgałęzienie i połączenie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Branch and Merge"
+#~ msgstr "Rozgałęzienie i połączenie"
+
+#~ msgctxt "Stencils"
+#~ msgid "End"
+#~ msgstr "Koniec"
+
+#~ msgctxt "Stencils"
+#~ msgid "Fork & Join"
+#~ msgstr "Rozwidlenie i złączenie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Fork and Join"
+#~ msgstr "Rozwidlenie i złączenie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Start"
+#~ msgstr "Początek"
+
+#~ msgctxt "Stencils"
+#~ msgid "Activity Diagram Shapes"
+#~ msgstr "Znaki diagramów działań"
+
+#~ msgctxt "Stencils"
+#~ msgid "Class"
+#~ msgstr "Klasa"
+
+#~ msgctxt "Stencils"
+#~ msgid "ClassConceptual"
+#~ msgstr "Klasa koncepcyjna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Interface"
+#~ msgstr "Interfejs"
+
+#~ msgctxt "Stencils"
+#~ msgid "Note"
+#~ msgstr "Notatka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Template Class"
+#~ msgstr "Szablon klasy"
+
+#~ msgctxt "Stencils"
+#~ msgid "TemplateClass"
+#~ msgstr "Szablon klasy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Class Diagram Shapes"
+#~ msgstr "Znaki diagramów klas"
+
+#~ msgctxt "Stencils"
+#~ msgid "Block Arrow - Chevron"
+#~ msgstr "Strzałka - szewron"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Down Arrow"
+#~ msgstr "Geometria - strzałka w dół"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Notched Left Arrow"
+#~ msgstr "Geometria - Wcięta strzałka w lewo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Left-Right-Up Arrow"
+#~ msgstr "Geometria - Strzałka lewo - góra - prawo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Left-Right Arrow"
+#~ msgstr "Geometria - Strzałka lewo - prawo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Left-Up Arrow"
+#~ msgstr "Różne - Strzałka lewo - góra"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Left Arrow"
+#~ msgstr "Geometria - strzałka w lewo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Block Arrow - Pentagon"
+#~ msgstr "Strzałka - pięciokąt"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Quad Arrow"
+#~ msgstr "Geometria - Strzałka góra - prawo - dół - lewo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Notched Right Arrow"
+#~ msgstr "Geometria - Wcięta strzałka w prawo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Right Arrow"
+#~ msgstr "Geometria - strzałka w prawo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Up-Down-Left Arrow"
+#~ msgstr "Geometria - Strzałka góra - lewo - dół"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Up-Down Arrow"
+#~ msgstr "Geometria - Strzałka góra - dół"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Up Arrow"
+#~ msgstr "Geometria - strzałka w górę"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Quarter Circle"
+#~ msgstr "Geometria - Ćwierć koła"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Perfect Circle"
+#~ msgstr "Geometria - Koło"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Maltese Cross"
+#~ msgstr "Geometria - Krzyż maltański"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Swiss Cross"
+#~ msgstr "Geometria - Krzyż szwajcarski"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Diamond"
+#~ msgstr "Geometria - Romb"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Heart"
+#~ msgstr "Różne - Serce"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Heptagon"
+#~ msgstr "Geometria - siedmiokąt"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Hexagon"
+#~ msgstr "Geometria - Sześciokąt"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Quarter Moon"
+#~ msgstr "Różne - Ćwierć księżyca"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Octagon"
+#~ msgstr "Geometria - Ośmiokąt"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Horizontal Parallelogram"
+#~ msgstr "Geometria - Równoległobok poziomy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Vertical Parallelogram"
+#~ msgstr "Geometria - Równoległobok pionowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Pentagon"
+#~ msgstr "Geometria - Pięciokąt"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Perfect Square"
+#~ msgstr "Geometria - Kwadrat"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Four Point Star"
+#~ msgstr "Geometria - Gwiazda czteroramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Curved Four Point Star"
+#~ msgstr "Geometria - Zakrzywiona gwiazda czteroramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Five Point Star"
+#~ msgstr "Geometria - Gwiazda pięcioramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Six Point Star"
+#~ msgstr "Geometria - Gwiazda sześcioramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Seven Point Star"
+#~ msgstr "Geometria - Gwiazda siedmioramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Eight Point Star"
+#~ msgstr "Geometria - Gwiazda ośmioramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Curved Eight Point Star"
+#~ msgstr "Geometria - Zakrzywiona gwiazda ośmioramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Sharp Eight Point Star"
+#~ msgstr "Geometria - Ostra gwiazda ośmioramienna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Sun"
+#~ msgstr "Różne - Słońce"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Trapezoid"
+#~ msgstr "Geometria - Trapez"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Isosceles Triangle"
+#~ msgstr "Geometria - trójkąt równoramienny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Right Angle Triangle"
+#~ msgstr "Geometria - Trójkąt prostokątny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Ground"
+#~ msgstr "Obwody - Uziemienie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Capacitor"
+#~ msgstr "Obwody - Kondensator poziomy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Diode"
+#~ msgstr "Obwody - Dioda pozioma"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Fuse (European)"
+#~ msgstr "Obwody - Bezpiecznik poziomy (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Inductor"
+#~ msgstr "Obwody - Pozioma cewka indukcyjna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Inductor (European)"
+#~ msgstr "Obwody - Pozioma cewka indukcyjna (europejska)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Jumper"
+#~ msgstr "Obwody - Łącznik poziomy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Led (European)"
+#~ msgstr "Obwody - Pozioma dioda LED (europejska)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Powersource (European)"
+#~ msgstr "Obwody - Poziome źródło zasilania (europejskie)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Resistor"
+#~ msgstr "Obwody - Opornik poziomy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Resistor (European)"
+#~ msgstr "Obwody - Opornik poziomy (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Zener Diode"
+#~ msgstr "Obwody - Pozioma dioda Zenera"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Lamp (European)"
+#~ msgstr "Obwody - Lampa (europejska)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Microphone (European)"
+#~ msgstr "Obwody - Mikrofon (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - NMOS Transistor (European)"
+#~ msgstr "Obwody - Tranzystor NMOS (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - NPN Transistor"
+#~ msgstr "Obwody - Tranzystor NPN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Op Amp"
+#~ msgstr "Obwody - Wzmacniacz operacyjny (Op Amp)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - PMOS Transistor (European)"
+#~ msgstr "Obwody - Tranzystor PMOS (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - PNP Transistor"
+#~ msgstr "Obwody - Tranzystor PNP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Speaker (European)"
+#~ msgstr "Obwody - Głośnik (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Capacitor"
+#~ msgstr "Obwody - Kondensator pionowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Diode"
+#~ msgstr "Obwody - Dioda Pionowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Fuse (European)"
+#~ msgstr "Obwody - Bezpiecznik pionowy (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Inductor"
+#~ msgstr "Obwody - Pionowa cewka indukcyjna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Inductor (European)"
+#~ msgstr "Obwody - Pionowa cewka indukcyjna (europejska)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Led (European)"
+#~ msgstr "Obwody - Pionowa dioda LED (europejska)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Powersource (European)"
+#~ msgstr "Obwody - Pionowe źródło zasilania (europejskie)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Resistor"
+#~ msgstr "Obwody - Opornik pionowy (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Resistor (European)"
+#~ msgstr "Obwody - Opornik pionowy (europejski)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Zener Diode"
+#~ msgstr "Obwody - Pionowa dioda Zenera"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cisco 1000"
+#~ msgstr "Cisco - Cisco 1000"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 100BaseT Hub"
+#~ msgstr "Cisco - 100BaseT Hub"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 10700"
+#~ msgstr "Cisco - 10700"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 15200"
+#~ msgstr "Cisco - 15200"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 3174 (desktop) cluster controller"
+#~ msgstr "Cisco - kontroler klastra 3174 (desktop)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 3X74 (floor) cluster controller"
+#~ msgstr "Cisco - Kontroler klastra 3X74 (podłogowy)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup 5000"
+#~ msgstr "Cisco - Grupa robocza 5000"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup 5002"
+#~ msgstr "Cisco - Grupa robocza 5002"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup 5500"
+#~ msgstr "Cisco - Grupa robocza 5500"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 6701"
+#~ msgstr "Cisco - 6701"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 6705"
+#~ msgstr "Cisco - 6705"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 6732"
+#~ msgstr "Cisco - 6732"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 7500ARS (7513)"
+#~ msgstr "Cisco - 7500ARS (7513)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 7505"
+#~ msgstr "Cisco - 7505"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 7507"
+#~ msgstr "Cisco - 7507"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - AccessPoint"
+#~ msgstr "Cisco - Punkt dostępowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ADM"
+#~ msgstr "Cisco - ADM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ASIC Processor"
+#~ msgstr "Cisco - Procesor ASIC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATA"
+#~ msgstr "Cisco - ATA"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM 3800"
+#~ msgstr "Cisco - ATM 3800"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Fast Gigabit Etherswitch"
+#~ msgstr "Cisco - Przełącznik ATM do Gigabit Ethernet"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Router"
+#~ msgstr "Cisco - Ruter ATM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Switch"
+#~ msgstr "Cisco - Przełącznik (switch) ATM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Tag Sw Gigabit Router"
+#~ msgstr "Cisco - Ruter przełączający znaczniki ATM gigabitowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Tag Switch Router"
+#~ msgstr "Cisco - Ruter przełączający znaczniki ATM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BBFW"
+#~ msgstr "Cisco - BBFW"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BBFW media"
+#~ msgstr "Cisco - Nośnik BBFW"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BBSM"
+#~ msgstr "Cisco - BBSM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Branch office"
+#~ msgstr "Cisco - Filia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Breakout box"
+#~ msgstr "Cisco - Przyrząd do sprawdzania kabli"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Bridge"
+#~ msgstr "Cisco - Mostek"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Broadband router"
+#~ msgstr "Cisco - Ruter szerokopasmowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BTS 10200"
+#~ msgstr "Cisco - BTS 10200"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cisco CA"
+#~ msgstr "Cisco - Cisco CA"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cable Modem"
+#~ msgstr "Cisco - Modem kablowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CallManager"
+#~ msgstr "Cisco - Zarządca połączeń"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Car"
+#~ msgstr "Cisco - Samochód"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Catalyst Access Gateway"
+#~ msgstr "Cisco - Bramka dostępowa Catalyst"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CDDI-FDDI"
+#~ msgstr "Cisco - CDDI-FDDI"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CDM Content Distribution Manager"
+#~ msgstr ""
+#~ "Cisco - Zarządca rozproszenia treści (CDM - Content Distribution Manager)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cellular phone"
+#~ msgstr "Cisco - Telefon komórkowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Centri Firewall"
+#~ msgstr "Cisco - Firewall Centri"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cisco Hub"
+#~ msgstr "Cisco - Cisco Hub"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CiscoSecurity"
+#~ msgstr "Cisco - CiscoSecurity"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CiscoWorks workstation"
+#~ msgstr "Cisco - Stacja robocza CiscoWorks"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Class 4/5 switch"
+#~ msgstr "Cisco - Przełącznik klasy 4/5"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cloud"
+#~ msgstr "Cisco - chmura"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Communications server"
+#~ msgstr "Cisco - Serwer komunikacyjny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Engine (Cache Director)"
+#~ msgstr "Cisco - serwer treści (rozdzielacz pamięci podręcznej)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Service Router"
+#~ msgstr "Cisco - Ruter podawania treści"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Switch"
+#~ msgstr "Cisco - Przełącznik treści"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Switch module"
+#~ msgstr "Cisco - Moduł przełączania treści"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Service Switch 1100"
+#~ msgstr "Cisco - Przełącznik podawania treści 1100"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CSU/DSU"
+#~ msgstr "Cisco - CSU/DSU"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Transformation Engine (CTE)"
+#~ msgstr ""
+#~ "Cisco - Urządzenie konwersji treści (CTE - Content Transformation Engine)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Directory Server"
+#~ msgstr "Cisco - Serwer katalogowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Diskette"
+#~ msgstr "Cisco - Dyskietka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Distributed Director"
+#~ msgstr "Cisco - Rozproszony rozdzielacz (director)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Dot-Dot"
+#~ msgstr "Cisco - Kropka-kropka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - DPT"
+#~ msgstr "Cisco - DPT"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - DSLAM"
+#~ msgstr "Cisco - DSLAM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - DWDM Filter"
+#~ msgstr "Cisco - Filtr DWDM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - End Office"
+#~ msgstr "Cisco - Biuro końcowe"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Fax"
+#~ msgstr "Cisco - Faks"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - FC Storage"
+#~ msgstr "Cisco - Pamięć FC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - FDDI Ring"
+#~ msgstr "Cisco - Pierścień FDDI"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - File cabinet"
+#~ msgstr "Cisco - szafka na teczki"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - File Server"
+#~ msgstr "Cisco - Serwer plików"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Firewall"
+#~ msgstr "Cisco - Firewall"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Front End Processor"
+#~ msgstr "Cisco - Procesor pierwszoplanowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - General appliance"
+#~ msgstr "Cisco - Urządzenie ogólne"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic Building"
+#~ msgstr "Cisco - Budynek"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic gateway"
+#~ msgstr "Cisco - Bramka generyczna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic processor"
+#~ msgstr "Cisco - Procesor generyczny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic softswitch"
+#~ msgstr "Cisco - Generyczny przełącznik programowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Gigabit Switch Router (ATM Tag)"
+#~ msgstr "Cisco - Ruter przełączający gigabitowy (znaczniki ATM)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Government Building"
+#~ msgstr "Cisco - Budynek rządowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - H.323"
+#~ msgstr "Cisco - H.323"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Handheld"
+#~ msgstr "Cisco - Komputer podręczny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - HootPhone"
+#~ msgstr "Cisco - HootPhone"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Host"
+#~ msgstr "Cisco - Host"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - HP Mini"
+#~ msgstr "Cisco - Mini HP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Hub"
+#~ msgstr "Cisco - Hub"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IAD router"
+#~ msgstr "Cisco - Ruter IAD"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IBM mainframe"
+#~ msgstr "Cisco - Mainframe firmy IBM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IBM Mini (AS400)"
+#~ msgstr "Cisco - IBM Mini (AS400)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IBM Tower"
+#~ msgstr "Cisco - Wieża IBM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ICM"
+#~ msgstr "Cisco - ICM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ICS"
+#~ msgstr "Cisco - ICS"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IOS Firewall"
+#~ msgstr "Cisco - IOS Firewall"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP"
+#~ msgstr "Cisco - IP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP DSL"
+#~ msgstr "Cisco - IP DSL"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP Phone"
+#~ msgstr "Cisco - Telefon IP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP Softphone"
+#~ msgstr "Cisco - Telefon programowy IP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP Telephony Router"
+#~ msgstr "Cisco - Ruter telefonii IP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IPTC"
+#~ msgstr "Cisco - IPTC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IPTV broadcast server"
+#~ msgstr "Cisco - Serwer nadawania IPTV"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IPTV content manager"
+#~ msgstr "Cisco - Zarządca treści IPTV"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ISDN switch"
+#~ msgstr "Cisco - Przełącznik (switch) ISDN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ITP"
+#~ msgstr "Cisco - ITP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Key"
+#~ msgstr "Cisco - Klucz"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - LAN to LAN"
+#~ msgstr "Cisco - LAN do LAN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Laptop"
+#~ msgstr "Cisco - Laptop"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Layer 3 Switch"
+#~ msgstr "Cisco - Przełącznik poziomu 3"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - LocalDirector"
+#~ msgstr "Cisco - Lokalny rozdzielacz (director)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Lock"
+#~ msgstr "Cisco - Kłódka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - LongReach CPE"
+#~ msgstr "Cisco - LongReach CPE"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Mac Woman"
+#~ msgstr "Cisco - Kobieta przy MACu"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Macintosh"
+#~ msgstr "Cisco - Macintosh"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Man/Woman"
+#~ msgstr "Cisco - Mężczyzna/kobieta"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MAS Gateway"
+#~ msgstr "Cisco - Bramka MAS"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MAU"
+#~ msgstr "Cisco - MAU"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MDU"
+#~ msgstr "Cisco - MDU"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ME 1100"
+#~ msgstr "Cisco - ME 1100"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Metro 1500"
+#~ msgstr "Cisco - Metro 1500"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MGX 8220"
+#~ msgstr "Cisco - MGX 8220"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MGX 8240"
+#~ msgstr "Cisco - MGX 8240"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MGX 8260"
+#~ msgstr "Cisco - MGX 8260"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Microphone"
+#~ msgstr "Cisco - Mikrofon"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MicroWebserver"
+#~ msgstr "Cisco - Mały serwer WWW"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Mini VAX"
+#~ msgstr "Cisco - Mini VAX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Modem"
+#~ msgstr "Cisco - Modem"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MoH server (Music on Hold)"
+#~ msgstr "Cisco - Serwer MoH (Music on Hold)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Multilayer switch"
+#~ msgstr "Cisco - Przełącznik sieciowy wielowarstwowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MultiSwitch Device"
+#~ msgstr "Cisco - Urządzenie MultiSwitch"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MUX"
+#~ msgstr "Cisco - MUX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - NetFlow router"
+#~ msgstr "Cisco - Ruter NetFlow"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - NetRanger"
+#~ msgstr "Cisco - NetRanger"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - NetSonar"
+#~ msgstr "Cisco - NetSonar"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Network Management"
+#~ msgstr "Cisco - Zarządzanie siecią"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Octel"
+#~ msgstr "Cisco - Octel"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ONS15500"
+#~ msgstr "Cisco - ONS15500"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Optical Amplifier"
+#~ msgstr "Cisco - Wzmacniacz optyczny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Optical Services Router"
+#~ msgstr "Cisco - Ruter usług optycznych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Optical Transport"
+#~ msgstr "Cisco - Transport optyczny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PAD"
+#~ msgstr "Cisco - PAD"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PAD X.28"
+#~ msgstr "Cisco - PAD X.28"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PBX"
+#~ msgstr "Cisco - PBX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PBX Switch"
+#~ msgstr "Cisco - Przełącznik (switch) PBX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC"
+#~ msgstr "Cisco - PC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Adapter Card"
+#~ msgstr "Cisco - Karta adaptera PC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Man"
+#~ msgstr "Cisco - Mężczyzna przy komputerze"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Router Card"
+#~ msgstr "Cisco - Karta rutera PC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Video"
+#~ msgstr "Cisco - PC Video"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PDA"
+#~ msgstr "Cisco - PDA"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Phone"
+#~ msgstr "Cisco - Telefon"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Phone/Fax"
+#~ msgstr "Cisco - Telefon/Faks"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PIX Firewall"
+#~ msgstr "Cisco - PIX Firewall"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Printer"
+#~ msgstr "Cisco - Drukarka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Programmable Switch"
+#~ msgstr "Cisco - Przełącznik programowalny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Protocol Translator"
+#~ msgstr "Cisco - Tłumacz protokołów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PXF"
+#~ msgstr "Cisco - PXF"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Radio Tower"
+#~ msgstr "Cisco - Wieża radiowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - RateMUX"
+#~ msgstr "Cisco - RateMUX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Relational Database"
+#~ msgstr "Cisco - Relacyjna baza danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Repeater"
+#~ msgstr "Cisco - Repeater"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Route Switch Processor"
+#~ msgstr "Cisco - Procesor przełączający trasy (route switch processor)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router"
+#~ msgstr "Cisco - Ruter"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router in building"
+#~ msgstr "Cisco - Ruter w budynku"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router with Firewall"
+#~ msgstr "Cisco - Ruter z Firewallem"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router with Silicon Switch"
+#~ msgstr "Cisco - Ruter z przełącznikiem krzemowym"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - RPS"
+#~ msgstr "Cisco - RPS"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Running man"
+#~ msgstr "Cisco - Biegnący mężczyzna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Satellite"
+#~ msgstr "Cisco - Satelita"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Satellite dish"
+#~ msgstr "Cisco - Antena satelitarna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SC2200 (Signalling Controller)"
+#~ msgstr "Cisco - SC2200 (Kontroler sygnału)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SC2200/VSC3000 host"
+#~ msgstr "Cisco - SC2200/VSC3000 host"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Scanner"
+#~ msgstr "Cisco - Skaner"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Server with PC Router"
+#~ msgstr "Cisco - Serwer z ruterem PC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SIP Proxy server"
+#~ msgstr "Cisco - Serwer pośredniczący SIP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Sitting woman"
+#~ msgstr "Cisco - Siedząca kobieta"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Small Business"
+#~ msgstr "Cisco - Mały biznes"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Small hub"
+#~ msgstr "Cisco - Mały koncentrator (hub)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Softphone"
+#~ msgstr "Cisco - Telefon programowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Software based server"
+#~ msgstr "Cisco - Serwer programowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Speaker"
+#~ msgstr "Cisco - Głośnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Standing Man"
+#~ msgstr "Cisco - Stojący mężczyzna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - STB (set top box)"
+#~ msgstr "Cisco - przystawka (STB - set top box)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Storage array"
+#~ msgstr "Cisco - Macierz przechowywania danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Storage Router"
+#~ msgstr "Cisco - Ruter przechowywania danych"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - STP"
+#~ msgstr "Cisco - STP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SUN workstation"
+#~ msgstr "Cisco - Stacja robocza SUN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Supercomputer"
+#~ msgstr "Cisco - Superkomputer"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SVX (interchangeable with End office)"
+#~ msgstr "Cisco - SVX (wymienny z biurem końcowym)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - System controller"
+#~ msgstr "Cisco - Kontroler systemu"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Tablet"
+#~ msgstr "Cisco - Tablet"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - TDM router"
+#~ msgstr "Cisco - Ruter TDM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Telecommuter"
+#~ msgstr "Cisco - Pracownik zdalny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Telecommuter house"
+#~ msgstr "Cisco - Dom pracownika zdalnego"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Telecommuter house/router"
+#~ msgstr "Cisco - Dom pracownika zdalnego/ruter"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Terminal"
+#~ msgstr "Cisco - Terminal"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - TokenRing"
+#~ msgstr "Cisco - TokenRing"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Transpath"
+#~ msgstr "Cisco - Transpath"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Truck"
+#~ msgstr "Cisco - Ciężarówka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Turret"
+#~ msgstr "Cisco - Nadstawka łącznicowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - TV"
+#~ msgstr "Cisco - TV"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - uBR910"
+#~ msgstr "Cisco - uBR910"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Unity server"
+#~ msgstr "Cisco - Serwer Unity"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Universal Gateway"
+#~ msgstr "Cisco - Bramka uniwersalna"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - University"
+#~ msgstr "Cisco - Uniwersytet"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - UPS"
+#~ msgstr "Cisco - UPS"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Video camera"
+#~ msgstr "Cisco - Kamera video"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - VIP"
+#~ msgstr "Cisco - VIP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice ATM Switch"
+#~ msgstr "Cisco - Przełącznik głosowy ATM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice commserver"
+#~ msgstr "Cisco - Serwer komunikacji głosowej"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice router"
+#~ msgstr "Cisco - Ruter dźwięku"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice switch"
+#~ msgstr "Cisco - Przełącznik głosowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice switch 2"
+#~ msgstr "Cisco - Przełącznik głosowy 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - VPN concentrator"
+#~ msgstr "Cisco - Koncentrator VPN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - VPN Gateway"
+#~ msgstr "Cisco - Bramka VPN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Virtual switch controller (VSC 3000)"
+#~ msgstr "Cisco - Wirtualny kontroler przełączania (VSC 3000)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wavelength router"
+#~ msgstr "Cisco - Ruter długości fali"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Web browser"
+#~ msgstr "Cisco - Przeglądarka internetowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Web cluster"
+#~ msgstr "Cisco - Klaster WWW"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wireless"
+#~ msgstr "Cisco - Bezprzewodowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wireless Bridge"
+#~ msgstr "Cisco - Mostek bezprzewodowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wireless Transport"
+#~ msgstr "Cisco - Transport bezprzewodowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup director"
+#~ msgstr "Cisco - Rozdzielacz (director) grupy roboczej"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup switch"
+#~ msgstr "Cisco - Przełącznik grupy roboczej"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workstation"
+#~ msgstr "Cisco - Stacja robocza"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - WWW server"
+#~ msgstr "Cisco - Serwer WWW"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Bivalent Vertical Rest"
+#~ msgstr "Inżynieria - Pionowa podpora dwuwartościowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Aerator"
+#~ msgstr "Inżynieria - Aerator"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Right Arrow"
+#~ msgstr "Inżynieria - Strzałka w prawo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Up Arrow"
+#~ msgstr "Inżynieria - Strzałka w górę"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Backflow Preventer"
+#~ msgstr "Inżynieria - Element zapobiegający cofce"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Basin"
+#~ msgstr "Inżynieria - Miska"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Container"
+#~ msgstr "Inżynieria - Pojemnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Final-Settling Basin"
+#~ msgstr "Inżynieria - Osadnik końcowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Frequency Converter"
+#~ msgstr "Inżynieria - Przemiennik częstotliwości"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Gas Bottle"
+#~ msgstr "Inżynieria - Butla z gazem"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Limiting Line"
+#~ msgstr "Inżynieria - Pozioma linia ograniczająca"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Valve"
+#~ msgstr "Inżynieria - Zawór poziomy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Motor"
+#~ msgstr "Inżynieria - Silnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Preliminary Clarification Tank"
+#~ msgstr "Inżynieria - Zbiornik wstępnego klarowania"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Rotor"
+#~ msgstr "Inżynieria - Wirnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Soil"
+#~ msgstr "Inżynieria - Grunt"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Limiting Line"
+#~ msgstr "Inżynieria - Pionowa linia ograniczająca"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Propeller"
+#~ msgstr "Inżynieria - Śruba pionowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Compressor"
+#~ msgstr "Inżynieria - Sprężarka pozioma"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Pump"
+#~ msgstr "Inżynieria - Pompa pozioma"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Rest"
+#~ msgstr "Inżynieria - Podpora pozioma"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Reference Line"
+#~ msgstr "Inżynieria - Linia odniesienia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Compressor"
+#~ msgstr "Inżynieria - Sprężarka pionowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Pump"
+#~ msgstr "Inżynieria - Pompa pionowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Rest"
+#~ msgstr "Inżynieria - Podpora pionowa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Water Level"
+#~ msgstr "Inżynieria - Poziom wody"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - if"
+#~ msgstr "Styki - if"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - ifnot"
+#~ msgstr "Styki - ifnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - lamp"
+#~ msgstr "Styki - Lampa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - relay"
+#~ msgstr "Styki - przekaźnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - if"
+#~ msgstr "Drabinki - if"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - ifnot"
+#~ msgstr "Drabinki - ifnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - out"
+#~ msgstr "Drabinki - out"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outj"
+#~ msgstr "Drabinki - outj"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outnot"
+#~ msgstr "Drabinki - outnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outr"
+#~ msgstr "Drabinki - outr"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outrcep"
+#~ msgstr "Drabinki - outrcep"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outs"
+#~ msgstr "Drabinki - outs"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - sout"
+#~ msgstr "Drabinki - sout"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - soutnot"
+#~ msgstr "Drabinki - soutnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - soutr"
+#~ msgstr "Drabinki - soutr"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - souts"
+#~ msgstr "Drabinki - souts"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - connpoint"
+#~ msgstr "Elektryczne - punkt połączenia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - command"
+#~ msgstr "Elektryczne - sygnał sterujący"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - contact_f"
+#~ msgstr "Elektryczne - styk f"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - contact_o"
+#~ msgstr "Elektryczne - styk o"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - intpos_f"
+#~ msgstr "Elektryczne - intpos_f"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - intpos_o"
+#~ msgstr "Elektryczne - intpos_o"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - lamp"
+#~ msgstr "Elektryczne - lampa"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - relay"
+#~ msgstr "Elektryczne - przekaźnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iiii"
+#~ msgstr "Puzzle - część_iiii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iiio"
+#~ msgstr "Puzzle - część_iiio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iioi"
+#~ msgstr "Puzzle - część_iioi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iioo"
+#~ msgstr "Puzzle - część_iioo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ioii"
+#~ msgstr "Puzzle - część_ioii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ioio"
+#~ msgstr "Puzzle - część_ioio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iooi"
+#~ msgstr "Puzzle - część_iooi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iooo"
+#~ msgstr "Puzzle - część_iooo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oiii"
+#~ msgstr "Puzzle - część_oiii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oiio"
+#~ msgstr "Puzzle - część_oiio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oioi"
+#~ msgstr "Puzzle - część_oioi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oioo"
+#~ msgstr "Puzzle - część_oioo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ooii"
+#~ msgstr "Puzzle - część_ooii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ooio"
+#~ msgstr "Puzzle - część_ooio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oooi"
+#~ msgstr "Puzzle - część_oooi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oooo"
+#~ msgstr "Puzzle - część_oooo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Demultiplexer"
+#~ msgstr "Demultiplekser"
+
+#~ msgctxt "Stencils"
+#~ msgid "Large Extension Node"
+#~ msgstr "Duży węzeł rozszerzenia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiplexer"
+#~ msgstr "Multiplekser"
+
+#~ msgctxt "Stencils"
+#~ msgid "Node Center"
+#~ msgstr "Centrum węzła"
+
+#~ msgctxt "Stencils"
+#~ msgid "Small Extension Node"
+#~ msgstr "Mały węzeł rozszerzenia"
+
+#~ msgctxt "Stencils"
+#~ msgid "Tactical Satellite Communications Terminal"
+#~ msgstr "Taktyczny terminal komunikacji satelitarnej"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Antenna"
+#~ msgstr "Sieć - antena"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - General Computer (Tower)"
+#~ msgstr "Sieć - PC obudowa TOWER"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - An external DAT drive"
+#~ msgstr "Sieć - Zewnętrzny napęd DAT"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Digitizing Board"
+#~ msgstr "Sieć - Stół do digitalizacji"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Storage"
+#~ msgstr "Sieć - Magazyn (dysk, pamięć masowa)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Diskette"
+#~ msgstr "Sieć - Dyskietka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Firewall"
+#~ msgstr "Sieć - Firewall"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - WAN Connection"
+#~ msgstr "Sieć - Połączenie z siecią WAN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - General Monitor (With Stand)"
+#~ msgstr "Sieć - Monitor (z podstawką)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Hub"
+#~ msgstr "Sieć - Hub"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Mobile Phone"
+#~ msgstr "Sieć - Telefon komórkowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Modem"
+#~ msgstr "Sieć - Modem"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Modular Switch"
+#~ msgstr "Sieć - Przełącznik (switch) modularny"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Workstation Monitor"
+#~ msgstr "Sieć - Monitor stacji roboczej"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Cloud"
+#~ msgstr "Sieć - chmurka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Bigtower PC"
+#~ msgstr "Sieć - PC obudowa Bigtower"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Desktop PC"
+#~ msgstr "Sieć - Komputer PC biurkowy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Midi-tower PC"
+#~ msgstr "Sieć - PC obudowa Midi-tower"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Minitower PC"
+#~ msgstr "Sieć - PC obudowa Minitower"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Plotter"
+#~ msgstr "Sieć - Ploter"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - General Printer"
+#~ msgstr "Sieć - Drukarka"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - RJ45 Wall-Plug"
+#~ msgstr "Sieć - wtyczka ścienna RJ45"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Router Symbol"
+#~ msgstr "Sieć - Ruter - symbol"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - scEAD Wall-Plug"
+#~ msgstr "Sieć - Wtyczka scEAD"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A speaker"
+#~ msgstr "Sieć - Głośnik"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - An amplifier speaker"
+#~ msgstr "Sieć - Głośnik z wzmacniaczem"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Switch ATM Symbol"
+#~ msgstr "Sieć - Symbol przełącznika (switch) ATM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Switch Symbol"
+#~ msgstr "Sieć - Przełącznik (switch) - symbol"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Telephone"
+#~ msgstr "Sieć - Telefon"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Workstation"
+#~ msgstr "Sieć - Stacja robocza"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A ZIP Disk"
+#~ msgstr "Sieć - Dysk ZIP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - connpoint"
+#~ msgstr "Pneumatyka - connpoint"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - comelec1"
+#~ msgstr "Pneumatyka - comelec1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - comelec2"
+#~ msgstr "Pneumatyka - comelec2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - commusc"
+#~ msgstr "Pneumatyka - commusc"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compb"
+#~ msgstr "Pneumatyka - compb"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compilh"
+#~ msgstr "Pneumatyka - compilh"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compilp"
+#~ msgstr "Pneumatyka - compilp"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compush"
+#~ msgstr "Pneumatyka - compush"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - comspr"
+#~ msgstr "Pneumatyka - comspr"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - DEJack"
+#~ msgstr "Pneumatyka - DEJack"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist22"
+#~ msgstr "Pneumatyka - dist22"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist32"
+#~ msgstr "Pneumatyka - dist32"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist42"
+#~ msgstr "Pneumatyka - dist42"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist52"
+#~ msgstr "Pneumatyka - dist52"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - drain"
+#~ msgstr "Pneumatyka - drain"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - press"
+#~ msgstr "Pneumatyka - press"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - presshy"
+#~ msgstr "Pneumatyka - presshy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - presspn"
+#~ msgstr "Pneumatyka - presspn"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - SEIJack"
+#~ msgstr "Pneumatyka - SEIJack"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - SEOJack"
+#~ msgstr "Pneumatyka - SEOJack"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Block"
+#~ msgstr "SDL - Blok"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Comment"
+#~ msgstr "SDL - Komentarz"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Decision"
+#~ msgstr "SDL - Decyzja"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Function"
+#~ msgstr "SDL - Funkcja"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Function Header"
+#~ msgstr "SDL - Nagłówek funkcji"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - InOut"
+#~ msgstr "SDL - Wejście/Wyjście"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Macro"
+#~ msgstr "SDL - Makro"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Note"
+#~ msgstr "SDL - Notatka"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Process"
+#~ msgstr "SDL - Proces"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Receive"
+#~ msgstr "SDL - Otrzymaj"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Return"
+#~ msgstr "SDL - Powrót"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Save"
+#~ msgstr "SDL - Zachowaj"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Send"
+#~ msgstr "SDL - Wyślij"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Service"
+#~ msgstr "SDL - Usługa"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - State"
+#~ msgstr "SDL - Stan"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Stop"
+#~ msgstr "SDL - Stop"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Task"
+#~ msgstr "SDL - Zadanie"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Client Application"
+#~ msgstr "Aplikacja kliencka Sybase"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Dataserver"
+#~ msgstr "Serwer danych Sybase"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Log Transfer Manager/Rep Agent"
+#~ msgstr "Agent replikacji/menedżer przesyłania logów"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Replication Server"
+#~ msgstr "Serwer replikacji Sybase"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Replication Server Manager"
+#~ msgstr "Menedżer usług replikacji Sybase"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Stable Queue"
+#~ msgstr "Stałe urządzenie pamięci dyskowej Sybase"
+
+#~ msgid "Kivio"
+#~ msgstr "Kivio"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Do edycji"
+
+#~ msgid "&Zoom Tool"
+#~ msgstr "Narzędzia powięks&zenia"
+
+#~ msgid "Zoom Tool"
+#~ msgstr "Narzędzia powiększenia"
+
+#~ msgid "Kivio::StencilTextEditor"
+#~ msgstr "Kivio::StencilTextEditor"
+
+#~ msgid "Bold"
+#~ msgstr "Pogrubienie"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "11"
+#~ msgstr "11"
+
+#~ msgid "12"
+#~ msgstr "12"
+
+#~ msgid "14"
+#~ msgstr "14"
+
+#~ msgid "16"
+#~ msgstr "16"
+
+#~ msgid "18"
+#~ msgstr "18"
+
+#~ msgid "20"
+#~ msgstr "20"
+
+#~ msgid "22"
+#~ msgstr "22"
+
+#~ msgid "24"
+#~ msgstr "24"
+
+#~ msgid "26"
+#~ msgstr "26"
+
+#~ msgid "28"
+#~ msgstr "28"
+
+#~ msgid "36"
+#~ msgstr "36"
+
+#~ msgid "48"
+#~ msgstr "48"
+
+#~ msgid "72"
+#~ msgstr "72"
+
+#~ msgid "Italics"
+#~ msgstr "Kursywa"
+
+#~ msgid "Underline"
+#~ msgstr "Podkreślenie"
+
+#~ msgid "Horizontal Alignment"
+#~ msgstr "Wyrównanie poziome"
+
+#~ msgid "Vertical Alignment"
+#~ msgstr "Wyrównanie pionowe"
+
+#~ msgctxt "Stencils"
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~ msgid "&Zoom"
+#~ msgstr "Narzędzia powięks&zenia"
+
+#~ msgid "By pressing this button you can zoom in on a specific area."
+#~ msgstr "Naciśnij ten przycisk, aby powiększyć wybrany fragment."
+
+#~ msgid "&Pan Document"
+#~ msgstr "&Przeglądaj dokument"
+
+#~ msgid "You can drag the document by using the mouse."
+#~ msgstr "Możesz przesuwać dokument używając myszy."
+
+#~ msgid "Zoom &Level"
+#~ msgstr "&Powiększenie"
+
+#~ msgid ""
+#~ "This allows you to zoom in or out of a document. You can either choose "
+#~ "one of the predefined zoomfactors or enter a new zoomfactor (in percent)."
+#~ msgstr ""
+#~ "To pozwoli Ci powiększyć lub pomniejszyć widok dokumentu. Możesz wybrać "
+#~ "zdefiniowane powiększenie lub wprowadzić nowe powiększenie (w procentach)."
+
+#~ msgid "You can zoom in on the document by pressing this button."
+#~ msgstr "Naciśnij ten klawisz, aby powiększyć dokument."
+
+#~ msgid "By pressing this button you can zoom out of the document."
+#~ msgstr "Naciśnij ten klawisz, aby pomniejszyć dokument."
+
+#~ msgid "Zoom Width"
+#~ msgstr "Dopasuj szerokość"
+
+#~ msgid "You can zoom the document that it fits into the window width."
+#~ msgstr "Naciśnij ten klawisz, aby dopasować szerokość strony do okna."
+
+#~ msgid "Zoom Height"
+#~ msgstr "Dopasuj wysokość"
+
+#~ msgid "You can zoom the document that it fits into the window height."
+#~ msgstr "Naciśnij ten klawisz, aby dopasować wysokość strony do okna."
+
+#~ msgid "Zoom Page"
+#~ msgstr "Dopasuj stronę"
+
+#~ msgid "The Zoom Page button shows the entire page."
+#~ msgstr "Naciśnij ten klawisz, aby pokazać całą stronę."
+
+#~ msgid "Zoom Selected"
+#~ msgstr "Powiększ wybrany obiekt"
+
+#~ msgid ""
+#~ "By pressing this button you zoom in on the document, so that all "
+#~ "<b>selected</b> objects are visible."
+#~ msgstr "Naciśnij ten klawisz, aby pokazać wszystkie <b>wybrane</b> obiekty."
+
+#~ msgid "Zoom All Objects"
+#~ msgstr "Powiększ wszystkie obiekty"
+
+#~ msgid ""
+#~ "You are able to zoom in on the document, so that all objects are visible "
+#~ "by pressing this button."
+#~ msgstr "Naciśnij ten klawisz, aby pokazać wszystkie obiekty."
+
+#~ msgid "Hold Shift to zoom out."
+#~ msgstr "Przytrzymaj Shift by pomniejszyć."
+
+#~ msgid "Align Left"
+#~ msgstr "Wyrównaj do lewej"
+
+#~ msgid "Align Center"
+#~ msgstr "Wyśrodkuj"
+
+#~ msgid "Align Right"
+#~ msgstr "Wyrównaj do prawej"
+
+#~ msgid "Align Top"
+#~ msgstr "Wyrównanie"
+
+#~ msgid "Align Vertical Center"
+#~ msgstr "Wyśrodkuj"
+
+#~ msgid "Align Bottom"
+#~ msgstr "Wyrównaj do lewej"
+
+#~ msgid "Text Tool"
+#~ msgstr "Narzędzie tekstowe"
+
+#~ msgid "Edit Text"
+#~ msgstr "Edytuj tekst"
+
+#~ msgid "Change Stencil Text and Formatting"
+#~ msgstr "Zmień tekst i formatowanie szablonu"
+
+#~ msgid "Change Stencil Text"
+#~ msgstr "Zmień tekst szablonu"
+
+#~ msgid "Change Stencil Font"
+#~ msgstr "Zmień czcionkę szablonu"
+
+#~ msgid "Change Stencil Text Color"
+#~ msgstr "Zmień kolor tekstu szablonu"
+
+#~ msgid "Change Stencil Horizontal Alignment"
+#~ msgstr "Zmień wyrównanie poziome szablonu"
+
+#~ msgid "Change Stencil Vertical Alignment"
+#~ msgstr "Zmień wyrównanie pionowe szablonu"
+
+#~ msgid "Polyline Connector"
+#~ msgstr "Łamana linia łącząca"
+
+#~ msgid "Straight Connector"
+#~ msgstr "Prosta linia łącząca"
+
+#~ msgid "Left mouse button to start drawing, right to end drawing."
+#~ msgstr ""
+#~ "Lewy przycisk myszy by rozpocząć rysowanie, prawy by zakończyć rysowanie."
+
+#~ msgid "Add Connector Target"
+#~ msgstr "Dodaj cel łącza"
+
+#~ msgid "&Select"
+#~ msgstr "&Wybierz"
+
+#~ msgid "&Edit Text..."
+#~ msgstr "&Edytuj tekst..."
+
+#~ msgid "Format &Stencils && Connectors..."
+#~ msgstr "&Szablony i łącza..."
+
+#~ msgid "Format &Arrowheads..."
+#~ msgstr "&Strzałki..."
+
+#~ msgid "Move Stencil"
+#~ msgstr "Przesuń szablon"
+
+#~ msgid "Move Connector Point"
+#~ msgstr "Przesuń punkt łączacy"
+
+#~ msgid "Resize Stencil"
+#~ msgstr "Zmień rozmiar szablonu"
+
+#~ msgid "Change Protection Attribute"
+#~ msgstr "Zmień atrybut ochrony"
+
+#~ msgid "Stencil & Connector Format"
+#~ msgstr "Format szablonu i łącza"
+
+#~ msgid "Line &width:"
+#~ msgstr "&Szerokość linii:"
+
+#~ msgid "Line &color:"
+#~ msgstr "&Kolor linii:"
+
+#~ msgid "Line &style:"
+#~ msgstr "&Styl linii:"
+
+#~ msgid "Line &end style:"
+#~ msgstr "Styl &końca linii:"
+
+#~ msgid "&Fill color:"
+#~ msgstr "Kolor &wypełnienia:"
+
+#~ msgid "F&ill style:"
+#~ msgstr "S&tyl wypełnienia:"
+
+#, fuzzy
+#~ msgid "Print"
+#~ msgstr "Drukarka 1"
+
+#~ msgid "Editable"
+#~ msgstr "Do edycji"
+
+#~ msgid "Connect"
+#~ msgstr "Połącz"
+
+#~ msgid "Name"
+#~ msgstr "Nazwa"
+
+#~ msgid "New Layer"
+#~ msgstr "Nowa warstwa"
+
+#~ msgid "Remove Layer"
+#~ msgstr "Usuń warstwę"
+
+#~ msgid "Rename Layer"
+#~ msgstr "Zmień nazwę warstwy"
+
+#~ msgid "Move Layer Up"
+#~ msgstr "Przesuń warstwę do góry"
+
+#~ msgid "Move Layer Down"
+#~ msgstr "Przesuń warstwę do dołu"
+
+#~ msgid "Layer %1"
+#~ msgstr "Warstwa %1"
+
+#~ msgid "Add Layer"
+#~ msgstr "Dodaj warstwę"
+
+#~ msgid "Layer name:"
+#~ msgstr "Nazwa warstwy:"
+
+#~ msgid "Export Page"
+#~ msgstr "Eksportuj stronę"
+
+#~ msgid "Settings"
+#~ msgstr "Ustawienia"
+
+#~ msgid "Page Settings"
+#~ msgstr "Ustawienia strony"
+
+#~ msgid "Default &units:"
+#~ msgstr "&Domyślne jednostki:"
+
+#~ msgid "Default layout:"
+#~ msgstr "Domyślne ustawienia strony:"
+
+#~ msgid "Change..."
+#~ msgstr "Zmień..."
+
+#~ msgid "Default font:"
+#~ msgstr "Domyślna czcionka:"
+
+#~ msgid "Show page &margins"
+#~ msgstr "Pokaż &marginesy strony"
+
+#~ msgid "Show page &rulers"
+#~ msgstr "Pokaż &linijki"
+
+#~ msgid "Grid"
+#~ msgstr "Siatka"
+
+#~ msgid "Grid Settings"
+#~ msgstr "Ustawienia siatki"
+
+#~ msgid "Show &grid"
+#~ msgstr "Pokaż &siatkę"
+
+#~ msgid "Snap to g&rid"
+#~ msgstr "P&rzyciągnij do siatki"
+
+#~ msgid "Grid &color:"
+#~ msgstr "&Kolor siatki:"
+
+#, fuzzy
+#~ msgid "Spacing"
+#~ msgstr "O&dstęp"
+
+#~ msgid "&Horizontal:"
+#~ msgstr "&Poziomo:"
+
+#~ msgid "&Vertical:"
+#~ msgstr "P&ionowo:"
+
+#~ msgid "Snap Distance"
+#~ msgstr "Przyciąganie"
+
+#~ msgid "H&orizontal:"
+#~ msgstr "P&oziomo:"
+
+#~ msgid "V&ertical:"
+#~ msgstr "Pio&nowo:"
+
+#~ msgid "Format: %1, Width: %2 %4, Height: %3 %5"
+#~ msgstr "Format: %1, Szerokość: %2 %4, Wysokość: %3 %5"
+
+#~ msgid "Stencil Sets"
+#~ msgstr "Zestawy szablonów"
+
+#~ msgid "Group"
+#~ msgstr "Grupa"
+
+#~ msgid "Connector"
+#~ msgstr "Połączenie"
+
+#~ msgid "Text Area"
+#~ msgstr "Pole tekstowe"
+
+#~ msgid "Type"
+#~ msgstr "Rodzaj"
+
+#~ msgid "Text Format"
+#~ msgstr "Format tekstu"
+
+#, fuzzy
+#~ msgid "Font"
+#~ msgstr "Format"
+
+#~ msgid "Text color:"
+#~ msgstr "Kolor tekstu:"
+
+#~ msgid "Position"
+#~ msgstr "Pozycja"
+
+#, fuzzy
+#~ msgid "Vertical"
+#~ msgstr "P&ionowo:"
+
+#~ msgid "&Top"
+#~ msgstr "&Góra"
+
+#~ msgid "&Center"
+#~ msgstr "Wyśr&odkuj"
+
+#, fuzzy
+#~ msgid "&Bottom"
+#~ msgstr "Wyrównaj do lewej"
+
+#, fuzzy
+#~ msgid "Horizontal"
+#~ msgstr "&Poziomo:"
+
+#~ msgid "&Left"
+#~ msgstr "Wyrównaj do &lewej"
+
+#~ msgid "C&enter"
+#~ msgstr "Wyśro&dkuj"
+
+#~ msgid "&Right"
+#~ msgstr "Wy&równaj do prawej"
+
+#~ msgid "Preview"
+#~ msgstr "Podgląd"
+
+#~ msgid "Arrowhead Format"
+#~ msgstr "Format strzałki"
+
+#~ msgid "<b>Arrowhead at Origin</b>"
+#~ msgstr "<b>Strzałka na początku</b>"
+
+#~ msgid "&Type:"
+#~ msgstr "&Rodzaj:"
+
+#~ msgid "&Width:"
+#~ msgstr "&Szerokość:"
+
+#~ msgid "&Length:"
+#~ msgstr "&Wysokość:"
+
+#~ msgid "<b>Arrowhead at End</b>"
+#~ msgstr "<b>Strzałka na końcu</b>"
+
+#~ msgid "T&ype:"
+#~ msgstr "&Rodzaj:"
+
+#~ msgid "W&idth:"
+#~ msgstr "&Szerokość:"
+
+#~ msgid "L&ength:"
+#~ msgstr "&Wysokość:"
+
+#~ msgid "Visible: "
+#~ msgstr "Widoczne: "
+
+#, fuzzy
+#~ msgid "No"
+#~ msgstr "NOR"
+
+#~ msgid "Printable: "
+#~ msgstr "Do druku: "
+
+#~ msgid "Editable: "
+#~ msgstr "Do edycji: "
+
+#~ msgid "Connectable: "
+#~ msgstr "Do połączenia: "
+
+#~ msgid "Align & Distribute"
+#~ msgstr "Wyrównanie i rozmieszczenie"
+
+#~ msgctxt "%1 current page, %2 total number of pages"
+#~ msgid "Page %1/%2"
+#~ msgstr "Strona %1/%2"
+
+#~ msgctxt "%1 x coord, %2 y coord, %3 and %4 the unit"
+#~ msgid "X: %1 %3 Y: %2 %4"
+#~ msgstr "X: %1 %3 Y: %2 %4"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometria"
+
+#~ msgid "Overview"
+#~ msgstr "Podgląd"
+
+#~ msgid "Layers"
+#~ msgstr "Warstwy"
+
+#~ msgid "Protection"
+#~ msgstr "Ochrona"
+
+#~ msgid "Objects"
+#~ msgstr "Obiekty"
+
+#~ msgid "Add Stencil Set"
+#~ msgstr "Dodaj zestaw szablonów"
+
+#~ msgid "Align && Distribute..."
+#~ msgstr "Wyrównaj i rozmieść..."
+
+#~ msgid "Group Selection"
+#~ msgstr "Grupuj zaznaczone szablony"
+
+#~ msgid "Group selected objects into a single stencil"
+#~ msgstr "Grupuj zaznaczone obiekty w jeden szablon"
+
+#~ msgid "Ungroup"
+#~ msgstr "Rozgrupuj"
+
+#~ msgid "Break up a selected group stencil"
+#~ msgstr "Rozgrupuj zaznaczoną grupę szablonów"
+
+#~ msgid "Bring to Front"
+#~ msgstr "Przenieś na wierzch"
+
+#~ msgid "Send to Back"
+#~ msgstr "Przenieś na spód"
+
+#~ msgid "&Text..."
+#~ msgstr "&Tekst..."
+
+#~ msgid "&Stencils && Connectors..."
+#~ msgstr "&Szablony i łącza..."
+
+#~ msgid "&Arrowheads..."
+#~ msgstr "&Strzałki..."
+
+#~ msgid ""
+#~ "Arrowheads allow you to add an arrow to the beginning and/or end of a "
+#~ "line."
+#~ msgstr ""
+#~ "Strzałki pozwalają na ustawienie kształtu początku i zakończenia linii."
+
+#~ msgid "Line Color"
+#~ msgstr "Kolor linii"
+
+#~ msgid ""
+#~ "The line color allows you to choose a color for the lines of the stencils."
+#~ msgstr "Kolor linii pozwala wybrać kolor linii szablonu."
+
+#~ msgid "Fill Color"
+#~ msgstr "Kolor wypełnienia"
+
+#~ msgid ""
+#~ "You can choose a color for the background of a stencil by using this "
+#~ "button."
+#~ msgstr "Naciśnij, aby wybrać kolor wypełnienia szablonu."
+
+#~ msgid "Font Family"
+#~ msgstr "Czcionka"
+
+#, fuzzy
+#~ msgid "Font Size"
+#~ msgstr "Czcionka"
+
+#~ msgid "Text Color"
+#~ msgstr "Kolor tekstu"
+
+#~ msgid "Toggle Bold Text"
+#~ msgstr "Pogrubienie"
+
+#~ msgid "Toggle Italics Text"
+#~ msgstr "Kursywa"
+
+#~ msgid "Toggle Underline Text"
+#~ msgstr "Podkreślenie"
+
+#~ msgid "Align &Left"
+#~ msgstr "Wyrównaj do &lewej"
+
+#~ msgid "Align &Center"
+#~ msgstr "&Wyśrodkuj"
+
+#~ msgid "Align &Right"
+#~ msgstr "Wyrównaj do p&rawej"
+
+#~ msgid "Superscript"
+#~ msgstr "Indeks górny"
+
+#~ msgid "Subscript"
+#~ msgstr "Indeks dolny"
+
+#~ msgid "Line Width"
+#~ msgstr "Szerokość linii"
+
+#~ msgid "Line Style"
+#~ msgstr "Styl linii"
+
+#~ msgid "Page Layout..."
+#~ msgstr "Ustawienia strony..."
+
+#~ msgid "Remove Page"
+#~ msgstr "Usuń stronę"
+
+#~ msgid "Rename Page..."
+#~ msgstr "Zmień nazwę strony..."
+
+#~ msgid "Show Page..."
+#~ msgstr "Pokaż stronę..."
+
+#~ msgid "Hide Page"
+#~ msgstr "Ukryj stronę"
+
+#~ msgid "Show Page Margins"
+#~ msgstr "Pokaż marginesy strony"
+
+#~ msgid "Hide Page Margins"
+#~ msgstr "Ukryj marginesy strony"
+
+#~ msgid "Show Rulers"
+#~ msgstr "Pokaż linijki"
+
+#~ msgid "Hide Rulers"
+#~ msgstr "Ukryj linijki"
+
+#~ msgid "Show Grid"
+#~ msgstr "Pokaż siatkę"
+
+#~ msgid "Hide Grid"
+#~ msgstr "Ukryj siatkę"
+
+#~ msgid "Snap Grid"
+#~ msgstr "Przyciągnij do siatki"
+
+#~ msgid "Guide Lines"
+#~ msgstr "Prowadnice"
+
+#~ msgid "Add Guide Line..."
+#~ msgstr "Dodaj prowadnicę..."
+
+#~ msgid "Arrowheads"
+#~ msgstr "Strzałki"
+
+#~ msgid "Install Stencil Set..."
+#~ msgstr "Zainstaluj zestaw szablonów..."
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "&Usuwanie"
+
+#~ msgid "Rename Page"
+#~ msgstr "Zmień nazwę strony"
+
+#~ msgid "Enter page name:"
+#~ msgstr "Wprowadź nazwę strony:"
+
+#~ msgid "Page name cannot be empty."
+#~ msgstr "Nazwa strony nie może być pusta."
+
+#~ msgid "Change Page Name"
+#~ msgstr "Zmień nazwę strony"
+
+#~ msgid "This name is already used."
+#~ msgstr "Ta nazwa jest już użyta."
+
+#~ msgid "You cannot hide the last visible page."
+#~ msgstr "Nie można ukryć ostatnio widocznej strony."
+
+#~ msgid "Change Page Layout"
+#~ msgstr "Zmień układ strony"
+
+#~ msgid "You cannot delete the only page of the document."
+#~ msgstr "Nie możesz skasować jedynej strony dokumentu."
+
+#~ msgid ""
+#~ "You are going to remove the active page.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Zamierzasz usunąć aktywną stronę.\n"
+#~ "Czy chcesz kontynuować?"
+
+#, fuzzy
+#~ msgid "&Delete"
+#~ msgstr "&Wybierz"
+
+#~ msgid "Change Foreground Color"
+#~ msgstr "Zmień kolor pierwszoplanowy"
+
+#~ msgid "Change Fg Color"
+#~ msgstr "Zmień kolor pierwszoplanowy"
+
+#~ msgid "Change Background Color"
+#~ msgstr "Zmień kolor tła"
+
+#~ msgid "Change Bg Color"
+#~ msgstr "Zmień kolor tła"
+
+#~ msgid "Change Text Color"
+#~ msgstr "Zmień kolor tekstu"
+
+#~ msgid "Change Line Width"
+#~ msgstr "Zmień szerokość linii"
+
+#~ msgid "Change Line Style"
+#~ msgstr "Zmień styl linii"
+
+#~ msgid "Change Begin Arrow"
+#~ msgstr "Zmień strzałkę początkową"
+
+#~ msgid "Change Arrow"
+#~ msgstr "Zmień strzałkę"
+
+#~ msgid "Change End Arrow"
+#~ msgstr "Zmień strzałkę końcową"
+
+#~ msgid "Change Size of Begin Arrow"
+#~ msgstr "Zmień wielkość strzałki początkowej"
+
+#~ msgid "Change Size of End Arrow"
+#~ msgstr "Zmień wielkość strzałki końcowej"
+
+#~ msgid "Change Stencil Rotation"
+#~ msgstr "Zmień obrót szablonu"
+
+#~ msgid "X: %1 %3 Y: %2 %4"
+#~ msgstr "X: %1 %3 Y: %2 %4"
+
+#~ msgid "Page %1/%2"
+#~ msgstr "Strona%1/%2"
+
+#~ msgid "Invalid OASIS document. No office:body tag found."
+#~ msgstr "Nieprawidłowy dokument OASIS: nie znaleziono znacznika office:body"
+
+#~ msgid "Invalid OASIS document. No office:drawing tag found."
+#~ msgstr ""
+#~ "Nieprawidłowy dokument OASIS: nie znaleziono znacznika office:drawing"
+
+#~ msgid "Page%1"
+#~ msgstr "Strona%1"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Width:"
+#~ msgstr "Szerokość:"
+
+#~ msgid "Height:"
+#~ msgstr "Wysokość:"
+
+#~ msgid "Show Stencil Set Chooser"
+#~ msgstr "Pokaż okno wyboru zestawu szablonów"
+
+#~ msgid "Untitled Layer"
+#~ msgstr "Niezatytułowana warstwa"
+
+#~ msgid "Layer 1"
+#~ msgstr "Warstwa 1"
+
+#~ msgid ""
+#~ "One of the selected stencils has protection from deletion and cannot be "
+#~ "deleted."
+#~ msgstr ""
+#~ "Jeden z wybranych szablonów jest chroniony przed skasowaniem i nie może "
+#~ "zostać usunięty."
+
+#~ msgid "Protection From Deletion"
+#~ msgstr "Ochrona przed usunięciem"
+
+#~ msgid ""
+#~ "One of the stencils has protection from deletion. You cannot cut or "
+#~ "delete this stencil."
+#~ msgstr ""
+#~ "Jeden z wybranych szablonów jest chroniony przed skasowaniem.  Nie możesz "
+#~ "wyciąć lub skasować tego szablonu."
+
+#~ msgid "Protection From Delete"
+#~ msgstr "Ochrona przed usunięciem"
+
+#, fuzzy
+#~ msgid "untitled stencil"
+#~ msgstr "&Wybrane szablony"
+
+#~ msgid "Arrowhead at Origin"
+#~ msgstr "Strzałka na początku"
+
+#~ msgid "Arrowhead at End"
+#~ msgstr "Strzałka na końcu"
+
+#~ msgid "Show Page"
+#~ msgstr "Pokaż stronę"
+
+#~ msgid "Select hidden page to show:"
+#~ msgstr "Wybierz ukrytą stronę do pokazania:"
+
+#~ msgid "&Install"
+#~ msgstr "&Instaluj"
+
+#~ msgid "The file is not a valid stencil set archive."
+#~ msgstr "Ten plik nie jest poprawnym plikiem zestawu szablonów."
+
+#~ msgid "The stencil set archive installed without errors."
+#~ msgstr "Zestaw szablonów został pomyślnie zainstalowany."
+
+#~ msgid "The entire archive could not be installed successfully."
+#~ msgstr "Nie udało się pomyślnie zainstalować całego pliku."
+
+#, fuzzy
+#~ msgid "Export"
+#~ msgstr "Eksportuj stronę"
+
+#~ msgid "&Selected stencils"
+#~ msgstr "&Wybrane szablony"
+
+#~ msgid "Export the selected stencils on the current page"
+#~ msgstr "Eksportuj wybrane szablony z bieżącej stronie"
+
+#~ msgid ""
+#~ "<b>Selected Stencils</b><br>\n"
+#~ "Export only the selected stencils to file."
+#~ msgstr ""
+#~ "<b>Wybrane szablony</b><br>\n"
+#~ "Eksportuj tylko wybrane szablony do pliku."
+
+#~ msgid "&All stencils"
+#~ msgstr "&Wszystkie szablony"
+
+#~ msgid "Export all stencils on the current page"
+#~ msgstr "Eksportuj wszystkie szablony z bieżącej stronie"
+
+#~ msgid ""
+#~ "<b>All Stencils</b><br>\n"
+#~ "This will cause the entire page to be exported to the file. This means "
+#~ "that <i>all</i> stencils will be exported."
+#~ msgstr ""
+#~ "<b>Wszystkie szablony</b><br>\n"
+#~ "Spowoduje eksport całej strony do pliku. Oznacza to, że <i>wszystkie</i> "
+#~ "szablony będę wyeksportowane."
+
+#~ msgid "C&rop picture to edges"
+#~ msgstr "P&rzytnij obrazek do krawędzi strony"
+
+#~ msgid "Don't export extra blank space to file"
+#~ msgstr "Nie eksportuj dodatkowych pustych spacji do pliku"
+
+#~ msgid ""
+#~ "<b>Crop picture to edges</b><br>\n"
+#~ "This will eliminate all blank portions of the drawing. The picture will "
+#~ "only be as large as the stencils it contains. If your stencils are "
+#~ "located in the upper right corner of the page, then only the upper right "
+#~ "corner will be exported."
+#~ msgstr ""
+#~ "<b>Obetnij obrazek do krawędzi</b><br>\n"
+#~ "To usunie wszystkie puste miejsca na rysunku. Obrazek będzie tak duży jak "
+#~ "wymiary szablonów. Jeśli Twoje szablony są położone w górnym prawym rogu "
+#~ "strony, wtedy tylko górny prawy róg będzie wyeksportowany."
+
+#~ msgid "&Quality:"
+#~ msgstr "&Jakość:"
+
+#, fuzzy
+#~ msgid "The higher the quality, the more space the file takes up"
+#~ msgstr "Im wyższa jakość, tym więcej miejsca zajmuje plik."
+
+#~ msgid ""
+#~ "<b>Quality</b><br>\n"
+#~ "Not all file formats use this. But for those that do, this affects the "
+#~ "quality of the image that gets exported. 100 is the maximum quality. The "
+#~ "higher the number, the better the picture looks. The downside is the "
+#~ "higher the number, the larger the filesize."
+#~ msgstr ""
+#~ "<b>Jakość</b><br>\n"
+#~ "Nie wszystkie formaty plików obsługują tą funkcję. Dla tych, które to "
+#~ "robią wpływa to na jakość eksportowanego obrazka. 100 jest najwyższą "
+#~ "jakością. Im większa liczba tym lepiej wygląda obrazek. Jednocześnie im "
+#~ "większa liczba tym większa wielkość pliku."
+
+#~ msgid "An optional border of whitespace around the page, in pixels"
+#~ msgstr "Dodatkowe puste miejsce dookoła strony, w pikselach"
+
+#~ msgid ""
+#~ "<b>Border</b><br>\n"
+#~ "Places a blank border around the edges of the image. This can be used if "
+#~ "for one reason or another, the stencils don't fit into the export page "
+#~ "with a 0-pixel border (default)."
+#~ msgstr ""
+#~ "<b>Obramowanie</b><br>\n"
+#~ "Wstawia puste obramowanie dookoła krawędzi obrazka. Możesz tego użyć "
+#~ "jeśli z jakiejś przyczyny, szablony nie mieszczą się na eksportowanej "
+#~ "stronie z obramowaniem domyślnym (0 pikseli)."
+
+#~ msgid "&Border:"
+#~ msgstr "&Obramowanie:"
+
+#~ msgid "Stencil Set"
+#~ msgstr "Zestaw szablonów"
+
+#~ msgid "No Selection"
+#~ msgstr "Odznacz wszystko"
+
+#~ msgid "This is a preview of the stencils contained in the set"
+#~ msgstr "To jest podgląd szablonów zgromadzonych w zestawie"
+
+#~ msgid "&Add to Document"
+#~ msgstr "&Dodaj do dokumentu"
+
+#, fuzzy
+#~ msgid "&Width"
+#~ msgstr "&Szerokość:"
+
+#~ msgid "Toggles the ability to change the width of the selected stencils"
+#~ msgstr "Blokuje możliwość zmiany szerokości wybranych szablonów"
+
+#~ msgid "Hei&ght"
+#~ msgstr "&Wysokość"
+
+#~ msgid "Toggles the ability to change the height of the selected stencils"
+#~ msgstr "Blokuje możliwość zmiany wysokości wybranych szablonów"
+
+#~ msgid "&Aspect ratio"
+#~ msgstr "&Proporcje"
+
+#~ msgid ""
+#~ "Toggles the ability to change the aspect ratio of the selected stencils"
+#~ msgstr "Blokuje możliwość zmiany proporcji wybranych szablonów"
+
+#~ msgid "&X position"
+#~ msgstr "Pozycja &X"
+
+#~ msgid ""
+#~ "Toggles the ability to protect the x position of the selected stencils"
+#~ msgstr "Blokuje możliwość zmiany położenia w poziomie wybranych szablonów"
+
+#~ msgid "&Y position"
+#~ msgstr "Pozycja &Y"
+
+#~ msgid ""
+#~ "Toggles the ability to protect the y position of the selected stencils"
+#~ msgstr "Blokuje możliwość zmiany położenia w pionie wybranych szablonów"
+
+#~ msgid "Deletio&n"
+#~ msgstr "&Usuwanie"
+
+#~ msgid "Toggles the ability to delete the selected stencils"
+#~ msgstr "Blokuje możliwość usunięcia wybranych szablonów"
+
+#~ msgid "Zoom In 25%"
+#~ msgstr "Powiększ o 25%"
+
+#~ msgid "Zoom Out 25%"
+#~ msgstr "Pomniejsz o 25%"
+
+#, fuzzy
+#~ msgid "Zoom"
+#~ msgstr "Narzędzia powiększenia"
+
+#~ msgid "&Align"
+#~ msgstr "&Wyrównanie"
+
+#~ msgid "Ce&nter"
+#~ msgstr "&Wyśrodkuj"
+
+#~ msgid "N&one"
+#~ msgstr "Br&ak"
+
+#~ msgid "Center of &page"
+#~ msgstr "&Środek strony"
+
+#~ msgid "&None"
+#~ msgstr "&Brak"
+
+#~ msgid "&Distribute"
+#~ msgstr "&Rozmieszczenie"
+
+#~ msgid "E&xtent of selection"
+#~ msgstr "Rozmi&eść wobec wybranych"
+
+#~ msgid "Extent of pa&ge"
+#~ msgstr "Rozmieść wobec stro&ny"
+
+#~ msgid "&Spacing"
+#~ msgstr "O&dstęp"
+
+#~ msgid "S&pacing"
+#~ msgstr "&Odstęp"
+
+#~ msgid "P&age"
+#~ msgstr "Stron&a"
+
+#, fuzzy
+#~ msgid "&Tools"
+#~ msgstr "Narzędzia"
+
+#~ msgid "Tools"
+#~ msgstr "Narzędzia"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Development"
+#~ msgstr "Programowanie"
+
+#~ msgid "Development/Documentation"
+#~ msgstr "Programowanie/dokumentacja"
+
+#~ msgid "Artwork (stencils and icons)"
+#~ msgstr "Grafika (szablony i ikony)"
+
+#~ msgid "Nassi Schneiderman stencils"
+#~ msgstr "Szablony Nassi Schneiderman"
+
+#~ msgid "Initial idea, development and basic stencil sets."
+#~ msgstr "Pomysł, rozwój i podstawowe zestawy szablonów."
+
+#~ msgid "Development and additional stencil sets."
+#~ msgstr "Programowanie i dodatkowe zestawy szablonów."
+
+#, fuzzy
+#~| msgctxt "Stencils"
+#~| msgid "Document"
+#~ msgid "Document"
+#~ msgstr "Dokument"
+
+#, fuzzy
+#~ msgid "Rotation:"
+#~ msgstr "Ochrona"
+
+#, fuzzy
+#~ msgid "Protect size and position"
+#~ msgstr "Ochrona przed usunięciem"
+
+#, fuzzy
+#~ msgid "Keep aspect ratio"
+#~ msgstr "&Proporcje"
+
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgctxt "untitled stencil"
+#~ msgid "Untitled"
+#~ msgstr "Bez nazwy"

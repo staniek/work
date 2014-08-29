@@ -1,0 +1,93 @@
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-07-21 05:45+0000\n"
+"PO-Revision-Date: 2014-07-25 16:45+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. (itstool) path: application/id
+#: krita.appdata.xml:3
+msgid "krita.desktop"
+msgstr "krita.desktop"
+
+#. (itstool) path: application/licence
+#: krita.appdata.xml:4
+msgid "CC0"
+msgstr "CC0"
+
+#. (itstool) path: application/summary
+#: krita.appdata.xml:5
+msgid "Digital Painting, Creative Freedom"
+msgstr "Cyfrowe malowanie, Wolność Twórcza"
+
+#. (itstool) path: description/p
+#: krita.appdata.xml:7
+msgid "Krita is the full-featured digital art studio."
+msgstr "Krita jest pełnowymiarowym, cyfrowym studiem artystycznym"
+
+#. (itstool) path: description/p
+#: krita.appdata.xml:8
+msgid ""
+"It is perfect for sketching and painting, and presets an end–to–end solution "
+"for creating digital painting files from scratch by masters."
+msgstr ""
+"Nadaje się perfekcyjnie do szkicowania i malowania i dostarcza zupełnego "
+"rozwiązania dla tworzenia plików malowideł cyfrowych od zalążka."
+
+#. (itstool) path: description/p
+#: krita.appdata.xml:9
+msgid ""
+"Krita is a great choice for creating concept art, comics, textures for "
+"rendering and matte paintings. Krita supports many colorspaces like RGB and "
+"CMYK at 8 and 16 bits integer channels, as well as 16 and 32 bits floating "
+"point channels."
+msgstr ""
+"Krita jest świetnym wyborem przy tworzeniu koncepcyjnej sztuki, komiksów, "
+"tekstur do wyświetlania i kaszet. Krita obsługuje wiele przestrzeni barw "
+"takich jak RGB oraz CMYK dla kanałów 8 oraz 16 bitowych wyrażonych w l. "
+"całkowitych, a także  16 oraz 32 bitowych wyrażonych w l. "
+"zmiennoprzecinkowych."
+
+#. (itstool) path: description/p
+#: krita.appdata.xml:10
+msgid ""
+"Have fun painting with the advanced brush engines, amazing filters and many "
+"handy features that make Krita enormously productive."
+msgstr ""
+"Baw się przy malowaniu przy użyciu zaawansowanych silników pędzli, "
+"zadziwiających filtrów i wielu innych przydatnych cech, które czynią z Krity "
+"bardzo produktywną."
+
+#. (itstool) path: application/url
+#: krita.appdata.xml:12
+msgid "http://www.krita.org/"
+msgstr "http://www.krita.org/"
+
+#. (itstool) path: screenshots/screenshot
+#: krita.appdata.xml:14
+msgid "http://heap.kogmbh.net/downloads/krita_appdata_1.png"
+msgstr "http://heap.kogmbh.net/downloads/krita_appdata_1.png"
+
+#. (itstool) path: screenshots/screenshot
+#: krita.appdata.xml:15
+msgid "http://heap.kogmbh.net/downloads/krita_appdata_2.png"
+msgstr "http://heap.kogmbh.net/downloads/krita_appdata_2.png"
+
+#. (itstool) path: application/updatecontact
+#: krita.appdata.xml:18
+msgid "foundation@krita.org"
+msgstr "foundation@krita.org"
+
+#. (itstool) path: application/project_group
+#: krita.appdata.xml:19
+msgid "KDE"
+msgstr "KDE"

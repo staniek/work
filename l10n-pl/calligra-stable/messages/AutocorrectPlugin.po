@@ -1,0 +1,326 @@
+# translation of AutocorrectPlugin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tadeusz Hessel <tazdzioch@o2.pl>, 2007.
+# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2007.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: AutocorrectPlugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-09-29 02:53+0200\n"
+"PO-Revision-Date: 2011-07-15 21:33+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: Autocorrect.cpp:39
+msgid "Configure &Autocorrection..."
+msgstr "Konfiguruj &automatyczne sprawdzanie"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AutocorrectConfig)
+#: Autocorrect.cpp:43 Autocorrect.cpp:92 AutocorrectConfig.ui:14
+#: AutocorrectConfigDialog.cpp:377
+msgid "Autocorrection"
+msgstr "Automatyczne sprawdzanie"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: AutocorrectConfig.ui:24
+msgid "Si&mple Autocorrection"
+msgstr "Pr&oste automatyczne sprawdzanie"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, upperCase)
+#: AutocorrectConfig.ui:30
+msgid ""
+"Detect when a new sentence is started and always ensure that the first "
+"character is an uppercase character"
+msgstr ""
+"Wykrywaj kiedy nowe zdanie jest rozpoczynane i zawsze dopilnuj, żeby "
+"pierwszy znak był pisany wielką literą"
+
+#. i18n: ectx: property (text), widget (QCheckBox, upperCase)
+#: AutocorrectConfig.ui:34
+msgid ""
+"Convert &first letter of a sentence automatically to uppercase\n"
+"(e.g. \"my house. in this town\" to \"my house. In this town\")"
+msgstr ""
+"Konwertuj automatycznie &pierwszą literę zdania na wielką literę\n"
+"(np. \"mój dom. w tym mieście\" na \"mój dom. W tym mieście\")"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, upperUpper)
+#: AutocorrectConfig.ui:44
+msgid ""
+"All words are checked for the common mistake of holding the shift key down a "
+"bit too long. If some words must have two uppercase characters, then those "
+"exceptions should be added in the 'Exceptions' tab."
+msgstr ""
+"Wszystkie słowa są sprawdzane pod względem najczęstszych pomyłek przy "
+"dłuższym przytrzymaniu klawisza shift. Jeśli dwa wyrazy zaczynają się od "
+"wielkiej litery, wtedy te wyjątki powinny zostać dodane na karcie 'Wyjątki'."
+
+#. i18n: ectx: property (text), widget (QCheckBox, upperUpper)
+#: AutocorrectConfig.ui:48
+msgid ""
+"Convert &two uppercase characters to one uppercase and one lowercase "
+"character\n"
+" (e.g. PErfect to Perfect)"
+msgstr ""
+"Zamień &dwie wielkie litery na jedną wielką i jedną małą.\n"
+"(np IDealnie na Idealnie)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoFormatUrl)
+#: AutocorrectConfig.ui:55
+msgid ""
+"Detect when a URL (Uniform Resource Locator) is typed and provide formatting "
+"that matches the way an Internet browser would show a URL."
+msgstr ""
+"Wykrywaj kiedy jest wprowadzany adres URL i wprowadź formatowanie, które "
+"odpowiada sposobowi w jaki przeglądarka internetowa pokazałaby ten adres."
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoFormatUrl)
+#: AutocorrectConfig.ui:58
+msgid "Autoformat &URLs"
+msgstr "Automatycznie formatuj adresy &URL"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreDoubleSpace)
+#: AutocorrectConfig.ui:65
+msgid ""
+"Make sure that more than one space cannot be typed, as this is a common "
+"mistake which is quite hard to find in formatted text."
+msgstr ""
+"Zapewnij, że więcej niż jeden ostęp nie może zostać wpisany, jako że jest to "
+"częsty błąd, trudny do znalezienia w sformatowanym tekście."
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreDoubleSpace)
+#: AutocorrectConfig.ui:68
+msgid "&Suppress double spaces"
+msgstr "&Usuń podwójne odstępy"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, trimParagraphs)
+#: AutocorrectConfig.ui:75
+msgid ""
+"Keep correct formatting and indenting of sentences by automatically removing "
+"spaces typed at the beginning and end of a paragraph."
+msgstr ""
+"Utrzymuj poprawne formatowanie i wygląd zdań poprzez automatyczne usuwanie "
+"odstępów wpisanych na początku i końcu akapitu."
+
+#. i18n: ectx: property (text), widget (QCheckBox, trimParagraphs)
+#: AutocorrectConfig.ui:78
+msgid "R&emove spaces at the beginning and end of paragraphs"
+msgstr "U&suwaj odstępy na początku i końcu akapitów"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoChangeFormat)
+#: AutocorrectConfig.ui:85
+msgid ""
+"When you use _underline_ or *bold*, the text between the underscores or "
+"asterisks will be converted to underlined or bold text."
+msgstr ""
+"Kiedy używasz _podkreślania_ albo *pogrubiania*, tekst pomiędzy znakami "
+"podkreślenia albo gwiazdkami będzie zamieniany na podkreślony lub pogrubiony."
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoChangeFormat)
+#: AutocorrectConfig.ui:88
+msgid "Automatically do &bold and underline formatting"
+msgstr "Automatycznie &pogrubiaj i podkreślaj"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoReplaceNumber)
+#: AutocorrectConfig.ui:95
+msgid "Most standard fraction notations will be converted when available"
+msgstr "Większość zapisów ułamków będzie konwertowanych gdy jest to dostępne"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoReplaceNumber)
+#: AutocorrectConfig.ui:98
+msgid "Re&place 1/2... with ½..."
+msgstr "Za&stąp 1/2 ...½..."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useNumberStyle)
+#: AutocorrectConfig.ui:108
+msgid ""
+"When typing '1)' or similar in front of a paragraph, automatically convert "
+"the paragraph to use that numbering style. This has the advantage that "
+"further paragraphs will also be numbered and the spacing is done correctly."
+msgstr ""
+"Przy wpisywaniu '1)' lub podobnego na początku akapitu, automatycznie "
+"konwertuj ten akapit do odpowiedniego stylu numerowania. Ma to tę zaletę, że "
+"następne akapity będą numerowane i odstępy znajdują się we właściwych "
+"miejscach."
+
+#. i18n: ectx: property (text), widget (QCheckBox, useNumberStyle)
+#: AutocorrectConfig.ui:111
+msgid "Use &autonumbering for numbered paragraphs"
+msgstr "Użyj &automatycznego numerowania dla numerowanych akapitów"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoSuperScript)
+#: AutocorrectConfig.ui:121
+msgid "Rep&lace 1st... with 1^st..."
+msgstr "Zas&tąp 1wszy przez 1^wszy..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, capitalizeDaysName)
+#: AutocorrectConfig.ui:128
+msgid "Capitalize name of days"
+msgstr "Pisz nazwy dni z wielkiej litery"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useBulletStyle)
+#: AutocorrectConfig.ui:138
+msgid ""
+"When typing '*' or '-' in front of a paragraph, automatically convert the "
+"paragraph to use that list-style. Using a list-style formatting means that a "
+"correct bullet is used to draw the list."
+msgstr ""
+"Kiedy wpisujesz '*' lub '-' na początku akapitu, automatycznie konwertuj ten "
+"akapit tak, aby używał stylu listy. Użycie stylu oznacza, że do wyświetlenia "
+"listy jest używane poprawne wypunktowanie."
+
+#. i18n: ectx: property (text), widget (QCheckBox, useBulletStyle)
+#: AutocorrectConfig.ui:141
+msgid "Use l&ist-formatting for bulleted paragraphs"
+msgstr "Użyj formatowania &listy dla wypunktowania"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultBulletStyle)
+#. i18n: ectx: property (text), widget (QPushButton, doubleDefault)
+#. i18n: ectx: property (text), widget (QPushButton, singleDefault)
+#. i18n: ectx: property (text), item, widget (QComboBox, autoFormatLanguage)
+#: AutocorrectConfig.ui:178 AutocorrectConfig.ui:253 AutocorrectConfig.ui:308
+#: AutocorrectConfig.ui:360
+msgid "Default"
+msgstr "Domyślne"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: AutocorrectConfig.ui:214
+msgid "Custom &Quotes"
+msgstr "Własne &cudzysłowy"
+
+#. i18n: ectx: property (text), widget (QCheckBox, typographicDoubleQuotes)
+#: AutocorrectConfig.ui:220
+msgid "Replace &double quotes with typographical quotes"
+msgstr "Zastąp &podwójne cudzysłowy cudzysłowami drukarskimi"
+
+#. i18n: ectx: property (text), widget (QCheckBox, typographicSingleQuotes)
+#: AutocorrectConfig.ui:275
+msgid "Replace &single quotes with typographical quotes"
+msgstr "Zastępuj &pojedyncze cudzysłowy cudzysłowami drukarskimi"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: AutocorrectConfig.ui:344
+msgid "Ad&vanced Autocorrection"
+msgstr "Za&awansowane automatyczne sprawdzanie"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: AutocorrectConfig.ui:352
+msgid "Replacements and exceptions for language:"
+msgstr "Zastępowanie i wyjątki dla języka:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, autoFormatLanguage)
+#: AutocorrectConfig.ui:365
+msgid "All Languages"
+msgstr "Wszystkie języki"
+
+#. i18n: ectx: property (text), widget (QCheckBox, advancedAutocorrection)
+#: AutocorrectConfig.ui:375
+msgid "&Enable word replacement"
+msgstr "&Włącz zastępowanie słów"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoCorrectionWithFormat)
+#: AutocorrectConfig.ui:385
+msgid "Replace &text with format"
+msgstr "Zastąp &tekst formatem"
+
+#. i18n: ectx: property (text), widget (QLabel, findLabel)
+#: AutocorrectConfig.ui:394
+msgid "&Find"
+msgstr "&Znajdź"
+
+#. i18n: ectx: property (text), widget (QToolButton, specialChar1)
+#. i18n: ectx: property (text), widget (QToolButton, specialChar2)
+#: AutocorrectConfig.ui:407 AutocorrectConfig.ui:427
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, replaceLabel)
+#: AutocorrectConfig.ui:414
+msgid "Re&place"
+msgstr "Za&stąp"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: ectx: property (text), widget (QPushButton, add1)
+#: AutocorrectConfig.ui:438 AutocorrectConfig.ui:562
+#: AutocorrectConfigDialog.cpp:294
+msgid "&Add"
+msgstr "&Dodaj"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#. i18n: ectx: property (text), widget (QPushButton, remove2)
+#: AutocorrectConfig.ui:445 AutocorrectConfig.ui:637
+msgid "Remove"
+msgstr "Usuń"
+
+#. i18n: ectx: property (text), widget (QPushButton, changeFormat)
+#: AutocorrectConfig.ui:455
+msgid "C&hange Format..."
+msgstr "Z&mień format..."
+
+#. i18n: ectx: property (text), widget (QPushButton, clearFormat)
+#: AutocorrectConfig.ui:465
+msgid "C&lear Format"
+msgstr "W&yczyść format"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: AutocorrectConfig.ui:503
+msgid "Find"
+msgstr "Znajdź"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: AutocorrectConfig.ui:508
+msgid "Replace"
+msgstr "Zastąp"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: AutocorrectConfig.ui:517
+msgid "E&xceptions"
+msgstr "W&yjątki"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: AutocorrectConfig.ui:525
+msgid "Do not treat as the end of a sentence:"
+msgstr "Nie traktuj jako końca zdania:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoinclude1)
+#. i18n: ectx: property (text), widget (QCheckBox, autoinclude2)
+#: AutocorrectConfig.ui:551 AutocorrectConfig.ui:619
+msgid "Autoinclude"
+msgstr "Automatyczne włączanie"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove1)
+#: AutocorrectConfig.ui:569
+msgid "R&emove"
+msgstr "U&suń"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: AutocorrectConfig.ui:593
+msgid "Accept two uppercase letters in:"
+msgstr "Akceptuj dwie wielkie litery w:"
+
+#. i18n: ectx: property (text), widget (QPushButton, add2)
+#: AutocorrectConfig.ui:630
+msgid "A&dd"
+msgstr "D&odaj"
+
+#: AutocorrectConfigDialog.cpp:290
+msgid "&Modify"
+msgstr "&Modyfikuj"
+
+#: AutocorrectConfigDialog.cpp:391
+msgid "Select Character"
+msgstr "Wybierz znak"
+
+#: AutocorrectFactory.cpp:29
+msgid "Autocorrect"
+msgstr "Automatyczne poprawianie"

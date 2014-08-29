@@ -1,0 +1,1302 @@
+# translation of karbon.po to
+# Copyright (C) 2002, 2004, 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
+#
+# Piotr Szymanski <djurban@linuxpl.org>, 2002.
+# Marta Rybczynska <mrybczynska@poczta.onet.pl>, 2004, 2005, 2006.
+# Michal Rudolf <mrudolf@kdewebdev.org>, 2005.
+# Krzysztof Lichota <lichota@mimuw.edu.pl>, 2006.
+# Marta Rybczyńska <kde-i18n@rybczynska.net>, 2008, 2009.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: karbon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-21 01:27+0000\n"
+"PO-Revision-Date: 2014-08-10 06:55+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marta Rybczyńska, Łukasz Wojniłowicz"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mrybczynska@poczta.onet.pl, lukasz.wojnilowicz@gmail.com"
+
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:925
+msgctxt "(qtundo-format)"
+msgid "Boolean Operation"
+msgstr "Operacje Boolowskie"
+
+#. i18n: ectx: Menu (object_order)
+#: data/karbon.rc:16 data/karbon.rc:77
+msgid "&Order"
+msgstr "K&olejność"
+
+#. i18n: ectx: Menu (object_align)
+#: data/karbon.rc:23 data/karbon.rc:84
+msgid "&Align"
+msgstr "Wyrówn&aj"
+
+#. i18n: ectx: Menu (file)
+#: data/karbon.rc:34
+msgid "&File"
+msgstr "&Plik"
+
+#. i18n: ectx: Menu (edit)
+#: data/karbon.rc:38 data/karbon_readonly.rc:11
+msgid "&Edit"
+msgstr "&Edycja"
+
+#. i18n: ectx: Menu (view)
+#: data/karbon.rc:52 data/karbon_readonly.rc:17
+msgid "&View"
+msgstr "&Widok"
+
+#. i18n: ectx: Menu (object)
+#: data/karbon.rc:74
+msgid "&Object"
+msgstr "&Obiekt"
+
+#. i18n: ectx: Menu (object_distribute)
+#: data/karbon.rc:94
+msgid "&Distribute"
+msgstr "&Rozmieść"
+
+#. i18n: ectx: Menu (path)
+#: data/karbon.rc:113
+msgid "&Path"
+msgstr "Ś&cieżka"
+
+#. i18n: ectx: Menu (effects)
+#: data/karbon.rc:127
+msgid "Effe&cts"
+msgstr "&Efekty"
+
+#. i18n: ectx: Menu (settings)
+#: data/karbon.rc:129
+msgid "&Settings"
+msgstr "U&stawienia"
+
+#. i18n: ectx: ToolBar (edit_toolbar)
+#: data/karbon.rc:138
+msgid "Edit"
+msgstr "Edycja"
+
+#. i18n: ectx: ToolBar (object_toolbar)
+#: data/karbon.rc:148
+msgid "Object"
+msgstr "Obiekt"
+
+#. i18n: ectx: ToolBar (align_toolbar)
+#: data/karbon.rc:157
+msgid "Align"
+msgstr "Wyrównaj"
+
+#. i18n: ectx: ToolBar (Effects)
+#: data/karbon.rc:166
+msgid "Effects"
+msgstr "Efekty"
+
+#. i18n: ectx: ToolBar (view_toolbar)
+#: data/karbon_readonly.rc:25
+msgid "View"
+msgstr "Widok"
+
+#: main.cpp:60
+msgid "File to open"
+msgstr "Plik do otwarcia"
+
+#: plugins/filtereffects/BlendEffect.cpp:30
+#: plugins/filtereffects/BlendEffectFactory.cpp:27
+msgid "Blend"
+msgstr "Mieszanie"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
+msgid "Blend mode"
+msgstr "Tryb mieszania"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
+msgid "Normal"
+msgstr "Normalny"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
+msgid "Multiply"
+msgstr "Mnożenie"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
+msgid "Screen"
+msgstr "Ekran"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
+msgid "Darken"
+msgstr "Przyciemnij"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
+msgid "Lighten"
+msgstr "Rozjaśnij"
+
+#: plugins/filtereffects/BlurEffect.cpp:276
+#: plugins/filtereffects/BlurEffectFactory.cpp:27
+msgid "Gaussian blur"
+msgstr "Rozmycie Gaussa"
+
+#: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
+msgid "Radius"
+msgstr "Promień"
+
+#: plugins/filtereffects/ColorMatrixEffect.cpp:34
+msgid "Color Matrix"
+msgstr "Macierz kolorów"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:41
+msgid "Apply color matrix"
+msgstr "Zastosuj macierz kolorów"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:42
+msgid "Saturate colors"
+msgstr "Nasyć kolory"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:43
+msgid "Rotate hue"
+msgstr "Obróć odcień"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:44
+msgid "Luminance to alpha"
+msgstr "Jaskrawość do alfy"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:63
+msgid "Saturate value"
+msgstr "Wartość nasycenia"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:73
+msgid "Angle"
+msgstr "Kąt"
+
+#: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
+msgid "Color matrix"
+msgstr "Macierz koloru"
+
+#: plugins/filtereffects/ComponentTransferEffect.cpp:30
+#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
+msgid "Component transfer"
+msgstr "Przesyłanie komponentu"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
+msgid "Function"
+msgstr "Funkcja"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
+msgid "Identity"
+msgstr "Tożsamość"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
+msgid "Table"
+msgstr "Tabela"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
+msgid "Discrete"
+msgstr "Dyskretnie"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
+msgid "Linear"
+msgstr "Liniowo"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
+msgid "Gamma"
+msgstr "Gamma"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
+msgid "Values"
+msgstr "Wartości"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
+msgid "Slope"
+msgstr "Nachylenie"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
+msgid "Intercept"
+msgstr "Przetnij"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
+msgid "Amplitude"
+msgstr "Amplituda"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
+msgid "Exponent"
+msgstr "Wykładnik"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
+#: plugins/filtereffects/OffsetEffect.cpp:31
+#: plugins/filtereffects/OffsetEffectFactory.cpp:26
+msgid "Offset"
+msgstr "Przesunięcie"
+
+#: plugins/filtereffects/CompositeEffect.cpp:32
+#: plugins/filtereffects/CompositeEffectFactory.cpp:27
+msgid "Composite"
+msgstr "Kompozycja"
+
+#: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
+msgid "Operation"
+msgstr "Operacja"
+
+#: plugins/filtereffects/ConvolveMatrixEffect.cpp:33
+#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
+msgid "Convolve Matrix"
+msgstr "Zniekształcenie macierzowe"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
+msgid "Duplicate"
+msgstr "Powiel"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
+msgid "Wrap"
+msgstr "Zawiń"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
+msgid "None"
+msgstr "Brak"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
+msgid "Edge mode:"
+msgstr "Tryb krawędzi:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
+msgid "Kernel size:"
+msgstr "Rozmiar jądra:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
+msgid "Target point:"
+msgstr "Punkt docelowy:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
+msgid "Divisor:"
+msgstr "Podzielnik:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
+msgid "Bias:"
+msgstr "Ukierunkowanie:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
+msgid "Preserve alpha"
+msgstr "Zachowaj alfę"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
+msgid "Edit kernel"
+msgstr "Edytuj jądro"
+
+#: plugins/filtereffects/FloodEffect.cpp:30
+#: plugins/filtereffects/FloodEffectFactory.cpp:27
+msgid "Flood fill"
+msgstr "Rozrost ziarna"
+
+#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
+msgid "Flood color"
+msgstr "Kolor rozrostu ziarna"
+
+#: plugins/filtereffects/ImageEffect.cpp:35
+#: plugins/filtereffects/ImageEffectFactory.cpp:26
+msgid "Image"
+msgstr "Obraz"
+
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
+msgid "Select image..."
+msgstr "Wybierz obraz..."
+
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:70
+msgid "Select image"
+msgstr "Wybierz obraz"
+
+#: plugins/filtereffects/MergeEffect.cpp:30
+#: plugins/filtereffects/MergeEffectFactory.cpp:27
+msgid "Merge"
+msgstr "Scal"
+
+#: plugins/filtereffects/MorphologyEffect.cpp:32
+#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
+msgid "Morphology"
+msgstr "Morfologia"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
+msgid "Erode"
+msgstr "Eroduj"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:39
+msgid "Dilate"
+msgstr "Rozciągnij"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:42
+msgid "Operator:"
+msgstr "Operator:"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:46
+msgid "Radius x:"
+msgstr "Promień x:"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:51
+msgid "Radius y:"
+msgstr "Promień y:"
+
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
+msgid "dx"
+msgstr "dx"
+
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
+msgid "dy"
+msgstr "dy"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:61
+msgid "&Flatten Path..."
+msgstr "&Spłaszcz ścieżkę..."
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:99
+msgid "Flatten Path"
+msgstr "Spłaszcz ścieżkę"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:103
+#: plugins/refinepath/RefinePathPlugin.cpp:101
+#: plugins/roundcorners/RoundCornersPlugin.cpp:111
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:121
+msgid "Properties"
+msgstr "Właściwości"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:107
+msgid "Flatness:"
+msgstr "Płaskość:"
+
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
+msgctxt "(qtundo-format)"
+msgid "Flatten path"
+msgstr "Spłaszcz ścieżkę"
+
+#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Refine path"
+msgstr "Zamknij ścieżkę"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:61
+msgid "&Refine Path..."
+msgstr "Za&mknij ścieżkę..."
+
+#: plugins/refinepath/RefinePathPlugin.cpp:97
+msgid "Refine Path"
+msgstr "Zamknięcie ścieżki"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:105
+msgid "Subdivisions:"
+msgstr "Pod-podziały:"
+
+#: plugins/roundcorners/RoundCornersCommand.cpp:41
+#: plugins/roundcorners/RoundCornersPlugin.cpp:90
+msgctxt "(qtundo-format)"
+msgid "Round Corners"
+msgstr "Zaokrąglij narożniki"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:61
+msgid "&Round Corners..."
+msgstr "&Zaokrąglij narożniki..."
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:107
+msgid "Round Corners"
+msgstr "Zaokrąglij narożniki"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:115
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:135
+msgid "Radius:"
+msgstr "Promień:"
+
+#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
+msgctxt "(qtundo-format)"
+msgid "Whirl & pinch"
+msgstr "Skręć i ściśnij"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:64
+msgid "&Whirl/Pinch..."
+msgstr "&Skręcenie/ściśnięcie..."
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:106
+msgid "Whirl Pinch"
+msgstr "Skręć/ściśnij"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:113
+msgid "Info"
+msgstr "Informacja"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:115
+msgid ""
+"The result of the Whirlpinch effect can be improved by refining the path "
+"shape beforehand."
+msgstr ""
+"Wynik efektu \"Skręć/ściśnij\" można poprawić zamykając wcześniej ścieżkę "
+"kształtu."
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:125
+msgid "Angle:"
+msgstr "Kąt:"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:129
+msgid "Pinch:"
+msgstr "Ściśnięcie:"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:37
+#: ui/commands/KarbonLayerReorderCommand.cpp:46
+msgctxt "(qtundo-format)"
+msgid "Raise Layer"
+msgstr "Wznieś warstwę"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:39
+#: ui/commands/KarbonLayerReorderCommand.cpp:48
+msgctxt "(qtundo-format)"
+msgid "Lower Layer"
+msgstr "Obniż warstwę"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:41
+msgid "Configure"
+msgstr "Ustawienia"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:46
+#: ui/dialogs/KarbonConfigureDialog.cpp:47
+#: ui/widgets/KarbonConfigInterfacePage.cpp:57
+msgid "Interface"
+msgstr "Interfejs"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:51
+#: ui/dialogs/KarbonConfigureDialog.cpp:52
+msgid "Misc"
+msgstr "Inne"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:56
+#: ui/dialogs/KarbonConfigureDialog.cpp:57
+msgid "Grid"
+msgstr "Siatka"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:63
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "Dokument"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:64
+msgid "Document Settings"
+msgstr "Ustawienia dokumentu"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:68
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "Autor"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:69
+msgid "Author"
+msgstr "Autor"
+
+#: ui/dockers/KarbonLayerDocker.cpp:83
+msgid "Layer view"
+msgstr "Widok warstw"
+
+#: ui/dockers/KarbonLayerDocker.cpp:94
+msgid "Add a new layer"
+msgstr "Dodaj nową warstwę"
+
+#: ui/dockers/KarbonLayerDocker.cpp:100
+msgid "Delete selected objects"
+msgstr "Usuń zaznaczone obiekty"
+
+#: ui/dockers/KarbonLayerDocker.cpp:106
+msgid "Raise selected objects"
+msgstr "Podnieś wybrane obiekty"
+
+#: ui/dockers/KarbonLayerDocker.cpp:112
+msgid "Lower selected objects"
+msgstr "Opuść zaznaczone obiekty"
+
+#: ui/dockers/KarbonLayerDocker.cpp:121
+msgid "Minimal View"
+msgstr "Widok minimalny"
+
+#: ui/dockers/KarbonLayerDocker.cpp:123
+msgid "Detailed View"
+msgstr "Widok szczegółowy"
+
+#: ui/dockers/KarbonLayerDocker.cpp:125
+msgid "Thumbnail View"
+msgstr "Widok miniaturek"
+
+#: ui/dockers/KarbonLayerDocker.cpp:135
+msgid "View mode"
+msgstr "Tryb widoku"
+
+#: ui/dockers/KarbonLayerDocker.cpp:281
+msgid "New Layer"
+msgstr "Nowa warstwa"
+
+#: ui/dockers/KarbonLayerDocker.cpp:282
+msgid "Enter the name of the new layer:"
+msgstr "Proszę podać nazwę nowej warstwy:"
+
+#: ui/dockers/KarbonLayerDocker.cpp:283
+msgid "New layer"
+msgstr "Nowa warstwa"
+
+#: ui/dockers/KarbonLayerDocker.cpp:289
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr "Utwórz warstwę"
+
+#: ui/dockers/KarbonLayerDocker.cpp:313
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr "Usuń warstwę"
+
+#: ui/dockers/KarbonLayerDocker.cpp:315
+msgid "Could not delete all layers. At least one layer is required."
+msgstr "Nie można usunąć wszystkich warstw. Musi istnieć co najmniej jedna."
+
+#: ui/dockers/KarbonLayerDocker.cpp:315
+msgid "Error deleting layers"
+msgstr "Błąd podczas usuwania warstw"
+
+#: ui/dockers/KarbonLayerModel.cpp:160
+msgid "Layer"
+msgstr "Warstwa"
+
+#: ui/dockers/KarbonLayerModel.cpp:162
+msgctxt "A group of shapes"
+msgid "Group"
+msgstr "Grupa"
+
+#: ui/dockers/KarbonLayerModel.cpp:164
+msgid "Shape"
+msgstr "Kształt"
+
+#: ui/dockers/KarbonLayerModel.cpp:259
+msgctxt "Visibility state of the shape"
+msgid "Visible"
+msgstr "Widoczny"
+
+#: ui/dockers/KarbonLayerModel.cpp:260
+msgctxt "Lock state of the shape"
+msgid "Locked"
+msgstr "Zablokowany"
+
+#: ui/dockers/KarbonLayerModel.cpp:261
+msgctxt "The z-index of the shape"
+msgid "zIndex"
+msgstr "Indeks z"
+
+#: ui/dockers/KarbonLayerModel.cpp:262
+msgctxt "The opacity of the shape"
+msgid "Opacity"
+msgstr "Nieprzezroczystość"
+
+#: ui/dockers/KarbonLayerModel.cpp:263
+msgctxt "Clipped state of the shape"
+msgid "Clipped"
+msgstr "Przycięta"
+
+#: ui/dockers/KarbonLayerModel.cpp:263
+msgid "yes"
+msgstr "tak"
+
+#: ui/dockers/KarbonLayerModel.cpp:263
+msgid "no"
+msgstr "nie"
+
+#: ui/dockers/KarbonLayerModel.cpp:464
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr "Ponownie przyporządkuj kształty"
+
+#: ui/KarbonAboutData.h:27
+msgid "A Vector Graphics Drawing Application."
+msgstr "Program do grafiki wektorowej."
+
+#: ui/KarbonAboutData.h:36
+msgid "Karbon"
+msgstr "Karbon"
+
+#: ui/KarbonAboutData.h:40
+msgid "(c) 2001-2013, The Karbon Developers"
+msgstr "(c) 2001-2013, Programiści Karbon"
+
+#: ui/KarbonAboutData.h:41
+msgid "You are invited to participate in any way."
+msgstr "Zapraszamy Cię do udziału w projekcie w dowolny sposób."
+
+#: ui/KarbonAboutData.h:46
+msgid "Rob Buis"
+msgstr "Rob Buis"
+
+#: ui/KarbonAboutData.h:50
+msgid "Tomislav Lukman"
+msgstr "Tomislav Lukman"
+
+#: ui/KarbonAboutData.h:54
+msgid "Benoît Vautrin"
+msgstr "Benoît Vautrin"
+
+#: ui/KarbonAboutData.h:58
+msgid "Jan Hambrecht"
+msgstr "Jan Hambrecht"
+
+#: ui/KarbonAboutData.h:59 ui/KarbonAboutData.h:63 ui/KarbonAboutData.h:67
+#: ui/KarbonAboutData.h:71 ui/KarbonAboutData.h:75
+msgid "Bug fixes and improvements"
+msgstr "Poprawki błędów i udoskonalenia"
+
+#: ui/KarbonAboutData.h:62
+msgid "Peter Simonsson"
+msgstr "Peter Simonsson"
+
+#: ui/KarbonAboutData.h:66
+msgid "Tim Beaulen"
+msgstr "Tim Beaulen"
+
+#: ui/KarbonAboutData.h:70
+msgid "Boudewijn Rempt"
+msgstr "Boudewijn Rempt"
+
+#: ui/KarbonAboutData.h:74
+msgid "Pierre Stirnweiss"
+msgstr "Pierre Stirnweiss"
+
+#: ui/KarbonAboutData.h:78
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: ui/KarbonAboutData.h:79
+msgid "Bug fixes"
+msgstr "Poprawki błędów"
+
+#: ui/KarbonAboutData.h:82
+msgid "Alan Horkan"
+msgstr "Alan Horkan"
+
+#: ui/KarbonAboutData.h:83
+msgid "Helpful patches and advice"
+msgstr "Przydatne poprawki i porady"
+
+#: ui/KarbonDocument.cpp:194
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr "Niepoprawny dokument OASIS. Nie znaleziono znacznika office:body."
+
+#: ui/KarbonDocument.cpp:201
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr "Niepoprawny dokument OASIS. Nie znaleziono znacznika office:drawing."
+
+#: ui/KarbonDocument.cpp:208
+msgid "Invalid OASIS document. No draw:page tag found."
+msgstr "Niepoprawny dokument OASIS. Nie znaleziono znacznika draw:page."
+
+#: ui/KarbonDocument.cpp:687
+msgid "Master Page"
+msgstr "Strona główna"
+
+#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:572
+msgctxt "(qtundo-format)"
+msgid "Insert graphics"
+msgstr "Wstaw grafikę"
+
+#: ui/KarbonView.cpp:498
+msgid "Choose Graphic to Add"
+msgstr "Wybierz grafikę do dodania"
+
+#: ui/KarbonView.cpp:543
+msgid "Could not load image."
+msgstr "Nie można wczytać obrazu."
+
+#: ui/KarbonView.cpp:543 ui/KarbonView.cpp:548 ui/KarbonView.cpp:555
+msgid "Import graphic"
+msgstr "Importuj grafikę"
+
+#: ui/KarbonView.cpp:548 ui/KarbonView.cpp:555
+msgid "Could not create image shape."
+msgstr "Nie można utworzyć kształtu obrazu."
+
+#: ui/KarbonView.cpp:799
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally"
+msgstr "Lustrzane odbicie poziome"
+
+#: ui/KarbonView.cpp:801
+msgctxt "(qtundo-format)"
+msgid "Mirror Vertically"
+msgstr "Lustrzane odbicie pionowe"
+
+#: ui/KarbonView.cpp:803
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally and Vertically"
+msgstr "Lustrzane odbicie poziome i pionowe"
+
+#: ui/KarbonView.cpp:858
+msgctxt "(qtundo-format)"
+msgid "Separate paths"
+msgstr "Rozdziel ścieżki"
+
+#: ui/KarbonView.cpp:1036
+msgid "Outline &Mode"
+msgstr "&Tryb zarysu"
+
+#: ui/KarbonView.cpp:1040
+msgid "Show Page Margins"
+msgstr "Pokaż marginesy stron"
+
+#: ui/KarbonView.cpp:1058
+msgid "&Import Graphic..."
+msgstr "&Importuj grafikę..."
+
+#: ui/KarbonView.cpp:1062
+msgid "D&elete"
+msgstr "&Usuń"
+
+#: ui/KarbonView.cpp:1068
+msgid "Edit Guides"
+msgstr "Edytuj prowadnice"
+
+#: ui/KarbonView.cpp:1074
+msgctxt "Duplicate selection"
+msgid "&Duplicate"
+msgstr "&Powiel"
+
+#: ui/KarbonView.cpp:1079
+msgid "Distribute Center (Horizontal)"
+msgstr "Rozmieść do środka (poziomo)"
+
+#: ui/KarbonView.cpp:1083
+msgid "Distribute Gaps (Horizontal)"
+msgstr "Rozmieść przerwy (poziomo)"
+
+#: ui/KarbonView.cpp:1087
+msgid "Distribute Left Borders"
+msgstr "Rozmieść lewe obramowania"
+
+#: ui/KarbonView.cpp:1091
+msgid "Distribute Right Borders"
+msgstr "Rozmieść prawe obramowania"
+
+#: ui/KarbonView.cpp:1095
+msgid "Distribute Center (Vertical)"
+msgstr "Rozmieść do środka (pionowo)"
+
+#: ui/KarbonView.cpp:1099
+msgid "Distribute Gaps (Vertical)"
+msgstr "Rozmieść przerwy (pionowo)"
+
+#: ui/KarbonView.cpp:1103
+msgid "Distribute Bottom Borders"
+msgstr "Rozmieść dolne obramowania"
+
+#: ui/KarbonView.cpp:1107
+msgid "Distribute Top Borders"
+msgstr "Rozmieść górne obramowania"
+
+#: ui/KarbonView.cpp:1111
+msgid "Show Rulers"
+msgstr "Pokaż linijki"
+
+#: ui/KarbonView.cpp:1113
+msgid "Shows or hides rulers"
+msgstr "Pokazuje lub ukrywa linijki"
+
+#: ui/KarbonView.cpp:1124
+msgid "Show Color Palette"
+msgstr "Pokaż paletę kolorów"
+
+#: ui/KarbonView.cpp:1126
+msgid "Show or hide color palette"
+msgstr "Pokaż lub ukryj paletę kolorów"
+
+#: ui/KarbonView.cpp:1130
+msgid "Snap to Grid"
+msgstr "Do siatki"
+
+#: ui/KarbonView.cpp:1132
+msgid "Snaps to grid"
+msgstr "Przyciąga do siatki"
+
+#: ui/KarbonView.cpp:1144
+msgid "&Clip Object"
+msgstr "&Przytnij obiekt"
+
+#: ui/KarbonView.cpp:1148
+msgid "&Unclip Objects"
+msgstr "&Nie przycinaj obiektów"
+
+#: ui/KarbonView.cpp:1152
+msgid "Mirror Vertically"
+msgstr "Lustrzane odbicie pionowe"
+
+#: ui/KarbonView.cpp:1156
+msgid "Mirror Horizontally"
+msgstr "Lustrzane odbicie poziome"
+
+#: ui/KarbonView.cpp:1163
+msgid "&Close Path"
+msgstr "&Zamknij ścieżkę"
+
+#: ui/KarbonView.cpp:1169
+msgid "Com&bine Path"
+msgstr "&Połącz ścieżki"
+
+#: ui/KarbonView.cpp:1175
+msgid "Se&parate Path"
+msgstr "&Rozdziel ścieżkę"
+
+#: ui/KarbonView.cpp:1181
+msgid "Re&verse Path"
+msgstr "O&dwróć ścieżkę"
+
+#: ui/KarbonView.cpp:1187
+msgid "Intersect Paths"
+msgstr "Przetnij ścieżki"
+
+#: ui/KarbonView.cpp:1193
+msgid "Subtract Paths"
+msgstr "Odejmij ścieżki"
+
+#: ui/KarbonView.cpp:1199
+msgid "Unite Paths"
+msgstr "Połącz ścieżki"
+
+#: ui/KarbonView.cpp:1205
+msgid "Exclude Paths"
+msgstr "Wyłącz ścieżki"
+
+#: ui/KarbonView.cpp:1211
+msgid "Snap Path to Grid"
+msgstr "Przyciągnij ścieżki do siatki"
+
+#: ui/KarbonView.cpp:1218
+msgid "Configure Karbon..."
+msgstr "Ustawienia Karbon..."
+
+#: ui/KarbonView.cpp:1222
+msgid "Page &Layout..."
+msgstr "&Układ strony..."
+
+#: ui/KarbonView.cpp:1227
+msgid "Zoom to Selection"
+msgstr "Powiększ do zaznaczenia"
+
+#: ui/KarbonView.cpp:1231
+msgid "Zoom to Drawing"
+msgstr "Powiększ do rysunku"
+
+#: ui/KarbonZoomController.cpp:62
+msgid "Zoom"
+msgstr "Powiększenie"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:74
+msgid "Show status bar:"
+msgstr "Pokaż pasek stanu:"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:79
+msgid "Number of recent files:"
+msgstr "Liczba ostatnio używanych plików:"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:84
+msgid "Palette font size:"
+msgstr "Rozmiar czcionki palety:"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:87
+msgid "Canvas color:"
+msgstr "Kolor płótna:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:167
+msgid "Target:"
+msgstr "Cel:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:169
+msgid "Line"
+msgstr "Linia"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:170
+msgid "Fill"
+msgstr "Wypełnij"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:174
+msgid "Type:"
+msgstr "Typ:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:176
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr "Liniowy"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:177
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr "Kołowy"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:178
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr "Stożkowy"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:181
+msgid "Repeat:"
+msgstr "Powtórz:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:183
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "Brak"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:184
+msgid "Reflect"
+msgstr "Odbij"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:185
+msgid "Repeat"
+msgstr "Powtórz"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:188
+msgid "Overall opacity:"
+msgstr "Nieprzezroczystość:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:193
+msgid "Color stop:"
+msgstr "Kolor zatrzymania:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:200
+msgid "Stop color."
+msgstr "Kolor zatrzymania."
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:203
+msgid "&Add to Predefined Gradients"
+msgstr "&Dodaj do zdefiniowanych gradientów"
+
+#: ui/widgets/KarbonPaletteBarWidget.cpp:58
+msgid "Select palette"
+msgstr "Wybierz paletę"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
+msgid "Original"
+msgstr "Oryginał"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
+msgid "Tiled"
+msgstr "Kafelki"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
+msgid "Stretched"
+msgstr "Rozciągnięcie"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
+msgid "Top Left"
+msgstr "Lewy górny róg"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
+msgid "Top"
+msgstr "Góra"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
+msgid "Top Right"
+msgstr "Prawy górny róg"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
+msgid "Left"
+msgstr "Lewo"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
+msgid "Center"
+msgstr "Środek"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
+msgid "Right"
+msgstr "Prawo"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
+msgid "Bottom Left"
+msgstr "Lewy dolny róg"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
+msgid "Bottom"
+msgstr "Dół"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
+msgid "Bottom Right"
+msgstr "Prawy dolny róg"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:58
+msgid "Press to apply fill to selection"
+msgstr "Kliknij aby zastosować do zaznaczenia"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:98
+msgctxt "The style has no fill"
+msgid "None"
+msgstr "Brak"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:116
+msgid "Press to apply stroke to selection"
+msgstr "Naciśnij aby zastosować kreskę do zaznaczenia"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:161
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr "Własna"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:167
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr "Brak"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:187
+msgid "Stroke:"
+msgstr "Kreska:"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:192
+msgid "Fill:"
+msgstr "Wypełnienie:"
+
+#~ msgid "Stroke"
+#~ msgstr "Kreska"
+
+#~ msgid "Hide Page Margins"
+#~ msgstr "Ukryj marginesy stron"
+
+#~ msgid "Hide Rulers"
+#~ msgstr "Ukryj linijki"
+
+#~ msgid "Stop color:"
+#~ msgstr "Kolor końcowy:"
+
+#~ msgid "Tools"
+#~ msgstr "Narzędzia"
+
+#~ msgid "Copy offset:"
+#~ msgstr "Przesunięcie kopiowania:"
+
+#~ msgid "Units:"
+#~ msgstr "Jednostki w:"
+
+#~ msgctxt "Solid color stroke or fill"
+#~ msgid "Solid"
+#~ msgstr "Ciągłe"
+
+#~ msgid "Gradient"
+#~ msgstr "Gradient"
+
+#~ msgid "Pattern"
+#~ msgstr "Wzór"
+
+#~ msgid "Even-Odd Fill"
+#~ msgstr "Parzyste-nieparzyste wypełnianie"
+
+#~ msgid "Winding Fill"
+#~ msgstr "Wypełnienie \"winding\""
+
+#, fuzzy
+#~| msgid "Show grid:"
+#~ msgid "Show Guides"
+#~ msgstr "Pokaż siatkę:"
+
+#~ msgid "Group shapes"
+#~ msgstr "Grupuj kształty"
+
+#~ msgid "Ungroup shapes"
+#~ msgstr "Rozgrupuj kształty"
+
+#~ msgid "&Group Objects"
+#~ msgstr "&Grupuj obiekty"
+
+#~ msgid "Show grid:"
+#~ msgstr "Pokaż siatkę:"
+
+#~ msgid "Snap to grid:"
+#~ msgstr "Do siatki:"
+
+#~ msgid "Grid color:"
+#~ msgstr "Kolor siatki:"
+
+#~ msgid "Spacing"
+#~ msgstr "Odstęp"
+
+#~ msgctxt "Vertical grid spacing"
+#~ msgid "&Vertical:"
+#~ msgstr "Pi&onowej:"
+
+#~ msgid "Auto save (min):"
+#~ msgstr "Automatyczne zapisywanie (min):"
+
+#~ msgid "No auto save"
+#~ msgstr "Bez automatycznego zapisywania"
+
+#~ msgid "min"
+#~ msgstr "min"
+
+#~ msgid "Create backup file"
+#~ msgstr "Utwórz kopię zapasową"
+
+#~ msgid "Choose Pattern to Add"
+#~ msgstr "Wybierz wzorzec do dodania"
+
+#~ msgid "Choose Gradient to Add"
+#~ msgstr "Wybierz gradient do dodania"
+
+#~ msgid "Bring to &Front"
+#~ msgstr "Na &wierzch"
+
+#~ msgid "&Raise"
+#~ msgstr "&Podnieś"
+
+#~ msgctxt "Lower selected shapes"
+#~ msgid "&Lower"
+#~ msgstr "&Opuść"
+
+#~ msgid "Send to &Back"
+#~ msgstr "Na &tył"
+
+#~ msgid "Show Grid"
+#~ msgstr "Pokaż siatkę"
+
+#~ msgid "Hide Grid"
+#~ msgstr "Ukryj siatkę"
+
+#~ msgid "Shows or hides grid"
+#~ msgstr "Pokazuje lub ukrywa siatkę"
+
+#, fuzzy
+#~| msgid "Pattern"
+#~ msgid "Pattern Size"
+#~ msgstr "Wzór"
+
+#~ msgid "Drag to move gradient position."
+#~ msgstr "Przeciągnij aby zmienić pozycję gradientu."
+
+#~ msgid "Drag to move color stop. Double click to remove color stop."
+#~ msgstr ""
+#~ "Przeciągnij aby przesunąć koniec koloru. Podwójne kliknięcie usuwa koniec "
+#~ "koloru."
+
+#~ msgid "Drag to move color stop."
+#~ msgstr "Przeciągnij aby przesunąć koniec koloru."
+
+#~ msgid "Drag to move gradient position. Double click to insert color stop."
+#~ msgstr ""
+#~ "Przeciągnij aby przesunąć pozycję gradientu. Podwójne kliknięcie wstawia "
+#~ "koniec koloru."
+
+#~ msgid "Predefined Gradients"
+#~ msgstr "Zdefiniowane gradienty"
+
+#~ msgid "Gradient tool"
+#~ msgstr "Narzędzie gradientu"
+
+#~ msgid "Gradient Editing Tool"
+#~ msgstr "Narzędzie modyfikacji gradientu"
+
+#~ msgid "Pattern tool"
+#~ msgstr "Narzędzie wzorów"
+
+#~ msgid "Pattern Editing Tool"
+#~ msgstr "Narzędzie modyfikacji wzorów"
+
+#~ msgid "Precision:"
+#~ msgstr "Precyzja:"
+
+#~ msgctxt "The raw line data"
+#~ msgid "Raw"
+#~ msgstr "Zwykły"
+
+#~ msgid "Curve"
+#~ msgstr "Krzywe"
+
+#~ msgid "Straight"
+#~ msgstr "Linie"
+
+#~ msgid "Optimize"
+#~ msgstr "Optymalizuj"
+
+#~ msgid "Exactness:"
+#~ msgstr "Dokładność:"
+
+#~ msgid "Combine angle:"
+#~ msgstr "Połącz kąty:"
+
+#~ msgid "Pencil tool"
+#~ msgstr "Narzędzie ołówek"
+
+#~ msgid "Freehand Path Drawing Tool"
+#~ msgstr "Narzędzie do ręcznego rysowania ścieżek"
+
+#~ msgid "A calligraphic shape"
+#~ msgstr "Kształt kaligraficzny"
+
+#~ msgid "Calligraphic Shape"
+#~ msgstr "Kształt kalograficzny"
+
+#~ msgid "Save profile as..."
+#~ msgstr "Zapisz profil jako..."
+
+#~ msgid "Remove profile"
+#~ msgstr "Usuń profil"
+
+#, fuzzy
+#~| msgid "Lower selected objects"
+#~ msgid "&Follow selected path"
+#~ msgstr "Opuść zaznaczone obiekty"
+
+#~ msgid "Use tablet &pressure"
+#~ msgstr "Użyj &nacisku na tablecie"
+
+#~ msgid "Width:"
+#~ msgstr "Szerokość:"
+
+#~ msgid "Use tablet &angle"
+#~ msgstr "Użyj &kąta na tablecie"
+
+#~ msgid "Current"
+#~ msgstr "Bieżące"
+
+#~ msgid "Profile name"
+#~ msgstr "Nazwa profilu"
+
+#~ msgid "Please insert the name by which you want to save this profile:"
+#~ msgstr "Proszę wpisać nazwę, pod którą ma być zapisany ten profil:"
+
+#~ msgid "Sorry, the name you entered is invalid!"
+#~ msgstr "Wpisana nazwa jest niepoprawna!"
+
+#~ msgctxt "invalid profile name"
+#~ msgid "Invalid name!"
+#~ msgstr "Niepoprawna nazwa!"
+
+#~ msgid ""
+#~ "A profile with that name already exists!\n"
+#~ "Do you want to overwrite it?"
+#~ msgstr ""
+#~ "Profil o tej nazwie już istnieje!\n"
+#~ "Czy go nadpisać?"
+
+#~ msgid "Mouse"
+#~ msgstr "Mysz"
+
+#~ msgid "Graphics Pen"
+#~ msgstr "Pióro"
+
+#~ msgid "Calligraphy: increase width"
+#~ msgstr "Kaligrafia: zwiększ szerokość"
+
+#~ msgid "Calligraphy: decrease width"
+#~ msgstr "Kaligrafia: zmniejsz szerokość"
+
+#~ msgid "Calligraphy: increase angle"
+#~ msgstr "Kaligrafia: zwiększ kąt"
+
+#~ msgid "Calligraphy: decrease angle"
+#~ msgstr "Kaligrafia: zmniejsz kąt"
+
+#~ msgid "Calligraphy tool"
+#~ msgstr "Narzędzie do kaligrafii"
+
+#~ msgid "Calligraphy Tool"
+#~ msgstr "Narzędzie do kaligrafii"

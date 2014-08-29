@@ -1,0 +1,70 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-05-19 05:20+0000\n"
+"PO-Revision-Date: 2014-05-19 20:51+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: ChangeVideoCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Change video"
+msgstr "Zmień film"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnVideoFile)
+#: forms/VideoToolWidget.ui:36
+msgid "Replace video..."
+msgstr "Zastąp film..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnPlay)
+#: forms/VideoToolWidget.ui:43
+msgid "Play Video"
+msgstr "Odtwórz film"
+
+#: FullScreenPlayer.cpp:67 VideoTool.cpp:46
+msgid "Play"
+msgstr "Odtwórz"
+
+#: FullScreenPlayer.cpp:72
+msgid "Pause"
+msgstr "Wstrzymaj"
+
+#: FullScreenPlayer.cpp:77
+msgid "Stop"
+msgstr "Zatrzymaj"
+
+#: FullScreenPlayer.cpp:82
+msgid "Unmute"
+msgstr "Wyłącz wyciszenie"
+
+#: FullScreenPlayer.cpp:87
+msgid "Mute"
+msgstr "Wycisz"
+
+#: SelectVideoWidget.cpp:40
+msgid "Save as part of document"
+msgstr "Zapisz jako część dokumentu"
+
+#: VideoShapeFactory.cpp:37
+msgid "Video"
+msgstr "Film"
+
+#: VideoShapeFactory.cpp:39
+msgid "Video, embedded or fullscreen"
+msgstr "Film, osadzony lub pełnoekranowy"
+
+#: VideoToolFactory.cpp:31
+msgid "Video tool"
+msgstr "Narzędzie filmu"
