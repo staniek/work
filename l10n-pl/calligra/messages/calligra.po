@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-25 01:43+0000\n"
-"PO-Revision-Date: 2014-08-29 11:07+0200\n"
+"POT-Creation-Date: 2014-08-28 01:43+0000\n"
+"PO-Revision-Date: 2014-08-29 14:04+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -136,8 +136,8 @@ msgstr "Baza danych \"%1\" nie istnieje."
 
 #: db/connection.cpp:487
 #, kde-format
-msgid "Database file \"%1\" does not exist."
-msgstr "Plik bazy danych \"%1\" nie istnieje."
+msgid "The database file \"%1\" does not exist."
+msgstr "Baza danych \"%1\" nie istnieje."
 
 #: db/connection.cpp:493
 #, kde-format
@@ -199,11 +199,7 @@ msgstr ""
 "Błąd podczas nawiązywania tymczasowego połączenia z użyciem bazy danych "
 "\"%1\"."
 
-#: db/connection.cpp:798
-msgid "Cannot drop database - name not specified."
-msgstr "Nie można usunąć bazy danych - nie została określona jej nazwa."
-
-#: db/connection.cpp:815
+#: db/connection.cpp:798 db/connection.cpp:815
 msgid "Cannot delete database - name not specified."
 msgstr "Nie można usunąć bazy danych - nie została określona jej nazwa."
 
@@ -246,12 +242,8 @@ msgstr "Nie można dwukrotnie utworzyć tej samej tabeli \"%1\"."
 msgid "Table \"%1\" already exists."
 msgstr "Tabela \"%1\" już istnieje."
 
-#: db/connection.cpp:1804
-#, kde-format
-msgid "Table \"%1\" does not exist in the database."
-msgstr "Tabela \"%1\" nie istnieje w bazie danych."
-
-#: db/connection.cpp:1831 db/connection.cpp:1938
+#: db/connection.cpp:1804 db/connection.cpp:1831 db/connection.cpp:1938
+#: db/parser/parser_p.cpp:433
 #, kde-format
 msgid "Table \"%1\" does not exist."
 msgstr "Tabela \"%1\" nie istnieje."
@@ -271,18 +263,19 @@ msgstr "Nieoczekiwana nazwa lub identyfikator."
 
 #: db/connection.cpp:1953
 #, kde-format
-msgid "Could not alter table \"%1\" using the same table."
+msgid "Could not alter table \"%1\" using the same table as destination."
 msgstr ""
-"Nie można zmodyfikować tabeli \"%1\" używając tej samej tabeli jako docelowej."
+"Nie można zmodyfikować tabeli \"%1\" używając tej samej tabeli jako "
+"docelowej."
 
-#: db/connection.cpp:1975 db/expression.cpp:789
+#: db/connection.cpp:1975 db/expression.cpp:791
 #, kde-format
-msgid "Unknown table \"%1\""
+msgid "Unknown table \"%1\"."
 msgstr "Nieznana tabela \"%1\"."
 
 #: db/connection.cpp:1979
 #, kde-format
-msgid "Invalid table name \"%1\""
+msgid "Invalid table name \"%1\"."
 msgstr "Nieprawidłowa nazwa tabeli \"%1\"."
 
 #: db/connection.cpp:1985
@@ -307,7 +300,7 @@ msgid "Transactions are not supported for \"%1\" driver."
 msgstr "Transakcje nie są obsługiwane dla sterownika \"%1\"."
 
 #: db/connection.cpp:2191
-msgid "Begin transaction failed"
+msgid "Begin transaction failed."
 msgstr "Nieudane rozpoczęcie transakcji."
 
 #: db/connection.cpp:2207
@@ -319,45 +312,47 @@ msgid "Transaction not started."
 msgstr "Transakcja nie została rozpoczęta."
 
 #: db/connection.cpp:2262
-msgid "Error on commit transaction"
-msgstr "Błąd podczas zatwierdzania transakcji"
+msgid "Error on commit transaction."
+msgstr "Błąd podczas zatwierdzania transakcji."
 
 #: db/connection.cpp:2297
-msgid "Error on rollback transaction"
+msgid "Error on rollback transaction."
 msgstr "Błąd podczas wycofywania transakcji."
 
-#: db/connection.cpp:2461 db/connection.cpp:2980
+#: db/connection.cpp:2461 db/connection.cpp:2982
 #, kde-format
-msgid "Invalid object name \"%1\""
-msgstr "Niepoprawna nazwa obiektu \"%1\"."
+msgid "Invalid object name \"%1\"."
+msgstr "Nieprawidłowa nazwa obiektu \"%1\"."
 
 #: db/connection.cpp:2583
 #, kde-format
-msgid "Column %1 does not exist for the query."
+msgid "Column <resource>%1</resource> does not exist in the query."
 msgstr "Kolumna <resource>%1</resource> nie istnieje w zapytaniu."
 
 #: db/connection.cpp:2844 db/connection.cpp:2847 db/connection.cpp:2850
-msgid "Error while loading extended table schema information."
+msgctxt "Extended schema for a table: loading error"
+msgid "Error while loading extended table schema."
 msgstr "Błąd podczas wczytywania rozszerzonego schematu tabeli."
 
 #: db/connection.cpp:2851
-msgid "Invalid XML data: "
-msgstr "Nieprawidłowe dane XML: "
+#, kde-format
+msgid "Invalid XML data: %1"
+msgstr "Nieprawidłowe dane XML: %1"
 
 #: db/connection.cpp:2881
 #, kde-format
 msgid ""
 "Error in XML data: \"%1\" in line %2, column %3.\n"
-"XML data: "
+"XML data: %4"
 msgstr ""
 "Błąd w danych XML: \"%1\" w linii %2, kolumnie %3.\n"
-"Dane XML: "
+"Dane XML: %4"
 
-#: db/connection.cpp:3019
+#: db/connection.cpp:3021
 msgid "Table has no fields defined."
 msgstr "Tabela nie zawiera żadnych pól."
 
-#: db/connection.cpp:3168
+#: db/connection.cpp:3170
 #, kde-format
 msgid ""
 "Could not find definition for query \"%1\". Removing this query is "
@@ -366,55 +361,56 @@ msgstr ""
 "Nie można znaleźć definicji zapytania \"%1\". Zalecane jest usunięcie tego "
 "zapytania."
 
-#: db/connection.cpp:3177
+#: db/connection.cpp:3180
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<p>Could not load definition for query \"%1\". SQL statement for this query "
-"is invalid:<br><tt>%2</tt></p>\n"
-"<p>You can open this query in Text View and correct it.</p>"
+"<para>Could not load definition for query \"%1\". SQL statement for this "
+"query is invalid:<message>%2</message></para>\n"
+"<para>You can open this query in Text View and correct it.</para>"
 msgstr ""
-"<p>Nie można wczytać definicji zapytania \"%1\". Polecenie SQL dla tego "
-"zapytania jest niepoprawne:<br><tt>%2</tt></p>\n"
-"<p>Możesz otworzyć to zapytanie w widoku tekstowym i poprawić je.</p>"
+"<para>Nie można wczytać definicji zapytania \"%1\". Polecenie SQL dla tego "
+"zapytania jest nieprawidłowe: <message>%2</message>\n"
+"<para>Możesz otworzyć to zapytanie w widoku tekstowym i poprawić je.</para>"
 
-#: db/connection.cpp:3384
+#: db/connection.cpp:3389
 msgid "Could not update record because there is no master table defined."
 msgstr "Nie można uaktualnić rekordu, bo nie określono tabeli nadrzędnej."
 
-#: db/connection.cpp:3391
+#: db/connection.cpp:3396
 msgid ""
 "Could not update record because master table has no primary key defined."
 msgstr "Nie można uaktualnić rekordu, bo nie zdefiniowano klucza głównego."
 
-#: db/connection.cpp:3420
+#: db/connection.cpp:3425
 msgid ""
-"Could not update record because it does not contain entire master table's "
-"primary key."
+"Could not update record because it does not contain entire primary key of "
+"master table."
 msgstr ""
 "Nie można uaktualnić rekordu, bo nie zawiera całego klucza głównego tabeli "
 "nadrzędnej."
 
-#: db/connection.cpp:3431 db/connection.cpp:3671
+#: db/connection.cpp:3436 db/connection.cpp:3676
 #, kde-format
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr "Pole \"%1\" klucza głównego nie może być puste."
 
-#: db/connection.cpp:3458
+#: db/connection.cpp:3463
 msgid "Record updating on the server failed."
 msgstr "Nieudana aktualizacja rekordu na serwerze."
 
-#: db/connection.cpp:3481
-msgid "Could not insert record because there is no master table defined."
+#: db/connection.cpp:3486
+msgid "Could not insert record because there is no master table specified."
 msgstr "Nie można wstawić rekordu, bo nie określono tabeli nadrzędnej."
 
-#: db/connection.cpp:3518
+#: db/connection.cpp:3523
 msgid ""
-"Could not insert record because master table has no primary key defined."
+"Could not insert record because master table has no primary key specified."
 msgstr ""
 "Nie można wstawić rekordu, bo nadrzędna tabela nie ma określonego klucza "
 "głównego."
 
-#: db/connection.cpp:3527
+#: db/connection.cpp:3532
 msgid ""
 "Could not insert record because it does not contain entire master table's "
 "primary key."
@@ -422,23 +418,23 @@ msgstr ""
 "Nie można wstawić rekordu, bo nie zawiera całego klucza głównego tabeli "
 "nadrzędnej."
 
-#: db/connection.cpp:3574
+#: db/connection.cpp:3579
 msgid "Record inserting on the server failed."
 msgstr "Nieudane wstawienie rekordu na serwerze."
 
-#: db/connection.cpp:3638
-msgid "Could not delete record because there is no master table defined."
+#: db/connection.cpp:3643
+msgid "Could not delete record because there is no master table specified."
 msgstr "Nie można usunąć rekordu, bo nie określono tabeli nadrzędnej."
 
-#: db/connection.cpp:3647
+#: db/connection.cpp:3652
 msgid ""
 "Could not delete record because there is no primary key for master table "
-"defined."
+"specified."
 msgstr ""
 "Nie można usunąć rekordu, bo nie określono klucza głównego dla tabeli "
 "nadrzędnej."
 
-#: db/connection.cpp:3662
+#: db/connection.cpp:3667
 msgid ""
 "Could not delete record because it does not contain entire master table's "
 "primary key."
@@ -446,13 +442,24 @@ msgstr ""
 "Nie można usunąć rekordu, bo nie zawiera całego klucza głównego tabeli "
 "nadrzędnej."
 
-#: db/connection.cpp:3688 db/connection.cpp:3711
+#: db/connection.cpp:3693 db/connection.cpp:3716
 msgid "Record deletion on the server failed."
 msgstr "Nieudane usunięcie rekordu na serwerze."
 
-#: db/connectiondata.cpp:97
-msgid "file"
-msgstr "plik"
+#: db/connection.cpp:3803
+msgid "Unknown error."
+msgstr "Nieznany błąd."
+
+#: db/connectiondata.cpp:98
+#, kde-format
+msgctxt "@info"
+msgid "file: %1"
+msgstr "plik: %1"
+
+#: db/connectiondata.cpp:105
+msgctxt "@info"
+msgid "&lt;file&gt;"
+msgstr "&lt;plik&gt;"
 
 #: db/cursor.cpp:142
 msgid "No query statement or schema defined."
@@ -469,6 +476,10 @@ msgstr "Błąd przy otwieraniu kursora bazy danych."
 #: db/cursor.cpp:407 db/cursor.cpp:430
 msgid "Cannot fetch next record."
 msgstr "Nie można pobrać kolejnego rekordu."
+
+#: db/cursor.cpp:559
+msgid "No connection for cursor open operation specified."
+msgstr "Nie określono połączenia dla operacji otwarcia kursora."
 
 #: db/dbproperties.cpp:44 db/dbproperties.cpp:53 db/dbproperties.cpp:63
 #, kde-format
@@ -527,29 +538,6 @@ msgstr "Sterownik baz danych opartych o plik"
 msgid "File-based database's MIME type"
 msgstr "Typ MIME dla sterownika baz danych opartych o plik"
 
-#: db/driver_p.cpp:55
-msgid "Single transactions"
-msgstr "Pojedyncze transakcje"
-
-#: db/driver_p.cpp:57
-msgid "Multiple transactions"
-msgstr "Wiele transakcji"
-
-#: db/driver_p.cpp:59
-msgid "Nested transactions"
-msgstr "Zagnieżdżone transakcje"
-
-#: db/driver_p.cpp:61
-msgid "Ignored"
-msgstr "Ignorowany"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: db/driver_p.cpp:63 widgets/KoCsvImportDialog.cpp:223
-#: widgets/KoCsvImportDialog.cpp:587 widgets/KoCsvImportDialog.cpp:694
-#: widgets/KoCsvImportDialog.ui:265
-msgid "None"
-msgstr "Brak"
-
 #: db/driver_p.cpp:68
 msgid "Single transactions support"
 msgstr "Obsługa pojedynczych transakcji"
@@ -589,126 +577,76 @@ msgstr ""
 msgid "Could not load database driver \"%1\"."
 msgstr "Nie można wczytać sterownika baz danych \"%1\"."
 
-#: db/drivermanager.cpp:360
+#: db/drivermanager.cpp:361
 #, kde-format
-msgid "No such driver service: \"%1\"."
+msgid "Could not find service: \"%1\"."
 msgstr "Nie można znaleźć usługi \"%1\"."
 
-#: db/drivers/sqlite/sqliteadmin.cpp:42
-#, kde-format
-msgid "Could not compact database \"%1\"."
-msgstr "Nie można wykonać defragmentacji bazy danych \"%1\"."
-
-#: db/drivers/sqlite/sqliteconnection.cpp:243
-#, kde-format
-msgid "Do you want to open file \"%1\" as read-only?"
-msgstr "Czy chcesz otworzyć plik \"%1\" tylko do odczytu?"
-
-#: db/drivers/sqlite/sqliteconnection.cpp:246
-msgid "The file is probably already open on this or another computer."
-msgstr "Plik jest już prawdopodobnie otwarty na tym lub innym komputerze."
-
-#: db/drivers/sqlite/sqliteconnection.cpp:247
-msgid "Could not gain exclusive access for writing the file."
-msgstr "Nie można uzyskać wyłącznego dostępu do pisania pliku."
-
-#: db/drivers/sqlite/sqliteconnection.cpp:249
-msgid "Open As Read-Only"
-msgstr "Otwórz tylko do odczytu"
-
-#: db/drivers/sqlite/sqliteconnection.cpp:288
-msgid "Could not close busy database."
-msgstr "Nie można zamknąć zajętej (pracującej) bazy danych."
-
-#: db/drivers/sqlite/sqliteconnection.cpp:310
-#, kde-format
-msgid "Could not remove file \"%1\"."
-msgstr "Nie można usunąć pliku \"%1\"."
-
-#: db/drivers/sqlite/sqliteconnection.cpp:312
-msgid ""
-"Check the file's permissions and whether it is already opened and locked by "
-"another application."
-msgstr ""
-"Sprawdź prawa dostępu pliku oraz czy nie jest on otwarty i zablokowany przez "
-"inny program."
-
-#: db/drivers/sqlite/sqlitevacuum.cpp:129
-msgid "Compacting database"
-msgstr "Defragmentacja bazy danych"
-
-#: db/drivers/sqlite/sqlitevacuum.cpp:130
-#, kde-format
-msgid "Compacting database \"%1\"..."
-msgstr "Defragmentacja bazy danych \"%1\"..."
-
-#: db/drivers/sqlite/sqlitevacuum.cpp:208
-#, kde-format
-msgid "The database has been compacted. Current size decreased by %1% to %2."
-msgstr ""
-"Baza danych została zdefragmentowana. Jej rozmiar zmniejszył się o %1% do %2."
-
-#: db/expression.cpp:731 db/parser/parser_p.cpp:285
+#: db/expression.cpp:731
 msgid "Ambiguous field name"
 msgstr "Niejednoznaczna nazwa pola"
 
-#: db/expression.cpp:732 db/parser/parser_p.cpp:286
+#: db/expression.cpp:733
 #, kde-format
+msgctxt "@info"
 msgid ""
-"Both table \"%1\" and \"%2\" have defined \"%3\" field. Use \"<tableName>."
-"%4\" notation to specify table name."
+"Both table <resource>%1</resource> and <resource>%2</resource> have defined "
+"<resource>%3</resource> field. Use <resource><placeholder>tableName</"
+"placeholder>.%4</resource> notation to specify table name."
 msgstr ""
-"Zarówno tabela \"%1\" jak też \"%2\" mają zdefiniowane pole \"%3\". Użyj "
-"składni \"<nazwaTabeli>.%4\" aby wskazać nazwę tabeli."
+"Zarówno tabela <resource>%1</resource> jak i <resource>%2</resource> mają "
+"zdefiniowane pole <resource>%3</resource>. Użyj "
+"składni <resource><placeholder>nazwaTabeli</"
+"placeholder>.%4</resource> aby określić nazwę tabeli."
 
-#: db/expression.cpp:741 db/expression.cpp:814 db/parser/parser_p.cpp:295
-#: db/parser/parser_p.cpp:377
+#: db/expression.cpp:743 db/expression.cpp:816
 msgid "Field not found"
 msgstr "Nie znaleziono pola"
 
-#: db/expression.cpp:742 db/parser/parser_p.cpp:296
+#: db/expression.cpp:744
 #, kde-format
-msgid "Table containing \"%1\" field not found"
+msgid "Table containing \"%1\" field not found."
 msgstr "Nie znaleziono tabeli zawierającej pole \"%1\"."
 
-#: db/expression.cpp:768 db/parser/parser_p.cpp:320
+#: db/expression.cpp:770
 msgid "Could not access the table directly using its name"
 msgstr "Nie można uzyskać dostępu do tabeli używając bezpośrednio jej nazwy."
 
-#: db/expression.cpp:769 db/parser/parser_p.cpp:321
+#: db/expression.cpp:771
 #, kde-format
 msgid ""
-"Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\""
+"Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\"."
 msgstr ""
-"Tabela \"%1\" jest zakryta przez aliasy. Zamiast \"%2\" możesz napisać \"%3\"."
+"Nazwa tabeli \"%1\" jest zakryta przez aliasy. Zamiast \"%2\" możesz napisać "
+"\"%3\"."
 
-#: db/expression.cpp:788
+#: db/expression.cpp:790
 msgid "Table not found"
 msgstr "Nie znaleziono tabeli"
 
-#: db/expression.cpp:802 db/parser/parser_p.cpp:351
+#: db/expression.cpp:804
 #, kde-format
 msgid "Ambiguous \"%1.*\" expression"
 msgstr "Niejednoznaczne wyrażenie \"%1.*\""
 
-#: db/expression.cpp:803 db/parser/parser_p.cpp:352
+#: db/expression.cpp:805
 #, kde-format
-msgid "More than one \"%1\" table or alias defined"
+msgid "More than one \"%1\" table or alias defined."
 msgstr "Istnieje więcej niż jedna tabela lub alias \"%1\"."
 
-#: db/expression.cpp:815 db/parser/parser_p.cpp:377
+#: db/expression.cpp:817
 #, kde-format
-msgid "Table \"%1\" has no \"%2\" field"
-msgstr "Tabela \"%1\" nie zawiera pola \"%2\""
+msgid "Table \"%1\" has no \"%2\" field."
+msgstr "Tabela \"%1\" nie zawiera pola \"%2\"."
 
-#: db/expression.cpp:822 db/parser/parser_p.cpp:368
+#: db/expression.cpp:824
 #, kde-format
 msgid "Ambiguous \"%1.%2\" expression"
 msgstr "Niejednoznaczne wyrażenie \"%1.%2\""
 
-#: db/expression.cpp:823 db/parser/parser_p.cpp:369
+#: db/expression.cpp:825
 #, kde-format
-msgid "More than one \"%1\" table or alias defined containing \"%2\" field"
+msgid "More than one \"%1\" table or alias defined containing \"%2\" field."
 msgstr ""
 "Istnieje więcej niż jedna tabela lub alias \"%1\" zawierające pole \"%2\"."
 
@@ -809,55 +747,50 @@ msgstr "Błąd składni"
 
 #: db/parser/parser_p.cpp:145
 #, kde-format
-msgid "\"%1\" is a reserved keyword"
+msgid "\"%1\" is a reserved keyword."
 msgstr "\"%1\" jest zastrzeżonym słowem kluczowym."
 
 #: db/parser/parser_p.cpp:149
 #, kde-format
-msgid "Syntax Error near \"%1\""
-msgstr "Błąd składni w pobliżu \"%1\"."
+msgid "Syntax Error near \"%1\"."
+msgstr "Błąd składniowy w pobliżu \"%1\"."
 
 #: db/parser/parser_p.cpp:179
 msgid "Error"
 msgstr "Błąd"
 
 #: db/parser/parser_p.cpp:179
-msgid "No query specified"
-msgstr "Nie określono polecenia zapytania."
+msgid "No query statement specified."
+msgstr "Nie podano polecenia zapytania."
 
 #: db/parser/parser_p.cpp:243
-msgid "\"*\" could not be used if no tables are specified"
+msgid "\"*\" could not be used if no tables are specified."
 msgstr "\"*\" nie może być użyte jeśli nie podano żadnych tabel."
 
-#. i18n("Field List Error"),
-#: db/parser/parser_p.cpp:433
+#: db/parser/parser_p.cpp:489
 #, kde-format
-msgid "Table \"%1\" does not exist"
-msgstr "Tabela \"%1\" nie istnieje."
-
-#: db/parser/parser_p.cpp:490
-#, kde-format
-msgid "Invalid alias definition for column \"%1\""
+msgid "Invalid alias definition for column \"%1\"."
 msgstr "Nieprawidłowa definicja aliasu dla kolumny \"%1\"."
 
-#: db/parser/parser_p.cpp:517
+#: db/parser/parser_p.cpp:516
 #, kde-format
-msgid "Invalid \"%1\" column definition"
+msgid "Invalid \"%1\" column definition."
 msgstr "Nieprawidłowa definicja kolumny \"%1\"."
 
-#: db/parser/parser_p.cpp:584
+#: db/parser/parser_p.cpp:583
 #, kde-format
-msgid "Could not define sorting - no column at position %1"
+msgid "Could not define sorting - no column at position %1."
 msgstr "Nie można zdefiniować sortowania - brak kolumny na pozycji %1."
 
-#: db/parser/parser_p.cpp:592
+#: db/parser/parser_p.cpp:591
 #, kde-format
-msgid "Could not define sorting - column name or alias \"%1\" does not exist"
+msgid "Could not define sorting - column name or alias \"%1\" does not exist."
 msgstr ""
 "Nie można zdefiniować sortowania - nie istnieje kolumna lub alias \"%1\""
 
 #: db/queryschema.cpp:267
-msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
+msgctxt ""
+"short for 'expression' word, e.g. 'expr' (only latin letters, please, no '.')"
 msgid "expr"
 msgstr "wyr"
 
@@ -870,7 +803,7 @@ msgid "Database user name"
 msgstr "Nazwa użytkownika bazy danych"
 
 #: db/simplecommandlineapp.cpp:85
-msgid "Prompt for password"
+msgid "Prompts for password"
 msgstr "Pyta o hasło"
 
 #: db/simplecommandlineapp.cpp:87
@@ -933,7 +866,7 @@ msgstr "Testuj połączenie"
 
 #: db/utils.cpp:407
 #, kde-format
-msgid "<qt>Testing connection to <b>%1</b> database server...</qt>"
+msgid "Testing connection to <resource>%1</resource> database server..."
 msgstr "Testowanie połączenia z serwerem baz danych <resource>%1</resource>..."
 
 #: db/utils.cpp:468
@@ -942,8 +875,8 @@ msgid ""
 "<qt>Test connection to <b>%1</b> database server failed. The server is not "
 "responding.</qt>"
 msgstr ""
-"Testowe połączenie z serwerem baz danych <resource>%1</resource> nie powiodło "
-"się. Serwer nie odpowiada."
+"Testowe połączenie z serwerem baz danych <resource>%1</resource> nie "
+"powiodło się. Serwer nie odpowiada."
 
 #: db/utils.cpp:472
 #, kde-format
@@ -1916,7 +1849,7 @@ msgstr "Narzędzia"
 msgid "D&elete"
 msgstr "&Usuń"
 
-#: kopageapp/KoPAView.cpp:372
+#: kopageapp/KoPAView.cpp:372 koreport/wrtembed/KoReportDesigner.cpp:636
 msgid "Snap to Grid"
 msgstr "Przyciągaj do siatki"
 
@@ -2119,7 +2052,7 @@ msgid "Size"
 msgstr "Rozmiar"
 
 #: koreport/items/check/KoReportCheckPlugin.cpp:36
-msgid "Check"
+msgid "Check Box"
 msgstr "Pole wyboru"
 
 #: koreport/items/check/KoReportItemCheck.cpp:73
@@ -2222,22 +2155,6 @@ msgstr "Zawijanie wyrazów"
 msgid "Can Grow"
 msgstr "Może rosnąć"
 
-#: koreport/items/field/KoReportItemField.cpp:116
-msgid "Track Total"
-msgstr "Śledź całkowitą"
-
-#: koreport/items/field/KoReportItemField.cpp:117
-msgid "Track Builtin Format"
-msgstr "Śledź wbudowany format"
-
-#: koreport/items/field/KoReportItemField.cpp:118
-msgid "Use Sub Total"
-msgstr "Użyj pod-całkowitej"
-
-#: koreport/items/field/KoReportItemField.cpp:119
-msgid "Track Total Format"
-msgstr "Śledź całkowity format"
-
 #: koreport/items/image/KoReportItemImage.cpp:119
 msgid "Clip"
 msgstr "Przytnij"
@@ -2251,7 +2168,8 @@ msgid "Resize Mode"
 msgstr "Tryb zmiany rozmiaru"
 
 #: koreport/items/image/KoReportItemImage.cpp:122
-msgid "Static Image"
+msgctxt "Static Image"
+msgid "Static"
 msgstr "Statyczny"
 
 #: koreport/items/label/KoReportItemLabel.cpp:87
@@ -2374,10 +2292,6 @@ msgstr "Jednostka strony"
 #: koreport/wrtembed/KoReportDesigner.cpp:635 main/KoGridData.cpp:223
 msgid "Show Grid"
 msgstr "Pokaż siatkę"
-
-#: koreport/wrtembed/KoReportDesigner.cpp:636
-msgid "Grid Snap"
-msgstr "Przyciąganie do siatki"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:637
 msgid "Grid Divisions"
@@ -5550,6 +5464,12 @@ msgstr "Ogólne"
 msgid "Currency"
 msgstr "Waluta"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.cpp:223 widgets/KoCsvImportDialog.cpp:587
+#: widgets/KoCsvImportDialog.cpp:694 widgets/KoCsvImportDialog.ui:265
+msgid "None"
+msgstr "Brak"
+
 #: widgets/KoCsvImportDialog.cpp:721
 msgid ""
 "Please check the ranges you specified. The start value must be lower than "
@@ -6001,27 +5921,27 @@ msgstr "Krawędź strony:"
 msgid "Bottom:"
 msgstr "Dół:"
 
-#: widgets/KoResourceItemChooser.cpp:129
+#: widgets/KoResourceItemChooser.cpp:131
 msgctxt "@info:tooltip"
 msgid "Import resource"
 msgstr "Importuj zasób"
 
-#: widgets/KoResourceItemChooser.cpp:136
+#: widgets/KoResourceItemChooser.cpp:138
 msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "Usuń zasób"
 
-#: widgets/KoResourceItemChooser.cpp:143
+#: widgets/KoResourceItemChooser.cpp:145
 msgctxt "@info:tooltip"
 msgid "Download resource"
 msgstr "Pobierz zasób"
 
-#: widgets/KoResourceItemChooser.cpp:151
+#: widgets/KoResourceItemChooser.cpp:153
 msgctxt "@info:tooltip"
 msgid "Share Resource"
 msgstr "Współdziel zasób"
 
-#: widgets/KoResourceItemChooser.cpp:200
+#: widgets/KoResourceItemChooser.cpp:202
 msgctxt "@title:window"
 msgid "Choose File to Add"
 msgstr "Wybierz plik do dodania"
@@ -6139,15 +6059,15 @@ msgstr ""
 "widoku znacznika.<para>Aby odfiltrować w oparciu o częściową nazwę zasobu "
 "bez względu na wielkość liter:<br><icode>nazwa_częściowa</icode> lub <icode>!"
 "nazwa_częściowa</icode>.</para><para>Włączenie/wyłączenie innych zestawów "
-"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>![Nazwa_znacznika]"
-"</icode>.</para><para>Z uwzględnieniem wielkości liter i włączenie/"
-"wyłączanie dopasowań po pełnej nazwie  :<br><icode>\"DokładneDopasowanie\"</"
-"icode> or <icode>!\"DokładneDopasowanie\"</icode>.</para>Wyników "
-"odfiltrowania nie można zapisać w widoku <interface>Wszystkich nastaw</"
-"interface>.<br>W tym widoku, naciskając klawisz <interface>Enter</interface> "
-"lub czyszcząc pole filtra, zostaną przywrócone wszystkie elementy.<br>Utwórz "
-"i/lub przełącz do innego znacznika, jeśli chcesz zapisać odfiltrowane zasoby "
-"do zestawów z nadaną nazwą .</qt>"
+"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>!"
+"[Nazwa_znacznika]</icode>.</para><para>Z uwzględnieniem wielkości liter i "
+"włączenie/wyłączanie dopasowań po pełnej nazwie  :<br><icode>"
+"\"DokładneDopasowanie\"</icode> or <icode>!\"DokładneDopasowanie\"</icode>.</"
+"para>Wyników odfiltrowania nie można zapisać w widoku <interface>Wszystkich "
+"nastaw</interface>.<br>W tym widoku, naciskając klawisz <interface>Enter</"
+"interface> lub czyszcząc pole filtra, zostaną przywrócone wszystkie elementy."
+"<br>Utwórz i/lub przełącz do innego znacznika, jeśli chcesz zapisać "
+"odfiltrowane zasoby do zestawów z nadaną nazwą .</qt>"
 
 #: widgets/KoTagFilterWidget.cpp:66
 msgctxt "@info:tooltip"
@@ -6165,12 +6085,12 @@ msgstr ""
 "widoku znacznika.<para>Aby odfiltrować w oparciu o częściową nazwę zasobu "
 "bez względu na wielkość liter:<br><icode>nazwa_częściowa</icode> lub <icode>!"
 "nazwa_częściowa</icode>.</para><para>Włączenie/wyłączenie innych zestawów "
-"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>![Nazwa_znacznika]"
-"</icode>.</para><para>Z uwzględnieniem wielkości liter i włączania/"
-"wyłączanie dopasowań po pełnej nazwie  :<br><icode>\"DokładneDopasowanie\"</"
-"icode> or <icode>!\"DokładneDopasowanie\"</icode>.</para>Naciśnięcie "
-"klawisza <interface>Enter</interface> lub przycisku <interface>Zapisz</"
-"interface> zapisze zmiany.</qt>"
+"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>!"
+"[Nazwa_znacznika]</icode>.</para><para>Z uwzględnieniem wielkości liter i "
+"włączania/wyłączanie dopasowań po pełnej nazwie  :<br><icode>"
+"\"DokładneDopasowanie\"</icode> or <icode>!\"DokładneDopasowanie\"</icode>.</"
+"para>Naciśnięcie klawisza <interface>Enter</interface> lub przycisku "
+"<interface>Zapisz</interface> zapisze zmiany.</qt>"
 
 #: widgets/KoTagFilterWidget.cpp:81
 msgid "Enter resource filters here"
@@ -6290,6 +6210,91 @@ msgstr "Dopasuj do szerokości tekstu"
 msgctxt "@info:tooltip of custom triple button"
 msgid "%1"
 msgstr "%1"
+
+#~ msgid "Database file \"%1\" does not exist."
+#~ msgstr "Plik bazy danych \"%1\" nie istnieje."
+
+#~ msgid "Cannot drop database - name not specified."
+#~ msgstr "Nie można usunąć bazy danych - nie została określona jej nazwa."
+
+#~ msgid "Table \"%1\" does not exist in the database."
+#~ msgstr "Tabela \"%1\" nie istnieje w bazie danych."
+
+#~ msgid "Single transactions"
+#~ msgstr "Pojedyncze transakcje"
+
+#~ msgid "Multiple transactions"
+#~ msgstr "Wiele transakcji"
+
+#~ msgid "Nested transactions"
+#~ msgstr "Zagnieżdżone transakcje"
+
+#~ msgid "Ignored"
+#~ msgstr "Ignorowany"
+
+#~ msgid "No such driver service: \"%1\"."
+#~ msgstr "Nie można znaleźć usługi \"%1\"."
+
+#~ msgid "Could not compact database \"%1\"."
+#~ msgstr "Nie można wykonać defragmentacji bazy danych \"%1\"."
+
+#~ msgid "Do you want to open file \"%1\" as read-only?"
+#~ msgstr "Czy chcesz otworzyć plik \"%1\" tylko do odczytu?"
+
+#~ msgid "The file is probably already open on this or another computer."
+#~ msgstr "Plik jest już prawdopodobnie otwarty na tym lub innym komputerze."
+
+#~ msgid "Could not gain exclusive access for writing the file."
+#~ msgstr "Nie można uzyskać wyłącznego dostępu do pisania pliku."
+
+#~ msgid "Open As Read-Only"
+#~ msgstr "Otwórz tylko do odczytu"
+
+#~ msgid "Could not close busy database."
+#~ msgstr "Nie można zamknąć zajętej (pracującej) bazy danych."
+
+#~ msgid "Could not remove file \"%1\"."
+#~ msgstr "Nie można usunąć pliku \"%1\"."
+
+#~ msgid ""
+#~ "Check the file's permissions and whether it is already opened and locked "
+#~ "by another application."
+#~ msgstr ""
+#~ "Sprawdź prawa dostępu pliku oraz czy nie jest on otwarty i zablokowany "
+#~ "przez inny program."
+
+#~ msgid "Compacting database"
+#~ msgstr "Defragmentacja bazy danych"
+
+#~ msgid "Compacting database \"%1\"..."
+#~ msgstr "Defragmentacja bazy danych \"%1\"..."
+
+#~ msgid ""
+#~ "The database has been compacted. Current size decreased by %1% to %2."
+#~ msgstr ""
+#~ "Baza danych została zdefragmentowana. Jej rozmiar zmniejszył się o %1% do "
+#~ "%2."
+
+#~ msgid "No query specified"
+#~ msgstr "Nie określono polecenia zapytania."
+
+#~ msgid "Table \"%1\" does not exist"
+#~ msgstr "Tabela \"%1\" nie istnieje."
+
+#~ msgid "Track Total"
+#~ msgstr "Śledź całkowitą"
+
+#~ msgid "Track Builtin Format"
+#~ msgstr "Śledź wbudowany format"
+
+#~ msgid "Use Sub Total"
+#~ msgstr "Użyj pod-całkowitej"
+
+#~ msgid "Track Total Format"
+#~ msgstr "Śledź całkowity format"
+
+#~ msgid "Grid Snap"
+#~ msgstr "Przyciąganie do siatki"
 
 #~ msgid "                Language:"
 #~ msgstr "                Język:"
@@ -6717,23 +6722,18 @@ msgstr "%1"
 #~ msgstr "Import"
 
 #, fuzzy
-#~| msgid "Shape"
 #~ msgid "Share"
 #~ msgstr "Figura"
 
 #, fuzzy
-#~| msgid "Alpha"
 #~ msgid "Copy Opacy"
 #~ msgstr "Alfa"
 
 #, fuzzy
-#~| msgid "Alpha"
 #~ msgid "Copy Alpha"
 #~ msgstr "Alfa"
 
 #, fuzzy
-#~| msgctxt "color"
-#~| msgid "LightGreen"
 #~ msgid "Light"
 #~ msgstr "Jasny"
 
@@ -6741,12 +6741,10 @@ msgstr "%1"
 #~ msgstr "Zapisz PDF"
 
 #, fuzzy
-#~| msgid "Hide Guides"
 #~ msgid "Hide Dockers"
 #~ msgstr "Ukryj prowadnice"
 
 #, fuzzy
-#~| msgid "Stop"
 #~ msgid "Atop"
 #~ msgstr "Zatrzymaj"
 
@@ -6775,57 +6773,46 @@ msgstr "%1"
 #~ msgstr "określ wyjście (może być ps lub dot, domyślnie ps)"
 
 #, fuzzy
-#~| msgid "Format"
 #~ msgid "Barcode Format"
 #~ msgstr "Format"
 
 #, fuzzy
-#~| msgid "Set Font"
 #~ msgid "Field Font"
 #~ msgstr "Ustaw czcionkę"
 
 #, fuzzy
-#~| msgid "Time:"
 #~ msgid "Pie"
 #~ msgstr "Połączenie"
 
 #, fuzzy
-#~| msgid "Ranges"
 #~ msgid "Ring"
 #~ msgstr "Zakresy"
 
 #, fuzzy
-#~| msgid "Color"
 #~ msgid "Polar"
 #~ msgstr "Kolor"
 
 #, fuzzy
-#~| msgid "Space"
 #~ msgid "Stacked"
 #~ msgstr "Spacja"
 
 #, fuzzy
-#~| msgid "Recent:"
 #~ msgid "Percent"
 #~ msgstr "Ostatnio używane:"
 
 #, fuzzy
-#~| msgid "Color name:"
 #~ msgid "Color Scheme"
 #~ msgstr "Nazwa koloru:"
 
 #, fuzzy
-#~| msgid "Untitled"
 #~ msgid "Antialiased"
 #~ msgstr "Bez tytułu"
 
 #, fuzzy
-#~| msgid "Display page background"
 #~ msgid "Display Legend"
 #~ msgstr "Pokaż tło strony"
 
 #, fuzzy
-#~| msgid "a chart"
 #~ msgid "Chart"
 #~ msgstr "wykres"
 
@@ -6840,7 +6827,6 @@ msgstr "%1"
 #~ msgstr "Narzędzia ścieżki"
 
 #, fuzzy
-#~| msgid "Custom"
 #~ msgid "Out"
 #~ msgstr "Użytkownika"
 
@@ -6850,8 +6836,6 @@ msgstr "%1"
 #~ msgid "Background tool"
 #~ msgstr "Narzędzie tła"
 
-#~| msgid "Paste Slide"
-#~| msgid_plural "Paste Slides"
 #~ msgid "Paste Slides"
 #~ msgstr "Wklej slajdy"
 
@@ -7116,17 +7100,6 @@ msgstr "%1"
 #~ msgstr "Łączy styl obramowania bieżącego akapitu z kolejnym akapitem"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Merge with next paragraph</p>\n"
-#~| "\n"
-#~| "<p>When this option is checked, no top or bottom borders\n"
-#~| "will appear between consecutive paragraphs with the\n"
-#~| "same style.  Top and Bottom borders will only appear between\n"
-#~| "paragraphs with different styles.</p>\n"
-#~| "\n"
-#~| "<p>When this option is unchecked, top and bottom borders\n"
-#~| "always appear at the top and bottom of paragraphs with this style,\n"
-#~| "regardless of the style of the preceeding and subsequent paragraphs.</p>"
 #~ msgid ""
 #~ "<p>Merge with next paragraph</p>\n"
 #~ "\n"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koproperty\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-16 01:51+0000\n"
-"PO-Revision-Date: 2014-08-26 01:50+0200\n"
+"POT-Creation-Date: 2014-08-28 01:43+0000\n"
+"PO-Revision-Date: 2014-08-29 14:05+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -19,14 +19,6 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Jarosław Staniek"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "staniek@kde.org"
 
 #: EditorDataModel.cpp:171
 msgctxt "Property name"
@@ -39,14 +31,17 @@ msgid "Value"
 msgstr "Wartość"
 
 #: editors/booledit.cpp:50
+msgctxt "Property value: Boolean state Yes"
 msgid "Yes"
 msgstr "Tak"
 
 #: editors/booledit.cpp:55
+msgctxt "Property value: Boolean state No"
 msgid "No"
 msgstr "Nie"
 
 #: editors/booledit.cpp:60
+msgctxt "Property value: Boolean (3rd) undefined state None"
 msgid "None"
 msgstr "Brak"
 
@@ -187,18 +182,40 @@ msgid "Insert Image From File (for \"%1\" property)"
 msgstr "Wstaw obrazek z pliku (dla właściwości \"%1\")"
 
 #: editors/pointedit.cpp:45 editors/pointfedit.cpp:46 editors/rectedit.cpp:45
+msgctxt "Property: X coordinate"
 msgid "X"
 msgstr "X"
 
-#: editors/pointedit.cpp:47 editors/pointfedit.cpp:48 editors/rectedit.cpp:47
+#: editors/pointedit.cpp:46 editors/pointfedit.cpp:47 editors/rectedit.cpp:46
+msgctxt "Property: X coordinate"
+msgid "X Coordinate"
+msgstr "Współrzędna X"
+
+#: editors/pointedit.cpp:48 editors/pointfedit.cpp:49 editors/rectedit.cpp:48
+msgctxt "Property: Y coordinate"
 msgid "Y"
 msgstr "Y"
 
-#: editors/rectedit.cpp:49 editors/sizeedit.cpp:43 editors/sizefedit.cpp:43
+#: editors/pointedit.cpp:49 editors/pointfedit.cpp:50 editors/rectedit.cpp:49
+msgctxt "Property: Y coordinate"
+msgid "Y Coordinate"
+msgstr "Współrzędna Y"
+
+#: editors/rectedit.cpp:51 editors/rectedit.cpp:52
+msgctxt "Property: width of rectangle"
 msgid "Width"
 msgstr "Szerokość"
 
-#: editors/rectedit.cpp:51 editors/sizeedit.cpp:45 editors/sizefedit.cpp:45
+#: editors/rectedit.cpp:54 editors/rectedit.cpp:55
+msgctxt "Property: height of rectangle"
+msgid "Height"
+msgstr "Wysokość"
+
+#: editors/sizeedit.cpp:43 editors/sizefedit.cpp:43
+msgid "Width"
+msgstr "Szerokość"
+
+#: editors/sizeedit.cpp:45 editors/sizefedit.cpp:45
 msgid "Height"
 msgstr "Wysokość"
 
@@ -270,6 +287,7 @@ msgid "Vertical Stretch"
 msgstr "Pionowe rozciągniecie"
 
 #: editors/stringlistedit.cpp:95
+msgctxt "@title:window"
 msgid "Edit List of Items"
 msgstr "Edytuj listę elementów"
 
@@ -279,6 +297,7 @@ msgid "Contents of %1"
 msgstr "Zawartość %1"
 
 #: editors/symbolcombo.cpp:95
+msgctxt "@title:window"
 msgid "Select Char"
 msgstr "Wybierz znak"
 
@@ -291,6 +310,14 @@ msgctxt "General properties"
 msgid "General"
 msgstr "Ogólne"
 
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Jarosław Staniek"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "staniek@kde.org"
+
 #~ msgid "Name"
 #~ msgstr "Nazwa"
 
@@ -301,7 +328,6 @@ msgstr "Ogólne"
 #~ msgstr "Zmień czcionkę"
 
 #, fuzzy
-#~| msgid "Change font"
 #~ msgid "Changes font"
 #~ msgstr "Zmień czcionkę"
 
@@ -309,13 +335,11 @@ msgstr "Ogólne"
 #~ msgstr "..."
 
 #, fuzzy
-#~| msgid "Horz. Size Type"
 #~ msgctxt "Size Policy, in short"
 #~ msgid "Horz. Size Type"
 #~ msgstr "Poz. typ rozmiaru"
 
 #, fuzzy
-#~| msgid "Vert. Size Type"
 #~ msgctxt "Size Policy, in short"
 #~ msgid "Vert. Size Type"
 #~ msgstr "Pion. typ rozmiaru"
