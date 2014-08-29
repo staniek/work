@@ -19,7 +19,7 @@ msgstr ""
 "POT-Creation-Date: 2014-08-09 05:43+0000\n"
 "PO-Revision-Date: 2014-08-29 11:07+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
-"Language-Team: Polish <kde-i18n-doc-pl@kde.org>\n"
+"Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -273,7 +273,8 @@ msgstr "Nieoczekiwana nazwa lub identyfikator."
 #, kde-format
 msgid "Could not alter table \"%1\" using the same table."
 msgstr ""
-"Nie można zmodyfikować tabeli \"%1\" używając tej samej tabeli jako docelowej."
+"Nie można zmodyfikować tabeli \"%1\" używając tej samej tabeli jako "
+"docelowej."
 
 #: db/connection.cpp:1975 db/expression.cpp:789
 #, kde-format
@@ -680,7 +681,8 @@ msgstr "Nie można uzyskać dostępu do tabeli używając bezpośrednio jej nazw
 msgid ""
 "Table \"%1\" is covered by aliases. Instead of \"%2\", you can write \"%3\""
 msgstr ""
-"Tabela \"%1\" jest zakryta przez aliasy. Zamiast \"%2\" możesz napisać \"%3\"."
+"Tabela \"%1\" jest zakryta przez aliasy. Zamiast \"%2\" możesz napisać "
+"\"%3\"."
 
 #: db/expression.cpp:788
 msgid "Table not found"
@@ -5999,15 +6001,15 @@ msgstr ""
 "widoku znacznika.<para>Aby odfiltrować w oparciu o częściową nazwę zasobu "
 "bez względu na wielkość liter:<br><icode>nazwa_częściowa</icode> lub <icode>!"
 "nazwa_częściowa</icode>.</para><para>Włączenie/wyłączenie innych zestawów "
-"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>![Nazwa_znacznika]"
-"</icode>.</para><para>Z uwzględnieniem wielkości liter i włączenie/"
-"wyłączanie dopasowań po pełnej nazwie  :<br><icode>\"DokładneDopasowanie\"</"
-"icode> or <icode>!\"DokładneDopasowanie\"</icode>.</para>Wyników "
-"odfiltrowania nie można zapisać w widoku <interface>Wszystkich nastaw</"
-"interface>.<br>W tym widoku, naciskając klawisz <interface>Enter</interface> "
-"lub czyszcząc pole filtra, zostaną przywrócone wszystkie elementy.<br>Utwórz "
-"i/lub przełącz do innego znacznika, jeśli chcesz zapisać odfiltrowane zasoby "
-"do zestawów z nadaną nazwą .</qt>"
+"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>!"
+"[Nazwa_znacznika]</icode>.</para><para>Z uwzględnieniem wielkości liter i "
+"włączenie/wyłączanie dopasowań po pełnej nazwie  :<br><icode>"
+"\"DokładneDopasowanie\"</icode> or <icode>!\"DokładneDopasowanie\"</icode>.</"
+"para>Wyników odfiltrowania nie można zapisać w widoku <interface>Wszystkich "
+"nastaw</interface>.<br>W tym widoku, naciskając klawisz <interface>Enter</"
+"interface> lub czyszcząc pole filtra, zostaną przywrócone wszystkie elementy."
+"<br>Utwórz i/lub przełącz do innego znacznika, jeśli chcesz zapisać "
+"odfiltrowane zasoby do zestawów z nadaną nazwą .</qt>"
 
 #: widgets/KoTagFilterWidget.cpp:66
 msgctxt "@info:tooltip"
@@ -6025,12 +6027,12 @@ msgstr ""
 "widoku znacznika.<para>Aby odfiltrować w oparciu o częściową nazwę zasobu "
 "bez względu na wielkość liter:<br><icode>nazwa_częściowa</icode> lub <icode>!"
 "nazwa_częściowa</icode>.</para><para>Włączenie/wyłączenie innych zestawów "
-"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>![Nazwa_znacznika]"
-"</icode>.</para><para>Z uwzględnieniem wielkości liter i włączania/"
-"wyłączanie dopasowań po pełnej nazwie  :<br><icode>\"DokładneDopasowanie\"</"
-"icode> or <icode>!\"DokładneDopasowanie\"</icode>.</para>Naciśnięcie "
-"klawisza <interface>Enter</interface> lub przycisku <interface>Zapisz</"
-"interface> zapisze zmiany.</qt>"
+"znaczników:<br><icode>[Nazwa_znacznika]</icode> or <icode>!"
+"[Nazwa_znacznika]</icode>.</para><para>Z uwzględnieniem wielkości liter i "
+"włączania/wyłączanie dopasowań po pełnej nazwie  :<br><icode>"
+"\"DokładneDopasowanie\"</icode> or <icode>!\"DokładneDopasowanie\"</icode>.</"
+"para>Naciśnięcie klawisza <interface>Enter</interface> lub przycisku "
+"<interface>Zapisz</interface> zapisze zmiany.</qt>"
 
 #: widgets/KoTagFilterWidget.cpp:81
 msgid "Enter resource filters here"
@@ -6526,23 +6528,18 @@ msgstr "%1"
 #~ msgstr "Import"
 
 #, fuzzy
-#~| msgid "Shape"
 #~ msgid "Share"
 #~ msgstr "Figura"
 
 #, fuzzy
-#~| msgid "Alpha"
 #~ msgid "Copy Opacy"
 #~ msgstr "Alfa"
 
 #, fuzzy
-#~| msgid "Alpha"
 #~ msgid "Copy Alpha"
 #~ msgstr "Alfa"
 
 #, fuzzy
-#~| msgctxt "color"
-#~| msgid "LightGreen"
 #~ msgid "Light"
 #~ msgstr "Jasny"
 
@@ -6550,12 +6547,10 @@ msgstr "%1"
 #~ msgstr "Zapisz PDF"
 
 #, fuzzy
-#~| msgid "Hide Guides"
 #~ msgid "Hide Dockers"
 #~ msgstr "Ukryj prowadnice"
 
 #, fuzzy
-#~| msgid "Stop"
 #~ msgid "Atop"
 #~ msgstr "Zatrzymaj"
 
@@ -6584,57 +6579,46 @@ msgstr "%1"
 #~ msgstr "określ wyjście (może być ps lub dot, domyślnie ps)"
 
 #, fuzzy
-#~| msgid "Format"
 #~ msgid "Barcode Format"
 #~ msgstr "Format"
 
 #, fuzzy
-#~| msgid "Set Font"
 #~ msgid "Field Font"
 #~ msgstr "Ustaw czcionkę"
 
 #, fuzzy
-#~| msgid "Time:"
 #~ msgid "Pie"
 #~ msgstr "Połączenie"
 
 #, fuzzy
-#~| msgid "Ranges"
 #~ msgid "Ring"
 #~ msgstr "Zakresy"
 
 #, fuzzy
-#~| msgid "Color"
 #~ msgid "Polar"
 #~ msgstr "Kolor"
 
 #, fuzzy
-#~| msgid "Space"
 #~ msgid "Stacked"
 #~ msgstr "Spacja"
 
 #, fuzzy
-#~| msgid "Recent:"
 #~ msgid "Percent"
 #~ msgstr "Ostatnio używane:"
 
 #, fuzzy
-#~| msgid "Color name:"
 #~ msgid "Color Scheme"
 #~ msgstr "Nazwa koloru:"
 
 #, fuzzy
-#~| msgid "Untitled"
 #~ msgid "Antialiased"
 #~ msgstr "Bez tytułu"
 
 #, fuzzy
-#~| msgid "Display page background"
 #~ msgid "Display Legend"
 #~ msgstr "Pokaż tło strony"
 
 #, fuzzy
-#~| msgid "a chart"
 #~ msgid "Chart"
 #~ msgstr "wykres"
 
@@ -6649,7 +6633,6 @@ msgstr "%1"
 #~ msgstr "Narzędzia ścieżki"
 
 #, fuzzy
-#~| msgid "Custom"
 #~ msgid "Out"
 #~ msgstr "Użytkownika"
 
@@ -6659,8 +6642,6 @@ msgstr "%1"
 #~ msgid "Background tool"
 #~ msgstr "Narzędzie tła"
 
-#~| msgid "Paste Slide"
-#~| msgid_plural "Paste Slides"
 #~ msgid "Paste Slides"
 #~ msgstr "Wklej slajdy"
 
@@ -6925,17 +6906,6 @@ msgstr "%1"
 #~ msgstr "Łączy styl obramowania bieżącego akapitu z kolejnym akapitem"
 
 #, fuzzy
-#~| msgid ""
-#~| "<p>Merge with next paragraph</p>\n"
-#~| "\n"
-#~| "<p>When this option is checked, no top or bottom borders\n"
-#~| "will appear between consecutive paragraphs with the\n"
-#~| "same style.  Top and Bottom borders will only appear between\n"
-#~| "paragraphs with different styles.</p>\n"
-#~| "\n"
-#~| "<p>When this option is unchecked, top and bottom borders\n"
-#~| "always appear at the top and bottom of paragraphs with this style,\n"
-#~| "regardless of the style of the preceeding and subsequent paragraphs.</p>"
 #~ msgid ""
 #~ "<p>Merge with next paragraph</p>\n"
 #~ "\n"
