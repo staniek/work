@@ -18,6 +18,7 @@ anulować transakcję / wycofać transakcję / rollback transaction
 rozdział (raportu) / sekcja (raportu) / section (report)
 orientacja strony / układ strony / page orientation
 Interpretator / Interpreter / Interpreter (scripts)
+normalny / zwykły / normal (e.g. chart)
 
 wizard -> assistant
 
