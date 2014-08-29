@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-08-25 01:43+0000\n"
-"PO-Revision-Date: 2014-08-26 01:23+0200\n"
+"PO-Revision-Date: 2014-08-29 11:07+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Krzysztof Lichota, Łukasz Wojniłowicz"
+msgstr "Krzysztof Lichota, Łukasz Wojniłowicz, Jarosław Staniek"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -460,7 +460,7 @@ msgstr "Nie podano polecenia lub schematu zapytania."
 
 #: db/cursor.cpp:152
 msgid "Query statement is empty."
-msgstr "Polecenia zapytania jest puste."
+msgstr "Polecenie zapytania jest puste."
 
 #: db/cursor.cpp:162
 msgid "Error opening database cursor."

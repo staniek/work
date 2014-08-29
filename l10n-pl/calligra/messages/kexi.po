@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-08-16 01:36+0000\n"
-"PO-Revision-Date: 2014-08-23 23:43+0200\n"
+"PO-Revision-Date: 2014-08-29 11:20+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -1689,7 +1689,7 @@ msgstr "poleTekstowe"
 
 #: formeditor/factories/stdwidgetfactory.cpp:231
 msgid "A widget to input text"
-msgstr "Widżet do wpisywania teksu"
+msgstr "Widżet do wprowadzania teksu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:238
 msgid "Spring"
@@ -1912,7 +1912,7 @@ msgstr "widzetDaty"
 
 #: formeditor/factories/stdwidgetfactory.cpp:385
 msgid "A widget to input and display a date"
-msgstr "Widżet do wpisywania i wyświetlenia daty"
+msgstr "Widżet do wprowadzania i wyświetlenia daty"
 
 #: formeditor/factories/stdwidgetfactory.cpp:394
 msgid "Time Widget"
@@ -1927,7 +1927,7 @@ msgstr "widzetCzasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:397
 msgid "A widget to input and display a time"
-msgstr "Widżet do wpisywania i wyświetlenia czasu"
+msgstr "Widżet do wprowadzania i wyświetlenia czasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:406
 msgid "Date/Time Widget"
@@ -1942,7 +1942,7 @@ msgstr "widzetDatyICzasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:409
 msgid "A widget to input and display a time and a date"
-msgstr "Widżet do wpisywania i wyświetlenia daty i czasu"
+msgstr "Widżet do wprowadzania i wyświetlenia daty i czasu"
 
 #: formeditor/factories/stdwidgetfactory.cpp:413
 msgid "Toggle"
@@ -5014,7 +5014,7 @@ msgstr "Utwórz nowy autoformularz"
 #: plugins/autoforms/KexiAutoFormPart.cpp:34
 msgctxt "what's this"
 msgid "Creates new autoform."
-msgstr "Tworzy nowy auto-formularz."
+msgstr "Tworzy nowy autoformularz."
 
 #: plugins/autoforms/KexiAutoFormView.cpp:48
 msgid "Record"
@@ -5940,7 +5940,7 @@ msgstr "Wybierz sposób do zapisania zaimportowanych danych"
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:706
 msgctxt "@label"
 msgid "Caption:"
-msgstr "Podpis:"
+msgstr "Nagłówek:"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:707
 msgctxt "@label"
@@ -6552,7 +6552,7 @@ msgstr ""
 #: plugins/reports/kexireportview.cpp:152
 msgctxt "open dialog to export as web page"
 msgid "Web Page..."
-msgstr "Strona sieciowa..."
+msgstr "Strona internetowa..."
 
 #: plugins/reports/kexireportview.cpp:155
 msgid "Export the report as a web page (in HTML format)"
@@ -6634,7 +6634,7 @@ msgstr "Użyj tabeli"
 #: plugins/reports/kexireportview.cpp:374
 #, kde-format
 msgid "Exporting the report as web page to %1 failed."
-msgstr "Nieudany eksport do %1 jako strony sieciowej."
+msgstr "Nieudany eksport do %1 jako strony internetowej."
 
 #: plugins/reports/kexireportview.cpp:454
 msgid "Opening failed"
