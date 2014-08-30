@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-08-12 07:49+0000\n"
-"PO-Revision-Date: 2014-08-29 10:58+0200\n"
+"PO-Revision-Date: 2014-08-30 23:37+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -2708,7 +2708,7 @@ msgstr "Wyjustowany"
 
 #: formeditor/tabstopdialog.cpp:70
 msgid "Edit Tab Order"
-msgstr "Edytuj kolejność kart"
+msgstr "Edytuj kolejność tabulacji"
 
 #: formeditor/tabstopdialog.cpp:96
 msgid "Move Up"
@@ -3973,7 +3973,7 @@ msgstr "Sposób przechowywania"
 #: main/startup/KexiNewProjectAssistant.cpp:169
 msgid "Select a storage method which will be used to store the new project."
 msgstr ""
-"Wybierz sposób przechowywania danych, który zostanie użyty do przechowania "
+"Wybierz sposób przechowywania, który zostanie użyty do przechowania "
 "nowego projektu."
 
 #: main/startup/KexiNewProjectAssistant.cpp:202

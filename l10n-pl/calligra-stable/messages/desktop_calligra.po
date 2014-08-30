@@ -2,7 +2,7 @@
 # translation of desktop_koffice.po to Polish
 # Piotr Szymanski <djurban@linuxpl.org>, 2002,2003.
 # Krzysztof Lichota <lichota@mimuw.edu.pl>, 2005, 2006.
-# Jarosław Staniek <js@iidea.pl>, 2005, 2006.
+# Jarosław Staniek <js@iidea.pl>, 2005, 2006, 2014.
 # Igor Klimer <kigro@vp.pl>, 2006, 2007.
 # Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014.
 # Marta Rybczyńska <kde-i18n@rybczynska.net>, 2013.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-08-09 06:05+0000\n"
-"PO-Revision-Date: 2014-07-12 06:38+0200\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"PO-Revision-Date: 2014-08-30 23:35+0200\n"
+"Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -7147,17 +7147,17 @@ msgstr "Pliki obsługi projektu Kexi"
 #: kexi/formeditor/factories/kformdesigner_containers.desktop:5
 msgctxt "Name"
 msgid "Container Widgets"
-msgstr "Elementy interfejsu pojemników"
+msgstr "Widżety pojemników"
 
 #: kexi/formeditor/factories/kformdesigner_stdwidgets.desktop:5
 msgctxt "Name"
 msgid "Basic Widgets"
-msgstr "Podstawowe elementy interfejsu"
+msgstr "Podstawowe widżety"
 
 #: kexi/formeditor/widgetfactory.desktop:4
 msgctxt "Comment"
 msgid "Widget Factory Base"
-msgstr "Podstawowa fabryka elementów interfejsu"
+msgstr "Podstawowa fabryka widżetów"
 
 #: kexi/kexidb/drivers/mysql/kexidb_mysqldriver.desktop:2
 #: kexi/migration/mysql/keximigrate_mysql.desktop:2
@@ -7215,7 +7215,7 @@ msgstr "xBase"
 #: kexi/kexidb/drivers/xbase/kexidb_xbasedriver.desktop:47
 msgctxt "Comment"
 msgid "Kexi database driver for accessing xBase database files"
-msgstr "Sterownik bazy danych Kexi do dostępu do serwerów xBase"
+msgstr "Sterownik bazy danych Kexi do dostępu do plików baz xBase"
 
 #: kexi/kexi.desktop:2
 msgctxt "Name"
@@ -7225,12 +7225,12 @@ msgstr "Kexi"
 #: kexi/kexi.desktop:65
 msgctxt "GenericName"
 msgid "Database Creator"
-msgstr "Pomoc w tworzeniu baz danych"
+msgstr "Tworzenie baz danych"
 
 #: kexi/kexi.desktop:122
 msgctxt "Comment"
 msgid "Develop desktop database applications"
-msgstr "Rozwój aplikacji bazodanowych"
+msgstr "Tworzenie aplikacji bazodanowych"
 
 #: kexi/migration/keximigration_driver.desktop:4
 msgctxt "Comment"
@@ -7300,7 +7300,7 @@ msgstr "Formularz"
 #: kexi/plugins/forms/kformdesigner_kexidbfactory.desktop:5
 msgctxt "Name"
 msgid "Widgets Plugin for Kexi Forms"
-msgstr "Wtyczka elementu interfejsu dla formularzy Kexi"
+msgstr "Wtyczka widżetów dla formularzy Kexi"
 
 #: kexi/plugins/forms/widgets/mapbrowser/kformdesigner_mapbrowser.desktop:5
 msgctxt "Name"
@@ -7310,7 +7310,7 @@ msgstr "Wtyczka przeglądarki map dla formularzy Kexi"
 #: kexi/plugins/forms/widgets/webbrowser/kformdesigner_webbrowser.desktop:7
 msgctxt "Name"
 msgid "Web Browser Plugin for Kexi Forms"
-msgstr "Wtyczka przeglądarki sieciowej dla formularzy Kexi"
+msgstr "Wtyczka przeglądarki internetowej dla formularzy Kexi"
 
 #: kexi/plugins/importexport/csv/kexicsv_importexporthandler.desktop:5
 msgctxt "Name"
@@ -7350,12 +7350,12 @@ msgstr "Relacje"
 #: kexi/plugins/reports/kexireporthandler.desktop:4
 msgctxt "GenericName"
 msgid "Reports"
-msgstr "Sprawozdania"
+msgstr "Raporty"
 
 #: kexi/plugins/reports/kexireporthandler.desktop:65
 msgctxt "Name"
 msgid "Report"
-msgstr "Sprawozdanie"
+msgstr "Raport"
 
 #: kexi/plugins/scripting/kexiscripting/kexiscripthandler.desktop:5
 msgctxt "GenericName"
