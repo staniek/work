@@ -50,4 +50,3 @@ msgstr "Adres URL"
 #: WebBrowserWidget.cpp:46
 msgid "Reload"
 msgstr "Odśwież"
-

@@ -38,4 +38,3 @@ msgstr "przegladarkaMap"
 #: MapBrowserFactory.cpp:53
 msgid "Displays an interactive map."
 msgstr "Widżet wyświetlający interaktywną mapę."
-
