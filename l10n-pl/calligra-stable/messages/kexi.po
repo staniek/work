@@ -4748,11 +4748,11 @@ msgstr "Importowanie bazy danych"
 #: migration/importwizard.cpp:230
 #, kde-format
 msgid ""
-"<qt>Database Importing wizard is about to import \"%1\" database "
-"<nobr>(connection %2)</nobr> into a Kexi database.</qt>"
+"<qt>Database Importing wizard is about to import \"%1\" database <nobr>"
+"(connection %2)</nobr> into a Kexi database.</qt>"
 msgstr ""
-"<qt>Asystent jest gotowy do wykonania importu bazy danych \"%1\" "
-"<nobr>(połączenie %2)</nobr> do projektu bazy danych Kexi.</qt>"
+"<qt>Asystent jest gotowy do wykonania importu bazy danych \"%1\" <nobr>"
+"(połączenie %2)</nobr> do projektu bazy danych Kexi.</qt>"
 
 #: migration/importwizard.cpp:239
 #, kde-format
@@ -7316,9 +7316,8 @@ msgid ""
 "list.\n"
 msgstr ""
 "<b>Wybierz z poniższej listy istniejące połączenie serwera baz danych</b>\n"
-"<p>Zostaną pokazane istniejące projekty Kexi znalezione dla tego "
-"połączenia. Dla poniższej listy możesz też dodawać, zmieniać lub usuwać "
-"połączenia.\n"
+"<p>Zostaną pokazane istniejące projekty Kexi znalezione dla tego połączenia. "
+"Dla poniższej listy możesz też dodawać, zmieniać lub usuwać połączenia.\n"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: widget/KexiConnectionSelector.ui:101
