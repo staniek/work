@@ -3973,8 +3973,8 @@ msgstr "Sposób przechowywania"
 #: main/startup/KexiNewProjectAssistant.cpp:169
 msgid "Select a storage method which will be used to store the new project."
 msgstr ""
-"Wybierz sposób przechowywania, który zostanie użyty do przechowania "
-"nowego projektu."
+"Wybierz sposób przechowywania, który zostanie użyty do przechowania nowego "
+"projektu."
 
 #: main/startup/KexiNewProjectAssistant.cpp:202
 msgid "New database"
