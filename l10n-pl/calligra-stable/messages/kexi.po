@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-09-21 05:26+0000\n"
-"PO-Revision-Date: 2014-08-30 23:37+0200\n"
+"PO-Revision-Date: 2014-09-22 22:31+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
@@ -4572,41 +4572,61 @@ msgid ""
 "p><p>Contact us at http://community.kde.org/Kexi/Contact for more "
 "information.</p><p>Thanks for your support!</p>"
 msgstr ""
+"<p><b>Kexi może i jest aplikacją całkowicie bezpłatną, lecz jej rozwój jest "
+"kosztowny.</b><br/"
+">Energia, sprzęt, przestrzeń biurowa, dostęp do Internetu, przejazdy na "
+"spotkania - "
+"wszystko to kosztuje.</p><p>Bezpośrednia darowizna to najprostszy i "
+"najszybszy sposób "
+"na skuteczne wsparcie projektu Kexi. Każdy, niezależnie od poziomu "
+"zaangażowania w projekt "
+"może go w ten sposób wesprzeć.</p><p>Co otrzymujesz dzięki swojej darowiźnie? "
+"Kexi "
+"stanie się bogatszy w funkcje oraz poprawi się jego stabilność, gdyż autorzy "
+"będą mogli poświęcić więcej czasu "
+"na rozwój programu. Możesz nie tylko oczekiwać nowych funkcji, lecz także "
+"wpływać na "
+"to, które funkcje są dodawane!</p><p>Obecnie akceptujemy "
+"darowizny poprzez <b>BountySource</b> (platformę przeznaczoną do finansowania "
+"rozwoju otwartego oprogramowania - open-"
+"source) z użyciem bezpiecznych transakcji PayPal, Bitcoin oraz Google "
+"Wallet.</"
+"p><p>Aby uzyskać więcej informacji, skontaktuj się z nami pod adresem "
+"http://community.kde.org/Kexi/Contact.</p><p>Dzięki za wsparcie!</p>"
 
 #: main/startup/KexiWelcomeStatusBar.cpp:816
-#, fuzzy
 #| msgid "Options related to entire projects:"
 msgid "Donate to the Project"
-msgstr "Opcje związane z całymi projektami:"
+msgstr "Przekaż darowiznę na projekt"
 
 #: main/startup/KexiWelcomeStatusBar.cpp:817
 msgid "Proceed to the Donation Web Page"
-msgstr ""
+msgstr "Przejdź do strony internetowej darowizn"
 
 #: main/startup/KexiWelcomeStatusBar.cpp:818
 msgctxt "Do not donate now"
 msgid "Not Now"
-msgstr ""
+msgstr "Nie teraz"
 
 #: main/startup/KexiWelcomeStatusBar.cpp:996
 msgctxt "Donation today"
 msgid "today"
-msgstr ""
+msgstr "dzisiaj"
 
 #: main/startup/KexiWelcomeStatusBar.cpp:999
 #, kde-format
 msgctxt "Recent donation date (xx days)"
 msgid "%1 (1 day)"
 msgid_plural "%1 (%2 days)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 (1 dzień)"
+msgstr[1] "%1 (%2 dni)"
+msgstr[2] "%1 (%2 dni)"
 
 #: main/startup/KexiWelcomeStatusBar.cpp:1011
 #, kde-format
 msgctxt "donations count"
 msgid "%1 (thanks!)"
-msgstr ""
+msgstr "%1 (dziękujemy!)"
 
 #: migration/AlterSchemaWidget.cpp:51 migration/AlterSchemaWidget.cpp:113
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:168
@@ -4817,10 +4837,9 @@ msgid "Destination project's title:"
 msgstr "Nagłówek docelowego projektu"
 
 #: migration/importwizard.cpp:348
-#, fuzzy
 #| msgid "Destination project's title:"
 msgid "Destination project's name:"
-msgstr "Nagłówek docelowego projektu"
+msgstr "Nagłówek docelowego projektu:"
 
 #: migration/importwizard.cpp:357
 msgid "Select Destination Database Project's Title"

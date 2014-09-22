@@ -10,10 +10,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-25 02:13+0000\n"
-"PO-Revision-Date: 2014-08-30 23:15+0200\n"
-"Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
-"Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2014-09-20 02:05+0000\n"
+"PO-Revision-Date: 2014-09-19 07:50+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7415,13 +7415,13 @@ msgctxt "Name"
 msgid "Krita Animation"
 msgstr "Animacje Krita"
 
-#: krita/animator/kritaanimation.desktop:16 krita/gemini/kritagemini.desktop:4
+#: krita/animator/kritaanimation.desktop:21 krita/gemini/kritagemini.desktop:4
 #: krita/krita.desktop:65 krita/sketch/kritasketch.desktop:30
 msgctxt "GenericName"
 msgid "Digital Painting"
 msgstr "Cyfrowe malowanie "
 
-#: krita/animator/kritaanimation.desktop:49 krita/krita.desktop:98
+#: krita/animator/kritaanimation.desktop:54 krita/krita.desktop:98
 msgctxt "Comment"
 msgid "Digital Painting"
 msgstr "Cyfrowe malowanie "
@@ -7436,7 +7436,7 @@ msgctxt "Name"
 msgid "Calligra Animation Editor"
 msgstr "Edytor animacji Calligra"
 
-#: krita/animator/kritaanimationpart.desktop:19 krita/kritapart.desktop:42
+#: krita/animator/kritaanimationpart.desktop:24 krita/kritapart.desktop:42
 msgctxt "GenericName"
 msgid "Image Object"
 msgstr "Obiekt obrazu"
@@ -7814,7 +7814,7 @@ msgctxt "Name"
 msgid "Animator"
 msgstr "Animator"
 
-#: krita/plugins/extensions/dockers/animator/krita_animator.desktop:14
+#: krita/plugins/extensions/dockers/animator/krita_animator.desktop:18
 msgctxt "Comment"
 msgid "Animator"
 msgstr "Animator"
@@ -7828,6 +7828,11 @@ msgstr "Artystyczne wybieranie kolorów"
 msgctxt "Name"
 msgid "Channel Docker"
 msgstr "Dokowanie kanału"
+
+#: krita/plugins/extensions/dockers/colorslider/krita_colorslider.desktop:2
+msgctxt "Name"
+msgid "ColorSlider"
+msgstr "Suwa koloru"
 
 #: krita/plugins/extensions/dockers/compositiondocker/krita_compositiondocker.desktop:2
 msgctxt "Name"
