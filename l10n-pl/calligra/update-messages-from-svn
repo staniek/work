@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd messages
+for f in `ls -1` ; do
+    cp "../../../../trunk/l10n-kde4/pl/messages/calligra/$f" .
+done
