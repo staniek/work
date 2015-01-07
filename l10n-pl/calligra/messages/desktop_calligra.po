@@ -2,7 +2,7 @@
 # translation of desktop_koffice.po to Polish
 # Piotr Szymanski <djurban@linuxpl.org>, 2002,2003.
 # Krzysztof Lichota <lichota@mimuw.edu.pl>, 2005, 2006.
-# Jarosław Staniek <js@iidea.pl>, 2005, 2006, 2014.
+# Jarosław Staniek <js@iidea.pl>, 2005, 2006, 2014, 2015.
 # Igor Klimer <kigro@vp.pl>, 2006, 2007.
 # Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014.
 # Marta Rybczyńska <kde-i18n@rybczynska.net>, 2013.
@@ -11,9 +11,9 @@ msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2015-01-01 02:08+0000\n"
-"PO-Revision-Date: 2014-12-13 14:08+0100\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2015-01-07 21:55+0100\n"
+"Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
+"Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8877,42 +8877,42 @@ msgstr "Kształt wtyczki"
 #: plugins/reporting/barcode/koreport_barcodeplugin.desktop:2
 msgctxt "Name"
 msgid "Barcode Report Plugin"
-msgstr "Wtyczka sprawozdania kodu paskowego"
+msgstr "Wtyczka kodów paskowych dla raportów"
 
 #: plugins/reporting/barcode/koreport_barcodeplugin.desktop:31
 msgctxt "Comment"
 msgid "KoReport Barcode Plugin"
-msgstr "Wtyczka kodu paskowego dla KoReport"
+msgstr "Wtyczka kodów paskowych dla raportów"
 
 #: plugins/reporting/chart/koreport_chartplugin.desktop:2
 msgctxt "Name"
 msgid "Chart Report Plugin"
-msgstr "Wtyczka sprawozdania z wykresami"
+msgstr "Wtyczka wykresów dla raportów"
 
 #: plugins/reporting/chart/koreport_chartplugin.desktop:31
 msgctxt "Comment"
 msgid "Calligra Reports Chart Plugin"
-msgstr "Wtyczka sprawozdania z wykresami dla Calligry"
+msgstr "Wtyczka wykresów dla raportów"
 
 #: plugins/reporting/maps/koreport_mapsplugin.desktop:2
 msgctxt "Name"
 msgid "Maps Report Plugin"
-msgstr "Wtyczka sprawozdania map"
+msgstr "Wtyczka map dla raportów"
 
 #: plugins/reporting/maps/koreport_mapsplugin.desktop:31
 msgctxt "Comment"
 msgid "Calligra Reports Maps Plugin"
-msgstr "Wtyczka sprawozdania map dla Calligry"
+msgstr "Wtyczka map dla raportów"
 
 #: plugins/reporting/web/koreport_webplugin.desktop:2
 msgctxt "Name"
 msgid "Web Report Plugin"
-msgstr "Wtyczka sprawozdania sieci"
+msgstr "Wtyczka strony internetowej dla raportów"
 
 #: plugins/reporting/web/koreport_webplugin.desktop:32
 msgctxt "Comment"
 msgid "Calligra Reports Web Plugin"
-msgstr "Wtyczka sprawozdania sieci dla Calligry"
+msgstr "Wtyczka strony internetowej dla raportów"
 
 #: plugins/semanticitems/contact/calligra_semanticitem_contact.desktop:2
 msgctxt "Name"
@@ -9022,7 +9022,7 @@ msgstr "Program Calligra"
 #: servicetypes/calligra_deferred_plugin.desktop:2
 msgctxt "Name"
 msgid "Calligra Deferred Loading Plugin"
-msgstr "Wtyczka wczytywania odstawionych dla Calligry"
+msgstr "Wtyczka opóźnionego wczytywania dla Calligry"
 
 #: servicetypes/calligra_filter.desktop:4
 msgctxt "Comment"

@@ -3,7 +3,7 @@
 #
 # Copyright (C) 2003, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 # Krzysztof Lichota <lichota@mimuw.edu.pl>, 2005, 2006, 2007;.
-# Jarosław Staniek <staniek@kde.org>, 2005, 2006, 2007, 2014.
+# Jarosław Staniek <staniek@kde.org>, 2005, 2006, 2007, 2014, 2015.
 # Igor Klimer <kigro@vp.pl>, 2006.
 # Michał Smoczyk <msmoczyk@wp.pl>, 2008.
 # Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014.
@@ -13,9 +13,9 @@ msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-12-09 01:38+0000\n"
-"PO-Revision-Date: 2014-12-20 12:59+0100\n"
-"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
-"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2015-01-07 22:23+0100\n"
+"Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
+"Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +56,7 @@ msgstr "Funkcja \"%1\" nie jest dostępna w wersji %2 programu %3."
 
 #: core/kexiaboutdata.cpp:30
 msgid "Visual database applications creator"
-msgstr "Tworzenie wizualnych aplikacji bazy danych"
+msgstr "Wizualne tworzenie aplikacji bazodanowych"
 
 #: core/kexiaboutdata.cpp:39
 #, kde-format
@@ -77,7 +77,7 @@ msgstr "Jarosław Staniek"
 
 #: core/kexiaboutdata.cpp:49
 msgid "Project maintainer & developer, overall design"
-msgstr "Opiekun projektu, główny programista"
+msgstr "Opiekun projektu i programista, całościowy projekt"
 
 #: core/kexiaboutdata.cpp:51
 msgid "OpenOffice Polska LLC"
@@ -97,8 +97,8 @@ msgid ""
 "PostgreSQL database driver, Migration and Reporting modules, numerous bug "
 "fixes"
 msgstr ""
-"Sterownik bazy danych PostgreSQL, moduły przenoszenia i raportów, liczne "
-"naprawy błędów"
+"Sterownik baz danych PostgreSQL, moduły migracji i raportów, liczne "
+"poprawki błędów"
 
 #: core/kexiaboutdata.cpp:55
 msgid "Map elements for forms and reports, map flake shape"
@@ -160,7 +160,7 @@ msgstr "Lorenzo Villani"
 
 #: core/kexiaboutdata.cpp:69
 msgid "Web Forms module"
-msgstr "Moduł formularzy sieciowych"
+msgstr "Moduł formularzy dla stron internetowych"
 
 #: core/kexiaboutdata.cpp:71
 msgid "Sharan Rao"
@@ -216,7 +216,7 @@ msgstr "Matt Rogers"
 
 #: core/kexiaboutdata.cpp:81
 msgid "ODBC database driver"
-msgstr "Sterownik bazy danych ODBC"
+msgstr "Sterownik baz danych ODBC"
 
 #: core/kexiaboutdata.cpp:83
 msgid "Former project maintainer & developer"
@@ -392,7 +392,7 @@ msgid ""
 "Ignored if a shortcut filename\n"
 "is provided."
 msgstr ""
-"Sterownik bazy danych, który ma być\n"
+"Sterownik baz danych, który ma być\n"
 "użyty przy łączeniu się z projektem\n"
 "bazy danych (domyślnie: SQLite).\n"
 "Opcja ignorowana, jeśli podano plik\n"
@@ -2934,7 +2934,7 @@ msgstr ""
 
 #: main/KexiMainWindow.cpp:1832
 msgid "Hide project navigator"
-msgstr "Ukryj nawigatora projektu"
+msgstr "Ukryj nawigator projektu"
 
 #: main/KexiMainWindow.cpp:1914
 msgid "Property Editor"
@@ -2942,7 +2942,7 @@ msgstr "Edytor właściwości"
 
 #: main/KexiMainWindow.cpp:1916
 msgid "Hide property editor"
-msgstr "Ukryj edytora właściwości"
+msgstr "Ukryj edytor właściwości"
 
 #: main/KexiMainWindow.cpp:1941 widget/utils/kexicontextmenuutils.cpp:83
 msgid "Properties"
@@ -3578,7 +3578,7 @@ msgstr "Podałeś niewłaściwy numer portu <icode>%1</icode>."
 
 #: main/startup/KexiStartup.cpp:307
 msgid "Could not open database. No database driver specified."
-msgstr "Nie można otworzyć bazy danych. Nie podano sterownika bazy danych."
+msgstr "Nie można otworzyć bazy danych. Nie podano sterownika baz danych."
 
 #: main/startup/KexiStartup.cpp:324
 msgid "Could not start Kexi application this way."
@@ -3721,9 +3721,9 @@ msgid ""
 "driver, while you have asked for \"%3\" database driver to be used.\n"
 "Do you want to use \"%4\" database driver?"
 msgstr ""
-"Plik projektu \"%1\" został rozpoznany jako zgodny ze sterownikiem bazy "
+"Plik projektu \"%1\" został rozpoznany jako zgodny ze sterownikiem baz "
 "danych \"%2\", podczas gdy wybrałeś sterownik \"%3\". Czy chcesz użyć "
-"sterownika bazy danych \"%4\"?"
+"sterownika baz danych \"%4\"?"
 
 #: main/startup/KexiStartup.cpp:845
 #, kde-format
@@ -3760,7 +3760,7 @@ msgid ""
 "Database driver for this file type not found.\n"
 "Detected MIME type is %1."
 msgstr ""
-"Nie znaleziono sterownika bazy danych dla tego typu pliku. Wykryty typ MIME "
+"Nie znaleziono sterownika baz danych dla tego typu pliku. Wykryty typ MIME "
 "pliku to %1."
 
 #: main/startup/KexiStartup.cpp:908
@@ -6867,7 +6867,7 @@ msgstr ""
 "style=\" font-style:italic;\">.kexic</span> lub <span style=\" font-style:"
 "italic;\">.kexis</span> używając prostego szyfrowania ROT-47. Nie zapewnia "
 "to bezpieczeństwa, lecz utrudnia innym odczyt, więc w ogólności nie zaleca "
-"się upubliczniania tych plików.</p></body></html>"
+"się upubliczniania tych plików.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSavePassword)
 #: widget/kexidbconnectionwidget.ui:140
@@ -7134,10 +7134,10 @@ msgid ""
 "package names could vary slightly depending on the operating system you use."
 "</para>"
 msgstr ""
-"<title>Nie znaleziono żadnych sterowników bazy danych</"
+"<title>Nie znaleziono żadnych sterowników baz danych</"
 "title><para>Połączenie do serwera bazy danych wymaga odpowiedniego "
 "sterownika, jednak nie masz go zainstalowanego .</para><subtitle>Szczegóły</"
-"subtitle><para>Aby uzyskać sterowniki bazy danych, proszę użyć aplikacji do "
+"subtitle><para>Aby otrzymać sterowniki baz danych, proszę użyć aplikacji do "
 "zarządzania pakietami w celu znalezienia i zainstalowania pakietów o nazwie "
 "<filename>calligra-kexi-xxxx-driver</filename>. Proszę mieć na uwadze, że "
 "nazwy pakietów, z którymi możesz się spotkać, mogą się trochę różnić w "

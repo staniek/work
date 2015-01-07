@@ -51,7 +51,7 @@ msgstr "Możliwości:"
 #: kexi.appdata.xml:17
 msgid "Full visual designers for tables, queries, forms and reports"
 msgstr ""
-"W pełni wizualna możliwość tworzenia tabel, zapytań, formularzy i sprawozdań"
+"W pełni wizualna możliwość tworzenia tabel, zapytań, formularzy i raportów"
 
 #. (itstool) path: ul/li
 #: kexi.appdata.xml:18
