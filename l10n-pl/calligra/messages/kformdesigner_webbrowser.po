@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-27 01:37+0000\n"
+"POT-Creation-Date: 2014-10-05 01:36+0000\n"
 "PO-Revision-Date: 2014-08-29 14:39+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
@@ -47,6 +47,6 @@ msgstr "Powiększenie"
 msgid "Url"
 msgstr "Adres URL"
 
-#: WebBrowserWidget.cpp:46
+#: WebBrowserWidget.cpp:47
 msgid "Reload"
 msgstr "Odśwież"

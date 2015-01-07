@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-27 01:37+0000\n"
+"POT-Creation-Date: 2014-10-25 01:31+0000\n"
 "PO-Revision-Date: 2014-08-30 23:18+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
@@ -36,18 +36,18 @@ msgstr ""
 "Sprawdź prawa dostępu pliku oraz czy nie jest on otwarty i zablokowany przez "
 "inny program."
 
-#: sqlitevacuum.cpp:129
+#: sqlitevacuum.cpp:130
 msgctxt "@title:window"
 msgid "Compacting Database"
 msgstr "Defragmentowanie bazy danych"
 
-#: sqlitevacuum.cpp:130
+#: sqlitevacuum.cpp:131
 #, kde-format
 msgctxt "@info"
 msgid "Compacting database <resource>%1</resource>..."
 msgstr "Defragmentowanie bazy danych <resource>%1</resource>..."
 
-#: sqlitevacuum.cpp:209
+#: sqlitevacuum.cpp:210
 #, kde-format
 msgctxt "@info"
 msgid "The database has been compacted. Current size decreased by %1% to %2."

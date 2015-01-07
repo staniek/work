@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 02:38+0200\n"
+"POT-Creation-Date: 2014-11-29 01:48+0000\n"
 "PO-Revision-Date: 2011-07-15 21:23+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -22,34 +22,34 @@ msgstr ""
 msgid "Barcode"
 msgstr "Kod paskowy"
 
-#: KoReportItemBarcode.cpp:108
+#: KoReportItemBarcode.cpp:111
 msgid "Data Source"
 msgstr "Źródło danych"
 
-#: KoReportItemBarcode.cpp:111
+#: KoReportItemBarcode.cpp:114
 msgid "Left"
 msgstr "Lewo"
 
-#: KoReportItemBarcode.cpp:111
+#: KoReportItemBarcode.cpp:114
 msgid "Center"
 msgstr "Środek"
 
-#: KoReportItemBarcode.cpp:111
+#: KoReportItemBarcode.cpp:114
 msgid "Right"
 msgstr "Prawo"
 
-#: KoReportItemBarcode.cpp:112
+#: KoReportItemBarcode.cpp:115
 msgid "Horizontal Alignment"
 msgstr "Poziome wyrównanie"
 
-#: KoReportItemBarcode.cpp:118
+#: KoReportItemBarcode.cpp:121
 msgid "Barcode Format"
 msgstr "Format kodu paskowego"
 
-#: KoReportItemBarcode.cpp:120
+#: KoReportItemBarcode.cpp:123
 msgid "Max Length"
 msgstr "Maksymalna długość"
 
-#: KoReportItemBarcode.cpp:120
+#: KoReportItemBarcode.cpp:123
 msgid "Maximum Barcode Length"
 msgstr "Maksymalna długość kodu paskowego"

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-20 02:05+0000\n"
-"PO-Revision-Date: 2014-09-19 07:50+0200\n"
+"POT-Creation-Date: 2015-01-01 02:08+0000\n"
+"PO-Revision-Date: 2014-12-13 14:08+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -32,7 +32,7 @@ msgctxt "GenericName"
 msgid "Notes and idea gathering"
 msgstr "Gromadzenie uwag i pomysłów"
 
-#: braindump/data/braindump.desktop:40
+#: braindump/data/braindump.desktop:41
 msgctxt "Name"
 msgid "Braindump"
 msgstr "Braindump"
@@ -124,16 +124,19 @@ msgstr "Odp dla okular"
 #: filters/words/docx/import/okularDocx_calligra.desktop:3
 #: filters/words/msword-odf/okularApplication_doc_calligra.desktop:4
 #: filters/words/msword-odf/okularDoc_calligra.desktop:3
+#: filters/words/wordperfect/import/okularApplication_wpd_calligra.desktop:4
+#: filters/words/wordperfect/import/okularWpd_calligra.desktop:3
 msgctxt "Name"
 msgid "okular"
 msgstr "okular"
 
-#: extras/okularodpgenerator/okularApplication_odp.desktop:46
-#: extras/okularodtgenerator/okularApplication_odt.desktop:46
-#: filters/stage/powerpoint/okularApplication_powerpoint_calligra.desktop:46
-#: filters/stage/pptx/okularApplication_pptx_calligra.desktop:46
-#: filters/words/docx/import/okularApplication_docx_calligra.desktop:46
-#: filters/words/msword-odf/okularApplication_doc_calligra.desktop:46
+#: extras/okularodpgenerator/okularApplication_odp.desktop:47
+#: extras/okularodtgenerator/okularApplication_odt.desktop:47
+#: filters/stage/powerpoint/okularApplication_powerpoint_calligra.desktop:47
+#: filters/stage/pptx/okularApplication_pptx_calligra.desktop:47
+#: filters/words/docx/import/okularApplication_docx_calligra.desktop:47
+#: filters/words/msword-odf/okularApplication_doc_calligra.desktop:47
+#: filters/words/wordperfect/import/okularApplication_wpd_calligra.desktop:47
 msgctxt "GenericName"
 msgid "Document Viewer"
 msgstr "Przeglądarka dokumentów"
@@ -143,7 +146,7 @@ msgctxt "Name"
 msgid "OpenDocument Text Document"
 msgstr "Dokument tekstowy OpenDocument"
 
-#: extras/okularodtgenerator/libokularGenerator_odt.desktop:21
+#: extras/okularodtgenerator/libokularGenerator_odt.desktop:24
 msgctxt "Comment"
 msgid "Odt for okular"
 msgstr "Odt dla okular"
@@ -151,7 +154,7 @@ msgstr "Odt dla okular"
 #: extras/properties/calligradocinfopropspage.desktop:3
 msgctxt "Name"
 msgid "Calligra Document Info Properties Page"
-msgstr "Strona właściwości informacji o dokumencie dla Calligra"
+msgstr "Strona właściwości informacji o dokumencie dla Calligry"
 
 #: extras/quickprint/flow_print.desktop:8
 msgctxt "Name"
@@ -457,7 +460,7 @@ msgctxt "Name"
 msgid "Microsoft PowerPoint Presentation"
 msgstr "Prezentacja Microsoft PowerPoint"
 
-#: filters/stage/powerpoint/libokularGenerator_powerpoint_calligra.desktop:20
+#: filters/stage/powerpoint/libokularGenerator_powerpoint_calligra.desktop:23
 msgctxt "Comment"
 msgid "PPT for Okular"
 msgstr "PPT dla Okulara"
@@ -472,7 +475,7 @@ msgctxt "Name"
 msgid "MS PowerPoint 2007 Import Filter for KPresenter"
 msgstr "Filtr importu Microsoft PowerPoint 2007 dla KPresenter"
 
-#: filters/stage/pptx/libokularGenerator_pptx_calligra.desktop:20
+#: filters/stage/pptx/libokularGenerator_pptx_calligra.desktop:23
 msgctxt "Comment"
 msgid "PPTX for Okular"
 msgstr "PPTX dla Okulara"
@@ -574,10 +577,16 @@ msgctxt "Name"
 msgid "Words WordPerfect Import Filter"
 msgstr "Filtr importu WordPerfect do Słów"
 
+#: filters/words/wordperfect/import/libokularGenerator_wpd_calligra.desktop:3
 #: filters/words/wordperfect/import/words_wpd_thumbnail.desktop:3
 msgctxt "Name"
 msgid "WordPerfect Documents"
 msgstr "Dokumenty WordPerfect"
+
+#: filters/words/wordperfect/import/libokularGenerator_wpd_calligra.desktop:34
+msgctxt "Comment"
+msgid "WPD for Okular"
+msgstr "WPD dla Okulara"
 
 #: filters/words/works/import/words_wps_thumbnail.desktop:3
 msgctxt "Name"
@@ -7091,6 +7100,16 @@ msgctxt "Comment"
 msgid "Creates a portrait-oriented document with no stencils loaded."
 msgstr "Tworzy dokument zorientowany pionowo bez wczytanych szablonów."
 
+#: gemini/calligragemini.desktop:3
+msgctxt "Name"
+msgid "Calligra Gemini"
+msgstr "Calligra Gemini"
+
+#: gemini/calligragemini.desktop:21
+msgctxt "GenericName"
+msgid "Word Processing and Presentation"
+msgstr "Edytor tekstu i prezentacji"
+
 #: karbon/data/karbon.desktop:3
 msgctxt "Name"
 msgid "Karbon"
@@ -7198,26 +7217,6 @@ msgctxt "Comment"
 msgid "Kexi database driver for accessing MySQL servers"
 msgstr "Sterownik bazy danych Kexi do dostępu do serwerów MySQL"
 
-#: kexi/kexidb/drivers/odbc/kexidb_odbcdriver.desktop:2
-msgctxt "Name"
-msgid "ODBC"
-msgstr "ODBC"
-
-#: kexi/kexidb/drivers/odbc/kexidb_odbcdriver.desktop:66
-msgctxt "Comment"
-msgid "Kexi Open Database Connectivity Driver"
-msgstr "Sterownik ODBC dla Kexi"
-
-#: kexi/kexidb/drivers/oracle/kexidb_oracledriver.desktop:3
-msgctxt "Name"
-msgid "Oracle"
-msgstr "Oracle"
-
-#: kexi/kexidb/drivers/oracle/kexidb_oracledriver.desktop:48
-msgctxt "Comment"
-msgid "Kexi database driver for accessing Oracle servers"
-msgstr "Sterownik bazy danych Kexi do dostępu do serwerów Oracle"
-
 #: kexi/kexidb/drivers/pqxx/kexidb_pqxxsqldriver.desktop:2
 #: kexi/migration/pqxx/keximigrate_pqxx.desktop:2
 msgctxt "Name"
@@ -7295,7 +7294,7 @@ msgctxt "Name"
 msgid "TSV"
 msgstr "TSV"
 
-#: kexi/migration/txt/keximigrate_txt.desktop:18
+#: kexi/migration/txt/keximigrate_txt.desktop:22
 msgctxt "Comment"
 msgid "\"Tab Separated Values\" Document Import Plugin for Kexi"
 msgstr "Wtyczka importu dokumentu \"Tab Separated Values\" dla Kexi"
@@ -7304,16 +7303,6 @@ msgstr "Wtyczka importu dokumentu \"Tab Separated Values\" dla Kexi"
 msgctxt "Comment"
 msgid "xBase Import Plugin for Kexi"
 msgstr "Wtyczka importu xBase dla Kexi"
-
-#: kexi/plugins/autoforms/kexiautoformhandler.desktop:4
-msgctxt "GenericName"
-msgid "AutoForm"
-msgstr "Auto-formularz"
-
-#: kexi/plugins/autoforms/kexiautoformhandler.desktop:32
-msgctxt "Name"
-msgid "AutoForm"
-msgstr "Auto-formularz"
 
 #: kexi/plugins/forms/kexiformhandler.desktop:5
 msgctxt "GenericName"
@@ -7365,16 +7354,6 @@ msgctxt "Name"
 msgid "Query"
 msgstr "Zapytanie"
 
-#: kexi/plugins/relations/kexirelationhandler.desktop:5
-msgctxt "GenericName"
-msgid "Relationships"
-msgstr "Relacje"
-
-#: kexi/plugins/relations/kexirelationhandler.desktop:62
-msgctxt "Name"
-msgid "Relationships"
-msgstr "Relacje"
-
 #: kexi/plugins/reports/kexireporthandler.desktop:4
 msgctxt "GenericName"
 msgid "Reports"
@@ -7410,37 +7389,6 @@ msgctxt "Name"
 msgid "Table"
 msgstr "Tabela"
 
-#: krita/animator/kritaanimation.desktop:2
-msgctxt "Name"
-msgid "Krita Animation"
-msgstr "Animacje Krita"
-
-#: krita/animator/kritaanimation.desktop:21 krita/gemini/kritagemini.desktop:4
-#: krita/krita.desktop:65 krita/sketch/kritasketch.desktop:30
-msgctxt "GenericName"
-msgid "Digital Painting"
-msgstr "Cyfrowe malowanie "
-
-#: krita/animator/kritaanimation.desktop:54 krita/krita.desktop:98
-msgctxt "Comment"
-msgid "Digital Painting"
-msgstr "Cyfrowe malowanie "
-
-#: krita/animator/krita_animationdock.desktop:4
-msgctxt "Comment"
-msgid "Animation Docker for Krita"
-msgstr "Dokowanie animacji dla Krita"
-
-#: krita/animator/kritaanimationpart.desktop:2
-msgctxt "Name"
-msgid "Calligra Animation Editor"
-msgstr "Edytor animacji Calligra"
-
-#: krita/animator/kritaanimationpart.desktop:24 krita/kritapart.desktop:42
-msgctxt "GenericName"
-msgid "Image Object"
-msgstr "Obiekt obrazu"
-
 #: krita/data/krita_brush.desktop:4
 msgctxt "Comment"
 msgid "Brush plugin for Krita"
@@ -7450,6 +7398,11 @@ msgstr "Wtyczka pędzla dla Krita"
 msgctxt "Comment"
 msgid "Docker for Krita"
 msgstr "Dokowanie dla Krita"
+
+#: krita/data/krita_filefilter.desktop:4
+msgctxt "Comment"
+msgid "Krita FileFilter"
+msgstr "Filtr plików Krita"
 
 #: krita/data/krita_filter.desktop:4
 msgctxt "Comment"
@@ -7732,6 +7685,12 @@ msgctxt "Name"
 msgid "Texture 8k 8bit srgb"
 msgstr "Tekstura 8k 8bit srgb"
 
+#: krita/gemini/kritagemini.desktop:4 krita/krita.desktop:65
+#: krita/sketch/kritasketch.desktop:31
+msgctxt "GenericName"
+msgid "Digital Painting"
+msgstr "Cyfrowe malowanie "
+
 #: krita/gemini/kritagemini.desktop:36
 msgctxt "Name"
 msgid "Krita Gemini"
@@ -7740,7 +7699,6 @@ msgstr "Krita Gemini"
 #: krita/krita.desktop:2 krita/plugins/formats/bmp/krita_bmp.desktop:2
 #: krita/plugins/formats/eps/krita_eps.desktop:6
 #: krita/plugins/formats/exr/krita_exr.desktop:55
-#: krita/plugins/formats/flipbook/krita_flipbook.desktop:2
 #: krita/plugins/formats/heightmap/krita_heightmap.desktop:7
 #: krita/plugins/formats/jp2/krita_jp2.desktop:55
 #: krita/plugins/formats/jpeg/krita_jpeg.desktop:6
@@ -7759,10 +7717,20 @@ msgctxt "Name"
 msgid "Krita"
 msgstr "Krita"
 
+#: krita/krita.desktop:98
+msgctxt "Comment"
+msgid "Digital Painting"
+msgstr "Cyfrowe malowanie "
+
 #: krita/kritapart.desktop:2
 msgctxt "Name"
 msgid "Calligra Painting and Image Editor Component"
 msgstr "Składnik malowania i edycji obrazu dla Calligry"
+
+#: krita/kritapart.desktop:42
+msgctxt "GenericName"
+msgid "Image Object"
+msgstr "Obiekt obrazu"
 
 #: krita/plugins/assistants/RulerAssistant/kritarulerassistanttool.desktop:2
 msgctxt "Name"
@@ -7814,7 +7782,7 @@ msgctxt "Name"
 msgid "Animator"
 msgstr "Animator"
 
-#: krita/plugins/extensions/dockers/animator/krita_animator.desktop:18
+#: krita/plugins/extensions/dockers/animator/krita_animator.desktop:20
 msgctxt "Comment"
 msgid "Animator"
 msgstr "Animator"
@@ -7849,15 +7817,10 @@ msgctxt "Name"
 msgid "DigitalMixer"
 msgstr "CyfrowyMikser"
 
-#: krita/plugins/extensions/dockers/digitalmixer/krita_digitalmixer.desktop:32
+#: krita/plugins/extensions/dockers/digitalmixer/krita_digitalmixer.desktop:33
 msgctxt "Comment"
 msgid "DigitalMixer"
 msgstr "CyfrowyMikser"
-
-#: krita/plugins/extensions/dockers/flipbook/krita_flipbookdocker.desktop:2
-msgctxt "Name"
-msgid "Flipbook Docker"
-msgstr "Dokowanie Kineografu"
 
 #: krita/plugins/extensions/dockers/historydocker/kritahistorydocker.desktop:2
 msgctxt "Name"
@@ -7879,7 +7842,7 @@ msgctxt "Name"
 msgid "Lut Docker"
 msgstr "Dokowanie Lut"
 
-#: krita/plugins/extensions/dockers/lut/krita_lutdocker.desktop:28
+#: krita/plugins/extensions/dockers/lut/krita_lutdocker.desktop:29
 msgctxt "Comment"
 msgid "Docker for selecting luts"
 msgstr "Dokowanie do wyboru lutsów"
@@ -7889,7 +7852,7 @@ msgctxt "Name"
 msgid "Overview Docker"
 msgstr "Dokowanie przeglądu"
 
-#: krita/plugins/extensions/dockers/overview/krita_overviewdocker.desktop:28
+#: krita/plugins/extensions/dockers/overview/krita_overviewdocker.desktop:29
 msgctxt "Comment"
 msgid "Docker for showing an image overview"
 msgstr "Dokowanie do pokazywania przeglądu obrazu"
@@ -7968,6 +7931,11 @@ msgstr "Podzielnik obrazu"
 msgctxt "Name"
 msgid "Quick Layergroup Switcher"
 msgstr "Przełącznik szybkich grup warstw"
+
+#: krita/plugins/extensions/layersplit/kritalayersplit.desktop:2
+msgctxt "Name"
+msgid "Layer Splitter"
+msgstr "Podzielnik warstwy"
 
 #: krita/plugins/extensions/metadataeditor/kritametadataeditor.desktop:2
 msgctxt "Name"
@@ -8095,7 +8063,7 @@ msgctxt "Name"
 msgid "Index Colors Filter"
 msgstr "Filtr indeksowania kolorów"
 
-#: krita/plugins/filters/indexcolors/kritaindexcolors.desktop:17
+#: krita/plugins/filters/indexcolors/kritaindexcolors.desktop:20
 msgctxt "Comment"
 msgid "Reduce the amount of colors in the picture to a pre-defined palette."
 msgstr "Zmniejsz liczbę barw na obrazie do uprzednio określonej palety."
@@ -8155,7 +8123,7 @@ msgctxt "Name"
 msgid "Posterize Filter"
 msgstr "Filtr posteryzacji"
 
-#: krita/plugins/filters/posterize/kritaposterize.desktop:18
+#: krita/plugins/filters/posterize/kritaposterize.desktop:21
 msgctxt "Comment"
 msgid "Reduce the amount of colors in the picture to a fixed interval"
 msgstr "Zmniejsz liczbę barw na obrazie do stałego przedziału"
@@ -8245,11 +8213,6 @@ msgstr "Filtr eksportu exr z Krita"
 msgctxt "Name"
 msgid "Krita exr Import Filter"
 msgstr "Filtr importu exr do Krita"
-
-#: krita/plugins/formats/flipbook/krita_flipbook_import.desktop:2
-msgctxt "Name"
-msgid "Krita Flipbook Import Filter"
-msgstr "Filtr importu Kineografu do Krita"
 
 #: krita/plugins/formats/heightmap/krita_heightmap_export.desktop:3
 msgctxt "Name"
@@ -8391,7 +8354,7 @@ msgctxt "Name"
 msgid "Solid Pattern Layer"
 msgstr "Układ jednolitego wzoru"
 
-#: krita/plugins/generators/pattern/kritapatterngenerator.desktop:27
+#: krita/plugins/generators/pattern/kritapatterngenerator.desktop:28
 msgctxt "Comment"
 msgid "generates a pattern layer"
 msgstr "generuje układ wzoru"
@@ -8451,7 +8414,7 @@ msgctxt "Name"
 msgid "Filter Op"
 msgstr "Filtr Op"
 
-#: krita/plugins/paintops/filterop/kritafilterop.desktop:38
+#: krita/plugins/paintops/filterop/kritafilterop.desktop:39
 msgctxt "Comment"
 msgid "Filter Op"
 msgstr "Filtr Op"
@@ -8646,6 +8609,11 @@ msgctxt "Name"
 msgid "Page Application Background Tool"
 msgstr "Narzędzie tła programu strony"
 
+#: libs/kopageapp/tools/kopa_tool.desktop:4
+msgctxt "Comment"
+msgid "Tool for Calligra Page Applications"
+msgstr "Narzędzie dla aplikacji Stron Calligry"
+
 #: libs/koreport/koreport_itemplugin.desktop:4
 msgctxt "Comment"
 msgid "KoReport Item Plugin"
@@ -8674,7 +8642,7 @@ msgstr "Definicja wtyczki edytowania tekstu"
 #: libs/main/calligradocker.desktop:2
 msgctxt "Name"
 msgid "Calligra Docker Plugin"
-msgstr "Wtyczka dokowania dla Calligra"
+msgstr "Wtyczka dokowania dla Calligry"
 
 #: libs/main/calligradocker.desktop:37
 msgctxt "Comment"
@@ -8704,7 +8672,7 @@ msgctxt "Name"
 msgid "Semantic item definition"
 msgstr "Definicja elementu semantycznego"
 
-#: libs/rdf/calligra_semanticitem.desktop:26
+#: libs/rdf/calligra_semanticitem.desktop:27
 msgctxt "Comment"
 msgid "Definition of a semantic item object"
 msgstr "Definicja obiektu elementu semantycznego"
@@ -8766,7 +8734,7 @@ msgctxt "Name"
 msgid "TJ Scheduler"
 msgstr "Program planujący TJ"
 
-#: plan/plugins/schedulers/tj/plantjscheduler.desktop:36
+#: plan/plugins/schedulers/tj/plantjscheduler.desktop:37
 msgctxt "Comment"
 msgid "The TaskJuggler scheduler"
 msgstr "Program planujący TaskJuggler (ŻąglerZadań)"
@@ -8911,7 +8879,7 @@ msgctxt "Name"
 msgid "Barcode Report Plugin"
 msgstr "Wtyczka sprawozdania kodu paskowego"
 
-#: plugins/reporting/barcode/koreport_barcodeplugin.desktop:30
+#: plugins/reporting/barcode/koreport_barcodeplugin.desktop:31
 msgctxt "Comment"
 msgid "KoReport Barcode Plugin"
 msgstr "Wtyczka kodu paskowego dla KoReport"
@@ -8919,39 +8887,39 @@ msgstr "Wtyczka kodu paskowego dla KoReport"
 #: plugins/reporting/chart/koreport_chartplugin.desktop:2
 msgctxt "Name"
 msgid "Chart Report Plugin"
-msgstr "Wtyczka sprawozdania wykresu"
+msgstr "Wtyczka sprawozdania z wykresami"
 
-#: plugins/reporting/chart/koreport_chartplugin.desktop:30
+#: plugins/reporting/chart/koreport_chartplugin.desktop:31
 msgctxt "Comment"
-msgid "KoReport Chart Plugin"
-msgstr "Wtyczka wykresu dla KoReport"
+msgid "Calligra Reports Chart Plugin"
+msgstr "Wtyczka sprawozdania z wykresami dla Calligry"
 
 #: plugins/reporting/maps/koreport_mapsplugin.desktop:2
 msgctxt "Name"
 msgid "Maps Report Plugin"
 msgstr "Wtyczka sprawozdania map"
 
-#: plugins/reporting/maps/koreport_mapsplugin.desktop:30
+#: plugins/reporting/maps/koreport_mapsplugin.desktop:31
 msgctxt "Comment"
 msgid "Calligra Reports Maps Plugin"
-msgstr "Wtyczka sprawozdania map dla Calligra"
+msgstr "Wtyczka sprawozdania map dla Calligry"
 
 #: plugins/reporting/web/koreport_webplugin.desktop:2
 msgctxt "Name"
 msgid "Web Report Plugin"
 msgstr "Wtyczka sprawozdania sieci"
 
-#: plugins/reporting/web/koreport_webplugin.desktop:31
+#: plugins/reporting/web/koreport_webplugin.desktop:32
 msgctxt "Comment"
-msgid "Calligra Reports web Plugin"
-msgstr "Wtyczka sprawozdania sieci dla Calligra"
+msgid "Calligra Reports Web Plugin"
+msgstr "Wtyczka sprawozdania sieci dla Calligry"
 
 #: plugins/semanticitems/contact/calligra_semanticitem_contact.desktop:2
 msgctxt "Name"
 msgid "RDF Contact Plugin"
 msgstr "Wtyczka kontaktu RDF"
 
-#: plugins/semanticitems/contact/calligra_semanticitem_contact.desktop:25
+#: plugins/semanticitems/contact/calligra_semanticitem_contact.desktop:28
 msgctxt "Comment"
 msgid "A plugin to map contact items between document and RDF database"
 msgstr ""
@@ -8963,7 +8931,7 @@ msgctxt "Name"
 msgid "RDF Calendar Event Plugin"
 msgstr "Wtyczka wydarzeń kalendarza RDF"
 
-#: plugins/semanticitems/event/calligra_semanticitem_event.desktop:24
+#: plugins/semanticitems/event/calligra_semanticitem_event.desktop:26
 msgctxt "Comment"
 msgid "A plugin to map calendar event items between document and RDF database"
 msgstr ""
@@ -8975,7 +8943,7 @@ msgctxt "Name"
 msgid "RDF Location Plugin"
 msgstr "Wtyczka położenia RDF"
 
-#: plugins/semanticitems/location/calligra_semanticitem_location.desktop:25
+#: plugins/semanticitems/location/calligra_semanticitem_location.desktop:28
 msgctxt "Comment"
 msgid "A plugin to map location items between document and RDF database"
 msgstr ""
@@ -9021,7 +8989,7 @@ msgctxt "Name"
 msgid "Thesaurus Tool"
 msgstr "Narzędzie Thesaurus"
 
-#: plugins/textediting/thesaurus/calligra_textediting_thesaurus.desktop:65
+#: plugins/textediting/thesaurus/calligra_textediting_thesaurus.desktop:66
 msgctxt "Comment"
 msgid "Show Related Words"
 msgstr "Pokaż wyrazy pokrewne"
@@ -9054,7 +9022,7 @@ msgstr "Program Calligra"
 #: servicetypes/calligra_deferred_plugin.desktop:2
 msgctxt "Name"
 msgid "Calligra Deferred Loading Plugin"
-msgstr "Wtyczka wczytywania odstawionych dla Calligra"
+msgstr "Wtyczka wczytywania odstawionych dla Calligry"
 
 #: servicetypes/calligra_filter.desktop:4
 msgctxt "Comment"
@@ -9453,6 +9421,11 @@ msgctxt "Comment"
 msgid "Shape animation plugin for Calligra Stage"
 msgstr "Wtyczka animacji kształtu dla Sceny Calligra"
 
+#: stage/data/kpr_tool.desktop:4
+msgctxt "Comment"
+msgid "Tool for Calligra Stage"
+msgstr "Narzędzie dla Scena Calligra"
+
 #: stage/part/stagepart.desktop:2
 msgctxt "Name"
 msgid "Calligra Stage Component"
@@ -9513,7 +9486,7 @@ msgctxt "Name"
 msgid "Fade"
 msgstr "Zanikanie"
 
-#: stage/plugins/pageeffects/fade/kpr_pageeffect_fade.desktop:43
+#: stage/plugins/pageeffects/fade/kpr_pageeffect_fade.desktop:44
 msgctxt "Comment"
 msgid "Fade Effect"
 msgstr "Efekt zanikania"
@@ -9543,7 +9516,7 @@ msgctxt "Name"
 msgid "Slide Wipe"
 msgstr "Wycieranie ślizgające"
 
-#: stage/plugins/pageeffects/slidewipe/kpr_pageeffect_slidewipe.desktop:35
+#: stage/plugins/pageeffects/slidewipe/kpr_pageeffect_slidewipe.desktop:36
 msgctxt "Comment"
 msgid "Slide Wipe Page Effect"
 msgstr "Efekt ślizgającego wycierania strony"
@@ -9553,7 +9526,7 @@ msgctxt "Name"
 msgid "Space Rotation"
 msgstr "Obrót przestrzeni"
 
-#: stage/plugins/pageeffects/spacerotation/kpr_pageeffect_spacerotation.desktop:36
+#: stage/plugins/pageeffects/spacerotation/kpr_pageeffect_spacerotation.desktop:37
 msgctxt "Comment"
 msgid "Space Rotation Page Effect"
 msgstr "Efekt obrotu przestrzeni strony"
@@ -9573,7 +9546,7 @@ msgctxt "Name"
 msgid "Jiggle and Wiggle"
 msgstr "Trzęsienie i skręcanie"
 
-#: stage/plugins/shapeanimations/example/kpr_shapeanimation_example.desktop:36
+#: stage/plugins/shapeanimations/example/kpr_shapeanimation_example.desktop:37
 msgctxt "Comment"
 msgid "Jiggle and Wiggle that Shape!"
 msgstr "Potrząśnij i skręcaj ten kształt!"
@@ -9618,7 +9591,7 @@ msgctxt "Name"
 msgid "Burning Desire"
 msgstr "Paląca ochota"
 
-#: stage/templates/odf/burning_desire.desktop:33
+#: stage/templates/odf/burning_desire.desktop:34
 msgctxt "Comment"
 msgid "Burning Desire"
 msgstr "Paląca ochota"
@@ -9627,6 +9600,22 @@ msgstr "Paląca ochota"
 msgctxt "Comment"
 msgid "Business"
 msgstr "Firma"
+
+#: stage/templates/odf/cohere-blue.desktop:3
+#: stage/templates/odf/cohere-gold.desktop:3
+#: stage/templates/odf/cohere-magenta.desktop:3
+#: stage/templates/odf/cohere-red.desktop:3
+msgctxt "Name"
+msgid "Cohere"
+msgstr "Cohere"
+
+#: stage/templates/odf/cohere-blue.desktop:17
+#: stage/templates/odf/cohere-gold.desktop:17
+#: stage/templates/odf/cohere-magenta.desktop:17
+#: stage/templates/odf/cohere-red.desktop:17
+msgctxt "Comment"
+msgid "Cohere designed presentation template"
+msgstr "Szablon prezentacji Cohere"
 
 #: stage/templates/odf/curious_penguin.desktop:3
 msgctxt "Name"
@@ -9648,7 +9637,7 @@ msgctxt "Name"
 msgid "Flood Light"
 msgstr "Ziarniste światło"
 
-#: stage/templates/odf/flood_light.desktop:32
+#: stage/templates/odf/flood_light.desktop:33
 msgctxt "Comment"
 msgid "Flood Light"
 msgstr "Ziarniste światło"
@@ -9684,61 +9673,45 @@ msgid "Simple Waves"
 msgstr "Proste fale"
 
 #: stage/templates/odf/skyline_monotone.desktop:3
+#: stage/templates/odf/skyline_morning.desktop:3
+#: stage/templates/odf/skyline_night.desktop:3
 msgctxt "Name"
-msgid "Skyline Monotone"
-msgstr "Jednostajność linii nieba"
+msgid "Skyline"
+msgstr "Linia nieba"
 
-#: stage/templates/odf/skyline_monotone.desktop:33
+#: stage/templates/odf/skyline_monotone.desktop:19
 msgctxt "Comment"
 msgid "Skyline Monotone"
 msgstr "Jednostajność linii nieba"
 
 #: stage/templates/odf/skyline_monotone_wide.desktop:3
-msgctxt "Name"
-msgid "Skyline Monotone Wide"
-msgstr "Szeroka jednostajność linii nieba"
-
-#: stage/templates/odf/skyline_monotone_wide.desktop:33
-msgctxt "Comment"
-msgid "Skyline Monotone Wide"
-msgstr "Szeroka jednostajność linii nieba"
-
-#: stage/templates/odf/skyline_morning.desktop:3
-msgctxt "Name"
-msgid "Skyline Morning"
-msgstr "Poranna linia nieba "
-
-#: stage/templates/odf/skyline_morning.desktop:33
-msgctxt "Comment"
-msgid "Skyline Morning"
-msgstr "Poranna linia nieba "
-
 #: stage/templates/odf/skyline_morning_wide.desktop:3
-msgctxt "Name"
-msgid "Skyline Morning Wide"
-msgstr "Szeroka poranna linia nieba "
-
-#: stage/templates/odf/skyline_morning_wide.desktop:33
-msgctxt "Comment"
-msgid "Skyline Morning Wide"
-msgstr "Szeroka poranna linia nieba "
-
-#: stage/templates/odf/skyline_night.desktop:3
-msgctxt "Name"
-msgid "Skyline Night"
-msgstr "Nocna linia nieba"
-
-#: stage/templates/odf/skyline_night.desktop:33
-msgctxt "Comment"
-msgid "Skyline Night"
-msgstr "Nocna linia nieba"
-
 #: stage/templates/odf/skyline_night_wide.desktop:3
 msgctxt "Name"
-msgid "Skyline Night Wide"
-msgstr "Szeroka nocna linia nieba"
+msgid "Skyline Wide"
+msgstr "Szeroka linia nieba"
 
-#: stage/templates/odf/skyline_night_wide.desktop:33
+#: stage/templates/odf/skyline_monotone_wide.desktop:18
+msgctxt "Comment"
+msgid "Skyline Monotone Wide"
+msgstr "Szeroka jednostajność linii nieba"
+
+#: stage/templates/odf/skyline_morning.desktop:19
+msgctxt "Comment"
+msgid "Skyline Morning"
+msgstr "Poranna linia nieba "
+
+#: stage/templates/odf/skyline_morning_wide.desktop:18
+msgctxt "Comment"
+msgid "Skyline Morning Wide"
+msgstr "Szeroka poranna linia nieba "
+
+#: stage/templates/odf/skyline_night.desktop:19
+msgctxt "Comment"
+msgid "Skyline Night"
+msgstr "Nocna linia nieba"
+
+#: stage/templates/odf/skyline_night_wide.desktop:18
 msgctxt "Comment"
 msgid "Skyline Night Wide"
 msgstr "Szeroka nocna linia nieba"
@@ -9748,7 +9721,7 @@ msgctxt "Name"
 msgid "Strange Far Hills"
 msgstr "Dziwne dalekie wzgórza"
 
-#: stage/templates/odf/strange_far_hills.desktop:33
+#: stage/templates/odf/strange_far_hills.desktop:34
 msgctxt "Comment"
 msgid "Strange Far Hills"
 msgstr "Dziwne dalekie wzgórza"
@@ -9778,7 +9751,7 @@ msgctxt "GenericName"
 msgid "Author tool"
 msgstr "Narzędzie prezentacji"
 
-#: words/part/author/author.desktop:69
+#: words/part/author/author.desktop:70
 msgctxt "Comment"
 msgid "Write ebooks and textbooks"
 msgstr "Pisz ebooki i tekstbooki"
@@ -9851,6 +9824,78 @@ msgid ""
 msgstr ""
 "Tworzy pusty dokument z szerokimi marginesami dla profesjonalnie "
 "wyglądających dokumentów"
+
+#~ msgctxt "Name"
+#~ msgid "Krita Animation"
+#~ msgstr "Animacje Krita"
+
+#~ msgctxt "Comment"
+#~ msgid "Animation Docker for Krita"
+#~ msgstr "Dokowanie animacji dla Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Calligra Animation Editor"
+#~ msgstr "Edytor animacji Calligra"
+
+#~ msgctxt "Name"
+#~ msgid "Flipbook Docker"
+#~ msgstr "Dokowanie Kineografu"
+
+#~ msgctxt "Name"
+#~ msgid "Krita Flipbook Import Filter"
+#~ msgstr "Filtr importu Kineografu do Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Skyline Monotone"
+#~ msgstr "Jednostajność linii nieba"
+
+#~ msgctxt "Name"
+#~ msgid "Skyline Monotone Wide"
+#~ msgstr "Szeroka jednostajność linii nieba"
+
+#~ msgctxt "Name"
+#~ msgid "Skyline Morning"
+#~ msgstr "Poranna linia nieba "
+
+#~ msgctxt "Name"
+#~ msgid "Skyline Morning Wide"
+#~ msgstr "Szeroka poranna linia nieba "
+
+#~ msgctxt "Comment"
+#~ msgid "KoReport Chart Plugin"
+#~ msgstr "Wtyczka wykresu dla KoReport"
+
+#~ msgctxt "Name"
+#~ msgid "ODBC"
+#~ msgstr "ODBC"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi Open Database Connectivity Driver"
+#~ msgstr "Sterownik ODBC dla Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "Oracle"
+#~ msgstr "Oracle"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi database driver for accessing Oracle servers"
+#~ msgstr "Sterownik bazy danych Kexi do dostępu do serwerów Oracle"
+
+#~ msgctxt "GenericName"
+#~ msgid "AutoForm"
+#~ msgstr "Auto-formularz"
+
+#~ msgctxt "Name"
+#~ msgid "AutoForm"
+#~ msgstr "Auto-formularz"
+
+#~ msgctxt "GenericName"
+#~ msgid "Relationships"
+#~ msgstr "Relacje"
+
+#~ msgctxt "Name"
+#~ msgid "Relationships"
+#~ msgstr "Relacje"
 
 #~ msgctxt "Name"
 #~ msgid "MyPaint brush"
@@ -11708,10 +11753,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "OASIS OpenDocument Graphics Template"
 #~ msgstr "Szablon graficzny w formacie OASIS OpenDocument"
-
-#~ msgctxt "Comment"
-#~ msgid "OASIS OpenDocument Presentation Template"
-#~ msgstr "Szablon prezentacji w formacie OASIS OpenDocument"
 
 #~ msgctxt "Comment"
 #~ msgid "OASIS OpenDocument SpreadSheet Template"

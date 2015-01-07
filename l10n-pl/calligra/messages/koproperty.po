@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koproperty\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-28 01:43+0000\n"
+"POT-Creation-Date: 2014-10-29 01:35+0000\n"
 "PO-Revision-Date: 2014-08-29 14:05+0200\n"
 "Last-Translator: Jarosław Staniek <staniek@kde.org>\n"
 "Language-Team: Polish <kdei18n-pl-devel@lists.sourceforge.net>\n"
@@ -30,17 +30,17 @@ msgctxt "Property value"
 msgid "Value"
 msgstr "Wartość"
 
-#: editors/booledit.cpp:50
+#: editors/booledit.cpp:49
 msgctxt "Property value: Boolean state Yes"
 msgid "Yes"
 msgstr "Tak"
 
-#: editors/booledit.cpp:55
+#: editors/booledit.cpp:54
 msgctxt "Property value: Boolean state No"
 msgid "No"
 msgstr "Nie"
 
-#: editors/booledit.cpp:60
+#: editors/booledit.cpp:59
 msgctxt "Property value: Boolean (3rd) undefined state None"
 msgid "None"
 msgstr "Brak"
@@ -176,7 +176,7 @@ msgstr "Wstaw obrazek z pliku"
 msgid "Inserts image from file"
 msgstr "Wstawia obrazek z pliku"
 
-#: editors/pixmapedit.cpp:136
+#: editors/pixmapedit.cpp:138
 #, kde-format
 msgid "Insert Image From File (for \"%1\" property)"
 msgstr "Wstaw obrazek z pliku (dla właściwości \"%1\")"
@@ -286,12 +286,12 @@ msgstr "Pion. rozciągn."
 msgid "Vertical Stretch"
 msgstr "Pionowe rozciągniecie"
 
-#: editors/stringlistedit.cpp:95
+#: editors/stringlistedit.cpp:94
 msgctxt "@title:window"
 msgid "Edit List of Items"
 msgstr "Edytuj listę elementów"
 
-#: editors/stringlistedit.cpp:101
+#: editors/stringlistedit.cpp:100
 #, kde-format
 msgid "Contents of %1"
 msgstr "Zawartość %1"

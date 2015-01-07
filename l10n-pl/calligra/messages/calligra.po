@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-21 01:39+0000\n"
-"PO-Revision-Date: 2014-09-19 07:50+0200\n"
+"POT-Creation-Date: 2014-12-10 01:43+0000\n"
+"PO-Revision-Date: 2014-11-15 17:40+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -36,29 +36,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lichota@mimuw.edu.pl, lukasz.wojnilowicz@gmail.com, staniek@kde.org"
 
-#: basicflakes/plugin/KoCreatePathToolFactory.cpp:34
+#: basicflakes/plugin/KoCreatePathToolFactory.cpp:30
 msgid "Draw path"
 msgstr "Narysuj ścieżkę"
 
-#: basicflakes/plugin/KoPencilToolFactory.cpp:32
+#: basicflakes/plugin/KoPencilToolFactory.cpp:29
 msgid "Freehand path"
 msgstr "Odręczna ścieżka"
 
-#: basicflakes/tools/KoCreatePathTool.cpp:429
+#: basicflakes/tools/KoCreatePathTool.cpp:424
 msgid "Angle snapping delta:"
 msgstr "Różnica pomiędzy przyciąganymi kątami:"
 
-#: basicflakes/tools/KoCreatePathTool.cpp:434
+#: basicflakes/tools/KoCreatePathTool.cpp:429
 msgid "Activate angle snap:"
 msgstr "Aktywuj przyciąganie kątowe:"
 
-#: basicflakes/tools/KoCreatePathTool.cpp:442
+#: basicflakes/tools/KoCreatePathTool.cpp:437
 msgid "Angle Constraints"
 msgstr "Ograniczenia kąta"
 
-#: basicflakes/tools/KoCreatePathTool.cpp:446
+#: basicflakes/tools/KoCreatePathTool.cpp:441
 #: basicflakes/tools/KoPencilTool.cpp:340
-#: koreport/wrtembed/KoReportDesigner.cpp:1219
+#: koreport/wrtembed/KoReportDesigner.cpp:1222
 msgid "Line"
 msgstr "Linia"
 
@@ -243,7 +243,7 @@ msgid "Table \"%1\" already exists."
 msgstr "Tabela \"%1\" już istnieje."
 
 #: db/connection.cpp:1804 db/connection.cpp:1831 db/connection.cpp:1938
-#: db/parser/parser_p.cpp:433
+#: db/parser/parser_p.cpp:287
 #, kde-format
 msgid "Table \"%1\" does not exist."
 msgstr "Tabela \"%1\" nie istnieje."
@@ -461,23 +461,23 @@ msgctxt "@info"
 msgid "&lt;file&gt;"
 msgstr "&lt;plik&gt;"
 
-#: db/cursor.cpp:142
+#: db/cursor.cpp:146
 msgid "No query statement or schema defined."
 msgstr "Nie podano polecenia lub schematu zapytania."
 
-#: db/cursor.cpp:152
+#: db/cursor.cpp:156
 msgid "Query statement is empty."
 msgstr "Polecenie zapytania jest puste."
 
-#: db/cursor.cpp:162
+#: db/cursor.cpp:166
 msgid "Error opening database cursor."
 msgstr "Błąd przy otwieraniu kursora bazy danych."
 
-#: db/cursor.cpp:407 db/cursor.cpp:430
+#: db/cursor.cpp:411 db/cursor.cpp:434
 msgid "Cannot fetch next record."
 msgstr "Nie można pobrać kolejnego rekordu."
 
-#: db/cursor.cpp:559
+#: db/cursor.cpp:563
 msgid "No connection for cursor open operation specified."
 msgstr "Nie określono połączenia dla operacji otwarcia kursora."
 
@@ -507,50 +507,50 @@ msgstr "Nie można odczytać właściwości bazy danych."
 #. QString("%1.%2").arg(KexiDB::version().major).arg(KexiDB::version().minor)));
 #. return false;
 #. }
-#: db/driver.cpp:122
+#: db/driver.cpp:121
 #, kde-format
 msgid "Invalid database driver's \"%1\" implementation:\n"
 msgstr "Niepoprawna implementacja sterownika baz danych \"%1\":\n"
 
-#: db/driver.cpp:123
+#: db/driver.cpp:122
 #, kde-format
 msgid "Value of \"%1\" is not initialized for the driver."
 msgstr "Niezainicjowana wartość \"%1\" dla sterownika."
 
-#: db/driver.cpp:191
+#: db/driver.cpp:190
 msgid "File name expected for file-based database driver."
 msgstr ""
 "Dla sterownika baz danych opartych o plik jest wymagane podanie nazwy pliku."
 
-#: db/driver_p.cpp:36
+#: db/driver_p.cpp:37
 msgid "Client library version"
 msgstr "Wersja biblioteki klienta"
 
-#: db/driver_p.cpp:40
+#: db/driver_p.cpp:41
 msgid "Default character encoding on server"
 msgstr "Domyślne kodowanie znaków na serwerze"
 
-#: db/driver_p.cpp:46
+#: db/driver_p.cpp:47
 msgid "File-based database driver"
 msgstr "Sterownik baz danych opartych o plik"
 
-#: db/driver_p.cpp:49
+#: db/driver_p.cpp:50
 msgid "File-based database's MIME type"
 msgstr "Typ MIME dla sterownika baz danych opartych o plik"
 
-#: db/driver_p.cpp:68
+#: db/driver_p.cpp:69
 msgid "Single transactions support"
 msgstr "Obsługa pojedynczych transakcji"
 
-#: db/driver_p.cpp:70
+#: db/driver_p.cpp:71
 msgid "Multiple transactions support"
 msgstr "Obsługa wielu transakcji"
 
-#: db/driver_p.cpp:72
+#: db/driver_p.cpp:73
 msgid "Nested transactions support"
 msgstr "Obsługa transakcji zagnieżdżonych"
 
-#: db/driver_p.cpp:77
+#: db/driver_p.cpp:78
 msgid "KexiDB driver version"
 msgstr "Wersja sterownika KexiDB"
 
@@ -697,8 +697,9 @@ msgid "Double Precision Number"
 msgstr "Liczba o podwójnej precyzji"
 
 #: db/field.cpp:740 db/field.cpp:761
-#: koreport/items/text/KoReportTextPlugin.cpp:34 main/KoModeBox.cpp:600
+#: koreport/items/text/KoReportTextPlugin.cpp:34
 #: widgets/KoCsvImportDialog.cpp:217 widgets/KoCsvImportDialog.cpp:581
+#: widgets/KoModeBox.cpp:600
 msgid "Text"
 msgstr "Tekst"
 
@@ -738,52 +739,52 @@ msgstr ""
 msgid "Unspecified error encountered"
 msgstr "Napotkano nieokreślony błąd"
 
-#: db/parser/parser_p.cpp:136
+#: db/parser/parser_p.cpp:135
 msgid "identifier was expected"
 msgstr "oczekiwano identyfikatora"
 
-#: db/parser/parser_p.cpp:144 db/parser/parser_p.cpp:148
+#: db/parser/parser_p.cpp:143 db/parser/parser_p.cpp:147
 msgid "Syntax Error"
 msgstr "Błąd składni"
 
-#: db/parser/parser_p.cpp:145
+#: db/parser/parser_p.cpp:144
 #, kde-format
 msgid "\"%1\" is a reserved keyword."
 msgstr "\"%1\" jest zastrzeżonym słowem kluczowym."
 
-#: db/parser/parser_p.cpp:149
+#: db/parser/parser_p.cpp:148
 #, kde-format
 msgid "Syntax Error near \"%1\"."
 msgstr "Błąd składniowy w pobliżu \"%1\"."
 
-#: db/parser/parser_p.cpp:179
+#: db/parser/parser_p.cpp:177
 msgid "Error"
 msgstr "Błąd"
 
-#: db/parser/parser_p.cpp:179
+#: db/parser/parser_p.cpp:177
 msgid "No query statement specified."
 msgstr "Nie podano polecenia zapytania."
 
-#: db/parser/parser_p.cpp:243
+#: db/parser/parser_p.cpp:224
 msgid "\"*\" could not be used if no tables are specified."
 msgstr "\"*\" nie może być użyte jeśli nie podano żadnych tabel."
 
-#: db/parser/parser_p.cpp:489
+#: db/parser/parser_p.cpp:343
 #, kde-format
 msgid "Invalid alias definition for column \"%1\"."
 msgstr "Nieprawidłowa definicja aliasu dla kolumny \"%1\"."
 
-#: db/parser/parser_p.cpp:516
+#: db/parser/parser_p.cpp:370
 #, kde-format
 msgid "Invalid \"%1\" column definition."
 msgstr "Nieprawidłowa definicja kolumny \"%1\"."
 
-#: db/parser/parser_p.cpp:583
+#: db/parser/parser_p.cpp:437
 #, kde-format
 msgid "Could not define sorting - no column at position %1."
 msgstr "Nie można zdefiniować sortowania - brak kolumny na pozycji %1."
 
-#: db/parser/parser_p.cpp:591
+#: db/parser/parser_p.cpp:445
 #, kde-format
 msgid "Could not define sorting - column name or alias \"%1\" does not exist."
 msgstr ""
@@ -824,53 +825,53 @@ msgstr "Nazwa lokalnego pliku gniazda"
 msgid "Enter password for %1: "
 msgstr "Wprowadź hasło dla %1: "
 
-#: db/tableviewdata.cpp:628 db/tableviewdata.cpp:639
+#: db/tableviewdata.cpp:626 db/tableviewdata.cpp:637
 #, kde-format
 msgid "\"%1\" column requires a value to be entered."
 msgstr "Kolumna \"%1\" wymaga wprowadzenia wartości."
 
-#: db/tableviewdata.cpp:630
+#: db/tableviewdata.cpp:628
 msgid "The column's constraint is declared as NOT NULL."
 msgstr "Warunki dla kolumny są zadeklarowane jako NOT NULL (niepuste)."
 
-#: db/tableviewdata.cpp:641
+#: db/tableviewdata.cpp:639
 msgid "The column's constraint is declared as NOT EMPTY."
 msgstr "Warunki dla kolumny są zadeklarowane jako NOT EMPTY (niepusty tekst)."
 
-#: db/tableviewdata.cpp:652
+#: db/tableviewdata.cpp:650
 msgid "Record inserting failed."
 msgstr "Nieudane wstawienie rekordu."
 
-#: db/tableviewdata.cpp:670
+#: db/tableviewdata.cpp:668
 msgid "Record changing failed."
 msgstr "Nieudana zmiana rekordu."
 
-#: db/tableviewdata.cpp:738
+#: db/tableviewdata.cpp:736
 msgid "Record deleting failed."
 msgstr "Nieudane usunięcie rekordu."
 
-#: db/utils.cpp:143
+#: db/utils.cpp:142
 msgid "Message from server:"
 msgstr "Wiadomość z serwera:"
 
-#: db/utils.cpp:145
+#: db/utils.cpp:144
 msgid "SQL statement:"
 msgstr "Polecenie SQL:"
 
-#: db/utils.cpp:162 db/utils.cpp:169
+#: db/utils.cpp:161 db/utils.cpp:168
 msgid "Server result:"
 msgstr "Wynik z serwera:"
 
-#: db/utils.cpp:406 db/utils.cpp:469 db/utils.cpp:474
+#: db/utils.cpp:405 db/utils.cpp:468 db/utils.cpp:473
 msgid "Test Connection"
 msgstr "Testuj połączenie"
 
-#: db/utils.cpp:407
+#: db/utils.cpp:406
 #, kde-format
 msgid "Testing connection to <resource>%1</resource> database server..."
 msgstr "Testowanie połączenia z serwerem baz danych <resource>%1</resource>..."
 
-#: db/utils.cpp:468
+#: db/utils.cpp:467
 #, kde-format
 msgid ""
 "<qt>Test connection to <b>%1</b> database server failed. The server is not "
@@ -879,7 +880,7 @@ msgstr ""
 "Testowe połączenie z serwerem baz danych <resource>%1</resource> nie "
 "powiodło się. Serwer nie odpowiada."
 
-#: db/utils.cpp:472
+#: db/utils.cpp:471
 #, kde-format
 msgid ""
 "<qt>Test connection to <b>%1</b> database server established successfully.</"
@@ -888,11 +889,11 @@ msgstr ""
 "Testowe połączenie z serwerem baz danych <resource>%1</resource> zostało "
 "pomyślnie nawiązane."
 
-#: db/utils.cpp:1512
+#: db/utils.cpp:1511
 msgid "Number"
 msgstr "Liczba"
 
-#: db/utils.cpp:1515 koreport/items/image/KoReportImagePlugin.cpp:35
+#: db/utils.cpp:1514 koreport/items/image/KoReportImagePlugin.cpp:35
 #: textlayout/ListItemsHelper.cpp:257
 msgid "Image"
 msgstr "Obraz"
@@ -912,13 +913,13 @@ msgctxt "(qtundo-format)"
 msgid "Change parameter"
 msgstr "Zmień parametr"
 
-#: flake/commands/KoParameterToPathCommand.cpp:43
-#: flake/commands/KoParameterToPathCommand.cpp:52
+#: flake/commands/KoParameterToPathCommand.cpp:44
+#: flake/commands/KoParameterToPathCommand.cpp:53
 msgctxt "(qtundo-format)"
 msgid "Convert to Path"
 msgstr "Przekształć do ścieżki"
 
-#: flake/commands/KoPathBreakAtPointCommand.cpp:38
+#: flake/commands/KoPathBreakAtPointCommand.cpp:40
 msgctxt "(qtundo-format)"
 msgid "Break subpath at points"
 msgstr "Przerwij pod-ścieżkę w punktach"
@@ -938,7 +939,7 @@ msgctxt "(qtundo-format)"
 msgid "Set fill rule"
 msgstr "Ustaw regułę wypełniania"
 
-#: flake/commands/KoPathPointInsertCommand.cpp:76
+#: flake/commands/KoPathPointInsertCommand.cpp:79
 msgctxt "(qtundo-format)"
 msgid "Insert points"
 msgstr "Wstaw punkty"
@@ -960,7 +961,7 @@ msgctxt "(qtundo-format)"
 msgid "Remove points"
 msgstr "Usuń punkty"
 
-#: flake/commands/KoPathPointTypeCommand.cpp:46
+#: flake/commands/KoPathPointTypeCommand.cpp:48
 msgctxt "(qtundo-format)"
 msgid "Set point type"
 msgstr "Ustaw typ punktu"
@@ -970,22 +971,22 @@ msgctxt "(qtundo-format)"
 msgid "Reverse paths"
 msgstr "Odwróć ścieżki"
 
-#: flake/commands/KoPathSegmentBreakCommand.cpp:40
+#: flake/commands/KoPathSegmentBreakCommand.cpp:41
 msgctxt "(qtundo-format)"
 msgid "Break subpath"
 msgstr "Przerwij pod-ścieżkę"
 
-#: flake/commands/KoPathSegmentTypeCommand.cpp:132
+#: flake/commands/KoPathSegmentTypeCommand.cpp:134
 msgctxt "(qtundo-format)"
 msgid "Change segments to curves"
 msgstr "Zmień odcinki na krzywe"
 
-#: flake/commands/KoPathSegmentTypeCommand.cpp:134
+#: flake/commands/KoPathSegmentTypeCommand.cpp:136
 msgctxt "(qtundo-format)"
 msgid "Change segments to lines"
 msgstr "Zmień odcinki na linie"
 
-#: flake/commands/KoPathShapeMarkerCommand.cpp:34
+#: flake/commands/KoPathShapeMarkerCommand.cpp:33
 msgctxt "(qtundo-format)"
 msgid "Set marker"
 msgstr "Ustaw znacznik"
@@ -1022,7 +1023,7 @@ msgstr[0] "Usuń kształt"
 msgstr[1] "Usuń kształty"
 msgstr[2] "Usuń kształty"
 
-#: flake/commands/KoShapeDistributeCommand.cpp:128
+#: flake/commands/KoShapeDistributeCommand.cpp:130
 msgctxt "(qtundo-format)"
 msgid "Distribute shapes"
 msgstr "Rozmieść kształty"
@@ -1047,7 +1048,7 @@ msgctxt "(qtundo-format)"
 msgid "Lock shapes"
 msgstr "Zablokuj kształty"
 
-#: flake/commands/KoShapeMoveCommand.cpp:42
+#: flake/commands/KoShapeMoveCommand.cpp:43
 msgctxt "(qtundo-format)"
 msgid "Move shapes"
 msgstr "Przemieść kształty"
@@ -1079,7 +1080,7 @@ msgctxt "(qtundo-format)"
 msgid "Shear shapes"
 msgstr "Pochyl kształty"
 
-#: flake/commands/KoShapeSizeCommand.cpp:42
+#: flake/commands/KoShapeSizeCommand.cpp:43
 msgctxt "(qtundo-format)"
 msgid "Resize shapes"
 msgstr "Zmień rozmiar kształtów"
@@ -1091,19 +1092,19 @@ msgctxt "(qtundo-format)"
 msgid "Set stroke"
 msgstr "Ustaw pociągnięcie"
 
-#: flake/commands/KoShapeTransparencyCommand.cpp:49
-#: flake/commands/KoShapeTransparencyCommand.cpp:60
-#: flake/commands/KoShapeTransparencyCommand.cpp:73
+#: flake/commands/KoShapeTransparencyCommand.cpp:48
+#: flake/commands/KoShapeTransparencyCommand.cpp:59
+#: flake/commands/KoShapeTransparencyCommand.cpp:72
 msgctxt "(qtundo-format)"
 msgid "Set opacity"
 msgstr "Ustaw nieprzezroczystość"
 
-#: flake/commands/KoShapeUnclipCommand.cpp:123
+#: flake/commands/KoShapeUnclipCommand.cpp:120
 msgctxt "(qtundo-format)"
 msgid "Unclip Shape"
 msgstr "Nie przycinaj kształtu"
 
-#: flake/commands/KoShapeUnclipCommand.cpp:132
+#: flake/commands/KoShapeUnclipCommand.cpp:129
 msgctxt "(qtundo-format)"
 msgid "Unclip Shapes"
 msgstr "Nie przycinaj kształtów"
@@ -1123,7 +1124,7 @@ msgctxt "(qtundo-format)"
 msgid "Join subpaths"
 msgstr "Połącz pod-ścieżki"
 
-#: flake/commands/KoSubpathRemoveCommand.cpp:30
+#: flake/commands/KoSubpathRemoveCommand.cpp:33
 msgctxt "(qtundo-format)"
 msgid "Remove subpath"
 msgstr "Usuń pod-ścieżkę"
@@ -1136,10 +1137,10 @@ msgstr "Standardowy"
 msgid "Lines"
 msgstr "Linia"
 
-#. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
 #. i18n: ectx: property (text), widget (QLabel)
+#. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
 #: flake/KoConnectionShapeConfigWidget.ui:17
-#: main/koDocumentInfoAboutWidget.ui:141
+#: widgets/koDocumentInfoAboutWidget.ui:141
 msgid "Type:"
 msgstr "Typ:"
 
@@ -1151,6 +1152,14 @@ msgstr "Zwiąż"
 msgid "A connection between two other shapes"
 msgstr "Połączenie między dwoma innymi kształtami"
 
+#: flake/KoGridData.cpp:223 koreport/wrtembed/KoReportDesigner.cpp:641
+msgid "Show Grid"
+msgstr "Pokaż siatkę"
+
+#: flake/KoGridData.cpp:224
+msgid "Shows or hides grid"
+msgstr "Pokazuje lub ukrywa siatkę"
+
 #: flake/KoPathShapeFactory.cpp:35
 msgid "Simple path shape"
 msgstr "Prosty kształt ścieżki"
@@ -1159,7 +1168,7 @@ msgstr "Prosty kształt ścieżki"
 msgid "A simple path shape"
 msgstr "Prosty kształt ścieżki"
 
-#: flake/KoShapeController.cpp:71 kotext/InsertTextReferenceAction.cpp:63
+#: flake/KoShapeController.cpp:70 kotext/InsertTextReferenceAction.cpp:63
 #: kotext/InsertVariableAction.cpp:58
 #: rdf/InsertSemanticObjectCreateAction.cpp:58
 #: rdf/InsertSemanticObjectReferenceAction.cpp:64
@@ -1167,12 +1176,12 @@ msgstr "Prosty kształt ścieżki"
 msgid "%1 Options"
 msgstr "%1 opcje"
 
-#: flake/KoShapePaste.cpp:172
+#: flake/KoShapePaste.cpp:168
 msgctxt "(qtundo-format)"
 msgid "Paste Shapes"
 msgstr "Wklej kształty"
 
-#: flake/KoToolManager.cpp:357
+#: flake/KoToolManager.cpp:358
 #, kde-format
 msgid "Active tool: %1"
 msgstr "Aktywne narzędzie: %1"
@@ -1234,96 +1243,96 @@ msgstr "Tworzenie obiektu"
 msgid "Pan"
 msgstr "Przesuń"
 
-#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:146
 msgctxt "(qtundo-format)"
 msgid "Change Segment"
 msgstr "Zmień odcinek"
 
-#: flake/tools/KoPathTool.cpp:107
+#: flake/tools/KoPathTool.cpp:109
 msgid "Corner point"
 msgstr "Punkt narożny"
 
-#: flake/tools/KoPathTool.cpp:112
+#: flake/tools/KoPathTool.cpp:114
 msgid "Smooth point"
 msgstr "Gładki punkt"
 
-#: flake/tools/KoPathTool.cpp:117
+#: flake/tools/KoPathTool.cpp:119
 msgid "Symmetric Point"
 msgstr "Punkt symetryczny"
 
-#: flake/tools/KoPathTool.cpp:122
+#: flake/tools/KoPathTool.cpp:124
 msgid "Make curve point"
 msgstr "Utwórz punkt krzywej"
 
-#: flake/tools/KoPathTool.cpp:126
+#: flake/tools/KoPathTool.cpp:128
 msgid "Make line point"
 msgstr "Utwórz punkt linii"
 
-#: flake/tools/KoPathTool.cpp:130
+#: flake/tools/KoPathTool.cpp:132
 msgid "Segment to Line"
 msgstr "Segment na linię"
 
-#: flake/tools/KoPathTool.cpp:135
+#: flake/tools/KoPathTool.cpp:137
 msgid "Segment to Curve"
 msgstr "Odcinek do krzywej"
 
-#: flake/tools/KoPathTool.cpp:140
+#: flake/tools/KoPathTool.cpp:142
 msgid "Insert point"
 msgstr "Wstaw punkt"
 
-#: flake/tools/KoPathTool.cpp:145
+#: flake/tools/KoPathTool.cpp:147
 msgid "Remove point"
 msgstr "Usuń punkt"
 
-#: flake/tools/KoPathTool.cpp:150
+#: flake/tools/KoPathTool.cpp:152
 msgid "Break at point"
 msgstr "Przerwij w punkcie"
 
-#: flake/tools/KoPathTool.cpp:154
+#: flake/tools/KoPathTool.cpp:156
 msgid "Break at segment"
 msgstr "Przerwij w odcinku"
 
-#: flake/tools/KoPathTool.cpp:158
+#: flake/tools/KoPathTool.cpp:160
 msgid "Join with segment"
 msgstr "Połącz z odcinkiem"
 
-#: flake/tools/KoPathTool.cpp:163
+#: flake/tools/KoPathTool.cpp:165
 msgid "Merge points"
 msgstr "Scal punkty"
 
-#: flake/tools/KoPathTool.cpp:167
+#: flake/tools/KoPathTool.cpp:169
 msgid "To Path"
 msgstr "Do ścieżki"
 
-#: flake/tools/KoPathTool.cpp:200
+#: flake/tools/KoPathTool.cpp:202
 msgid "Line/Curve"
 msgstr "Linia/krzywa"
 
-#: flake/tools/KoPathTool.cpp:538
+#: flake/tools/KoPathTool.cpp:540
 msgid "Drag to move handle."
 msgstr "Przeciągnij, żeby przenieść uchwyt."
 
-#: flake/tools/KoPathTool.cpp:602
+#: flake/tools/KoPathTool.cpp:604
 msgid "Drag to move point. Shift click to change point type."
 msgstr ""
 "Przeciągnij, żeby przenieść punkt. Kliknij z wciśniętym shiftem, żeby "
 "zmienić typ punktu."
 
-#: flake/tools/KoPathTool.cpp:604
+#: flake/tools/KoPathTool.cpp:606
 msgid "Drag to move control point."
 msgstr "Przeciągnij, żeby przenieść punkt kontrolny."
 
-#: flake/tools/KoPathTool.cpp:629
+#: flake/tools/KoPathTool.cpp:631
 msgid "Drag to change curve directly. Double click to insert new path point."
 msgstr ""
 "Przeciągnij, aby bezpośrednio zmienić krzywą. Kliknij podwójnie, aby wstawić "
 "nowy punkt ścieżki."
 
-#: flake/tools/KoPathTool.cpp:636
+#: flake/tools/KoPathTool.cpp:638
 msgid "Press B to break path at selected point."
 msgstr "Naciśnij B, aby przerwać ścieżkę w wybranym punkcie."
 
-#: flake/tools/KoPathTool.cpp:638
+#: flake/tools/KoPathTool.cpp:640
 msgid "Press B to break path at selected segments."
 msgstr "Naciśnij B, aby przerwać ścieżkę na wybranych odcinkach."
 
@@ -1331,7 +1340,7 @@ msgstr "Naciśnij B, aby przerwać ścieżkę na wybranych odcinkach."
 msgid "Path editing"
 msgstr "Edytowanie ścieżki"
 
-#: flake/tools/KoZoomToolFactory.cpp:30 widgets/KoZoomController_p.h:42
+#: flake/tools/KoZoomToolFactory.cpp:30 widgets/KoZoomController_p.h:41
 #: widgets/KoZoomWidget.cpp:64
 msgid "Zoom"
 msgstr "Powiększenie"
@@ -1471,7 +1480,7 @@ msgstr ""
 "Nie można odinstalować pakietu skryptów \"%1\". Możesz nie mieć "
 "wystarczających uprawnień do skasowania katalogu \"%1\"."
 
-#: kokross/KoScriptManager.cpp:301 main/KoMainWindow.cpp:709
+#: kokross/KoScriptManager.cpp:301 main/KoMainWindow.cpp:688
 msgid "Save"
 msgstr "Zapisz"
 
@@ -1517,12 +1526,12 @@ msgstr "Skrypt"
 msgid "Collection"
 msgstr "Kolekcja"
 
-#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:35
+#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:34
 msgctxt "(qtundo-format)"
 msgid "Change master slide"
 msgstr "Zmień slajd główny"
 
-#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:38
+#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:37
 msgctxt "(qtundo-format)"
 msgid "Change master page"
 msgstr "Zmień stronę główną"
@@ -1614,7 +1623,7 @@ msgstr "Różne"
 
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:48
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:49
-#: main/config/KoConfigGridPage.cpp:66
+#: main/config/KoConfigGridPage.cpp:67
 msgid "Grid"
 msgstr "Siatka"
 
@@ -1633,7 +1642,8 @@ msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "Autor"
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:61 main/KoDocumentInfoDlg.cpp:137
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:61
+#: widgets/KoDocumentInfoDlg.cpp:136
 msgid "Author"
 msgstr "Autor"
 
@@ -1650,174 +1660,174 @@ msgid "Select a master page design:"
 msgstr "Wybierz wygląd głównej strony:"
 
 #: kopageapp/dialogs/KoPAMasterPageDialog.cpp:45
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:114
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:110
 msgid "Master Page"
 msgstr "Strona główna"
 
-#: kopageapp/KoPADocumentModel.cpp:171 kopageapp/KoPAPageThumbnailModel.cpp:67
+#: kopageapp/KoPADocumentModel.cpp:179 kopageapp/KoPAPageThumbnailModel.cpp:67
 #, kde-format
 msgid "Slide %1"
 msgstr "Slajd %1"
 
-#: kopageapp/KoPADocumentModel.cpp:173
+#: kopageapp/KoPADocumentModel.cpp:181
 #, kde-format
 msgid "Page  %1"
 msgstr "Strona %1"
 
-#: kopageapp/KoPADocumentModel.cpp:177
-#: kopageapp/KoPADocumentStructureDocker.cpp:117
+#: kopageapp/KoPADocumentModel.cpp:184
+#: kopageapp/KoPADocumentStructureDocker.cpp:112
 msgid "Layer"
 msgstr "Warstwa"
 
-#: kopageapp/KoPADocumentModel.cpp:180
+#: kopageapp/KoPADocumentModel.cpp:186
 msgid "Group"
 msgstr "Grupa"
 
-#: kopageapp/KoPADocumentModel.cpp:183
+#: kopageapp/KoPADocumentModel.cpp:188
 msgid "Shape"
 msgstr "Figura"
 
-#: kopageapp/KoPADocumentModel.cpp:269
+#: kopageapp/KoPADocumentModel.cpp:279
 msgctxt "(qtundo-format)"
 msgid "Rename Slide"
 msgstr "Zmień nazwę planszy"
 
-#: kopageapp/KoPADocumentModel.cpp:272
+#: kopageapp/KoPADocumentModel.cpp:281
 msgctxt "(qtundo-format)"
 msgid "Rename Page"
 msgstr "Zmień nazwę strony"
 
-#: kopageapp/KoPADocumentModel.cpp:276
+#: kopageapp/KoPADocumentModel.cpp:285
 msgctxt "(qtundo-format)"
 msgid "Rename Layer"
 msgstr "Zmień nazwę warstwy"
 
-#: kopageapp/KoPADocumentModel.cpp:312
-#: kopageapp/KoPADocumentStructureDocker.cpp:115
+#: kopageapp/KoPADocumentModel.cpp:321
+#: kopageapp/KoPADocumentStructureDocker.cpp:110
 msgid "Slide"
 msgstr "Plansza"
 
-#: kopageapp/KoPADocumentModel.cpp:315
+#: kopageapp/KoPADocumentModel.cpp:324
 msgid "Visible"
 msgstr "Widoczne"
 
-#: kopageapp/KoPADocumentModel.cpp:316
+#: kopageapp/KoPADocumentModel.cpp:325
 msgid "Locked"
 msgstr "Zablokowane"
 
-#: kopageapp/KoPADocumentModel.cpp:523 kopageapp/KoPADocumentModel.cpp:544
+#: kopageapp/KoPADocumentModel.cpp:540 kopageapp/KoPADocumentModel.cpp:559
 msgctxt "(qtundo-format)"
 msgid "Reparent shapes"
 msgstr "Ponownie przyporządkuj kształty"
 
-#: kopageapp/KoPADocumentModel.cpp:676
+#: kopageapp/KoPADocumentModel.cpp:691
 msgid "&Move Here"
 msgstr "&Przenieś tutaj"
 
-#: kopageapp/KoPADocumentModel.cpp:680
+#: kopageapp/KoPADocumentModel.cpp:695
 msgid "&Copy Here"
 msgstr "&Kopiuj tutaj"
 
-#: kopageapp/KoPADocumentModel.cpp:684
+#: kopageapp/KoPADocumentModel.cpp:699
 msgid "C&ancel"
 msgstr "&Anuluj"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1722
+#: kopageapp/KoPADocumentStructureDocker.cpp:90 main/KoMainWindow.cpp:1701
 msgid "Document"
 msgstr "Dokument"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:104
+#: kopageapp/KoPADocumentStructureDocker.cpp:99
 msgid "Add a new slide or layer"
 msgstr "Dodaj nowy slajd lub warstwę"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:107
+#: kopageapp/KoPADocumentStructureDocker.cpp:102
 msgid "Add a new page or layer"
 msgstr "Dodaj nową stronę lub warstwę"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:115
+#: kopageapp/KoPADocumentStructureDocker.cpp:110
 #: widgets/KoPageLayoutDialog.cpp:50
 msgid "Page"
 msgstr "Strona"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:124
-#: kopageapp/KoPADocumentStructureDocker.cpp:631
+#: kopageapp/KoPADocumentStructureDocker.cpp:119
+#: kopageapp/KoPADocumentStructureDocker.cpp:626
 msgid "Delete selected objects"
 msgstr "Usuń wybrane obiekty"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:130
+#: kopageapp/KoPADocumentStructureDocker.cpp:125
 msgid "Raise selected objects"
 msgstr "Podnieś wybrane obiekty"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:136
+#: kopageapp/KoPADocumentStructureDocker.cpp:131
 msgid "Lower selected objects"
 msgstr "Obniż wybrane obiekty"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:145
+#: kopageapp/KoPADocumentStructureDocker.cpp:140
 msgid "Minimal View"
 msgstr "Widok minimalny"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:147
+#: kopageapp/KoPADocumentStructureDocker.cpp:142
 msgid "Detailed View"
 msgstr "Widok szczegółowy"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:149
+#: kopageapp/KoPADocumentStructureDocker.cpp:144
 msgid "Thumbnail View"
 msgstr "Widok miniaturek"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:159
+#: kopageapp/KoPADocumentStructureDocker.cpp:154
 msgid "View mode"
 msgstr "Tryb widoku"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:316
+#: kopageapp/KoPADocumentStructureDocker.cpp:311
 msgid "Enter the name of the new layer:"
 msgstr "Wpisz nazwę nowej warstwy:"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:316
+#: kopageapp/KoPADocumentStructureDocker.cpp:311
 msgid "New Layer"
 msgstr "Nowa warstwa"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:317
+#: kopageapp/KoPADocumentStructureDocker.cpp:312
 msgid "New layer"
 msgstr "Nowa warstwa"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:330
+#: kopageapp/KoPADocumentStructureDocker.cpp:325
 msgctxt "(qtundo-format)"
 msgid "Create Layer"
 msgstr "Tworzenie warstwy"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:356
+#: kopageapp/KoPADocumentStructureDocker.cpp:351
 msgctxt "(qtundo-format)"
 msgid "Delete Layer"
 msgstr "Usuń warstwę"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:359
+#: kopageapp/KoPADocumentStructureDocker.cpp:354
 msgid "Could not delete all layers. At least one layer is required."
 msgstr "Nie można usunąć wszystkich warstw. Przynajmniej jedna jest wymagana."
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:359
+#: kopageapp/KoPADocumentStructureDocker.cpp:354
 msgid "Error deleting layers"
 msgstr "Błąd kasowania warstw"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:626
+#: kopageapp/KoPADocumentStructureDocker.cpp:621
 msgid "Add a new slide"
 msgstr "Dodaj nowy slajd"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:629
+#: kopageapp/KoPADocumentStructureDocker.cpp:624
 msgid "Add a new page"
 msgstr "Dodaj nową stronę"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:633
+#: kopageapp/KoPADocumentStructureDocker.cpp:628
 msgid "Cut"
 msgstr "Wytnij"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:634
+#: kopageapp/KoPADocumentStructureDocker.cpp:629
 #: pigment/compositeops/KoCompositeOpCopy.h:37
 #: pigment/compositeops/KoCompositeOpCopy2.h:45
 #: pigment/KoCompositeOpRegistry.cpp:90
 msgid "Copy"
 msgstr "Kopiuj"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:635
+#: kopageapp/KoPADocumentStructureDocker.cpp:630
 msgid "Paste"
 msgstr "Wklej"
 
@@ -1842,84 +1852,84 @@ msgstr[0] "Wklej stronę"
 msgstr[1] "Wklej strony"
 msgstr[2] "Wklej strony"
 
-#: kopageapp/KoPAView.cpp:320 main/KoToolBoxDocker.cpp:33
+#: kopageapp/KoPAView.cpp:313 widgets/KoToolBoxDocker.cpp:33
 msgid "Tools"
 msgstr "Narzędzia"
 
-#: kopageapp/KoPAView.cpp:361
+#: kopageapp/KoPAView.cpp:354
 msgid "D&elete"
 msgstr "&Usuń"
 
-#: kopageapp/KoPAView.cpp:372 koreport/wrtembed/KoReportDesigner.cpp:640
+#: kopageapp/KoPAView.cpp:365 koreport/wrtembed/KoReportDesigner.cpp:642
 msgid "Snap to Grid"
 msgstr "Przyciągaj do siatki"
 
-#: kopageapp/KoPAView.cpp:382
+#: kopageapp/KoPAView.cpp:375
 msgid "Show Master Pages"
 msgstr "Pokaż strony główne"
 
-#: kopageapp/KoPAView.cpp:386
+#: kopageapp/KoPAView.cpp:379
 msgid "Show Rulers"
 msgstr "Pokaż linijki"
 
-#: kopageapp/KoPAView.cpp:388
+#: kopageapp/KoPAView.cpp:381
 msgid "Show/hide the view's rulers"
 msgstr "Pokaż/ukryj reguły widoku"
 
-#: kopageapp/KoPAView.cpp:392
+#: kopageapp/KoPAView.cpp:385
 msgid "Insert Page"
 msgstr "Wstaw stronę"
 
-#: kopageapp/KoPAView.cpp:394 kopageapp/KoPAView.cpp:395
+#: kopageapp/KoPAView.cpp:387 kopageapp/KoPAView.cpp:388
 msgid "Insert a new page after the current one"
 msgstr "Wstaw nową stronę za bieżącą"
 
-#: kopageapp/KoPAView.cpp:398
+#: kopageapp/KoPAView.cpp:391
 msgid "Copy Page"
 msgstr "Kopiuj stronę"
 
-#: kopageapp/KoPAView.cpp:400 kopageapp/KoPAView.cpp:401
+#: kopageapp/KoPAView.cpp:393 kopageapp/KoPAView.cpp:394
 msgid "Copy the current page"
 msgstr "Kopiuj bieżącą stronę"
 
-#: kopageapp/KoPAView.cpp:404
+#: kopageapp/KoPAView.cpp:397
 msgid "Delete Page"
 msgstr "Skasuj stronę"
 
-#: kopageapp/KoPAView.cpp:407 kopageapp/KoPAView.cpp:408
+#: kopageapp/KoPAView.cpp:400 kopageapp/KoPAView.cpp:401
 msgid "Delete the current page"
 msgstr "Usuń bieżącą stronę"
 
-#: kopageapp/KoPAView.cpp:411
+#: kopageapp/KoPAView.cpp:404
 msgid "Master Page..."
 msgstr "Strona główna..."
 
-#: kopageapp/KoPAView.cpp:415
+#: kopageapp/KoPAView.cpp:408
 msgid "Page Layout..."
 msgstr "Układ strony..."
 
 #. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: kopageapp/KoPAView.cpp:425 rdf/KoSemanticStylesheetsEditor.ui:57
+#: kopageapp/KoPAView.cpp:418 rdf/KoSemanticStylesheetsEditor.ui:57
 msgid "Variable"
 msgstr "Zmienna"
 
-#: kopageapp/KoPAView.cpp:430
+#: kopageapp/KoPAView.cpp:423
 msgid "Import Document..."
 msgstr "Importuj dokument..."
 
-#: kopageapp/KoPAView.cpp:434
+#: kopageapp/KoPAView.cpp:427
 msgid "Configure..."
 msgstr "Ustawienia..."
 
-#: kopageapp/KoPAView.cpp:505
+#: kopageapp/KoPAView.cpp:498
 msgid "Import Slideshow"
 msgstr "Importuj pokaz slajdów"
 
-#: kopageapp/KoPAView.cpp:508 main/KoMainWindow.cpp:1329
+#: kopageapp/KoPAView.cpp:501 main/KoMainWindow.cpp:1308
 msgid "Import Document"
 msgstr "Importuj dokument"
 
-#: kopageapp/KoPAView.cpp:533 kopageapp/KoPAView.cpp:537
+#: kopageapp/KoPAView.cpp:526 kopageapp/KoPAView.cpp:530
 #, kde-format
 msgid ""
 "Could not import\n"
@@ -1928,7 +1938,7 @@ msgstr ""
 "Nie można zaimportować\n"
 "%1"
 
-#: kopageapp/KoPAView.cpp:650
+#: kopageapp/KoPAView.cpp:643
 msgctxt "(qtundo-format)"
 msgid "Change page layout"
 msgstr "Zmień układ strony"
@@ -1938,20 +1948,20 @@ msgstr "Zmień układ strony"
 msgid "Set image ..."
 msgstr "Ustaw obraz..."
 
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:107
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:103
 #: kopageapp/widgets/KoPABackgroundFillWidget.cpp:34
 msgid "Background"
 msgstr "Tło"
 
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:107
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:103
 msgid "Page Background"
 msgstr "Tło strony"
 
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:51
+#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:52
 msgid "Page Design"
 msgstr "Projekt strony"
 
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:51
+#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:52
 msgid "Slide Design"
 msgstr "Projekt planszy"
 
@@ -2009,27 +2019,27 @@ msgstr "Nazwa"
 msgid "Object Name"
 msgstr "Nazwa obiektu"
 
-#: koreport/common/KoReportItemLine.cpp:68
-#: koreport/items/check/KoReportItemCheck.cpp:81
-#: koreport/items/field/KoReportItemField.cpp:108
-#: koreport/items/label/KoReportItemLabel.cpp:110
-#: koreport/items/text/KoReportItemText.cpp:126
+#: koreport/common/KoReportItemLine.cpp:76
+#: koreport/items/check/KoReportItemCheck.cpp:86
+#: koreport/items/field/KoReportItemField.cpp:113
+#: koreport/items/label/KoReportItemLabel.cpp:115
+#: koreport/items/text/KoReportItemText.cpp:131
 msgid "Line Weight"
 msgstr "Szerokość linii"
 
-#: koreport/common/KoReportItemLine.cpp:69
-#: koreport/items/check/KoReportItemCheck.cpp:82
-#: koreport/items/field/KoReportItemField.cpp:109
-#: koreport/items/label/KoReportItemLabel.cpp:111
-#: koreport/items/text/KoReportItemText.cpp:127
+#: koreport/common/KoReportItemLine.cpp:77
+#: koreport/items/check/KoReportItemCheck.cpp:87
+#: koreport/items/field/KoReportItemField.cpp:114
+#: koreport/items/label/KoReportItemLabel.cpp:116
+#: koreport/items/text/KoReportItemText.cpp:132
 msgid "Line Color"
 msgstr "Kolor linii"
 
-#: koreport/common/KoReportItemLine.cpp:70
-#: koreport/items/check/KoReportItemCheck.cpp:83
-#: koreport/items/field/KoReportItemField.cpp:110
-#: koreport/items/label/KoReportItemLabel.cpp:112
-#: koreport/items/text/KoReportItemText.cpp:128
+#: koreport/common/KoReportItemLine.cpp:78
+#: koreport/items/check/KoReportItemCheck.cpp:88
+#: koreport/items/field/KoReportItemField.cpp:115
+#: koreport/items/label/KoReportItemLabel.cpp:117
+#: koreport/items/text/KoReportItemText.cpp:133
 msgid "Line Style"
 msgstr "Styl linii"
 
@@ -2042,9 +2052,9 @@ msgid "Height"
 msgstr "Wysokość"
 
 #: koreport/common/krsectiondata.cpp:109
-#: koreport/items/field/KoReportItemField.cpp:100
-#: koreport/items/label/KoReportItemLabel.cpp:102
-#: koreport/items/text/KoReportItemText.cpp:123
+#: koreport/items/field/KoReportItemField.cpp:105
+#: koreport/items/label/KoReportItemLabel.cpp:107
+#: koreport/items/text/KoReportItemText.cpp:128
 msgid "Background Color"
 msgstr "Kolor tła"
 
@@ -2056,33 +2066,33 @@ msgstr "Rozmiar"
 msgid "Check Box"
 msgstr "Pole wyboru"
 
-#: koreport/items/check/KoReportItemCheck.cpp:73
+#: koreport/items/check/KoReportItemCheck.cpp:78
 msgid "Cross"
 msgstr "Krzyżyk"
 
-#: koreport/items/check/KoReportItemCheck.cpp:73
+#: koreport/items/check/KoReportItemCheck.cpp:78
 msgid "Dot"
 msgstr "Kropka"
 
-#: koreport/items/check/KoReportItemCheck.cpp:73
+#: koreport/items/check/KoReportItemCheck.cpp:78
 msgid "Tick"
 msgstr "Odhaczenie"
 
-#: koreport/items/check/KoReportItemCheck.cpp:74
+#: koreport/items/check/KoReportItemCheck.cpp:79
 msgid "Style"
 msgstr "Styl"
 
-#: koreport/items/check/KoReportItemCheck.cpp:76
-#: koreport/items/field/KoReportItemField.cpp:83
-#: koreport/items/image/KoReportItemImage.cpp:115
-#: koreport/items/text/KoReportItemText.cpp:109
+#: koreport/items/check/KoReportItemCheck.cpp:81
+#: koreport/items/field/KoReportItemField.cpp:88
+#: koreport/items/image/KoReportItemImage.cpp:119
+#: koreport/items/text/KoReportItemText.cpp:114
 msgid "Data Source"
 msgstr "Źródło danych"
 
-#: koreport/items/check/KoReportItemCheck.cpp:79
-#: koreport/items/field/KoReportItemField.cpp:101
-#: koreport/items/label/KoReportItemLabel.cpp:103
-#: koreport/items/text/KoReportItemText.cpp:124
+#: koreport/items/check/KoReportItemCheck.cpp:84
+#: koreport/items/field/KoReportItemField.cpp:106
+#: koreport/items/label/KoReportItemLabel.cpp:108
+#: koreport/items/text/KoReportItemText.cpp:129
 msgid "Foreground Color"
 msgstr "Kolor pierwszoplanowy"
 
@@ -2090,89 +2100,89 @@ msgstr "Kolor pierwszoplanowy"
 msgid "Field"
 msgstr "Pole"
 
-#: koreport/items/field/KoReportItemField.cpp:88
-#: koreport/items/field/KoReportItemField.cpp:94
-#: koreport/items/label/KoReportItemLabel.cpp:91
-#: koreport/items/label/KoReportItemLabel.cpp:97
-#: koreport/items/text/KoReportItemText.cpp:112
-#: koreport/items/text/KoReportItemText.cpp:118
+#: koreport/items/field/KoReportItemField.cpp:93
+#: koreport/items/field/KoReportItemField.cpp:99
+#: koreport/items/label/KoReportItemLabel.cpp:96
+#: koreport/items/label/KoReportItemLabel.cpp:102
+#: koreport/items/text/KoReportItemText.cpp:117
+#: koreport/items/text/KoReportItemText.cpp:123
 msgid "Center"
 msgstr "Na środku"
 
-#: koreport/items/field/KoReportItemField.cpp:88
-#: koreport/items/label/KoReportItemLabel.cpp:91
-#: koreport/items/text/KoReportItemText.cpp:112
+#: koreport/items/field/KoReportItemField.cpp:93
+#: koreport/items/label/KoReportItemLabel.cpp:96
+#: koreport/items/text/KoReportItemText.cpp:117
 msgid "Left"
 msgstr "Do lewej"
 
-#: koreport/items/field/KoReportItemField.cpp:88
-#: koreport/items/label/KoReportItemLabel.cpp:91
-#: koreport/items/text/KoReportItemText.cpp:112
+#: koreport/items/field/KoReportItemField.cpp:93
+#: koreport/items/label/KoReportItemLabel.cpp:96
+#: koreport/items/text/KoReportItemText.cpp:117
 msgid "Right"
 msgstr "Do prawej"
 
-#: koreport/items/field/KoReportItemField.cpp:89
-#: koreport/items/label/KoReportItemLabel.cpp:92
-#: koreport/items/text/KoReportItemText.cpp:113
+#: koreport/items/field/KoReportItemField.cpp:94
+#: koreport/items/label/KoReportItemLabel.cpp:97
+#: koreport/items/text/KoReportItemText.cpp:118
 msgid "Horizontal Alignment"
 msgstr "Wyrównanie w poziomie"
 
-#: koreport/items/field/KoReportItemField.cpp:94
-#: koreport/items/label/KoReportItemLabel.cpp:97
-#: koreport/items/text/KoReportItemText.cpp:118
+#: koreport/items/field/KoReportItemField.cpp:99
+#: koreport/items/label/KoReportItemLabel.cpp:102
+#: koreport/items/text/KoReportItemText.cpp:123
 msgid "Bottom"
 msgstr "Do dołu"
 
-#: koreport/items/field/KoReportItemField.cpp:94
-#: koreport/items/label/KoReportItemLabel.cpp:97
-#: koreport/items/text/KoReportItemText.cpp:118
+#: koreport/items/field/KoReportItemField.cpp:99
+#: koreport/items/label/KoReportItemLabel.cpp:102
+#: koreport/items/text/KoReportItemText.cpp:123
 msgid "Top"
 msgstr "Do góry"
 
-#: koreport/items/field/KoReportItemField.cpp:95
-#: koreport/items/label/KoReportItemLabel.cpp:98
-#: koreport/items/text/KoReportItemText.cpp:119
+#: koreport/items/field/KoReportItemField.cpp:100
+#: koreport/items/label/KoReportItemLabel.cpp:103
+#: koreport/items/text/KoReportItemText.cpp:124
 msgid "Vertical Alignment"
 msgstr "Wyrównanie w pionie"
 
-#: koreport/items/field/KoReportItemField.cpp:97
-#: koreport/items/label/KoReportItemLabel.cpp:100
-#: koreport/items/text/KoReportItemText.cpp:121
+#: koreport/items/field/KoReportItemField.cpp:102
+#: koreport/items/label/KoReportItemLabel.cpp:105
+#: koreport/items/text/KoReportItemText.cpp:126
 msgid "Font"
 msgstr "Czcionka"
 
-#: koreport/items/field/KoReportItemField.cpp:103
-#: koreport/items/label/KoReportItemLabel.cpp:105
-#: koreport/items/text/KoReportItemText.cpp:129
+#: koreport/items/field/KoReportItemField.cpp:108
+#: koreport/items/label/KoReportItemLabel.cpp:110
+#: koreport/items/text/KoReportItemText.cpp:134
 msgid "Background Opacity"
 msgstr "Nieprzezroczystość tła"
 
-#: koreport/items/field/KoReportItemField.cpp:112
+#: koreport/items/field/KoReportItemField.cpp:117
 msgid "Word Wrap"
 msgstr "Zawijanie wyrazów"
 
-#: koreport/items/field/KoReportItemField.cpp:113
+#: koreport/items/field/KoReportItemField.cpp:118
 msgid "Can Grow"
 msgstr "Może rosnąć"
 
-#: koreport/items/image/KoReportItemImage.cpp:119
+#: koreport/items/image/KoReportItemImage.cpp:123
 msgid "Clip"
 msgstr "Przytnij"
 
-#: koreport/items/image/KoReportItemImage.cpp:119
+#: koreport/items/image/KoReportItemImage.cpp:123
 msgid "Stretch"
 msgstr "Rozciągnij"
 
-#: koreport/items/image/KoReportItemImage.cpp:120
+#: koreport/items/image/KoReportItemImage.cpp:124
 msgid "Resize Mode"
 msgstr "Tryb zmiany rozmiaru"
 
-#: koreport/items/image/KoReportItemImage.cpp:122
+#: koreport/items/image/KoReportItemImage.cpp:126
 msgctxt "Static Image"
 msgid "Static"
 msgstr "Statyczny"
 
-#: koreport/items/label/KoReportItemLabel.cpp:87
+#: koreport/items/label/KoReportItemLabel.cpp:92
 msgid "Caption"
 msgstr "Nagłówek"
 
@@ -2209,115 +2219,111 @@ msgstr "Pokaż stopkę grupy:"
 msgid "Insert page break after group footer:"
 msgstr "Wstaw podział strony po stopce grupy:"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:499
+#: koreport/wrtembed/KoReportDesigner.cpp:501
 msgid "Page Header (Any)"
 msgstr "Nagłówek strony (każdej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:503
+#: koreport/wrtembed/KoReportDesigner.cpp:505
 msgid "Page Header (Even)"
 msgstr "Nagłówek strony (parzystej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:507
+#: koreport/wrtembed/KoReportDesigner.cpp:509
 msgid "Page Header (Odd)"
 msgstr "Nagłówek strony (nieparzystej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:511
+#: koreport/wrtembed/KoReportDesigner.cpp:513
 msgid "Page Header (First)"
 msgstr "Nagłówek strony (pierwszej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:515
+#: koreport/wrtembed/KoReportDesigner.cpp:517
 msgid "Page Header (Last)"
 msgstr "Nagłówek strony (ostatniej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:519
+#: koreport/wrtembed/KoReportDesigner.cpp:521
 msgid "Page Footer (Any)"
 msgstr "Stopka strony (każdej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:523
+#: koreport/wrtembed/KoReportDesigner.cpp:525
 msgid "Page Footer (Even)"
 msgstr "Stopka strony (parzystej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:527
+#: koreport/wrtembed/KoReportDesigner.cpp:529
 msgid "Page Footer (Odd)"
 msgstr "Stopka strony (nieparzystej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:531
+#: koreport/wrtembed/KoReportDesigner.cpp:533
 msgid "Page Footer (First)"
 msgstr "Stopka strony (pierwszej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:535
+#: koreport/wrtembed/KoReportDesigner.cpp:537
 msgid "Page Footer (Last)"
 msgstr "Stopka strony (ostatniej)"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:539
+#: koreport/wrtembed/KoReportDesigner.cpp:541
 msgid "Report Header"
 msgstr "Nagłówek raportu"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:543
+#: koreport/wrtembed/KoReportDesigner.cpp:545
 msgid "Report Footer"
 msgstr "Stopka raportu"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:615
+#: koreport/wrtembed/KoReportDesigner.cpp:617
 msgid "Report Title"
 msgstr "Tytuł raportu"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:615
+#: koreport/wrtembed/KoReportDesigner.cpp:617
 msgid "Title"
 msgstr "Tytuł"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:621
+#: koreport/wrtembed/KoReportDesigner.cpp:623
 msgid "Page Size"
 msgstr "Rozmiar strony"
 
 #. i18n: ectx: property (text), widget (QRadioButton, landscape)
-#: koreport/wrtembed/KoReportDesigner.cpp:625
+#: koreport/wrtembed/KoReportDesigner.cpp:627
 #: widgets/KoPageLayoutWidget.ui:136
 msgid "Landscape"
 msgstr "Pozioma"
 
 #. i18n: ectx: property (text), widget (QRadioButton, portrait)
-#: koreport/wrtembed/KoReportDesigner.cpp:625
+#: koreport/wrtembed/KoReportDesigner.cpp:627
 #: widgets/KoPageLayoutWidget.ui:129
 msgid "Portrait"
 msgstr "Pionowa"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:626
+#: koreport/wrtembed/KoReportDesigner.cpp:628
 msgid "Page Orientation"
 msgstr "Układ strony"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:637
+#: koreport/wrtembed/KoReportDesigner.cpp:639
 msgid "Page Unit"
 msgstr "Jednostka strony"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:639 main/KoGridData.cpp:223
-msgid "Show Grid"
-msgstr "Pokaż siatkę"
-
-#: koreport/wrtembed/KoReportDesigner.cpp:641
+#: koreport/wrtembed/KoReportDesigner.cpp:643
 msgid "Grid Divisions"
 msgstr "Podziałka siatki"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:644
+#: koreport/wrtembed/KoReportDesigner.cpp:646
 msgid "Left Margin"
 msgstr "Lewy margines"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:646
+#: koreport/wrtembed/KoReportDesigner.cpp:648
 msgid "Right Margin"
 msgstr "Prawy margines"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:648
+#: koreport/wrtembed/KoReportDesigner.cpp:650
 msgid "Top Margin"
 msgstr "Górny margines"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:650
+#: koreport/wrtembed/KoReportDesigner.cpp:652
 msgid "Bottom Margin"
 msgstr "Dolny margines"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:657
+#: koreport/wrtembed/KoReportDesigner.cpp:659
 msgid "Script Interpreter"
 msgstr "Interpreter skryptów"
 
-#: koreport/wrtembed/KoReportDesigner.cpp:659
+#: koreport/wrtembed/KoReportDesigner.cpp:661
 msgid "Object Script"
 msgstr "Obiekt skryptu"
 
@@ -2328,6 +2334,10 @@ msgid "%1: %2"
 msgstr "%1: %2"
 
 #: koreport/wrtembed/reportpropertiesbutton.cpp:27
+msgid "Select entire report"
+msgstr "Zaznacz cały raport"
+
+#: koreport/wrtembed/reportpropertiesbutton.cpp:28
 msgid ""
 "A button that allows a report's surface to be selected, allowing its "
 "properties to be seen."
@@ -2335,7 +2345,7 @@ msgstr ""
 "Przycisk, który pozwala na wybranie powierzchni raportu, umożliwiając "
 "zobaczenie jej właściwości."
 
-#: koreport/wrtembed/reportsection.cpp:95
+#: koreport/wrtembed/reportsection.cpp:73
 msgid "Detail"
 msgstr "Szczegóły"
 
@@ -2604,26 +2614,27 @@ msgstr[2] "Wykonano %1 zastąpień"
 msgid "Replace %1 with %2?"
 msgstr "Czy zamienić %1 na %2?"
 
-#: kotext/KoSectionManager.cpp:96 kotext/KoSectionManager.cpp:100
+#: kotext/KoSectionManager.cpp:100
 #, kde-format
+msgctxt "new numbered section name"
 msgid "New section %1"
 msgstr "Nowy rozdział %1"
 
-#: kotext/KoSectionManager.cpp:150
+#: kotext/KoSectionManager.cpp:153
 msgid "Section"
 msgstr "Rozdział"
 
-#: kotext/KoText.cpp:30
+#: kotext/KoText.cpp:32
 msgctxt "Underline Style"
 msgid "None"
 msgstr "Brak"
 
-#: kotext/KoText.cpp:31
+#: kotext/KoText.cpp:33
 msgctxt "Underline Style"
 msgid "Single"
 msgstr "Pojedyncze"
 
-#: kotext/KoText.cpp:32
+#: kotext/KoText.cpp:34
 msgctxt "Underline Style"
 msgid "Double"
 msgstr "Podwójne"
@@ -2807,34 +2818,34 @@ msgstr "Format"
 msgid "Default"
 msgstr "Domyślne"
 
-#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:840
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:1030
 msgctxt "Default text for undo action"
 msgid "Undo"
 msgstr "Cofnij"
 
-#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:840
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:1030
 #: main/KoUndoStackAction.cpp:54
 #, kde-format
 msgid "Undo %1"
 msgstr "Cofnij %1"
 
-#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:866
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:1056
 msgctxt "Default text for redo action"
 msgid "Redo"
 msgstr "Przywróć"
 
-#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:866
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:1056
 #: main/KoUndoStackAction.cpp:54
 #, kde-format
 msgid "Redo %1"
 msgstr "Przywróć %1"
 
-#: kundo2/kundo2stack.cpp:1073 main/KoMainWindow.cpp:1549
+#: kundo2/kundo2stack.cpp:1301 main/KoMainWindow.cpp:1528
 #: main/KoUndoStackAction.cpp:46
 msgid "Redo"
 msgstr "Przywróć"
 
-#: kundo2/kundo2stack.cpp:1092 main/KoMainWindow.cpp:1548
+#: kundo2/kundo2stack.cpp:1320 main/KoMainWindow.cpp:1527
 #: main/KoUndoStackAction.cpp:38
 msgid "Undo"
 msgstr "Cofnij"
@@ -2854,96 +2865,101 @@ msgstr "U&stawienia"
 msgid "File"
 msgstr "Plik"
 
-#: main/config/KoConfigAuthorPage.cpp:63
+#: main/config/KoConfigAuthorPage.cpp:62
 msgid "Add new author profile (starts out as a copy of current)"
 msgstr "Dodaj nowy profil autora (zaczyna jako kopia bieżącego profilu)"
 
-#: main/config/KoConfigAuthorPage.cpp:67
+#: main/config/KoConfigAuthorPage.cpp:66
 msgid "Delete the author profile"
 msgstr "Usuń profil autora"
 
-#: main/config/KoConfigAuthorPage.cpp:81 main/KoView.cpp:397
+#: main/config/KoConfigAuthorPage.cpp:80 main/KoView.cpp:405
 msgid "Default Author Profile"
 msgstr "Domyślny profil autora"
 
-#: main/config/KoConfigAuthorPage.cpp:141
+#: main/config/KoConfigAuthorPage.cpp:140
 msgid "Name (not duplicate or blank name):"
 msgstr "Nazwa (powielonych i puste nazwy są niedozwolone):"
 
-#: main/config/KoConfigAuthorPage.cpp:141
+#: main/config/KoConfigAuthorPage.cpp:140
 msgid "Name of Profile"
 msgstr "Nazwa profilu"
 
 #. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
-#: main/config/KoConfigAuthorPage.ui:20 main/koDocumentInfoAuthorWidget.ui:20
+#: main/config/KoConfigAuthorPage.ui:20
+#: widgets/koDocumentInfoAuthorWidget.ui:20
 msgid "Name:"
 msgstr "Nazwa:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
-#: main/config/KoConfigAuthorPage.ui:40 main/koDocumentInfoAuthorWidget.ui:37
+#: main/config/KoConfigAuthorPage.ui:40
+#: widgets/koDocumentInfoAuthorWidget.ui:37
 msgid "Initials:"
 msgstr "Inicjały:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: main/config/KoConfigAuthorPage.ui:63 main/koDocumentInfoAuthorWidget.ui:60
+#: main/config/KoConfigAuthorPage.ui:63
+#: widgets/koDocumentInfoAuthorWidget.ui:60
 msgid "Title:"
 msgstr "Tytuł:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
-#: main/config/KoConfigAuthorPage.ui:79 main/koDocumentInfoAuthorWidget.ui:77
+#: main/config/KoConfigAuthorPage.ui:79
+#: widgets/koDocumentInfoAuthorWidget.ui:77
 msgid "Position:"
 msgstr "Położenie:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
-#: main/config/KoConfigAuthorPage.ui:95 main/koDocumentInfoAuthorWidget.ui:94
+#: main/config/KoConfigAuthorPage.ui:95
+#: widgets/koDocumentInfoAuthorWidget.ui:94
 msgid "Company:"
 msgstr "Firma:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
 #: main/config/KoConfigAuthorPage.ui:111
-#: main/koDocumentInfoAuthorWidget.ui:104
+#: widgets/koDocumentInfoAuthorWidget.ui:104
 msgid "Email:"
 msgstr "Email:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
 #: main/config/KoConfigAuthorPage.ui:127
-#: main/koDocumentInfoAuthorWidget.ui:114
+#: widgets/koDocumentInfoAuthorWidget.ui:114
 msgid "Telephone (home):"
 msgstr "Telefon (domowy):"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
 #: main/config/KoConfigAuthorPage.ui:143
-#: main/koDocumentInfoAuthorWidget.ui:124
+#: widgets/koDocumentInfoAuthorWidget.ui:124
 msgid "Telephone (work):"
 msgstr "Telefon (do pracy):"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
 #: main/config/KoConfigAuthorPage.ui:159
-#: main/koDocumentInfoAuthorWidget.ui:134
+#: widgets/koDocumentInfoAuthorWidget.ui:134
 msgid "Fax:"
 msgstr "Faks:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
 #: main/config/KoConfigAuthorPage.ui:175
-#: main/koDocumentInfoAuthorWidget.ui:144
+#: widgets/koDocumentInfoAuthorWidget.ui:144
 msgid "Street:"
 msgstr "Ulica:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
 #: main/config/KoConfigAuthorPage.ui:191
-#: main/koDocumentInfoAuthorWidget.ui:154
+#: widgets/koDocumentInfoAuthorWidget.ui:154
 msgid "Postal code:"
 msgstr "Kod pocztowy:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
 #: main/config/KoConfigAuthorPage.ui:207
-#: main/koDocumentInfoAuthorWidget.ui:164
+#: widgets/koDocumentInfoAuthorWidget.ui:164
 msgid "City:"
 msgstr "Miasto:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
 #: main/config/KoConfigAuthorPage.ui:223
-#: main/koDocumentInfoAuthorWidget.ui:174
+#: widgets/koDocumentInfoAuthorWidget.ui:174
 msgid "Country:"
 msgstr "Kraj:"
 
@@ -2964,28 +2980,28 @@ msgstr "Przedział samoczynnego zapisu:"
 msgid "Create backup file:"
 msgstr "Utwórz kopię zapasową:"
 
-#: main/config/KoConfigGridPage.cpp:76
+#: main/config/KoConfigGridPage.cpp:77
 msgid "Show grid:"
 msgstr "Pokaż siatkę:"
 
-#: main/config/KoConfigGridPage.cpp:77
+#: main/config/KoConfigGridPage.cpp:78
 msgid "Snap to grid:"
 msgstr "Przyciągaj do siatki:"
 
-#: main/config/KoConfigGridPage.cpp:78
+#: main/config/KoConfigGridPage.cpp:79
 msgid "Grid color:"
 msgstr "Kolor siatki:"
 
-#: main/config/KoConfigGridPage.cpp:80
+#: main/config/KoConfigGridPage.cpp:81
 msgid "Spacing"
 msgstr "Odstęp"
 
-#: main/config/KoConfigGridPage.cpp:91
+#: main/config/KoConfigGridPage.cpp:92
 msgctxt "Horizontal grid spacing"
 msgid "&Horizontal:"
 msgstr "P&oziomy:"
 
-#: main/config/KoConfigGridPage.cpp:92
+#: main/config/KoConfigGridPage.cpp:93
 msgctxt "Vertical grid spacing"
 msgid "&Vertical:"
 msgstr "&Pionowy:"
@@ -3113,15 +3129,15 @@ msgstr "Zawsze używaj tego szablonu przy uruchomieniu programu"
 msgid "Always use this template"
 msgstr "Zawsze używaj tego szablonu"
 
-#: main/KoDocument.cpp:569
+#: main/KoDocument.cpp:561
 msgid "Making backup..."
 msgstr "Tworzenie kopii zapasowej..."
 
-#: main/KoDocument.cpp:584
+#: main/KoDocument.cpp:576
 msgid "Saving..."
 msgstr "Zapisywanie..."
 
-#: main/KoDocument.cpp:612
+#: main/KoDocument.cpp:604
 #, kde-format
 msgid ""
 "Could not save\n"
@@ -3130,7 +3146,7 @@ msgstr ""
 "Nie można zapisać\n"
 "%1"
 
-#: main/KoDocument.cpp:614
+#: main/KoDocument.cpp:606
 #, kde-format
 msgid ""
 "Could not save %1\n"
@@ -3139,12 +3155,12 @@ msgstr ""
 "Nie można zapisać %1\n"
 "Powód: %2"
 
-#: main/KoDocument.cpp:643
+#: main/KoDocument.cpp:635
 #, kde-format
 msgid "Document <i>%1</i> saved"
 msgstr "Zapisano dokument <i>%1</i>"
 
-#: main/KoDocument.cpp:731
+#: main/KoDocument.cpp:723
 msgid ""
 "The password of this encrypted document is not known. Autosave aborted! "
 "Please save your work manually."
@@ -3152,34 +3168,34 @@ msgstr ""
 "Hasło do tego zaszyfrowanego dokumentu nie jest znane. Przerwano "
 "automatyczne zapisywanie! Proszę zapisać dokument ręcznie."
 
-#: main/KoDocument.cpp:734
+#: main/KoDocument.cpp:726
 msgid "Autosaving..."
 msgstr "Autozapisywanie..."
 
-#: main/KoDocument.cpp:746
+#: main/KoDocument.cpp:738
 msgid "Error during autosave! Partition full?"
 msgstr "Błąd podczas samoczynnego zapisu! Dysk pełny?"
 
-#: main/KoDocument.cpp:839
+#: main/KoDocument.cpp:831
 msgid "Could not create the file for saving"
 msgstr "Nie można stworzyć pliku do zapisu"
 
-#: main/KoDocument.cpp:883 main/KoDocument.cpp:905 main/KoDocument.cpp:936
-#: main/KoDocument.cpp:970
+#: main/KoDocument.cpp:875 main/KoDocument.cpp:897 main/KoDocument.cpp:928
+#: main/KoDocument.cpp:962
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "Nie można zapisać '%1'. Dysk pełny?"
 
-#: main/KoDocument.cpp:890
+#: main/KoDocument.cpp:882
 msgid "Not able to write RDF metadata. Partition full?"
 msgstr "Nie można zapisać metadanych RDF. Pełna partycja?"
 
-#: main/KoDocument.cpp:898 main/KoDocument.cpp:945 main/KoDocument.cpp:2018
+#: main/KoDocument.cpp:890 main/KoDocument.cpp:937 main/KoDocument.cpp:2013
 #, kde-format
 msgid "Error while trying to write '%1'. Partition full?"
 msgstr "Błąd podczas próby zapisania '%1'. Dysk pełny?"
 
-#: main/KoDocument.cpp:1228
+#: main/KoDocument.cpp:1223
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -3188,7 +3204,7 @@ msgstr ""
 "Zły format URL\n"
 "%1"
 
-#: main/KoDocument.cpp:1244
+#: main/KoDocument.cpp:1239
 msgid ""
 "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
@@ -3196,84 +3212,84 @@ msgstr ""
 "Istnieje plik autozapisu dla tego dokumentu.\n"
 "Czy chcesz go otworzyć?"
 
-#: main/KoDocument.cpp:1361 main/KoDocument.cpp:1706 main/KoMainWindow.cpp:747
+#: main/KoDocument.cpp:1356 main/KoDocument.cpp:1701 main/KoMainWindow.cpp:726
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "Plik %1 nie istnieje."
 
-#: main/KoDocument.cpp:1485
+#: main/KoDocument.cpp:1480
 msgid "Opening Document"
 msgstr "Otwieranie dokumentu"
 
-#: main/KoDocument.cpp:1500
+#: main/KoDocument.cpp:1495
 msgid "Could not create the filter plugin"
 msgstr "Nie można utworzyć wtyczki filtra"
 
-#: main/KoDocument.cpp:1503
+#: main/KoDocument.cpp:1498
 msgid "Could not create the output document"
 msgstr "Nie można utworzyć dokumentu wyjściowego"
 
-#: main/KoDocument.cpp:1506
+#: main/KoDocument.cpp:1501
 msgid "File not found"
 msgstr "Nie znaleziono pliku"
 
-#: main/KoDocument.cpp:1509
+#: main/KoDocument.cpp:1504
 msgid "Cannot create storage"
 msgstr "Nie można utworzyć miejsca przechowywania"
 
-#: main/KoDocument.cpp:1512
+#: main/KoDocument.cpp:1507
 msgid "Bad MIME type"
 msgstr "Zły typ MIME"
 
-#: main/KoDocument.cpp:1515
+#: main/KoDocument.cpp:1510
 msgid "Error in embedded document"
 msgstr "Błąd w osadzonym dokumencie"
 
-#: main/KoDocument.cpp:1518
+#: main/KoDocument.cpp:1513
 msgid "Format not recognized"
 msgstr "Nierozpoznany format"
 
-#: main/KoDocument.cpp:1521
+#: main/KoDocument.cpp:1516
 msgid "Not implemented"
 msgstr "Niezaimplementowane"
 
-#: main/KoDocument.cpp:1524
+#: main/KoDocument.cpp:1519
 msgid "Parsing error"
 msgstr "Błąd przetwarzania"
 
-#: main/KoDocument.cpp:1527
+#: main/KoDocument.cpp:1522
 msgid "Document is password protected"
 msgstr "Dokument zabezpieczony hasłem"
 
-#: main/KoDocument.cpp:1530
+#: main/KoDocument.cpp:1525
 msgid "Invalid file format"
 msgstr "Nieprawidłowy format pliku"
 
-#: main/KoDocument.cpp:1537
+#: main/KoDocument.cpp:1532
 msgid "Internal error"
 msgstr "Błąd wewnętrzny"
 
-#: main/KoDocument.cpp:1540
+#: main/KoDocument.cpp:1535
 msgid "Out of memory"
 msgstr "Brak pamięci"
 
-#: main/KoDocument.cpp:1543
+#: main/KoDocument.cpp:1538
 msgid "Empty Filter Plugin"
 msgstr "Pusta wtyczka filtra"
 
-#: main/KoDocument.cpp:1546
+#: main/KoDocument.cpp:1541
 msgid "Trying to load into the wrong kind of document"
 msgstr "Próba wczytania złego rodzaju dokumentu"
 
-#: main/KoDocument.cpp:1549
+#: main/KoDocument.cpp:1544
 msgid "Failed to download remote file"
 msgstr "Nieudane pobieranie pliku zdalnego"
 
-#: main/KoDocument.cpp:1556
+#: main/KoDocument.cpp:1551
 msgid "Unknown error"
 msgstr "Nieznany błąd"
 
-#: main/KoDocument.cpp:1560
+#: main/KoDocument.cpp:1555
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -3284,17 +3300,17 @@ msgstr ""
 "Powód: %1.\n"
 "%3"
 
-#: main/KoDocument.cpp:1617
+#: main/KoDocument.cpp:1612
 #, kde-format
 msgid "Document <i>%1</i> loaded"
 msgstr "Wczytano dokument <i>%1</i>"
 
-#: main/KoDocument.cpp:1679 odf/KoOdfReadStore.cpp:111
+#: main/KoDocument.cpp:1674 odf/KoOdfReadStore.cpp:111
 #, kde-format
 msgid "Could not find %1"
 msgstr "Nie można znaleźć %1"
 
-#: main/KoDocument.cpp:1691
+#: main/KoDocument.cpp:1686
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
@@ -3303,20 +3319,20 @@ msgstr ""
 "Błąd analizy składni w %1 w wierszu %2, kolumna %3\n"
 "Komunikat o błędzie: %4"
 
-#: main/KoDocument.cpp:1713
+#: main/KoDocument.cpp:1708
 #, kde-format
 msgid "%1 is not a file."
 msgstr "%1 nie jest plikiem."
 
-#: main/KoDocument.cpp:1728
+#: main/KoDocument.cpp:1723
 msgid "Could not open the file for reading (check read permissions)."
 msgstr "Nie można otworzyć pliku do odczytu (sprawdź uprawnienia do odczytu)."
 
-#: main/KoDocument.cpp:1739
+#: main/KoDocument.cpp:1734
 msgid "Could not read the beginning of the file."
 msgstr "Nie można odczytać początku pliku."
 
-#: main/KoDocument.cpp:1769
+#: main/KoDocument.cpp:1764
 #, kde-format
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
@@ -3325,16 +3341,16 @@ msgstr ""
 "Błąd analizy składni w dokumencie głównym w wierszu %1, kolumna %2\n"
 "Komunikat o błędzie: %3"
 
-#: main/KoDocument.cpp:1790
+#: main/KoDocument.cpp:1785
 #, kde-format
 msgid "Not a valid Calligra file: %1"
 msgstr "To nie jest poprawny plik Calligra: %1"
 
-#: main/KoDocument.cpp:1875
+#: main/KoDocument.cpp:1870
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "Niepoprawny dokument: brak pliku 'maindoc.xml'."
 
-#: main/KoDocument.cpp:1899
+#: main/KoDocument.cpp:1894
 #, kde-format
 msgid ""
 "Document <i>%1</i> contains several versions. Go to File->Versions to open "
@@ -3343,13 +3359,13 @@ msgstr ""
 "Dokument <i>%1</i> zawiera kilka wersji. Idź do Plik->Wersje, aby otworzyć "
 "starą wersję."
 
-#: main/KoDocument.cpp:2098 main/KoDocument.cpp:2580
-#: main/KoMainWindow.cpp:1251 pigment/resources/KoColorSet.cpp:342
+#: main/KoDocument.cpp:2093 main/KoDocument.cpp:2580
+#: main/KoMainWindow.cpp:1230 pigment/resources/KoColorSet.cpp:342
 #: pigment/resources/KoColorSet.cpp:440
 msgid "Untitled"
 msgstr "Bez tytułu"
 
-#: main/KoDocument.cpp:2101 main/KoMainWindow.cpp:1254
+#: main/KoDocument.cpp:2096 main/KoMainWindow.cpp:1233
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -3358,11 +3374,11 @@ msgstr ""
 "<p>Dokument <b>'%1'</b> został zmodyfikowany.</p><p>Czy chcesz go zapisać?</"
 "p>"
 
-#: main/KoDocument.cpp:2184
+#: main/KoDocument.cpp:2179
 msgid "Internal error: saveXML not implemented"
 msgstr "Błąd wewnętrzny: saveXML nie zaimplementowane"
 
-#: main/KoDocument.cpp:2221
+#: main/KoDocument.cpp:2216
 #, kde-format
 msgid ""
 "Could not open\n"
@@ -3371,7 +3387,7 @@ msgstr ""
 "Nie można otworzyć\n"
 "%1"
 
-#: main/KoDocument.cpp:2224
+#: main/KoDocument.cpp:2219
 #, kde-format
 msgid ""
 "Could not open %1\n"
@@ -3380,23 +3396,23 @@ msgstr ""
 "Nie można otworzyć %1\n"
 "Powód: %2"
 
-#: main/KoDocument.cpp:2293
+#: main/KoDocument.cpp:2288
 msgid "a word processing"
 msgstr "przetwarzanie tekstu"
 
-#: main/KoDocument.cpp:2294
+#: main/KoDocument.cpp:2289
 msgid "a spreadsheet"
 msgstr "arkusz kalkulacyjny"
 
-#: main/KoDocument.cpp:2295
+#: main/KoDocument.cpp:2290
 msgid "a presentation"
 msgstr "prezentacja"
 
-#: main/KoDocument.cpp:2296
+#: main/KoDocument.cpp:2291
 msgid "a chart"
 msgstr "wykres"
 
-#: main/KoDocument.cpp:2297
+#: main/KoDocument.cpp:2292
 msgid "a drawing"
 msgstr "rysunek"
 
@@ -3406,217 +3422,14 @@ msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
 msgstr ""
-"Dokument \"%1\" został zmieniony.\n"
-"Czy chcesz zapisać czy może odrzucić zmiany?"
+"Dokument \"%1\" uległ zmianie.\n"
+"Zapisać czy porzucić zmiany?"
 
 #: main/KoDocument.cpp:2586
 msgid "Close Document"
 msgstr "Zamknij dokument"
 
-#: main/KoDocumentInfo.cpp:54
-msgid "Unknown"
-msgstr "Nieznany"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#: main/koDocumentInfoAboutWidget.ui:23 main/KoDocumentInfoDlg.cpp:240
-#: main/KoDocumentInfoDlg.cpp:338
-msgid "&Encrypt"
-msgstr "Za&szyfruj"
-
-#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
-#: main/koDocumentInfoAboutWidget.ui:64
-msgid "Keywords:"
-msgstr "Słowa kluczowe:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
-#: main/koDocumentInfoAboutWidget.ui:111
-msgid "Subject:"
-msgstr "Temat:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
-#: main/koDocumentInfoAboutWidget.ui:124
-msgid "Last printed:"
-msgstr "Ostatnio drukowano:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
-#: main/koDocumentInfoAboutWidget.ui:158
-msgid "Total editing time:"
-msgstr "Całkowity czas edycji:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
-#: main/koDocumentInfoAboutWidget.ui:178
-msgid "Encryption:"
-msgstr "Szyfrowanie:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: main/koDocumentInfoAboutWidget.ui:188
-msgctxt "Document title"
-msgid "Title:"
-msgstr "Tytuł:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
-#: main/koDocumentInfoAboutWidget.ui:201
-msgid "Revision number:"
-msgstr "Numer wersji:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
-#: main/koDocumentInfoAboutWidget.ui:211
-msgid "Modified:"
-msgstr "Zmieniono:"
-
-#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
-#: main/koDocumentInfoAboutWidget.ui:231
-msgid "Comments:"
-msgstr "Komentarze:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
-#: main/koDocumentInfoAboutWidget.ui:251
-msgid "Created:"
-msgstr "Utworzono:"
-
-#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
-#: main/koDocumentInfoAboutWidget.ui:261
-msgid "Path:"
-msgstr "Ścieżka:"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbReset)
-#: main/koDocumentInfoAboutWidget.ui:280
-msgid "&Reset"
-msgstr "&Przywróć"
-
-#. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
-#: main/koDocumentInfoAboutWidget.ui:297
-msgid "Language:"
-msgstr "Język:"
-
-#: main/KoDocumentInfoDlg.cpp:93 main/KoMainWindow.cpp:344
-msgid "Document Information"
-msgstr "Szczegóły o dokumencie"
-
-#: main/KoDocumentInfoDlg.cpp:111 main/KoDocumentInfoDlg.cpp:112
-msgid "General"
-msgstr "Ogólne"
-
-#: main/KoDocumentInfoDlg.cpp:138
-msgid "Last saved by"
-msgstr "Ostatnio zapisany przez"
-
-#: main/KoDocumentInfoDlg.cpp:195
-msgid "Use ';' (Example: Office;KDE;Calligra)"
-msgstr "Użyj ';' (Przykład: Office;KDE;Calligra)"
-
-#: main/KoDocumentInfoDlg.cpp:224 main/KoDocumentInfoDlg.cpp:322
-msgid "This document will be decrypted"
-msgstr "Dokument zostanie odszyfrowany"
-
-#: main/KoDocumentInfoDlg.cpp:226 main/KoDocumentInfoDlg.cpp:324
-msgid "Do not decrypt"
-msgstr "Nie odszyfrowuj"
-
-#: main/KoDocumentInfoDlg.cpp:228 main/KoDocumentInfoDlg.cpp:326
-msgid "This document is encrypted"
-msgstr "Ten dokument jest zaszyfrowany"
-
-#: main/KoDocumentInfoDlg.cpp:230 main/KoDocumentInfoDlg.cpp:328
-msgid "D&ecrypt"
-msgstr "&Odszyfruj"
-
-#: main/KoDocumentInfoDlg.cpp:234 main/KoDocumentInfoDlg.cpp:332
-msgid "This document will be encrypted."
-msgstr "Ten dokument będzie zaszyfrowany."
-
-#: main/KoDocumentInfoDlg.cpp:236 main/KoDocumentInfoDlg.cpp:334
-msgid "Do not encrypt"
-msgstr "Nie szyfruj"
-
-#: main/KoDocumentInfoDlg.cpp:238 main/KoDocumentInfoDlg.cpp:336
-msgid "This document is not encrypted"
-msgstr "Ten dokument nie jest zaszyfrowany"
-
-#: main/KoDocumentInfoDlg.cpp:244
-msgid "This document does not support encryption"
-msgstr "Ten dokument nie wspiera szyfrowania"
-
-#: main/KoDocumentInfoDlg.cpp:357
-msgid ""
-"<qt>Decrypting the document will remove the password protection from it."
-"<p>Do you still want to decrypt the file?</qt>"
-msgstr ""
-"<qt>Odszyfrowanie dokumentu zdejmie z niego ochronę za pomocą hasła. <p>Czy "
-"wciąż chcesz odszyfrować ten plik?</qt>"
-
-#: main/KoDocumentInfoDlg.cpp:359
-msgid "Confirm Decrypt"
-msgstr "Potwierdzanie odszyfrowania"
-
-#: main/KoDocumentInfoDlg.cpp:360
-msgid "Decrypt"
-msgstr "Odszyfruj"
-
-#: main/KoDocumentInfoDlg.cpp:371
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"decryption, please save the document.</qt>"
-msgstr ""
-"<qt>Nie można było automatycznie zapisać dokumentu.<p>Żeby dokończyć "
-"odszyfrowywanie, proszę zapisać go ręcznie.</qt>"
-
-#: main/KoDocumentInfoDlg.cpp:373 main/KoDocumentInfoDlg.cpp:381
-#: main/KoDocumentInfoDlg.cpp:414 main/KoDocumentInfoDlg.cpp:422
-msgid "Save Document"
-msgstr "Zapisz dokument"
-
-#: main/KoDocumentInfoDlg.cpp:379
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"decryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-"<qt>Dokument został zmieniony od czasu jego otwarcia. Aby dokończyć "
-"odszyfrowywanie, trzeba go zapisać.<p>Czy zapisać teraz dokument?</qt>"
-
-#: main/KoDocumentInfoDlg.cpp:393 main/KoMainWindow.cpp:882
-#, kde-format
-msgid "%1 (unknown file type)"
-msgstr "%1 (nieznany typ pliku)"
-
-#: main/KoDocumentInfoDlg.cpp:396
-#, kde-format
-msgid ""
-"<qt>The document is currently saved as %1. The document needs to be changed "
-"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
-"file to OASIS OpenDocument?</qt>"
-msgstr ""
-"<qt>Dokument jest obecnie zapisany jako %1. Wymaga zmiany do <b>OASIS "
-"OpenDocument</b>, aby zostać zakodowanym.<p>Czy chcesz zamienić ten plik na "
-"OASIS OpenDocument?</qt>"
-
-#: main/KoDocumentInfoDlg.cpp:398
-msgid "Change Filetype"
-msgstr "Zmień typ pliku"
-
-#: main/KoDocumentInfoDlg.cpp:399
-msgid "Change"
-msgstr "Zmień"
-
-#: main/KoDocumentInfoDlg.cpp:412
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"encryption, please save the document.</qt>"
-msgstr ""
-"<qt>Nie można było automatycznie zapisać dokumentu.<p>Żeby dokończyć "
-"zaszyfrowywanie, proszę zapisać go ręcznie.</qt>"
-
-#: main/KoDocumentInfoDlg.cpp:420
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"encryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-"<qt>Dokument został zmieniony od czasu jego otwarcia. Aby dokończyć "
-"zaszyfrowywanie, trzeba go zapisać.<p>Czy zapisać teraz dokument?</qt>"
-
-#: main/KoDocumentSectionDelegate.cpp:521
+#: main/KoDocumentSectionDelegate.cpp:522
 #, kde-format
 msgid "%1 %"
 msgstr "%1 %"
@@ -3629,15 +3442,15 @@ msgstr "Nie"
 msgid "Yes"
 msgstr "Tak"
 
-#: main/KoFilterManager.cpp:229 main/KoFilterManager.cpp:238
+#: main/KoFilterManager.cpp:228 main/KoFilterManager.cpp:237
 msgid "Could not export file."
 msgstr "Nie można eksportować pliku."
 
-#: main/KoFilterManager.cpp:229 main/KoFilterManager.cpp:238
+#: main/KoFilterManager.cpp:228 main/KoFilterManager.cpp:237
 msgid "Missing Export Filter"
 msgstr "Brak filtru eksportu"
 
-#: main/KoFilterManager.cpp:525
+#: main/KoFilterManager.cpp:524
 #, kde-format
 msgid ""
 "Could not import file of type\n"
@@ -3646,7 +3459,7 @@ msgstr ""
 "Nie można zaimportować pliku typu\n"
 "%1"
 
-#: main/KoFilterManager.cpp:527
+#: main/KoFilterManager.cpp:526
 msgid "Missing Import Filter"
 msgstr "Brak filtru importu"
 
@@ -3678,42 +3491,42 @@ msgstr "Znajdź od kursora"
 msgid "Start searching from the current cursor"
 msgstr "Rozpocznij znajdywanie od bieżącego kursora"
 
-#: main/KoFindToolbar.cpp:70
+#: main/KoFindToolbar.cpp:69
 msgctxt "Label for the Find text input box"
 msgid "Find:"
 msgstr "Znajdź:"
 
-#: main/KoFindToolbar.cpp:83
+#: main/KoFindToolbar.cpp:82
 msgctxt "Next search result"
 msgid "Next"
 msgstr "Następny"
 
-#: main/KoFindToolbar.cpp:93
+#: main/KoFindToolbar.cpp:92
 msgctxt "Previous search result"
 msgid "Previous"
 msgstr "Poprzedni"
 
-#: main/KoFindToolbar.cpp:102
+#: main/KoFindToolbar.cpp:101
 msgctxt "Search options"
 msgid "Options"
 msgstr "Opcje"
 
-#: main/KoFindToolbar.cpp:129
+#: main/KoFindToolbar.cpp:128
 msgctxt "Label for the Replace text input box"
 msgid "Replace:"
 msgstr "Zastąp:"
 
-#: main/KoFindToolbar.cpp:139
+#: main/KoFindToolbar.cpp:138
 msgctxt "Replace the current match"
 msgid "Replace"
 msgstr "Zastąp"
 
-#: main/KoFindToolbar.cpp:145
+#: main/KoFindToolbar.cpp:144
 msgctxt "Replace all found matches"
 msgid "Replace All"
 msgstr "Zastąp wszystkie"
 
-#: main/KoFindToolbar.cpp:211
+#: main/KoFindToolbar.cpp:210
 #, kde-format
 msgctxt "Total number of matches"
 msgid "1 match found"
@@ -3722,85 +3535,86 @@ msgstr[0] "Znaleziono 1 dopasowanie"
 msgstr[1] "Znaleziono %1 dopasowania"
 msgstr[2] "Znaleziono %1 dopasowań"
 
-#: main/KoFindToolbar.cpp:221
+#: main/KoFindToolbar.cpp:220
 msgid "No matches found"
 msgstr "Nie znaleziono dopasowań"
 
-#: main/KoFindToolbar.cpp:227
+#: main/KoFindToolbar.cpp:226
 msgid "Search hit bottom, continuing from top."
 msgstr "Gdy wyszukiwanie osiągnie dół, zacznie od góry."
 
-#: main/KoFindToolbar.cpp:229
+#: main/KoFindToolbar.cpp:228
 msgid "Search hit top, continuing from bottom."
 msgstr "Gdy wyszukiwanie osiągnie górę, zacznie od dołu."
 
-#: main/KoGridData.cpp:224
-msgid "Shows or hides grid"
-msgstr "Pokazuje lub ukrywa siatkę"
-
-#: main/KoMainWindow.cpp:179
+#: main/KoMainWindow.cpp:173
 #, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr "%1 niezapisany dokument (%2)"
 
-#: main/KoMainWindow.cpp:302
+#: main/KoMainWindow.cpp:295
 msgid "Export as PDF..."
 msgstr "Eksport do PDF..."
 
-#: main/KoMainWindow.cpp:312
+#: main/KoMainWindow.cpp:305
 msgid "Reload"
 msgstr "Wczytaj ponownie"
 
-#: main/KoMainWindow.cpp:316
+#: main/KoMainWindow.cpp:309
 msgid "Versions..."
 msgstr "Wersje..."
 
-#: main/KoMainWindow.cpp:320
+#: main/KoMainWindow.cpp:313
 msgid "Open ex&isting Document as Untitled Document..."
 msgstr "Otwórz &istniejący dokument jako nienazwany dokument..."
 
-#: main/KoMainWindow.cpp:324
+#: main/KoMainWindow.cpp:317
 msgid "E&xport..."
 msgstr "Ek&sport..."
 
-#: main/KoMainWindow.cpp:328
+#: main/KoMainWindow.cpp:321
 msgid "En&crypt Document"
 msgstr "&Zaszyfruj dokument"
 
-#: main/KoMainWindow.cpp:333
+#: main/KoMainWindow.cpp:326
 msgid "&Uncompress to Directory"
 msgstr "Rozpak&uj do katalogu"
 
-#: main/KoMainWindow.cpp:338
+#: main/KoMainWindow.cpp:331
 msgid "&New View"
 msgstr "&Nowy widok"
 
-#: main/KoMainWindow.cpp:371
-msgid "&Themes"
-msgstr "Mo&tywy"
+#: main/KoMainWindow.cpp:337 widgets/KoDocumentInfoDlg.cpp:92
+msgid "Document Information"
+msgstr "Szczegóły o dokumencie"
 
-#: main/KoMainWindow.cpp:377
+#: main/KoMainWindow.cpp:361
 msgid "Full Screen Mode"
 msgstr "Tryb pełnoekranowy"
 
-#: main/KoMainWindow.cpp:382
+#: main/KoMainWindow.cpp:366
 msgid "Show Dockers"
 msgstr "Pokaż dokowania"
 
-#: main/KoMainWindow.cpp:388
+#: main/KoMainWindow.cpp:372
 msgid "Dockers"
 msgstr "Dokowania"
 
-#: main/KoMainWindow.cpp:702
+#: main/KoMainWindow.cpp:681
 msgid "(write protected)"
 msgstr "(zabezpieczenie przed zapisem)"
 
-#: main/KoMainWindow.cpp:707
+#: main/KoMainWindow.cpp:686
 #, kde-format
 msgid "Save as %1"
 msgstr "Zapisz jako %1"
 
-#: main/KoMainWindow.cpp:890
+#: main/KoMainWindow.cpp:861 widgets/KoDocumentInfoDlg.cpp:393
+#, kde-format
+msgid "%1 (unknown file type)"
+msgstr "%1 (nieznany typ pliku)"
+
+#: main/KoMainWindow.cpp:869
 #, kde-format
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
@@ -3809,11 +3623,11 @@ msgstr ""
 "<qt>Zapisanie jako %1 może spowodować utratę formatowania.<p>Czy nadal "
 "chcesz zapisać w tym formacie?</qt>"
 
-#: main/KoMainWindow.cpp:893
+#: main/KoMainWindow.cpp:872
 msgid "Confirm Save"
 msgstr "Potwierdzanie zapisu"
 
-#: main/KoMainWindow.cpp:902
+#: main/KoMainWindow.cpp:881
 #, kde-format
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
@@ -3822,36 +3636,36 @@ msgstr ""
 "<qt>Eksportowanie do %1 może spowodować utratę formatowania.<p>Czy nadal "
 "chcesz eksportować do tego formatu?</qt>"
 
-#: main/KoMainWindow.cpp:905
+#: main/KoMainWindow.cpp:884
 msgid "Confirm Export"
 msgstr "Potwierdzanie eksportu"
 
-#: main/KoMainWindow.cpp:906
+#: main/KoMainWindow.cpp:885
 msgid "Export"
 msgstr "Eksport"
 
-#: main/KoMainWindow.cpp:996
+#: main/KoMainWindow.cpp:975
 msgid "untitled"
 msgstr "bez tytułu"
 
-#: main/KoMainWindow.cpp:1320
+#: main/KoMainWindow.cpp:1299
 msgid "Open Document"
 msgstr "Otwórz dokument"
 
-#: main/KoMainWindow.cpp:1492
+#: main/KoMainWindow.cpp:1471
 msgid "Export as PDF"
 msgstr "Eksportuj do PDF"
 
-#: main/KoMainWindow.cpp:1529
+#: main/KoMainWindow.cpp:1508
 msgid "Cannot export to the specified file"
 msgstr "Nie można wyeksportować do podanego pliku"
 
-#: main/KoMainWindow.cpp:1730
+#: main/KoMainWindow.cpp:1709
 #, kde-format
 msgid "Document - %1"
 msgstr "Dokument - %1"
 
-#: main/KoMainWindow.cpp:1760
+#: main/KoMainWindow.cpp:1739
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
@@ -3859,78 +3673,50 @@ msgstr ""
 "Utracisz wszystkie zmiany od ostatniego zapisu\n"
 "Czy chcesz kontynuować?"
 
-#: main/KoMainWindow.cpp:1762
+#: main/KoMainWindow.cpp:1741
 msgid "Warning"
 msgstr "Ostrzeżenie"
 
-#: main/KoMainWindow.cpp:2099
+#: main/KoMainWindow.cpp:2078
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "Pokaż pasek narzędzi %1"
 
-#: main/KoMainWindow.cpp:2101
+#: main/KoMainWindow.cpp:2080
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "Schowaj pasek narzędzi %1"
 
-#: main/KoModeBox.cpp:603
-msgid "Icon and Text"
-msgstr "Ikona i tekst"
-
-#: main/KoModeBox.cpp:604
-msgid "Icon only"
-msgstr "Tylko ikona"
-
-#: main/KoModeBox.cpp:607
-msgid "Tabs side"
-msgstr "Strona kart"
-
-#: main/KoModeBox.cpp:611
-msgid "Top side"
-msgstr "Górny bok"
-
-#: main/KoModeBox.cpp:612
-msgid "Bottom side"
-msgstr "Dolny bok"
-
-#: main/KoModeBox.cpp:615
-msgid "Left side"
-msgstr "Lewy bok"
-
-#: main/KoModeBox.cpp:616
-msgid "Right side"
-msgstr "Prawy bok"
-
 #. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
-#: main/KoOpenPane.cpp:138 main/KoOpenPane.cpp:202 main/KoOpenPaneBase.ui:60
+#: main/KoOpenPane.cpp:137 main/KoOpenPane.cpp:201 main/KoOpenPaneBase.ui:60
 msgid "Open Existing Document"
 msgstr "Otwórz istniejący dokument"
 
-#: main/KoOpenPane.cpp:214
+#: main/KoOpenPane.cpp:213
 msgid "Recent Documents"
 msgstr "Ostatnie dokumenty"
 
-#: main/KoOpenPane.cpp:314
+#: main/KoOpenPane.cpp:313
 msgid "Custom Document"
 msgstr "Własny dokument"
 
-#: main/KoPrintingDialog.cpp:57
+#: main/KoPrintingDialog.cpp:56
 msgid "Stop"
 msgstr "Zatrzymaj"
 
-#: main/KoPrintingDialog.cpp:148
+#: main/KoPrintingDialog.cpp:147
 msgid "Printing"
 msgstr "Drukowanie"
 
-#: main/KoPrintingDialog_p.h:150
+#: main/KoPrintingDialog_p.h:149
 msgid "Printing done"
 msgstr "Drukowanie ukończone"
 
-#: main/KoPrintingDialog_p.h:151
+#: main/KoPrintingDialog_p.h:150
 msgid "Close"
 msgstr "Zamknij"
 
-#: main/KoPrintingDialog_p.h:171
+#: main/KoPrintingDialog_p.h:170
 msgid "Stopped"
 msgstr "Zatrzymano"
 
@@ -3949,18 +3735,6 @@ msgstr "<tr><td><b>Zmieniono:</b></td><td>%1</td></tr>"
 msgctxt "File access date and time. %1 is date time"
 msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
 msgstr "<tr><td><b>Czas ostatniego dostępu:</b></td><td>%1</td></tr>"
-
-#: main/KoRuler.cpp:1272
-msgid "First line indent"
-msgstr "Wcięcie pierwszego wiersza"
-
-#: main/KoRuler.cpp:1273
-msgid "Left indent"
-msgstr "Wcięcie po lewej"
-
-#: main/KoRuler.cpp:1274
-msgid "Right indent"
-msgstr "Wcięcie po prawej"
 
 #: main/KoStandardAction.cpp:31
 msgid "Show Guides"
@@ -4065,14 +3839,6 @@ msgstr "Brak dostępnych obrazków."
 msgid "Use This Template"
 msgstr "Użyj tego szablonu"
 
-#: main/KoToolDocker_p.cpp:194
-msgid "Tool Options"
-msgstr "Opcje narzędzia"
-
-#: main/KoToolDocker_p.cpp:227
-msgid "Toggles organizing the options in tabs or not"
-msgstr "Urządza opcje w kartach lub nie"
-
 #: main/KoVersionDialog.cpp:48
 msgid "Version"
 msgstr "Wersja"
@@ -4110,44 +3876,20 @@ msgstr "Nie można było dodać nowej wersji"
 msgid "Date: %1"
 msgstr "Data: %1"
 
-#: main/KoView.cpp:344
+#: main/KoView.cpp:340
 msgid "Active Author Profile"
 msgstr "Aktywny profil autora"
 
-#: main/KoView.cpp:356 main/KoView.cpp:398
+#: main/KoView.cpp:352 main/KoView.cpp:406
 msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr "Anonimowy"
 
-#: main/thememanager.cpp:76
-msgctxt "default theme name"
-msgid "Default"
-msgstr "Domyślna"
+#: odf/KoDocumentInfo.cpp:54
+msgid "Unknown"
+msgstr "Nieznany"
 
-#: main/thememanager.cpp:257
-msgid "Configuration..."
-msgstr "Ustawienia..."
-
-#: main/thememanager.cpp:271
-msgid ""
-"Cannot start Colors Settings panel from KDE Control Center. Please check "
-"your system..."
-msgstr ""
-"Nie można uruchomić panelu ustawień kolorów z Centrum Kontroli KDE. Proszę "
-"sprawdzić swój system..."
-
-#. i18n: ectx: Menu (Tools)
-#: main/thememanager.rc:4
-msgid "&Tools"
-msgstr "&Narzędzia"
-
-#: odf/KoEncryptedStore.cpp:177
-msgid ""
-"The manifest file seems to be corrupted. The document could not be opened."
-msgstr ""
-"Plik manifest wygląda na uszkodzony. Nie można było otworzyć dokumentu."
-
-#: odf/KoEncryptedStore.cpp:236
+#: odf/KoEncryptedStore.cpp:242
 msgid ""
 "This document contains an unknown checksum. When you give a password it "
 "might not be verified."
@@ -4155,7 +3897,7 @@ msgstr ""
 "Ten dokument zawiera nieznaną sumę kontrolną. Kiedy wpiszesz hasło, może nie "
 "zostać zweryfikowane."
 
-#: odf/KoEncryptedStore.cpp:262 odf/KoEncryptedStore.cpp:279
+#: odf/KoEncryptedStore.cpp:268 odf/KoEncryptedStore.cpp:285
 msgid ""
 "This document contains an unknown encryption method. Some parts may be "
 "unreadable."
@@ -4163,7 +3905,7 @@ msgstr ""
 "Ten dokument zaszyfrowano nieznaną metodą. Niektóre części być może nie będą "
 "się nadawały do odczytu."
 
-#: odf/KoEncryptedStore.cpp:294
+#: odf/KoEncryptedStore.cpp:300
 msgid ""
 "This document contains incomplete encryption data. Some parts may be "
 "unreadable."
@@ -4171,7 +3913,7 @@ msgstr ""
 "Ten dokument nie zawiera kompletnych danych szyfrujących. Niektóre części "
 "być może nie będą się nadawały do odczytu."
 
-#: odf/KoEncryptedStore.cpp:308
+#: odf/KoEncryptedStore.cpp:314
 msgid ""
 "QCA has currently no support for SHA1 or PBKDF2 using SHA1. The document can "
 "not be opened."
@@ -4179,7 +3921,7 @@ msgstr ""
 "QCA nie obsługuje obecnie SHA1 ani PBKDF2 przy pomocy SHA1. Nie można "
 "otworzyć tego dokumentu."
 
-#: odf/KoEncryptedStore.cpp:339
+#: odf/KoEncryptedStore.cpp:344
 msgid ""
 "The manifest file seems to be corrupted. It cannot be modified and the "
 "document will remain unreadable. Please try and save the document again to "
@@ -4189,7 +3931,7 @@ msgstr ""
 "niezdatny do odczytu. Proszę spróbować i zapisać dokument ponownie, żeby "
 "zabezpieczyć się przed utratą danych."
 
-#: odf/KoEncryptedStore.cpp:437
+#: odf/KoEncryptedStore.cpp:443
 msgid ""
 "The manifest file cannot be written. The document will remain unreadable. "
 "Please try and save the document again to prevent losing your work."
@@ -4198,15 +3940,15 @@ msgstr ""
 "Proszę spróbować i zapisać dokument ponownie, żeby zabezpieczyć się przed "
 "utratą danych."
 
-#: odf/KoEncryptedStore.cpp:546
+#: odf/KoEncryptedStore.cpp:552
 msgid "Please enter the password to open this file."
 msgstr "Proszę wpisać hasło, żeby otworzyć ten plik."
 
-#: odf/KoEncryptedStore.cpp:719
+#: odf/KoEncryptedStore.cpp:725
 msgid "Please enter the password to encrypt the document with."
 msgstr "Proszę podać hasło do zaszyfrowania dokumentu."
 
-#: odf/KoEncryptedStore.cpp:733
+#: odf/KoEncryptedStore.cpp:739
 msgid "Do you want to save the password?"
 msgstr "Czy chcesz zapisać hasło?"
 
@@ -4376,39 +4118,39 @@ msgstr "Tryb katalogowy nie jest wspierany dla zdalnych położeń."
 msgid "Calligra Storage"
 msgstr "Magazyn Calligra"
 
-#: odf/KoUnit.cpp:46
+#: odf/KoUnit.cpp:49
 msgid "Millimeters (mm)"
 msgstr "Milimetry (mm)"
 
-#: odf/KoUnit.cpp:48
+#: odf/KoUnit.cpp:51
 msgid "Centimeters (cm)"
 msgstr "Centymetry (cm)"
 
-#: odf/KoUnit.cpp:50
+#: odf/KoUnit.cpp:53
 msgid "Decimeters (dm)"
 msgstr "Decymetry (dm)"
 
-#: odf/KoUnit.cpp:52
+#: odf/KoUnit.cpp:55
 msgid "Inches (in)"
 msgstr "Cale (in)"
 
-#: odf/KoUnit.cpp:54
+#: odf/KoUnit.cpp:57
 msgid "Pica (pi)"
 msgstr "Pica (pi)"
 
-#: odf/KoUnit.cpp:56
+#: odf/KoUnit.cpp:59
 msgid "Cicero (cc)"
 msgstr "Cycero (cc)"
 
-#: odf/KoUnit.cpp:58
+#: odf/KoUnit.cpp:61
 msgid "Points (pt)"
 msgstr "Punkty (pt)"
 
-#: odf/KoUnit.cpp:60
+#: odf/KoUnit.cpp:63
 msgid "Pixels (px)"
 msgstr "Piksele (px)"
 
-#: odf/KoUnit.cpp:62
+#: odf/KoUnit.cpp:65
 msgid "Unsupported unit"
 msgstr "Nieobsługiwana jednostka"
 
@@ -4456,7 +4198,7 @@ msgstr "L*a*b* (16-bitowa l. całkowita na kanał, niezarządzana)"
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:42
 #: pigment/compositeops/KoCompositeOps.h:203
-#: pigment/KoCompositeOpRegistry.cpp:113 widgets/KoUniColorChooser.cpp:201
+#: pigment/KoCompositeOpRegistry.cpp:113 widgets/KoUniColorChooser.cpp:199
 msgid "Lightness"
 msgstr "Jasność"
 
@@ -4481,17 +4223,17 @@ msgid "RGB (8-bit integer/channel, unmanaged)"
 msgstr "RGB (8-bitowa l. całkowita na kanał, niezarządzana)"
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:43
-#: widgets/KoUniColorChooser.cpp:159
+#: widgets/KoUniColorChooser.cpp:157
 msgid "Blue"
 msgstr "Niebieski"
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:44
-#: widgets/KoUniColorChooser.cpp:151
+#: widgets/KoUniColorChooser.cpp:149
 msgid "Green"
 msgstr "Zielony"
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:45
-#: widgets/KoUniColorChooser.cpp:143
+#: widgets/KoUniColorChooser.cpp:141
 msgid "Red"
 msgstr "Czerwony"
 
@@ -4512,7 +4254,7 @@ msgstr "Nieokreślona operacja w przestrzeni %1"
 msgid "Undefined operation in the %1 color space"
 msgstr "Nieokreślona operacja w przestrzeni koloru %1"
 
-#: pigment/colorspaces/KoSimpleColorSpaceEngine.cpp:70
+#: pigment/colorspaces/KoSimpleColorSpaceEngine.cpp:71
 msgid "Simple Color Conversion Engine"
 msgstr "Silnik prostego przekształcenia kolorów"
 
@@ -4710,12 +4452,12 @@ msgid "Color"
 msgstr "Barwa"
 
 #: pigment/compositeops/KoCompositeOps.h:181
-#: pigment/KoCompositeOpRegistry.cpp:93 widgets/KoUniColorChooser.cpp:116
+#: pigment/KoCompositeOpRegistry.cpp:93 widgets/KoUniColorChooser.cpp:114
 msgid "Hue"
 msgstr "Odcień"
 
 #: pigment/compositeops/KoCompositeOps.h:182
-#: pigment/KoCompositeOpRegistry.cpp:94 widgets/KoUniColorChooser.cpp:125
+#: pigment/KoCompositeOpRegistry.cpp:94 widgets/KoUniColorChooser.cpp:123
 msgid "Saturation"
 msgstr "Nasycenie"
 
@@ -4992,15 +4734,15 @@ msgstr "Gradient SVG"
 msgid "Select the object you want to reference"
 msgstr "Wybierz obiekt, do którego chcesz się odnieść"
 
-#: rdf/KoDocumentRdf.cpp:619
+#: rdf/KoDocumentRdf.cpp:611
 msgid "Reference"
 msgstr "Odniesienie"
 
-#: rdf/KoDocumentRdfEditWidget.cpp:242
+#: rdf/KoDocumentRdfEditWidget.cpp:241
 msgid "Set For All Existing"
 msgstr "Ustaw dla wszystkich istniejących"
 
-#: rdf/KoDocumentRdfEditWidget.cpp:305
+#: rdf/KoDocumentRdfEditWidget.cpp:304
 #, kde-format
 msgctxt "statement is an Rdf related term"
 msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
@@ -5013,12 +4755,12 @@ msgstr[1] ""
 msgstr[2] ""
 "<qt>Edycje zostaną utracone.<p>Pozostało %1 nieprawidłowych poleceń.</qt>"
 
-#: rdf/KoDocumentRdfEditWidget.cpp:308
+#: rdf/KoDocumentRdfEditWidget.cpp:307
 msgctxt "statement is an Rdf related term"
 msgid "Discard invalid statements?"
 msgstr "Porzucić nieprawidłowe polecenia?"
 
-#: rdf/KoDocumentRdfEditWidget.cpp:348
+#: rdf/KoDocumentRdfEditWidget.cpp:347
 msgid "Rdf"
 msgstr "Rdf"
 
@@ -5425,15 +5167,15 @@ msgstr "AbjadMinor"
 msgid "ArabicAlphabet"
 msgstr "Alfabet arabski"
 
-#: widgets/KoColorPopupAction.cpp:94 widgets/KoUniColorChooser.cpp:418
+#: widgets/KoColorPopupAction.cpp:93 widgets/KoUniColorChooser.cpp:416
 msgid "Opacity"
 msgstr "Nieprzezroczystość"
 
-#: widgets/KoColorSetWidget.cpp:163
+#: widgets/KoColorSetWidget.cpp:162
 msgid "Recent:"
 msgstr "Ostatnie:"
 
-#: widgets/KoColorSetWidget.cpp:176
+#: widgets/KoColorSetWidget.cpp:175
 msgid "Add / Remove Colors..."
 msgstr "Dodaj lub usuń kolory..."
 
@@ -5603,25 +5345,215 @@ msgstr "Importuj linie:"
 msgid "to"
 msgstr "do"
 
-#: widgets/KoDockWidgetTitleBar.cpp:52
+#: widgets/KoDockWidgetTitleBar.cpp:54
 msgctxt "@info:tooltip"
 msgid "Float Docker"
 msgstr "Pływające dokowanie"
 
-#: widgets/KoDockWidgetTitleBar.cpp:58
+#: widgets/KoDockWidgetTitleBar.cpp:63
 msgctxt "@info:tooltip"
 msgid "Close Docker"
 msgstr "Zamknij dokowanie"
 
-#: widgets/KoDockWidgetTitleBar.cpp:64
+#: widgets/KoDockWidgetTitleBar.cpp:74
 msgctxt "@info:tooltip"
 msgid "Collapse Docker"
 msgstr "Zwiń dokowanie"
 
-#: widgets/KoDockWidgetTitleBar.cpp:71
+#: widgets/KoDockWidgetTitleBar.cpp:83
 msgctxt "@info:tooltip"
 msgid "Lock Docker"
 msgstr "Zablokuj dokowanie"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
+#: widgets/koDocumentInfoAboutWidget.ui:23 widgets/KoDocumentInfoDlg.cpp:239
+#: widgets/KoDocumentInfoDlg.cpp:337
+msgid "&Encrypt"
+msgstr "Za&szyfruj"
+
+#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:64
+msgid "Keywords:"
+msgstr "Słowa kluczowe:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:111
+msgid "Subject:"
+msgstr "Temat:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:124
+msgid "Last printed:"
+msgstr "Ostatnio drukowano:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:158
+msgid "Total editing time:"
+msgstr "Całkowity czas edycji:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:178
+msgid "Encryption:"
+msgstr "Szyfrowanie:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:188
+msgctxt "Document title"
+msgid "Title:"
+msgstr "Tytuł:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:201
+msgid "Revision number:"
+msgstr "Numer wersji:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:211
+msgid "Modified:"
+msgstr "Zmieniono:"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:231
+msgid "Comments:"
+msgstr "Komentarze:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:251
+msgid "Created:"
+msgstr "Utworzono:"
+
+#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
+#: widgets/koDocumentInfoAboutWidget.ui:261
+msgid "Path:"
+msgstr "Ścieżka:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbReset)
+#: widgets/koDocumentInfoAboutWidget.ui:280
+msgid "&Reset"
+msgstr "&Przywróć"
+
+#. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:297
+msgid "Language:"
+msgstr "Język:"
+
+#: widgets/KoDocumentInfoDlg.cpp:110 widgets/KoDocumentInfoDlg.cpp:111
+msgid "General"
+msgstr "Ogólne"
+
+#: widgets/KoDocumentInfoDlg.cpp:137
+msgid "Last saved by"
+msgstr "Ostatnio zapisany przez"
+
+#: widgets/KoDocumentInfoDlg.cpp:194
+msgid "Use ';' (Example: Office;KDE;Calligra)"
+msgstr "Użyj ';' (Przykład: Office;KDE;Calligra)"
+
+#: widgets/KoDocumentInfoDlg.cpp:223 widgets/KoDocumentInfoDlg.cpp:321
+msgid "This document will be decrypted"
+msgstr "Dokument zostanie odszyfrowany"
+
+#: widgets/KoDocumentInfoDlg.cpp:225 widgets/KoDocumentInfoDlg.cpp:323
+msgid "Do not decrypt"
+msgstr "Nie odszyfrowuj"
+
+#: widgets/KoDocumentInfoDlg.cpp:227 widgets/KoDocumentInfoDlg.cpp:325
+msgid "This document is encrypted"
+msgstr "Ten dokument jest zaszyfrowany"
+
+#: widgets/KoDocumentInfoDlg.cpp:229 widgets/KoDocumentInfoDlg.cpp:327
+msgid "D&ecrypt"
+msgstr "&Odszyfruj"
+
+#: widgets/KoDocumentInfoDlg.cpp:233 widgets/KoDocumentInfoDlg.cpp:331
+msgid "This document will be encrypted."
+msgstr "Ten dokument będzie zaszyfrowany."
+
+#: widgets/KoDocumentInfoDlg.cpp:235 widgets/KoDocumentInfoDlg.cpp:333
+msgid "Do not encrypt"
+msgstr "Nie szyfruj"
+
+#: widgets/KoDocumentInfoDlg.cpp:237 widgets/KoDocumentInfoDlg.cpp:335
+msgid "This document is not encrypted"
+msgstr "Ten dokument nie jest zaszyfrowany"
+
+#: widgets/KoDocumentInfoDlg.cpp:243
+msgid "This document does not support encryption"
+msgstr "Ten dokument nie wspiera szyfrowania"
+
+#: widgets/KoDocumentInfoDlg.cpp:357
+msgid ""
+"<qt>Decrypting the document will remove the password protection from it."
+"<p>Do you still want to decrypt the file?</qt>"
+msgstr ""
+"<qt>Odszyfrowanie dokumentu zdejmie z niego ochronę za pomocą hasła. <p>Czy "
+"wciąż chcesz odszyfrować ten plik?</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:359
+msgid "Confirm Decrypt"
+msgstr "Potwierdzanie odszyfrowania"
+
+#: widgets/KoDocumentInfoDlg.cpp:360
+msgid "Decrypt"
+msgstr "Odszyfruj"
+
+#: widgets/KoDocumentInfoDlg.cpp:371
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"decryption, please save the document.</qt>"
+msgstr ""
+"<qt>Nie można było automatycznie zapisać dokumentu.<p>Żeby dokończyć "
+"odszyfrowywanie, proszę zapisać go ręcznie.</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:373 widgets/KoDocumentInfoDlg.cpp:381
+#: widgets/KoDocumentInfoDlg.cpp:414 widgets/KoDocumentInfoDlg.cpp:422
+msgid "Save Document"
+msgstr "Zapisz dokument"
+
+#: widgets/KoDocumentInfoDlg.cpp:379
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"decryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+"<qt>Dokument został zmieniony od czasu jego otwarcia. Aby dokończyć "
+"odszyfrowywanie, trzeba go zapisać.<p>Czy zapisać teraz dokument?</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:396
+#, kde-format
+msgid ""
+"<qt>The document is currently saved as %1. The document needs to be changed "
+"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
+"file to OASIS OpenDocument?</qt>"
+msgstr ""
+"<qt>Dokument jest obecnie zapisany jako %1. Wymaga zmiany do <b>OASIS "
+"OpenDocument</b>, aby zostać zakodowanym.<p>Czy chcesz zamienić ten plik na "
+"OASIS OpenDocument?</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:398
+msgid "Change Filetype"
+msgstr "Zmień typ pliku"
+
+#: widgets/KoDocumentInfoDlg.cpp:399
+msgid "Change"
+msgstr "Zmień"
+
+#: widgets/KoDocumentInfoDlg.cpp:412
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"encryption, please save the document.</qt>"
+msgstr ""
+"<qt>Nie można było automatycznie zapisać dokumentu.<p>Żeby dokończyć "
+"zaszyfrowywanie, proszę zapisać go ręcznie.</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:420
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"encryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+"<qt>Dokument został zmieniony od czasu jego otwarcia. Aby dokończyć "
+"zaszyfrowywanie, trzeba go zapisać.<p>Czy zapisać teraz dokument?</qt>"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, remove)
 #: widgets/KoEditColorSet.ui:55
@@ -5638,56 +5570,56 @@ msgstr "Otwórz paletę"
 msgid "Save palette"
 msgstr "Zapisz paletę"
 
-#: widgets/KoEditColorSetDialog.cpp:160
+#: widgets/KoEditColorSetDialog.cpp:158
 msgid "Add Color To Palette"
 msgstr "Dodaj kolor do palety"
 
-#: widgets/KoEditColorSetDialog.cpp:160
+#: widgets/KoEditColorSetDialog.cpp:158
 msgid "Color name:"
 msgstr "Nazwa koloru:"
 
-#: widgets/KoEditColorSetDialog.cpp:188
+#: widgets/KoEditColorSetDialog.cpp:186
 msgid "Gimp Color Palette (*.gpl)"
 msgstr "Paleta kolorów Gimp (*.gpl)"
 
-#: widgets/KoEditColorSetDialog.cpp:201
+#: widgets/KoEditColorSetDialog.cpp:199
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only. "
 msgstr "Nie można zapisać do pliku palety %1. Może jest wyłącznie do odczytu."
 
-#: widgets/KoEditColorSetDialog.cpp:201
+#: widgets/KoEditColorSetDialog.cpp:199
 msgid "Palette"
 msgstr "Paleta"
 
-#: widgets/KoEditColorSetDialog.cpp:215
+#: widgets/KoEditColorSetDialog.cpp:213
 msgid "Add/Remove Colors"
 msgstr "Dodaj lub usuń kolory"
 
-#: widgets/KoFileDialog.cpp:427
+#: widgets/KoFileDialog.cpp:439
 msgid "All supported formats"
 msgstr "Wszystkie obsługiwane formaty"
 
-#: widgets/KoFileDialogTester.cpp:73 widgets/KoFileDialogTester.cpp:109
+#: widgets/KoFileDialogTester.cpp:75 widgets/KoFileDialogTester.cpp:111
 msgid "Testing: OpenFile"
 msgstr "Próba: Otwórz plik"
 
-#: widgets/KoFileDialogTester.cpp:147
+#: widgets/KoFileDialogTester.cpp:149
 msgid "Testing: OpenDirectory"
 msgstr "Próba: Otwórz katalog"
 
-#: widgets/KoFileDialogTester.cpp:185
+#: widgets/KoFileDialogTester.cpp:187
 msgid "Testing: ImportFile"
 msgstr "Próba: Zaimportuj plik"
 
-#: widgets/KoFileDialogTester.cpp:222
+#: widgets/KoFileDialogTester.cpp:224
 msgid "Testing: ImportFiles"
 msgstr "Próba: Zaimportuj pliki"
 
-#: widgets/KoFileDialogTester.cpp:260
+#: widgets/KoFileDialogTester.cpp:262
 msgid "Testing: Import Directory"
 msgstr "Próba: Zaimportuj katalog"
 
-#: widgets/KoFileDialogTester.cpp:297
+#: widgets/KoFileDialogTester.cpp:299
 msgid "Testing: SaveFile"
 msgstr "Próba: Zapisz plik"
 
@@ -5776,28 +5708,56 @@ msgstr "Otwórz katalog"
 msgid "Import Directory"
 msgstr "Zaimportuj katalog"
 
-#: widgets/KoFillConfigWidget.cpp:225
+#: widgets/KoFillConfigWidget.cpp:224
 msgctxt "No stroke or fill"
 msgid "None"
 msgstr "Brak"
 
-#: widgets/KoFillConfigWidget.cpp:233
+#: widgets/KoFillConfigWidget.cpp:232
 msgctxt "Solid color stroke or fill"
 msgid "Solid"
 msgstr "Pełne"
 
-#: widgets/KoFillConfigWidget.cpp:241
+#: widgets/KoFillConfigWidget.cpp:240
 msgid "Gradient"
 msgstr "Gradient"
 
-#: widgets/KoFillConfigWidget.cpp:249
+#: widgets/KoFillConfigWidget.cpp:248
 msgid "Pattern"
 msgstr "Wzór"
 
-#: widgets/KoFillConfigWidget.cpp:263 widgets/KoFillConfigWidget.cpp:274
-#: widgets/KoFillConfigWidget.cpp:281
+#: widgets/KoFillConfigWidget.cpp:262 widgets/KoFillConfigWidget.cpp:273
+#: widgets/KoFillConfigWidget.cpp:280
 msgid "Change the filling color"
 msgstr "Zmień kolor wypełnienia"
+
+#: widgets/KoModeBox.cpp:603
+msgid "Icon and Text"
+msgstr "Ikona i tekst"
+
+#: widgets/KoModeBox.cpp:604
+msgid "Icon only"
+msgstr "Tylko ikona"
+
+#: widgets/KoModeBox.cpp:607
+msgid "Tabs side"
+msgstr "Strona kart"
+
+#: widgets/KoModeBox.cpp:611
+msgid "Top side"
+msgstr "Górny bok"
+
+#: widgets/KoModeBox.cpp:612
+msgid "Bottom side"
+msgstr "Dolny bok"
+
+#: widgets/KoModeBox.cpp:615
+msgid "Left side"
+msgstr "Lewy bok"
+
+#: widgets/KoModeBox.cpp:616
+msgid "Right side"
+msgstr "Prawy bok"
 
 #: widgets/KoPageLayoutDialog.cpp:46
 msgid "Page Layout"
@@ -5925,45 +5885,45 @@ msgstr "Krawędź strony:"
 msgid "Bottom:"
 msgstr "Dół:"
 
-#: widgets/KoResourceItemChooser.cpp:131
+#: widgets/KoResourceItemChooser.cpp:130
 msgctxt "@info:tooltip"
 msgid "Import resource"
 msgstr "Importuj zasób"
 
-#: widgets/KoResourceItemChooser.cpp:138
+#: widgets/KoResourceItemChooser.cpp:137
 msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "Usuń zasób"
 
-#: widgets/KoResourceItemChooser.cpp:145
+#: widgets/KoResourceItemChooser.cpp:144
 msgctxt "@info:tooltip"
 msgid "Download resource"
 msgstr "Pobierz zasób"
 
-#: widgets/KoResourceItemChooser.cpp:153
+#: widgets/KoResourceItemChooser.cpp:152
 msgctxt "@info:tooltip"
 msgid "Share Resource"
 msgstr "Współdziel zasób"
 
-#: widgets/KoResourceItemChooser.cpp:202
+#: widgets/KoResourceItemChooser.cpp:201
 msgctxt "@title:window"
 msgid "Choose File to Add"
 msgstr "Wybierz plik do dodania"
 
-#: widgets/KoResourceItemChooserContextMenu.cpp:130
-#: widgets/KoTagToolButton.cpp:65
+#: widgets/KoResourceItemChooserContextMenu.cpp:133
+#: widgets/KoTagToolButton.cpp:64
 msgid "New tag"
 msgstr "Nowy znacznik"
 
-#: widgets/KoResourceItemChooserContextMenu.cpp:163
+#: widgets/KoResourceItemChooserContextMenu.cpp:166
 msgid "Assign to tag"
 msgstr "Przypisz do znacznika"
 
-#: widgets/KoResourceItemChooserContextMenu.cpp:172
+#: widgets/KoResourceItemChooserContextMenu.cpp:175
 msgid "Remove from this tag"
 msgstr "Usuń z tego znacznika"
 
-#: widgets/KoResourceItemChooserContextMenu.cpp:180
+#: widgets/KoResourceItemChooserContextMenu.cpp:183
 msgid "Remove from other tag"
 msgstr "Usuń z innego znacznika"
 
@@ -5991,7 +5951,19 @@ msgstr "Znacznik nie został przywrócony."
 msgid "All Presets"
 msgstr "Wszystkie nastawy"
 
-#: widgets/KoShadowConfigWidget.cpp:67
+#: widgets/KoRuler.cpp:1272
+msgid "First line indent"
+msgstr "Wcięcie pierwszego wiersza"
+
+#: widgets/KoRuler.cpp:1273
+msgid "Left indent"
+msgstr "Wcięcie po lewej"
+
+#: widgets/KoRuler.cpp:1274
+msgid "Right indent"
+msgstr "Wcięcie po prawej"
+
+#: widgets/KoShadowConfigWidget.cpp:68
 msgid "Change the color of the shadow"
 msgstr "Zmień kolor cienia"
 
@@ -6005,43 +5977,43 @@ msgstr "Rozmycie:"
 msgid "Distance:"
 msgstr "Odległość:"
 
-#: widgets/KoStrokeConfigWidget.cpp:107
+#: widgets/KoStrokeConfigWidget.cpp:105
 msgid "Butt cap"
 msgstr "Kątowe zakończenie"
 
-#: widgets/KoStrokeConfigWidget.cpp:114
+#: widgets/KoStrokeConfigWidget.cpp:112
 msgid "Round cap"
 msgstr "Zaokrąglone zakończenie"
 
-#: widgets/KoStrokeConfigWidget.cpp:121
+#: widgets/KoStrokeConfigWidget.cpp:119
 msgid "Square cap"
 msgstr "Kwadratowe zakończenie"
 
-#: widgets/KoStrokeConfigWidget.cpp:132
+#: widgets/KoStrokeConfigWidget.cpp:130
 msgid "Miter join"
 msgstr "Ostre połączenie"
 
-#: widgets/KoStrokeConfigWidget.cpp:139
+#: widgets/KoStrokeConfigWidget.cpp:137
 msgid "Round join"
 msgstr "Zaokrąglone połączenia"
 
-#: widgets/KoStrokeConfigWidget.cpp:146
+#: widgets/KoStrokeConfigWidget.cpp:144
 msgid "Bevel join"
 msgstr "Ścięte połączenie"
 
-#: widgets/KoStrokeConfigWidget.cpp:156
+#: widgets/KoStrokeConfigWidget.cpp:154
 msgid "Miter limit"
 msgstr "Ograniczenie ostrości"
 
-#: widgets/KoStrokeConfigWidget.cpp:227
+#: widgets/KoStrokeConfigWidget.cpp:225
 msgid "Thickness:"
 msgstr "Grubość:"
 
-#: widgets/KoStrokeConfigWidget.cpp:237
+#: widgets/KoStrokeConfigWidget.cpp:235
 msgid "Set line width of actual selection"
 msgstr "Ustaw szerokość linii bieżącego zaznaczenia"
 
-#: widgets/KoStrokeConfigWidget.cpp:253
+#: widgets/KoStrokeConfigWidget.cpp:251
 msgid "Change the color of the line/border"
 msgstr "Zmień kolor linii/obramowania"
 
@@ -6109,73 +6081,77 @@ msgstr ""
 "<qt>Zapisz obecnie odfiltrowany zestaw, jako nowe elementy bieżącego "
 "znacznika.</qt>"
 
-#: widgets/KoTagToolButton.cpp:58
+#: widgets/KoTagToolButton.cpp:57
 msgctxt "@info:tooltip"
 msgid "<qt>Show the tag box options.</qt>"
 msgstr "<qt>Pokaż opcje pola znacznika.</qt>"
 
-#: widgets/KoTagToolButton.cpp:74
+#: widgets/KoTagToolButton.cpp:73
 msgid "Rename tag"
 msgstr "Zmień nazwę znacznika"
 
-#: widgets/KoTagToolButton.cpp:85
+#: widgets/KoTagToolButton.cpp:84
 msgid "Delete this tag"
 msgstr "Usuń ten znacznik"
 
-#: widgets/KoTagToolButton.cpp:103
+#: widgets/KoTagToolButton.cpp:102
 msgid "Clear undelete list"
 msgstr "Wyczyść listę nieusuniętych"
 
-#: widgets/KoTagToolButton.cpp:133
+#: widgets/KoTagToolButton.cpp:132
 msgid "Undelete"
 msgstr "Przywróć"
 
-#: widgets/KoUniColorChooser.cpp:134
+#: widgets/KoToolDocker.cpp:196
+msgid "Tool Options"
+msgstr "Opcje narzędzia"
+
+#: widgets/KoToolDocker.cpp:229
+msgid "Toggles organizing the options in tabs or not"
+msgstr "Urządza opcje w kartach lub nie"
+
+#: widgets/KoUniColorChooser.cpp:132
 msgid "Value (brightness)"
 msgstr "Wartość (jasność)"
 
-#: widgets/KoUniColorChooser.cpp:168
+#: widgets/KoUniColorChooser.cpp:166
 msgid "Cyan"
 msgstr "Niebieskozielony"
 
-#: widgets/KoUniColorChooser.cpp:176
+#: widgets/KoUniColorChooser.cpp:174
 msgid "Magenta"
 msgstr "Purpurowy"
 
-#: widgets/KoUniColorChooser.cpp:184
+#: widgets/KoUniColorChooser.cpp:182
 msgid "Yellow"
 msgstr "Żółty"
 
-#: widgets/KoUniColorChooser.cpp:192
+#: widgets/KoUniColorChooser.cpp:190
 msgid "Black"
 msgstr "Czarny"
 
-#: widgets/KoUniColorChooser.cpp:209
+#: widgets/KoUniColorChooser.cpp:207
 msgid "Green to magenta*"
 msgstr "Zielony do purpury*"
 
-#: widgets/KoUniColorChooser.cpp:217
+#: widgets/KoUniColorChooser.cpp:215
 msgid "Blue to yellow"
 msgstr "Zielony do żółtego"
 
-#: widgets/KoUniColorChooser.cpp:221
+#: widgets/KoUniColorChooser.cpp:219
 msgid "Opacity:"
 msgstr "Nieprzezroczystość:"
 
-#: widgets/KoUniColorDialog.cpp:42
-msgid "Color Selector"
-msgstr "Wybieranie koloru"
-
-#: widgets/KoViewItemContextBar.cpp:201
+#: widgets/KoViewItemContextBar.cpp:200
 msgid "deselect item"
 msgstr "odznacz element"
 
-#: widgets/KoViewItemContextBar.cpp:201
+#: widgets/KoViewItemContextBar.cpp:200
 msgid "select item"
 msgstr "zaznacz element"
 
-#: widgets/KoZoomAction.cpp:200 widgets/KoZoomAction.cpp:202
-#: widgets/KoZoomAction.cpp:213 widgets/KoZoomAction.cpp:215
+#: widgets/KoZoomAction.cpp:195 widgets/KoZoomAction.cpp:197
+#: widgets/KoZoomAction.cpp:208 widgets/KoZoomAction.cpp:210
 #: widgets/KoZoomMode.cpp:26
 #, kde-format
 msgid "%1%"
@@ -6214,6 +6190,34 @@ msgstr "Zoom do całości"
 msgctxt "@info:tooltip of custom triple button"
 msgid "%1"
 msgstr "%1"
+
+#~ msgid "&Themes"
+#~ msgstr "Mo&tywy"
+
+#~ msgctxt "default theme name"
+#~ msgid "Default"
+#~ msgstr "Domyślna"
+
+#~ msgid "Configuration..."
+#~ msgstr "Ustawienia..."
+
+#~ msgid ""
+#~ "Cannot start Colors Settings panel from KDE Control Center. Please check "
+#~ "your system..."
+#~ msgstr ""
+#~ "Nie można uruchomić panelu ustawień kolorów z Centrum Kontroli KDE. "
+#~ "Proszę sprawdzić swój system..."
+
+#~ msgid "&Tools"
+#~ msgstr "&Narzędzia"
+
+#~ msgid ""
+#~ "The manifest file seems to be corrupted. The document could not be opened."
+#~ msgstr ""
+#~ "Plik manifest wygląda na uszkodzony. Nie można było otworzyć dokumentu."
+
+#~ msgid "Color Selector"
+#~ msgstr "Wybieranie koloru"
 
 #~ msgid "Database file \"%1\" does not exist."
 #~ msgstr "Plik bazy danych \"%1\" nie istnieje."
